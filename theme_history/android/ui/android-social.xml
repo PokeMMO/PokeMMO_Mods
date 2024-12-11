@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- social window -->
+	<theme name="social-window" ref="mobile-panel" overwrite="true">
+		<param name="border"><border>0</border></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>200</int></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="border"><border>0</border></param>
+			<theme name="tabbedpane" ref="base-tabbed-pane">
+				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+				<param name="background"><image>none</image></param>
+				<theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true">
+					<param name="border"><border>60,0,0,0</border></param>
+					<theme name="tabbutton" ref="tabbutton">
+						<param name="minWidth"><int>208</int></param>
+					</theme>
+				</theme>
+				<theme name="container" ref="container">
+					<param name="minWidth"><int>900</int></param>
+					<param name="maxWidth"><int>1900</int></param>
+					<theme name="dialoglayout" ref="dialoglayout">
+						<param name="border"><border>0,10,0,10</border></param>
+						<theme name="label" ref="label" overwrite="true">
+							<param name="border"><border>0,0</border></param>
+							<param name="font"><font>med-noshadow-18-white</font></param>
+						</theme>
+						<theme name="button" ref="mobile-bottom-button" overwrite="true">
+							<param name="minWidth"><int>150</int></param>
+						</theme>
+						<theme name="editfield" ref="editfield">
+							<theme name="renderer" ref="renderer">
+								<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+							</theme>
+						</theme>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="mail-window" ref="mobile-panel" overwrite="true">
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>200</int></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="border"><border>0,0,0,0</border></param>
+			<theme name="tabbedpane" ref="base-tabbed-pane">
+				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+				<param name="background"><image>none</image></param>
+				<param name="border"><border>60,0,0,0</border></param>
+				<theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true">
+					<theme name="tabbutton" ref="tabbutton">
+						<param name="minWidth"><int>208</int></param>
+					</theme>
+				</theme>
+				<theme name="container" ref="container">
+					<param name="background"><image>none</image></param>
+					 <theme name="dialoglayout" ref="dialoglayout">
+						<param name="border"><border>10,10,0,10</border></param>
+						<param name="namedGaps"><map/></param>
+						<param name="background"><image>none</image></param>
+		
+						<theme name="label" ref="label" allowWildcard="true">
+							<param name="border"><border>0</border></param>
+							<param name="background"><image>none</image></param>
+							<param name="font"><font>med-noshadow-18-white</font></param>
+						</theme>
+						
+						<theme name="pager" ref="mobile-pager"/>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="mail-inner" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<param name="overlay"><image>none</image></param>
+		<theme name="hscrollbar" ref="hscrollbar"/>  <!-- not used -->
+		<theme name="vscrollbar" ref="vscrollbar-white"/>
+		<param name="border"><border>0</border></param>
+		<param name="minWidth"><int>500</int></param>
+		<param name="minHeight"><int>450</int></param>
+		<param name="maxWidth"><int>32767</int></param>
+		<param name="maxHeight"><int>32767</int></param>
+		<param name="hasDragButton"><bool>false</bool></param>
+		<param name="scrollbarsAlwaysVisible"><bool>false</bool></param>
+		<param name="autoScrollArea"><int>5</int></param>
+		<param name="autoScrollSpeed"><int>10</int></param>
+		<theme name="dialoglayout" ref="-defaults">
+			<param name="background"><image>none</image></param>
+			<param name="border"><border>0,0,0,0</border></param>
+			<param name="defaultGap"><dimension>4,5</dimension></param>
+			<param name="smallGap"><dimension>8,8</dimension></param>
+			<param name="mediumGap"><dimension>10,10</dimension></param>
+			<param name="largeGap"><dimension>15,15</dimension></param>
+			<param name="namedGaps"><map/></param>
+			<param name="minWidth"><int>415</int></param>
+			<param name="maxWidth"><int>415</int></param>
+			<param name="maxHeight"><int>32767</int></param>
+			
+			<theme name="button" ref="button" overwrite="true">
+				<param name="minWidth"><int>200</int></param>
+				<param name="minHeight"><int>60</int></param>
+				<param name="font"><font>med-noshadow-18-white</font></param>
+			</theme>
+			
+			<theme name="button-small2" ref="button" overwrite="true"/>
+			<!-- Value -->
+			<theme name="label" ref="label" overwrite="true">
+				<param name="font"><font>med-noshadow-18-white</font></param>
+			</theme>
+			<!-- Value -->
+      <theme name="label-value" ref="label" overwrite="true">
+        <param name="background"><image>mobile.button.flat.background</image></param>
+        <param name="textAlignment"><enum type="alignment">left</enum></param>
+        <param name="border"><border>6</border></param>
+      </theme>
+      <theme name="label-value-medium" ref="label" overwrite="true">
+        <param name="background"><image>mobile.button.flat.background</image></param>
+        <param name="textAlignment"><enum type="alignment">left</enum></param>
+        <param name="border"><border>6</border></param>
+        <param name="minWidth"><int>160</int></param>
+      </theme>
+			<theme name="label-value-small" ref="label" overwrite="true">
+				<param name="background"><image>mobile.button.flat.background</image></param>
+				<param name="textAlignment"><enum type="alignment">left</enum></param>
+				<param name="border"><border>6</border></param>
+				<param name="minWidth"><int>200</int></param>
+			</theme>
+			<theme name="label-value-small2" ref="label" overwrite="true">
+				<param name="background"><image>mobile.button.flat.background</image></param>
+				<param name="textAlignment"><enum type="alignment">left</enum></param>
+				<param name="border"><border>6</border></param>
+				<param name="minWidth"><int>120</int></param>
+			</theme>
+			<theme name="label-value-smallest" ref="label" overwrite="true">
+				<param name="background"><image>mobile.button.flat.background</image></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+				<param name="border"><border>1</border></param>
+				<param name="minWidth"><int>80</int></param>
+			</theme>
+			<theme name="label-value-icon" ref="label" overwrite="true">
+				<param name="background"><image>none</image></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+				<param name="border"><border>1</border></param>
+				<param name="minWidth"><int>80</int></param>
+			</theme>
+			<!-- Titles -->
+      <theme name="label-title" ref="label-value" overwrite="true">
+        <param name="background"><image>ui-header.background</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+			<theme name="label-title-medium" ref="label-value-medium" overwrite="true">
+				<param name="background"><image>ui-header.background</image></param>
+				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+			</theme>
+			<theme name="label-title-small" ref="label-value-small" overwrite="true">
+				<param name="background"><image>ui-header.background</image></param>
+				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+			</theme>
+			<theme name="label-title-small2" ref="label-value-small2" overwrite="true">
+				<param name="background"><image>ui-header.background</image></param>
+				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+			</theme>
+      <theme name="label-title-smallest" ref="label-value-smallest" overwrite="true">
+        <param name="background"><image>ui-header.background</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+			<theme name="scrollpane" ref="scrollpane">
+				<param name="minHeight"><int>180</int></param>
+				<theme name="hscrollbar" ref="hscrollbar"/>
+				<theme name="editfield" ref="editfield" overwrite="true">
+					<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+					<param name="autocompletion-height"><int>150</int></param>
+					<param name="minWidth"><int>300</int></param>
+					<param name="minHeight"><int>180</int></param>
+				</theme>
+			</theme>
+			<theme name="valueadjuster" ref="mobile-valueadjuster" overwrite="true"/>
+			<theme name="editfield" ref="editfield" overwrite="true"/>
+		</theme>
+	</theme>
+
+	<theme name="read-mail" ref="mail-inner" overwrite="true">
+		<param name="minWidth"><int>530</int></param>
+		<param name="minHeight"><int>420</int></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="border"><border>0,0,0,0</border></param>
+			<theme name="editfield" ref="editfield">
+				<param name="background"><image>ui-header.background</image></param>
+				<param name="minHeight"><int>26</int></param>
+				<param name="font"><font>med-noshadow-18-white</font></param>
+
+				<theme name="renderer" ref="renderer">
+					<param name="border"><border>4,5</border></param>
+					<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+					<param name="font"><font>med-noshadow-18-white</font></param>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+
+	<theme name="write-mail" ref="mail-inner" overwrite="true">
+		<param name="minWidth"><int>800</int></param>
+		<param name="minHeight"><int>420</int></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+      <theme name="editfield" ref="editfield" overwrite="true">
+        <param name="minWidth">
+          <int>300</int>
+        </param>
+        <theme name="renderer" ref="-input">
+          <param name="font">
+            <font>med-noshadow-18-white</font>
+          </param>
+          <param name="border">
+            <border>0,5</border>
+          </param>
+          <param name="textAlignment">
+            <enum type="alignment">TOPLEFT</enum>
+          </param>
+        </theme>
+      </theme>
+      <theme name="scrollpane" ref="scrollpane">
+        <theme name="editfield" ref="editfield" overwrite="true">
+          <param name="minWidth">
+            <int>300</int>
+          </param>
+          <theme name="renderer" ref="-input">
+            <param name="font">
+              <font>med-noshadow-18-white</font>
+            </param>
+            <param name="border">
+              <border>0,5</border>
+            </param>
+            <param name="textAlignment">
+              <enum type="alignment">TOPLEFT</enum>
+            </param>
+          </theme>
+        </theme>
+      </theme>
+    </theme>
+	</theme>
+</themes>

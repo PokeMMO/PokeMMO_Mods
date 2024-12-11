@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme name="town-map" ref="mobile-panel" overwrite="true">
+    <param name="background">
+      <image>mobile.window.onebar.background</image>
+    </param>
+    <param name="border">
+      <border>60,0,0,0</border>
+    </param>
+    <theme name="dialoglayout" ref="dialoglayout">
+      <param name="border">
+        <border>0</border>
+      </param>
+      <!-- invisible button used for switching maps / can be overriden here -->
+      <theme name="switch-map" ref="-defaults">
+        <param name="background">
+          <image>none</image>
+        </param>
+      </theme>
+      <theme name="townmap-cursor" ref="-defaults" allowWildcard="true">
+        <param name="font">
+          <font>med-shadow-22-white</font>
+        </param>
+        <param name="border">
+          <border>0,0</border>
+        </param>
+        <param name="background">
+          <image>none</image>
+        </param>
+        <param name="textAlignment">
+          <enum type="alignment">LEFT</enum>
+        </param>
+      </theme>
+      <theme name="townmap-label" ref="-defaults" allowWildcard="true">
+        <param name="font">
+          <font>med-shadow-22-white</font>
+        </param>
+        <param name="border">
+          <border>5,10</border>
+        </param>
+        <param name="textAlignment">
+          <enum type="alignment">LEFT</enum>
+        </param>
+      </theme>
+      <theme name="townmap-swarm-indicator" ref="boxlayout" allowWildcard="true">
+        <param name="border">
+          <border>0,0</border>
+        </param>
+        <param name="background">
+          <image>chatframe-black.background</image>
+        </param>
+        <param name="textAlignment">
+          <enum type="alignment">CENTER</enum>
+        </param>
+        <theme name="townmap-label" ref="-defaults" allowWildcard="true">
+          <param name="font">
+            <font>med-shadow-22-white</font>
+          </param>
+          <param name="border">
+            <border>5,10</border>
+          </param>
+          <param name="textAlignment">
+            <enum type="alignment">LEFT</enum>
+          </param>
+        </theme>
+      </theme>
+      <theme name="boxlayout" ref="boxlayout">
+        <param name="border">
+          <border>0,0,0,0</border>
+        </param>
+        <param name="alignment">
+          <enum type="alignment">LEFT</enum>
+        </param>
+        <theme name="townmap-label" ref="-defaults" allowWildcard="true">
+          <param name="font">
+            <font>med-shadow-22-white</font>
+          </param>
+          <param name="border">
+            <border>0</border>
+          </param>
+          <param name="textAlignment">
+            <enum type="alignment">LEFT</enum>
+          </param>
+        </theme>
+      </theme>
+    </theme>
+  </theme>
+
+  <theme name="high-score-window" ref="mobile-panel" overwrite="true">
+    <param name="background">
+      <image>mobile.window.onebar.background</image>
+    </param>
+    <theme name="dialoglayout" ref="dialoglayout">
+      <param name="border">
+        <border>60,0,0,0</border>
+      </param>
+      <param name="defaultGap">
+        <dimension>5,5</dimension>
+      </param>
+      <param name="smallGap">
+        <dimension>8,8</dimension>
+      </param>
+      <param name="mediumGap">
+        <dimension>10,10</dimension>
+      </param>
+      <param name="largeGap">
+        <dimension>15,15</dimension>
+      </param>
+      <param name="namedGaps">
+        <map/>
+      </param>
+			<theme name="tabbedpane" ref="base-tabbed-pane">
+				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+				<param name="background"><image>none</image></param>
+				<param name="border"><border>0,0,0,0</border></param>
+				<theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true"/>
+				<theme name="container" ref="container">
+					<param name="border"><border>0,0,0,0</border></param>
+					<param name="minWidth"><int>1050</int></param>
+					<theme name="dialoglayout" ref="dialoglayout">
+							<param name="defaultGap"><dimension>6,5</dimension></param>
+							<param name="smallGap"><dimension>8,8</dimension></param>
+							<param name="mediumGap"><dimension>10,10</dimension></param>
+							<param name="largeGap"><dimension>15,15</dimension></param>
+							<param name="border"><border>2</border></param>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+
+	<theme name="high-score-table" ref="mobile-table" overwrite="true">
+		<param name="rowHeight"><int>70</int></param>
+		<param name="columnWidths">
+			<map>
+				<param name="0"><int>70</int></param>
+				<param name="1"><int>800</int></param>
+				<param name="2"><int>100</int></param>
+			</map>
+		</param>
+		<theme name="columnHeader" ref="button">
+			<param name="border"><border>15</border></param>
+			<param name=""><image>ui-table-header.*</image></param>
+			<param name="font"><font>med-noshadow-18-white</font></param>
+		</theme>
+		<theme name="stringcellrenderer" ref="stringcellrenderer">
+			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+			<param name="border"><border>2,8,2,8</border></param>
+			<param name="minHeight"><int>50</int></param>
+			<param name="minWidth"><int>50</int></param>
+			<param name="font"><font>med-noshadow-18-white</font></param>
+		</theme>
+		<param name="columnHeaderHeight"><int>60</int></param>
+		<theme name="box-layout-row" ref="-defaults" allowWildcard="true">
+      <param name="background"><image>mobile.box.dark3.50.table</image></param>
+			<param name="border"><border>0,0,0,0</border></param>
+			<param name="spacing"><int>20</int></param>
+			<param name="alignment"><enum type="alignment">CENTER</enum></param>
+      <theme name="label" ref="-defaults">
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        <param name="border"><border>2,8,2,8</border></param>
+        <param name="minHeight"><int>50</int></param>
+        <param name="minWidth"><int>50</int></param>
+        <param name="font"><font>med-noshadow-18-white</font></param>
+        <param name="background"><image>none</image></param>
+      </theme>
+      <theme name="label-self" ref="label">
+        <param name="font"><font>med-noshadow-18-green</font></param>
+        <param name="border"><border>0,0</border></param>
+      </theme>
+		</theme>
+	</theme>
+
+    <theme name="multi-use-item" ref="base-frame">
+        <param name="background"><image>label1.background</image></param>
+        <param name="minWidth"><int>500</int></param>
+        <theme name="dialoglayout" ref="-defaults" allowWildcard="true">
+            <param name="background"><image>mobile.window.background.lightblue</image></param>
+            <param name="border"><border>40,8,5,8</border></param>
+            <param name="defaultGap"><dimension>5,2</dimension></param>
+            <param name="smallGap"><dimension>8,8</dimension></param>
+            <param name="mediumGap"><dimension>10,10</dimension></param>
+            <param name="largeGap"><dimension>15,15</dimension></param>
+            <param name="namedGaps"><map/></param>
+            <theme name="label" ref="label">
+                <param name="fadeDurationShow"><int>200</int></param>
+                <param name="fadeDurationHide"><int>0</int></param>
+                <param name="minWidth"><int>150</int></param>
+                <param name="font"><font>med-shadow-18-white</font></param>
+                <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+            </theme>
+            <theme name="item-slot" ref="-defaults">
+                <param name="background"><image>mobile.circle.plain</image></param>
+                <param name="minWidth"><int>100</int></param>
+                <param name="minHeight"><int>100</int></param>
+                <param name="font"><font>med-shadow-18-white</font></param>
+                <param name="textAlignment"><enum type="alignment">BOTTOMRIGHT</enum></param>
+            </theme>
+        </theme>
+    </theme>
+    <theme name="mysterious-gem" ref="multi-use-item">
+        <param name="background"><image>label1.background</image></param>
+        <param name="minWidth"><int>500</int></param>
+        <param name="minHeight"><int>400</int></param>
+    </theme>
+    <theme name="berry-crush" ref="multi-use-item">
+        <param name="background"><image>label1.background</image></param>
+        <param name="minWidth"><int>500</int></param>
+        <param name="minHeight"><int>400</int></param>
+    </theme>
+
+    <theme name="scoreboard-window" ref="mobile-panel" overwrite="true">
+        <param name="background"><image>mobile.window.onebar.background</image></param>
+        <theme name="dialoglayout" ref="dialoglayout">
+            <param name="border"><border>60,0,0,0</border></param>
+            <param name="defaultGap"><dimension>5,5</dimension></param>
+            <param name="smallGap"><dimension>8,8</dimension></param>
+            <param name="mediumGap"><dimension>10,10</dimension></param>
+            <param name="largeGap"><dimension>15,15</dimension></param>
+            <param name="namedGaps"><map/></param>
+            <theme name="tabbedpane" ref="base-tabbed-pane">
+                <param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+                <param name="background"><image>none</image></param>
+                <param name="border"><border>0,0,0,0</border></param>
+                <theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true"/>
+                <theme name="container" ref="container">
+                    <param name="border"><border>0,0,0,0</border></param>
+                    <param name="minWidth"><int>1050</int></param>
+                    <theme name="dialoglayout" ref="dialoglayout">
+                        <param name="defaultGap"><dimension>6,5</dimension></param>
+                        <param name="smallGap"><dimension>8,8</dimension></param>
+                        <param name="mediumGap"><dimension>10,10</dimension></param>
+                        <param name="largeGap"><dimension>15,15</dimension></param>
+                        <param name="border"><border>2</border></param>
+                    </theme>
+                </theme>
+                <param name="inputMap"><inputMapDef>
+                    <action name="nextTab">CTRL TAB</action>
+                    <action name="prevTab">CTRL SHIFT TAB</action>
+                </inputMapDef></param>
+            </theme>
+        </theme>
+    </theme>
+
+    <theme name="scoreboard-table" ref="mobile-table" overwrite="true">
+        <param name="rowHeight"><int>70</int></param>
+        <param name="columnWidths">
+            <map>
+                <param name="0"><int>400</int></param>
+                <param name="1"><int>400</int></param>
+            </map>
+        </param>
+        <theme name="columnHeader" ref="button">
+            <param name="border"><border>15</border></param>
+            <param name=""><image>ui-table-header.*</image></param>
+            <param name="font"><font>med-noshadow-18-white</font></param>
+        </theme>
+        <theme name="stringcellrenderer" ref="stringcellrenderer">
+            <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+            <param name="border"><border>2,8,2,8</border></param>
+            <param name="minHeight"><int>50</int></param>
+            <param name="minWidth"><int>50</int></param>
+            <param name="font"><font>med-noshadow-18-white</font></param>
+        </theme>
+        <param name="columnHeaderHeight"><int>60</int></param>
+        <theme name="box-layout-row" ref="-defaults" allowWildcard="true">
+            <param name="background"><image>ui-table-row.background</image></param>
+            <param name="border"><border>0,0,0,0</border></param>
+            <param name="spacing"><int>20</int></param>
+            <param name="alignment"><enum type="alignment">CENTER</enum></param>
+            <theme name="label" ref="label">
+                <param name="font"><font>med-noshadow-18-white</font></param>
+                <param name="border"><border>0,0</border></param>
+            </theme>
+        </theme>
+    </theme>
+</themes>

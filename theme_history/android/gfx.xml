@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<images file="res/ui-mobile-atlas.png" filter="nearest">
+		<grid name="mobile.frame.background" weightsX="0,1,0" weightsY="0,0,1,0">
+			<area xywh="33,0,14,9"/>
+			<area xywh="60,0,14,9"/>
+			<area xywh="122,0,14,9"/>
+			<area xywh="33,9,14,60"/>
+			<area xywh="60,9,14,60"/>
+			<area xywh="122,9,14,60"/>
+			<area xywh="33,69,14,7"/>
+			<area xywh="60,69,14,7"/>
+			<area xywh="122,69,14,7"/>
+			<area xywh="33,76,14,50"/>
+			<area xywh="80,76,14,50"/>
+			<area xywh="122,76,14,50"/>
+		</grid>
+		<grid name="mobile.tabwindow.background" weightsX="0,1,0" weightsY="0,1,0">
+			<area xywh="264,9,14,48" sizeOverwriteV="60"/>
+			<area xywh="293,9,14,48" sizeOverwriteV="60"/>
+			<area xywh="354,9,14,48" sizeOverwriteV="60"/>
+			<area xywh="264,57,14,14"/>
+			<area xywh="293,57,14,14"/>
+			<area xywh="354,57,14,14"/>
+			<area xywh="264,129,14,50"/>
+			<area xywh="293,129,14,50"/>
+			<area xywh="354,129,14,50"/>
+		</grid>
+
+		<area name="mobile.search.background" xywh="415,72,77,44" splitx="L28,R43" inset="8,0,8,0"/>
+		<grid name="mobile.editfield.background" weightsX="0,1,0" weightsY="0,1,0">
+			<area xywh="415,72,10,10" inset="8,0,0,0"/>
+			<area xywh="425,72,10,10" inset="8,0,0,0"/>
+			<area xywh="482,72,10,10" inset="8,0,0,0"/>
+			<area xywh="415,82,10,24"/>
+			<area xywh="425,82,10,24"/>
+			<area xywh="482,82,10,24"/>
+			<area xywh="415,106,10,10" inset="0,0,8,0"/>
+			<area xywh="425,106,10,10" inset="0,0,8,0"/>
+			<area xywh="482,106,10,10" inset="0,0,8,0"/>
+		</grid>
+
+		<area name="mobile.tag.white" xywh="503,16,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.darkblue" xywh="538,16,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.red" xywh="573,16,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.orange" xywh="608,16,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.blue" xywh="503,42,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.green" xywh="538,42,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.yellow" xywh="573,42,32,20" splitx="L10,R11"/>
+		<area name="mobile.tag.purple" xywh="608,42,32,20" splitx="L10,R11"/>
+
+		<area name="mobile.box.dark1" xywh="670,28,20,20"/>
+		<area name="mobile.box.dark2" xywh="706,28,20,20"/>
+		<area name="mobile.box.dark3" xywh="743,28,20,20"/>
+		<area name="mobile.box.light1" xywh="778,27,20,20"/>
+
+		<alias name="mobile.box.dark1.50" ref="mobile.box.dark1" tint="#60FFFFFF"/>
+		<alias name="mobile.box.dark2.50" ref="mobile.box.dark2" tint="#60FFFFFF"/>
+		<alias name="mobile.box.dark3.50" ref="mobile.box.dark3" tint="#60FFFFFF"/>
+		<alias name="mobile.box.light1.50" ref="mobile.box.light1" tint="#80FFFFFF"/>
+		<alias name="mobile.box.light1.20" ref="mobile.box.light1" tint="#20FFFFFF"/>
+
+		<alias name="mobile.box.dark3.50.table" ref="mobile.box.dark3" inset="1" tint="#80FFFFFF"/>
+		<alias name="mobile.box.light1.50.table" ref="mobile.box.light1" inset="1" tint="#60FFFFFF"/>
+
+		<area name="mobile.bar.button" xywh="503,72,15,60" splitx="L1,R1" splity="T1,B1"/>
+
+
+
+		<area name="mobile.box.dark3.left" xywh="743,28,20,20" inset="0,-10,0,0" tint="#80FFFFFF"/>
+		<area name="mobile.circle.white" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B0FFFFFF"/>
+		<area name="mobile.circle.blue" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B000D0FF"/>
+		<area name="mobile.circle.disabled" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#ffcccc"/>
+		<area name="mobile.circle.item.white" xywh="563,329,76,76" center="true" sizeOverwriteH="76" sizeOverwriteV="76" tint="#80FFFFFF"/>
+		<area name="mobile.circle.small.white" xywh="563,329,76,76" center="true" sizeOverwriteH="76" sizeOverwriteV="76" tint="#B0FFFFFF"/>
+		<area name="mobile.circle.small.gold" xywh="563,329,76,76" center="true" sizeOverwriteH="76" sizeOverwriteV="76" tint="#B0EADD27"/>
+		<area name="mobile.circle.purple" xywh="551,318,100,100" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B09B59B6"/>
+		<area name="mobile.circle.red" xywh="661,316,100,100"/>
+		<area name="mobile.bigcircle.white" xywh="643,425,136,136" inset="0,0,0,0" center="true" sizeOverwriteH="136" sizeOverwriteV="136" tint="#80FFFFFF"/>
+
+		<select name="mobile.circle.plain">
+			<composed if="disabled">
+				<alias ref="mobile.circle.disabled"/>
+			</composed>
+			<alias ref="mobile.circle.white"/>
+		</select>
+		
+    <composed name="mobile.circle.selected">
+        <alias ref="mobile.circle.blue"/>
+    </composed>
+
+		<select name="mobile.button.flat.background">
+			<alias ref="mobile.box.light1" if="selected | keyboardFocus" tint="#80FFFFFF"/>
+			<alias ref="mobile.box.light1" if="disabled" tint="#80FFFFFF"/>
+			<alias ref="mobile.box.dark2" tint="#80FFFFFF"/>
+		</select>
+
+
+		<area name="mobile.rbox.dark1" xywh="664,23,31,31" splitx="L6,R6" splity="T6,B6"/>
+		<area name="mobile.rbox.dark2" xywh="701,23,31,31" splitx="L6,R6" splity="T6,B6"/>
+
+		<area name="mobile.cbox.dark2" xywh="701,59,32,32" splitx="L12,R12" splity="T12,B12"/>
+
+		<area name="mobile.rbox.dark3" xywh="738,23,31,31" splitx="L6,R6" splity="T6,B6"/>
+		<alias name="mobile.rbox.dark3.50" ref="mobile.rbox.dark3" tint="#80FFFFFF"/>
+
+
+
+
+		<area name="mobile.rbox.light1" xywh="774,23,31,31" splitx="L6,R6" splity="T6,B6"/>
+		<area name="mobile.rbox.light1-60" xywh="774,23,31,31" tint="#30FFFFFF" splitx="L6,R6" splity="T6,B6"/>
+
+		<area name="mobile.rbox.red" xywh="774,59,31,31" splitx="L6,R6" splity="T6,B6"/>
+		<area name="mobile.rbox.red-60" xywh="774,59,31,31" tint="#30FFFFFF" splitx="L6,R6" splity="T6,B6"/>
+
+
+		<area name="mobile.round.label.yellow" xywh="494,248,47,41" splitx="L16,R17" splity="T20,B20" tint="#E67E22"/>
+		<area name="mobile.round.label.red" xywh="494,248,47,41" splitx="L16,R17" splity="T20,B20" tint="#E74C3C"/>
+		<area name="mobile.round.label.green" xywh="494,248,47,41" splitx="L16,R17" splity="T20,B20" tint="#27c600"/>
+
+		<select name="mobile.battle.switch.button.background">
+			<composed if="disabled + (targeted | keyboardFocus)">
+				<alias ref="mobile.rbox.dark3.50"/>
+				<alias ref="mobile.rbox.light1" tint="#40FFFFFF"/>
+			</composed>
+			<composed if="keyboardFocus">
+				<alias ref="mobile.rbox.light1"/>
+			</composed>
+			<alias ref="mobile.rbox.dark3.50" if="disabled"/>
+			<composed if="targeted | selected">
+				<alias ref="mobile.rbox.light1"/>
+			</composed>
+			<alias ref="mobile.rbox.light1" tint="#80FFFFFF"/>
+		</select>
+
+		<select name="mobile.battle.switch-enemy.button.background">
+			<composed if="disabled + (targeted | keyboardFocus)">
+				<alias ref="mobile.rbox.dark3.50"/>
+				<alias ref="mobile.rbox.red" tint="#40FFFFFF"/>
+			</composed>
+			<composed if="keyboardFocus">
+				<alias ref="mobile.rbox.red"/>
+			</composed>
+			<alias ref="mobile.rbox.dark3.50" if="disabled"/>
+			<composed if="targeted | selected">
+				<alias ref="mobile.rbox.red"/>
+			</composed>
+			<alias ref="mobile.rbox.red" tint="#80FFFFFF"/>
+		</select>
+
+		<!--
+		<select name="mobile.battle.switch.button.background">
+			<alias ref="battle-button-switch.disabledhover" if="disabled + (targeted | keyboardFocus)"/>
+			<alias ref="battle-button-switch.hover" if="keyboardFocus"/>
+			<alias ref="battle-button-switch.disabled" if="disabled"/>
+			<alias ref="battle-button-switch.hover" if="targeted | selected"/>
+			<alias ref="battle-button-switch.default"/>
+		</select>
+		-->
+
+		<area name="mobile.tab.button" xywh="418,223,-201,4"/>
+
+		<area name="mobile.battle.buttonr" xywh="684,643,340,143"/>
+		<area name="mobile.battle.buttonl" xywh="684,643,-340,143"/>
+
+
+		<area name="mobile.battle.mon.default" xywh="43,289,300,80"/>
+
+		<select name="mobile.battle.mon.background">
+			<alias ref="mobile.battle.mon.default" if="selected | keyboardFocus" tint="#FF80FFFF"/>
+			<alias ref="mobile.battle.mon.default" if="disabled" tint="#22272B"/>
+			<alias ref="mobile.battle.mon.default" tint="#80FFFFFF"/>
+		</select>
+
+		<grid name="mobile.window.background" weightsX="1" weightsY="0,1,0">
+			<area xywh="372,9,17,60"/>
+			<area xywh="372,69,17,600"/>
+			<area xywh="372,669,17,60"/>
+		</grid>
+
+		<grid name="mobile.window.onebar.left.background" weightsX="0,1" weightsY="0,1">
+			<area xywh="825,9,17,60"/>
+			<area xywh="825,9,17,60"/>
+			<area xywh="825,69,6,600" sizeOverwriteH="218"/>
+			<area xywh="838,69,4,600"/>
+		</grid>
+
+		<grid name="mobile.window.left.background" weightsX="0,1" weightsY="0,1,0">
+			<area xywh="825,9,17,60"/>
+			<area xywh="825,9,17,60"/>
+			<area xywh="825,69,6,600" sizeOverwriteH="218"/>
+			<area xywh="838,69,4,600"/>
+			<area xywh="825,9,17,60"/>
+			<area xywh="825,9,17,60"/>
+		</grid>
+
+		<grid name="mobile.window.onebar.background" weightsX="1" weightsY="0,1"><!-- tint="#80FFFFFF"> -->
+			<area xywh="372,9,15,60" sizeOverwriteV="60"/>
+			<area xywh="372,69,15,600" sizeOverwriteV="660" tint="#FFFFFFFF"/>
+		</grid>
+<!--
+		<grid name="mobile.window.grid.background" weightsX="1" weightsY="0,1,0">
+			<area xywh="396,9,15,60"/>
+			<area xywh="396,69,15,600" tint="#FFFFFFFF"/>
+			<area xywh="396,669,15,60"/>
+		</grid>
+-->
+
+		<area name="mobile.label.title" xywh="490,370,25,60" splitx="L12,R0" splity="T12,B9"/>
+		<area name="mobile.label.value" xywh="512,370,28,60" splitx="L16,R16" splity="T14,B15"/>
+		<area name="mobile.label.value.glow" xywh="512,425,28,60" splitx="L16,R16" splity="T14,B15"/>
+		<area name="mobile.button.default" xywh="512,480,28,60" splitx="L16,R16" splity="T14,B15"/>
+
+		<area name="mobile.tab.selected" xywh="435,328,10,9" sizeOverwriteH="60" sizeOverwriteV="60"/>
+
+		<select name="mobile.tab.background">
+			<alias ref="mobile.tab.button" if="active | selected"/>
+			<alias ref="mobile.box.dark3.50"/>
+		</select>
+
+		<select name="mobile.tab.activeonly.background">
+			<alias ref="mobile.tab.button" if="active | selected"/>
+		</select>
+
+		<select name="mobile.tab.inset.background">
+			<alias ref="mobile.tab.button" if="active | selected" inset="0,-10,0,0"/>
+			<alias ref="mobile.box.dark3.50" inset="0,-10,0,0"/>
+		</select>
+
+		<select name="mobile.button.background">
+			<alias ref="mobile.button.default" if="selected | keyboardFocus" tint="#FF80FFFF"/>
+			<alias ref="mobile.button.default" if="hover" tint="#FFE0E0E0"/>
+			<alias ref="mobile.button.default" if="disabled" tint="#80FFFFFF"/>
+			<alias ref="mobile.button.default" tint="#FFFFFFFF"/>
+		</select>
+
+		<select name="mobile.button.50.background">
+			<alias ref="mobile.tab.button" if="active | selected | keyboardFocus"/>
+			<alias ref="mobile.box.dark2.50"/>
+		</select>
+
+		<select name="mobile.button.dark3.50.background">
+			<alias ref="mobile.tab.button" if="active | selected | keyboardFocus"/>
+			<alias ref="mobile.box.dark3.50"/>
+		</select>
+
+		<area name="mobile.hudmenu.background" xywh="423,450,61,40" splitx="L15,R0"/>
+
+		<grid name="mobile.progress.overlay" weightsX="0,1,0" weightsY="0,1,0">
+			<area xywh="431,522,15,12"/>
+			<area xywh="446,522,1,12"/>
+			<area xywh="451,522,15,12"/>
+
+			<area xywh="431,534,15,4"/>
+			<area xywh="446,534,1,4"/>
+			<area xywh="451,534,15,4"/>
+
+			<area xywh="431,538,15,12"/>
+			<area xywh="446,538,1,12"/>
+			<area xywh="451,538,15,12"/>
+		</grid>
+
+		<grid name="mobile.progress.background" weightsX="0,1,0" weightsY="0,1,0">
+			<area xywh="431,553,15,12"/>
+			<area xywh="446,553,1,12"/>
+			<area xywh="451,553,15,12"/>
+
+			<area xywh="431,565,15,4"/>
+			<area xywh="446,565,1,4"/>
+			<area xywh="451,565,15,4"/>
+
+			<area xywh="431,569,15,12"/>
+			<area xywh="446,569,1,12"/>
+			<area xywh="451,569,15,12"/>
+		</grid>
+
+		<grid name="-mobile.progress.progressImage" weightsX="1" inset="8,0" weightsY="1">
+			<area xywh="475,522,1,28" splity="T12,B12"/>
+		</grid>
+
+		<alias name="mobile.progress.progressImage" ref="-mobile.progress.progressImage" tint="#3498DB"/>
+		<alias name="mobile.progress.orange.progressImage" ref="-mobile.progress.progressImage" tint="#E67E22"/>
+		<alias name="mobile.progress.violet.progressImage" ref="-mobile.progress.progressImage" tint="#9B59B6"/>
+    <alias name="mobile.progress.green.progressImage" ref="-mobile.progress.progressImage" tint="#2ECC71"/>
+		<alias name="mobile.progress.yellow.progressImage" ref="-mobile.progress.progressImage" tint="#F1C40F"/>
+    <alias name="mobile.progress.darkblue.progressImage" ref="-mobile.progress.progressImage" tint="#444B77"/>
+    <alias name="mobile.progress.red.progressImage" ref="-mobile.progress.progressImage" tint="#FF8C70"/>
+    <alias name="mobile.progress.halloween.progressImage" ref="-mobile.progress.progressImage" tint="#dd84fd"/>
+
+
+    <alias name="mobile.progress.gtl.100.progressImage" ref="-mobile.progress.progressImage" tint="#5cb66b"/>
+    <alias name="mobile.progress.gtl.80.progressImage" ref="-mobile.progress.progressImage" tint="#79a947"/>
+    <alias name="mobile.progress.gtl.60.progressImage" ref="-mobile.progress.progressImage" tint="#cab748"/>
+    <alias name="mobile.progress.gtl.40.progressImage" ref="-mobile.progress.progressImage" tint="#e79335"/>
+    <alias name="mobile.progress.gtl.20.progressImage" ref="-mobile.progress.progressImage" tint="#b72f13"/>
+
+		<area name="mobile.bubble.background" xywh="10,855,49,51" splitx="L17,R17" splity="T17,B17"/>
+
+		<area name="mobile.icons.help" xywh="449,821,60,60" center="true"/>
+		<area name="mobile.icons.tools" xywh="502,821,60,60" center="true"/>
+		<area name="mobile.icons.psearch" xywh="564,821,60,60" center="true"/>
+		<area name="mobile.icons.pchat" xywh="629,821,60,60" center="true"/>
+		<area name="mobile.icons.map" xywh="698,821,60,60" center="true"/>
+		<area name="mobile.icons.lag" xywh="758,821,60,60" center="true"/>
+		<area name="mobile.icons.sound" xywh="831,821,28,60" splitx="L1,R1" center="true"/>
+		<area name="mobile.icons.sound-mute" xywh="823,821,60,60" center="true"/>
+		<area name="mobile.icons.recyle" xywh="888,821,60,60" center="true"/>
+		<area name="mobile.icons.dbsearch" xywh="947,821,60,60" center="true"/>
+
+		<select name="mobile.icons.tools.background">
+			<alias ref="mobile.icons.tools" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.tools"/>
+		</select>
+
+		<select name="mobile.icons.psearch.background">
+			<alias ref="mobile.icons.psearch" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.psearch"/>
+		</select>
+
+		<select name="mobile.icons.pchat.background">
+			<alias ref="mobile.icons.pchat" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.pchat"/>
+		</select>
+
+		<animation name="mobile.icons.pchat.special.background" timeSource="enabled">
+				<frame duration="900" ref="mobile.icons.pchat" tint="#FFF4A6A6"/>
+				<frame duration="900" ref="mobile.icons.pchat" tint="#FFFFFFFF"/>
+		</animation>
+
+		<select name="mobile.icons.map.background">
+			<alias ref="mobile.icons.map" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.map"/>
+		</select>
+
+		<select name="mobile.icons.lag.background">
+			<alias ref="mobile.icons.lag" tint="#FF6060" if="selected"/>
+			<alias ref="mobile.icons.lag" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.lag"/>
+		</select>
+
+		<select name="mobile.icons.sound.background">
+			<alias ref="mobile.icons.sound" tint="#a3e1ff" if="(hover | keyboardFocus) + selected"/>
+			<alias ref="mobile.icons.sound-mute" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.sound" if="selected"/>
+			<alias ref="mobile.icons.sound-mute"/>
+		</select>
+
+		<select name="mobile.icons.recyle.background">
+			<alias ref="mobile.icons.recyle" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.recyle"/>
+		</select>
+
+		<select name="mobile.icons.dbsearch.background">
+			<alias ref="mobile.icons.dbsearch" tint="#a3e1ff" if="hover | keyboardFocus"/>
+			<alias ref="mobile.icons.dbsearch"/>
+		</select>
+
+		<area name="mobile.icons.menu" xywh="628,888,60,60"/>
+
+		<area name="mobile.icons.notification" xywh="502,888,60,60"/>
+		<area name="mobile.icons.arrowup" xywh="441,888,60,60" center="true"/>
+		<area name="mobile.icons.arrowdown" xywh="381,888,60,60" center="true"/>
+		<area name="mobile.icons.close" xywh="803,888,60,60"/>
+		<area name="mobile.icons.refresh" xywh="803,960,60,60"/>
+		<area name="mobile.icons.gear" xywh="716,960,60,60"/>
+		<area name="mobile.icons.chat" xywh="628,960,60,60"/>
+		<area name="mobile.icons.chat-indicator" xywh="492,960,60,60"/>
+		<area name="mobile.icons.save" xywh="560,960,60,60"/>
+		<area name="mobile.icons.share" xywh="381,828,60,60"/>
+
+		<area name="mobile.icons.battery-10" xywh="0,904,60,60"/>
+		<area name="mobile.icons.battery-20" xywh="60,904,60,60"/>
+		<area name="mobile.icons.battery-30" xywh="120,904,60,60"/>
+		<area name="mobile.icons.battery-40" xywh="180,904,60,60"/>
+		<area name="mobile.icons.battery-50" xywh="240,904,60,60"/>
+		<area name="mobile.icons.battery-60" xywh="0,964,60,60"/>
+		<area name="mobile.icons.battery-70" xywh="60,964,60,60"/>
+		<area name="mobile.icons.battery-80" xywh="120,964,60,60"/>
+		<area name="mobile.icons.battery-90" xywh="180,964,60,60"/>
+		<area name="mobile.icons.battery-100" xywh="240,964,60,60"/>
+
+		<animation name="mobile.icons.chat-indicator-whisper" timeSource="enabled">
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#00FFFFFF"/>
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#FF66FF66"/>
+			<frame duration="300" ref="mobile.icons.chat-indicator" tint="#FF66FF66"/>
+		</animation>
+		<animation name="mobile.icons.chat-indicator-team" timeSource="enabled">
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#00FFFFFF"/>
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#ffff8484"/>
+			<frame duration="300" ref="mobile.icons.chat-indicator" tint="#ffff8484"/>
+		</animation>
+		<animation name="mobile.icons.chat-indicator-whisper-team" timeSource="enabled">
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#00FFFFFF"/>
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#FF66FF66"/>
+			<frame duration="300" ref="mobile.icons.chat-indicator" tint="#FF66FF66"/>
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#00FFFFFF"/>
+			<frame duration="600" ref="mobile.icons.chat-indicator" tint="#ffff8484"/>
+			<frame duration="300" ref="mobile.icons.chat-indicator" tint="#ffff8484"/>
+		</animation>
+	</images>
+
+
+	<images file="res/ui-bottom-background.png" filter="linear">
+		<!-- only top bar -->
+		<grid name="mobile.full.background" weightsX="1" weightsY="0,1">
+			<area xywh="0,0,1024,60"/>
+			<area xywh="0,60,1024,600"/>
+		</grid>
+
+		<!-- two bars -->
+		<grid name="mobile.window.bottom.background" weightsX="1" weightsY="0,1,0">
+			<area xywh="0,0,1024,60"/>
+			<area xywh="0,60,1024,600"/>
+			<area xywh="0,660,1024,60"/>
+		</grid>
+		<alias name="mobile.window.bottom.background.blue" ref="mobile.window.bottom.background" tint="#A5B0E6"/>
+		<alias name="mobile.window.bottom.background.green" ref="mobile.window.bottom.background" tint="#70FF99"/>
+		<alias name="mobile.window.bottom.background.red" ref="mobile.window.bottom.background" tint="#FF8C70"/>
+		<alias name="mobile.window.bottom.background.purple" ref="mobile.window.bottom.background" tint="#9E97D2"/>
+		<alias name="mobile.window.bottom.background.yellow" ref="mobile.window.bottom.background" tint="#FFBB70"/>
+		<alias name="mobile.window.bottom.background.lightblue" ref="mobile.window.bottom.background" tint="#A0F6FA"/>
+
+
+		<alias name="mobile.window.background.green" ref="mobile.full.background" tint="#70FF99"/>
+		<alias name="mobile.window.background.lightblue" ref="mobile.full.background" tint="#A0F6FA"/>
+	</images>
+
+	<images file="res/ui-mon-background.png" filter="linear">
+		<grid name="mobile.window.grid.background" weightsX="1" weightsY="0,1,0">
+			<area xywh="0,0,1024,60"/>
+			<area xywh="0,60,1024,600" tint="#FFFFFFFF"/>
+			<area xywh="0,660,1024,60"/>
+		</grid>
+	</images>
+
+	<images file="res/android_ui.png" filter="nearest">
+		<area name="mobile.title.background" xywh="38,18,152,37"/>
+		<area name="mobile.tab.backgrounddd" xywh="213,60,5,5" splitx="L1,R1"/>
+		<area name="mobile.bottom.background" xywh="38,220,152,37"/>
+		<area name="mobile.area.background" xywh="38,55,152,165"/>
+		<area name="mobile.textarea.background" xywh="122,259,49,49" splitx="L12,R12" splity="T12,B12"/>
+
+		<area name="mobile.label.background" xywh="38,259,29,49" splitx="L12,R5" splity="T12,B12"/>
+		<area name="mobile.label-value.background" xywh="67,259,28,49" splitx="L5,R12" splity="T12,B12"/>
+
+		<area name="qqqqq" repeatX="true" xywh="38,343,47,20" splitx="L12,R12" splity="T9,B9"/>
+
+		<area name="mobile.progressbar.background" xywh="38,317,47,20" splitx="L12,R12" splity="T9,B9"/>
+		<grid name="mobile.progressbar.progressImage" weightsX="0,1,0" weightsY="1">
+			<area xywh="38,343,12,20" tint="#30d3fe"/>
+			<area xywh="55,343,15,20" tint="#30d3fe" repeatX="true"/>
+			<area xywh="72,343,10,20" tint="#30d3fe"/>
+		</grid>
+
+		<grid name="mobile.window.background2" weightsX="1" weightsY="0,1,0">
+			<area xywh="38,18,152,37" sizeOverwriteV="60"/>
+			<area xywh="38,55,152,164"/>
+			<area xywh="38,219,152,37" sizeOverwriteV="60"/>
+		</grid>
+
+		<area name="mobile.monster.tab1.default" xywh="354,27,20,20"/>
+		<area name="mobile.monster.tab2.default" xywh="380,27,20,20"/>
+		<area name="mobile.monster.tab3.default" xywh="407,27,20,20"/>
+		<area name="mobile.monster.tab4.default" xywh="434,27,20,20"/>
+		<area name="mobile.monster.tab5.default" xywh="463,27,20,20"/>
+		<area name="mobile.monster.tab6.default" xywh="488,27,20,20"/>
+		<area name="mobile.monster.tab7.default" xywh="507,27,20,20"/>
+		<area name="mobile.monster.tab8.default" xywh="529,27,20,20"/>
+		<area name="mobile.monster.tab9.default" xywh="550,27,20,20"/>
+
+
+		<animation name="mobile.tab.animation" timeSource="selected" count="1">
+			  <frame duration="250" ref="mobile.tab.background" tint="#00FFFFFF"/>
+			  <frame duration="1" ref="mobile.tab.background" tint="#FFFFFFFF"/>
+		</animation>
+
+		<animation name="mobile.tab.hover" timeSource="hover" count="1">
+			  <frame duration="100" ref="mobile.tab.background" tint="#00FFFFFF"/>
+			  <frame duration="1" ref="mobile.tab.background" tint="#A0FFFFFF"/>
+		</animation>
+
+		<composed name="mobile.mi-tab1.hover">
+			<alias ref="mobile.tab.hover"/>
+			<alias ref="mobile.monster.tab1.default"/>
+		</composed>
+
+		<composed name="mobile.mi-tab1.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab1.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab1.background">
+			<alias ref="mobile.mi-tab1.active" if="selected"/>
+			<alias ref="mobile.monster.tab1.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab2.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab2.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab2.background">
+			<alias ref="mobile.mi-tab2.active" if="selected"/>
+			<alias ref="mobile.monster.tab2.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab3.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab3.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab3.background">
+			<alias ref="mobile.mi-tab3.active" if="selected"/>
+			<alias ref="mobile.monster.tab3.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab4.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab4.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab4.background">
+			<alias ref="mobile.mi-tab4.active" if="selected"/>
+			<alias ref="mobile.monster.tab4.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab5.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab5.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab5.background">
+			<alias ref="mobile.mi-tab5.active" if="selected"/>
+			<alias ref="mobile.monster.tab5.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab6.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab6.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab6.background">
+			<alias ref="mobile.mi-tab6.active" if="selected"/>
+			<alias ref="mobile.monster.tab6.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab7.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab7.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab7.background">
+			<alias ref="mobile.mi-tab7.active" if="selected"/>
+			<alias ref="mobile.monster.tab7.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab8.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab8.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab8.background">
+			<alias ref="mobile.mi-tab8.active" if="selected"/>
+			<alias ref="mobile.monster.tab8.default"/>
+		</select>
+
+		<composed name="mobile.mi-tab9.active">
+			<alias ref="mobile.tab.animation"/>
+			<alias ref="mobile.monster.tab9.default" tint="#FFFFFF"/>
+		</composed>
+
+		<select name="mobile.monster.tab9.background">
+			<alias ref="mobile.mi-tab9.active" if="selected"/>
+			<alias ref="mobile.monster.tab9.default"/>
+		</select>
+
+	</images>
+	<images file="res/ui-battle-moves.png">
+		<area name="mobile.rmove.selected" xywh="27,893,320,130"/>
+
+		<area name="mobile.rmove.type0" xywh="704,13,320,130"/>
+		<area name="mobile.rmove.type1" xywh="704,146,320,130"/>
+		<area name="mobile.rmove.type2" xywh="704,279,320,130"/>
+		<area name="mobile.rmove.type3" xywh="704,412,320,130"/>
+		<area name="mobile.rmove.type4" xywh="704,545,320,130"/>
+		<area name="mobile.rmove.type5" xywh="704,678,320,130"/>
+		<area name="mobile.rmove.type6" xywh="704,811,320,130"/>
+		<area name="mobile.rmove.type7" xywh="358,13,320,130"/>
+		<area name="mobile.rmove.type8" xywh="358,146,320,130"/>
+		<area name="mobile.rmove.type10" xywh="358,279,320,130"/>
+		<area name="mobile.rmove.type11" xywh="358,678,320,130"/>
+		<area name="mobile.rmove.type12" xywh="358,412,320,130"/>
+		<area name="mobile.rmove.type13" xywh="358,545,320,130"/>
+		<area name="mobile.rmove.type14" xywh="27,13,320,130"/>
+		<area name="mobile.rmove.type15" xywh="358,811,320,130"/>
+		<area name="mobile.rmove.type16" xywh="27,146,320,130"/>
+        <area name="mobile.rmove.type17" xywh="27,279,320,130"/>
+
+		<select name="mobile.rmove.type0.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type0"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type0"/>
+		</select>
+
+		<select name="mobile.rmove.type1.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type1"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type1"/>
+		</select>
+
+		<select name="mobile.rmove.type2.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type2"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type2"/>
+		</select>
+
+		<select name="mobile.rmove.type3.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type3"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type3"/>
+		</select>
+
+		<select name="mobile.rmove.type4.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type4"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type4"/>
+		</select>
+
+		<select name="mobile.rmove.type5.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type5"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type5"/>
+		</select>
+
+		<select name="mobile.rmove.type6.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type6"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type6"/>
+		</select>
+
+		<select name="mobile.rmove.type7.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type7"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type7"/>
+		</select>
+
+		<select name="mobile.rmove.type8.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type8"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type8"/>
+		</select>
+
+		<select name="mobile.rmove.type10.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type10"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type10"/>
+		</select>
+
+		<select name="mobile.rmove.type11.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type11"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type11"/>
+		</select>
+
+		<select name="mobile.rmove.type12.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type12"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type12"/>
+		</select>
+
+		<select name="mobile.rmove.type13.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type13"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type13"/>
+		</select>
+
+		<select name="mobile.rmove.type14.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type14"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type14"/>
+		</select>
+
+		<select name="mobile.rmove.type15.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type15"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type15"/>
+		</select>
+
+		<select name="mobile.rmove.type16.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type16"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type16"/>
+		</select>
+
+		<select name="mobile.rmove.type17.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.rmove.type17"/>
+				<alias ref="mobile.rmove.selected"/>
+			</composed>
+			<alias ref="mobile.rmove.type17"/>
+		</select>
+
+		<area name="mobile.lmove.selected" xywh="27,893,-320,130"/>
+		<area name="mobile.lmove.type0" xywh="704,13,-320,130"/>
+		<area name="mobile.lmove.type1" xywh="704,146,-320,130"/>
+		<area name="mobile.lmove.type2" xywh="704,279,-320,130"/>
+		<area name="mobile.lmove.type3" xywh="704,412,-320,130"/>
+		<area name="mobile.lmove.type4" xywh="704,545,-320,130"/>
+		<area name="mobile.lmove.type5" xywh="704,678,-320,130"/>
+		<area name="mobile.lmove.type6" xywh="704,811,-320,130"/>
+		<area name="mobile.lmove.type14" xywh="27,13,-320,130"/>
+		<area name="mobile.lmove.type7" xywh="358,13,-320,130"/>
+		<area name="mobile.lmove.type8" xywh="358,146,-320,130"/>
+		<area name="mobile.lmove.type10" xywh="358,279,-320,130"/>
+		<area name="mobile.lmove.type12" xywh="358,412,-320,130"/>
+		<area name="mobile.lmove.type13" xywh="358,545,-320,130"/>
+		<area name="mobile.lmove.type11" xywh="358,678,-320,130"/>
+		<area name="mobile.lmove.type15" xywh="358,811,-320,130"/>
+		<area name="mobile.lmove.type16" xywh="27,146,-320,130"/>
+		<area name="mobile.lmove.type17" xywh="27,279,-320,130"/>
+
+		<select name="mobile.lmove.type0.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type0"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type0"/>
+		</select>
+
+		<select name="mobile.lmove.type1.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type1"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type1"/>
+		</select>
+
+		<select name="mobile.lmove.type2.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type2"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type2"/>
+		</select>
+
+		<select name="mobile.lmove.type3.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type3"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type3"/>
+		</select>
+
+		<select name="mobile.lmove.type4.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type4"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type4"/>
+		</select>
+
+		<select name="mobile.lmove.type5.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type5"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type5"/>
+		</select>
+
+		<select name="mobile.lmove.type6.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type6"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type6"/>
+		</select>
+
+		<select name="mobile.lmove.type7.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type7"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type7"/>
+		</select>
+
+		<select name="mobile.lmove.type8.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type8"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type8"/>
+		</select>
+
+		<select name="mobile.lmove.type10.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type10"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type10"/>
+		</select>
+
+		<select name="mobile.lmove.type11.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type11"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type11"/>
+		</select>
+
+		<select name="mobile.lmove.type12.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type12"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type12"/>
+		</select>
+
+		<select name="mobile.lmove.type13.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type13"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type13"/>
+		</select>
+
+		<select name="mobile.lmove.type14.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type14"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type14"/>
+		</select>
+
+		<select name="mobile.lmove.type15.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type15"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type15"/>
+		</select>
+
+		<select name="mobile.lmove.type16.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type16"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type16"/>
+		</select>
+
+		<select name="mobile.lmove.type17.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.lmove.type17"/>
+				<alias ref="mobile.lmove.selected"/>
+			</composed>
+			<alias ref="mobile.lmove.type17"/>
+		</select>
+
+		<area name="mobile.battle.bag" xywh="5,404,116,116" center="true"/>
+		<area name="mobile.battle.switch" xywh="123,404,116,116" center="true"/>
+
+		<area name="mobile.battle.attack" xywh="242,404,116,116" center="true"/>
+
+		<area name="mobile.battle.win" xywh="242,521,116,116" center="true"/>
+		<area name="mobile.battle.run" xywh="5,521,116,116" center="true"/>
+		<area name="mobile.battle.back" xywh="123,521,116,116" center="true"/>
+		<area name="mobile.battle.selected.noanim" xywh="123,639,116,116"/>
+		<area name="mobile.battle.selected.noanim-inset" xywh="123,639,116,116" inset="1"/>
+        <area name="mobile.battle.shift" xywh="242,639,116,116" center="true"/>
+        <area name="mobile.battle.rotate" xywh="5,1035,116,116" center="true"/>
+
+		<area name="mobile.battle.rock" xywh="5,762,116,116" center="true"/>
+		<area name="mobile.battle.bait" xywh="123,762,116,116" center="true"/>
+		<area name="mobile.battle.ball" xywh="242,762,116,116" center="true"/>
+
+		<animation name="mobile.battle.selected" timeSource="enabled">
+			<frame duration="600" ref="mobile.battle.selected.noanim" tint="#FFFFFFFF"/>
+			<frame duration="600" ref="mobile.battle.selected.noanim-inset" tint="#FFFFFFFF"/>
+		</animation>
+
+		<select name="mobile.battle.win.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.win"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.win"/>
+		</select>
+
+		<select name="mobile.battle.switch.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.switch"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.switch"/>
+		</select>
+
+		<select name="mobile.battle.shift.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.shift"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.shift"/>
+		</select>
+
+        <select name="mobile.battle.rotate.background">
+            <composed if="selected | keyboardFocus">
+                <alias ref="mobile.battle.rotate"/>
+                <alias ref="mobile.battle.selected"/>
+            </composed>
+            <alias ref="mobile.battle.rotate"/>
+        </select>
+
+        <select name="mobile.battle.back.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.back"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.back"/>
+		</select>
+
+		<select name="mobile.battle.run.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.run"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.run"/>
+		</select>
+
+		<select name="mobile.battle.bag.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.bag"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.bag"/>
+		</select>
+
+		<select name="mobile.battle.attack.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.attack"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.attack"/>
+		</select>
+
+		<select name="mobile.battle.rock.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.rock"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.rock"/>
+		</select>
+
+		<select name="mobile.battle.bait.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.bait"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.bait"/>
+		</select>
+
+		<select name="mobile.battle.ball.background">
+			<composed if="selected | keyboardFocus">
+				<alias ref="mobile.battle.ball"/>
+				<alias ref="mobile.battle.selected"/>
+			</composed>
+			<alias ref="mobile.battle.ball"/>
+		</select>
+	</images>
+
+
+	<images file="res/pc_slots.png" filter="nearest">
+		<area name="pcslot.bg.default" xywh="3,1,80,80"/>
+		<area name="pcslot.bg.active" xywh="86,1,80,80"/>
+		<area name="pcslot.inner.default" xywh="3,83,80,80"/>
+		<area name="pcslot.inner.active" xywh="86,83,80,80"/>
+		<area name="pcslot.inner.filtered" xywh="169,83,80,80"/>
+		<area name="pcslot.bg.overlay.default" xywh="86,164,80,80"/>
+		<area name="pcslot.bg.overlay.disabled" xywh="3,164,80,80"/>
+		<area name="pcslot.bg.overlay.battlebox" xywh="169,164,80,80"/>
+		<area name="pcslot.border.default" xywh="3,247,80,80"/>
+		<area name="pcslot.border.selected" xywh="86,247,80,80"/>
+		<area name="pcslot.border.selected2" xywh="86,247,80,80" inset="-1" />
+		<area name="pcslot.border.filtered" xywh="169,247,80,80"/>
+    <area name="pcslot.border.filtered2" xywh="169,247,80,80" inset="-1"/>
+		<composed name="pc-slot.background">
+			<!-- BG Layer -->
+			<select center="false">
+				<alias ref="pcslot.bg.active" if="filtered"/>
+				<alias ref="pcslot.bg.default" />
+			</select>
+			<!-- BG Overlay Layer -->
+			<select center="false">
+				<alias ref="pcslot.bg.overlay.disabled" if="obey"/>
+        <alias ref="pcslot.bg.overlay.battlebox" if="battlebox"/>
+<!-- 				<alias ref="pcslot.bg.overlay.default" /> -->
+			</select>
+			<!-- Inner Layer -->
+			<select center="false">
+				<alias ref="pcslot.inner.filtered" if="selected + filtered"/>
+				<alias ref="pcslot.inner.active" if="selected"/>
+				<alias ref="pcslot.inner.default" />
+			</select>
+			<!-- Border Layer -->
+      <select center="false">
+        <alias if="multiselectActive" ref="pcslot.border.filtered"/>
+        <animation if="multiselect" timeSource="keyboardFocus">
+          <frame duration="400" ref="pcslot.border.filtered2" tint="#FFFFFFFF"/>
+          <frame duration="400" ref="pcslot.border.filtered" tint="#FFFFFFFF"/>
+        </animation>
+        <animation if="keyboardFocus" timeSource="keyboardFocus">
+          <frame duration="400" ref="pcslot.border.selected2" tint="#FFFFFFFF"/>
+          <frame duration="400" ref="pcslot.border.selected" tint="#FFFFFFFF"/>
+        </animation>
+        <alias ref="pcslot.border.default"/>
+      </select>
+			<select center="false">
+				<alias ref="pcslot.border.filtered" inset="2" if="filtered"/>
+			</select>
+		</composed>
+
+    <select name="pc-slot-border-while-selected.background">
+      <alias ref="pcslot.border.selected" if="keyboardFocus"/>
+    </select>
+  </images>
+</themes>

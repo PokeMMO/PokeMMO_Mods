@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- ================================== INVENTORY ================================= -->
+	<theme name="mobile-inventory-tabbedframe" ref="inventory-tabbedframe">
+		<param name="background"><image>mobile.window.background.lightblue</image></param>
+		<param name="titleAreaTop"><int>15</int></param>
+		<param name="titleAreaLeft"><int>15</int></param>
+		<param name="titleAreaRight"><int>-1</int></param>
+		<param name="titleAreaBottom"><int>50</int></param>
+		<param name="closeButtonX"><int>-64</int></param>
+		<param name="closeButtonY"><int>0</int></param>
+		<theme name="title" ref="label" allowWildcard="true">
+			<param name="font"><font>xlarge</font></param>
+		</theme>
+		<theme name="closeButton" ref="-defaults">
+			<param name="background"><image>mobile.icons.close</image></param>
+			<param name="minWidth"><int>60</int></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+		<param name="fadeColorInactive"><color>#FFFFFFFF</color></param>
+		<param name="fadeDurationActivate"><int>200</int></param>
+		<param name="fadeDurationDeactivate"><int>200</int></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>1</int></param>
+		<param name="border"><border>0,0,0,0</border></param>
+
+		<theme name="editfield" ref="editfield-search"/>
+
+		<theme name="hud-panel-invis" ref="hud-panel" allowWildcard="true">
+			<param name="background"><image>none</image></param>
+			<theme name="battle-button-return" ref="button">
+				<param name="background"><image>mobile.rbox.dark3.50</image></param>
+				<param name="minWidth"><int>180</int></param>
+				<param name="minHeight"><int>56</int></param>
+			</theme>
+			<theme name="dialoglayout" ref="dialoglayout">
+				<theme name="battle-button" ref="-defaults" allowWildcard="true">
+					<param name="background"><image>mobile.battle.mon.background</image></param>
+					<param name="font"><font>med-noshadow-18-white</font></param>
+					<param name="font2"><font>med-noshadow-18-white</font></param>
+					<param name="border"><border>7,5</border></param>
+					<theme name="label" ref="label" allowWildcard="true">
+						<param name="border"><border>3,4</border></param>
+						<param name="font"><font>med-noshadow-18-white</font></param>
+					</theme>
+					<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+				</theme>
+			</theme>
+		</theme>
+
+		<theme name="tm-learn-inner-panel" ref="hud-panel-invis" allowWildcard="true">
+			<param name="background"><image>label1.background</image></param>
+			<param name="border"><border>8,5</border></param>
+			<theme name="dialoglayout" ref="dialoglayout">
+					<param name="background"><image>mobile.box.dark1</image></param>
+			</theme>
+		</theme>
+
+		<theme name="label" ref="label">
+			<param name="font"><font>med-noshadow-22-white</font></param>
+		</theme>
+
+		<theme name="tm-target-inner-panel" ref="hud-panel-invis" allowWildcard="true">
+
+			<param name="background"><image>label1.background</image></param>
+			<theme name="dialoglayout" ref="dialoglayout">
+				<param name="border"><border>8,5</border></param>
+				<param name="background"><image>mobile.box.dark1</image></param>
+			</theme>
+      <theme name="battle-button-return" ref="battle-button-return">
+
+        <param name="background"><image>label1.background</image></param>
+      </theme>
+		</theme>
+
+		<theme name="dialoglayout" ref="-defaults">
+			<param name="border"><border>61,0,0,0</border></param>
+			<param name="defaultGap"><dimension>0,0</dimension></param>
+			<param name="smallGap"><dimension>8,8</dimension></param>
+			<param name="mediumGap"><dimension>10,10</dimension></param>
+			<param name="largeGap"><dimension>15,15</dimension></param>
+			<param name="namedGaps"><map/></param>
+			<theme name="tabbedpane" ref="-defaults">
+				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+				<param name="background"><image>none</image></param>
+				<param name="minWidth"><int>1</int></param>
+				<param name="minHeight"><int>1</int></param>
+				<param name="border"><border>0,0,0,0</border></param>
+				<theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true"/>
+				<theme name="container" ref="-defaults">
+					<param name="border"><border>0,15,0,0</border></param>
+					<param name="background"><image>none</image></param>
+					<theme name="dialoglayout" ref="-defaults">
+						<theme name="scrollpane" ref="scrollpane" allowWildcard="true">
+							<theme name="vscrollbar" ref="vscrollbar"/>
+							<theme name="dialoglayout" ref="-dialog">
+								<param name="border"><border>0,0,0,5</border></param>
+
+								<theme name="label" ref="label">
+									<param name="font"><font>med-shadow-22-white</font></param>
+								</theme>
+							</theme>
+						</theme>
+						<param name="defaultGap"><dimension>5,5</dimension></param>
+						<param name="smallGap"><dimension>8,8</dimension></param>
+						<param name="mediumGap"><dimension>10,10</dimension></param>
+						<param name="largeGap"><dimension>5,5</dimension></param>
+						<param name="namedGaps"><map/></param>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+
+	<theme name="inventory-item-info" ref="-defaults" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<theme name="label" ref="label">
+			<param name="font"><font>med-shadow-22-white</font></param>
+		</theme>
+		<theme name="tooltip-preview-widget" ref="-defaults">
+			<param name="minWidth"><int>310</int></param>
+			<param name="minHeight"><int>150</int></param>
+			<theme name="dialoglayout" ref="-defaults" allowWildcard="true">
+				<param name="background"><image>none</image></param>
+				<param name="border"><border>0</border></param>
+				<param name="defaultGap"><dimension>5,5</dimension></param>
+				<param name="smallGap"><dimension>8,8</dimension></param>
+				<param name="mediumGap"><dimension>10,10</dimension></param>
+				<param name="largeGap"><dimension>15,15</dimension></param>
+				<param name="namedGaps"><map/></param>
+
+				<theme name="preview-color-dialog" ref="color-dialog" allowWildcard="true">
+					<param name="border"><border>5</border></param>
+					<param name="background"><image>none</image></param>
+				</theme>
+				<theme name="label" ref="-defaults">
+				<param name="font"><font>med-shadow-18-white</font></param>
+					<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+				</theme>
+				<theme name="label-normal" ref="-defaults">
+				<param name="font"><font>med-shadow-18-white</font></param>
+					<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+				</theme>
+			</theme>
+		</theme>
+		<theme name="scrollpane" ref="scrollpane">
+			<theme name="vscrollbar" ref="vscrollbar">
+				<theme name="upbutton" ref="-defaults">
+					<param name="background"><image>none</image></param>
+					<param name="minHeight"><int>9</int></param>
+				</theme>
+				<theme name="downbutton" ref="-defaults">
+					<param name="background"><image>none</image></param>
+					<param name="minHeight"><int>9</int></param>
+				</theme>
+				<theme name="thumb" ref="-defaults">
+					<param name=""><image>vscrollbar-transparent.thumb.*</image></param>
+				</theme>
+			</theme>
+			<theme name="hscrollbar" ref="hscrollbar"/>
+			<theme name="label" ref="label">
+				<param name="font"><font>med-shadow-18-white</font></param>
+			</theme>
+		</theme>
+		<theme name="button" ref="button">
+			<param name="minWidth"><int>180</int></param>
+			<param name="minHeight"><int>56</int></param>
+			<param name="background"><image>label1.background</image></param>
+		</theme>
+	</theme>
+
+	<theme name="tm-button" ref="-defaults" allowWildcard="true">
+		<param name=""><image>mobile.button.50.*</image></param>
+		<param name="border"><border>0,0,14,0</border></param>
+		<param name="font"><font>med-noshadow-22-white</font></param>
+		<param name="font2"><font>med-noshadow-18-white</font></param>
+		<param name="minWidth"><int>196</int></param>
+		<param name="maxWidth"><int>196</int></param>
+		<param name="minHeight"><int>65</int></param>
+		<param name="maxHeight"><int>65</int></param>
+		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>
+	</theme>
+
+	<!-- Inventory Tab Button -->
+	<theme name="inventory-tab-empty" ref="-defaults" allowWildcard="true">
+		<param name=""><image>mobile.tab.inset.*</image></param>
+		<param name="minWidth"><int>160</int></param>
+		<param name="border"><border>15,64,15,10</border></param>
+		<param name="font"><font>med-shadow-22-white</font></param>
+	</theme>
+
+	<!-- Item Slot -->
+	<theme name="inventory-button" ref="-defaults" allowWildcard="true">
+		<param name=""><image>mobile.button.50.*</image></param>
+		<param name="border"><border>0,0,0,0</border></param>
+		<param name="font"><font>normal</font></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+	</theme>
+
+	<theme name="item-move-dialog-button" ref="-defaults" allowWildcard="true">
+		<param name="font"><font>med-shadow-22-white</font></param>
+		<param name="font2"><font>med-shadow-18-white</font></param>
+		<param name="border"><border>10</border></param>
+		<param name="background"><image>mobile.rbox.light1-60</image></param>
+		<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+		<param name="textAlignment2"><enum type="alignment">BOTTOMLEFT</enum></param>
+		<param name="minWidth"><int>260</int></param>
+		<param name="minHeight"><int>60</int></param>
+	</theme>
+
+	<theme name="item-use-dialog-button" ref="-defaults" allowWildcard="true">
+		<param name="font"><font>med-shadow-22-white</font></param>
+		<param name="font2"><font>med-shadow-18-white</font></param>
+		<param name="border"><border>10</border></param>
+		<param name=""><image>label1.*</image></param>
+		<param name="textAlignment"><enum type="alignment">TOP</enum></param>
+		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>
+		<param name="minWidth"><int>250</int></param>
+		<param name="minHeight"><int>60</int></param>
+	</theme>
+
+	<theme name="hotkeybar" ref="resizableframe">
+		<param name="background"><image>none</image></param>
+		<param name="titleAreaTop"><int>0</int></param>
+		<param name="titleAreaLeft"><int>0</int></param>
+		<param name="titleAreaRight"><int>0</int></param>
+		<param name="titleAreaBottom"><int>0</int></param>
+		<param name="hasCloseButton"><bool>false</bool></param>
+		<param name="closeButtonX"><int>0</int></param>
+		<param name="closeButtonY"><int>0</int></param>
+		<param name="hasResizeHandle"><bool>false</bool></param>
+		<param name="resizeHandleX"><int>0</int></param>
+		<param name="resizeHandleY"><int>0</int></param>
+		<param name="fadeColorInactive"><color>#FFFFFFFF</color></param>
+		<param name="fadeDurationActivate"><int>150</int></param>
+		<param name="fadeDurationDeactivate"><int>150</int></param>
+		<param name="fadeDurationShow"><int>0</int></param>
+		<param name="fadeDurationHide"><int>0</int></param>
+		<param name="mouseCursor"><cursor>mouseCursor.*</cursor></param>
+		<theme name="title" ref="-defaults">
+			<param name="textAlignment"><enum type="alignment">left</enum></param>
+			<param name="font"><font>alphabeta</font></param>
+		</theme>
+		<theme name="closeButton" ref="-defaults"/>
+		<theme name="resizeHandle" ref="-defaults"/>
+		<param name="border"><border>0,0,0,0</border></param>
+		<theme name="content" ref="-defaults">
+			<param name="defaultGap"><dimension>10,14</dimension></param>
+			<param name="border"><border>5</border></param>
+			<param name="smallGap"><dimension>8,8</dimension></param>
+			<param name="mediumGap"><dimension>10,10</dimension></param>
+			<param name="largeGap"><dimension>15,15</dimension></param>
+			<param name="namedGaps"><map/></param>
+
+			<theme name="item-slot" ref="-defaults">
+				<param name="background"><image>label1.background</image></param>
+				<param name="border"><border>5</border></param>
+				<param name="font"><font>med-shadow-16-white</font></param>
+				<param name="font2"><font>med-shadow-16-white</font></param>
+				<param name="minWidth"><int>90</int></param>
+				<param name="minHeight"><int>60</int></param>
+				<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+				<param name="textAlignment2"><enum type="alignment">BOTTOMRIGHT</enum></param>
+			</theme>
+		</theme>
+	</theme>
+</themes>

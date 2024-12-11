@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<theme name="itemshop-mobile" ref="itemshop">
+		<param name="background"><image>mobile.window.background</image></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>1</int></param>
+		<param name="titleAreaTop"><int>15</int></param>
+		<param name="titleAreaLeft"><int>15</int></param>
+		<param name="titleAreaRight"><int>-1</int></param>
+		<param name="titleAreaBottom"><int>50</int></param>
+		<param name="closeButtonX"><int>-64</int></param>
+		<param name="closeButtonY"><int>0</int></param>
+		<theme name="title" ref="label" allowWildcard="true">
+			<param name="font"><font>xlarge</font></param>
+		</theme>
+		<theme name="closeButton" ref="-defaults">
+			<param name="background"><image>mobile.icons.close</image></param>
+			<param name="minWidth"><int>60</int></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+
+		<param name="background"><image>none</image></param>
+		<param name="border"><border>0</border></param>
+
+		<theme name="itemshop-dialoglayout-left" ref="-defaults">
+			<param name="background"><image>mobile.rbox.dark1</image></param>
+			<param name="border"><border>0</border></param>
+			<param name="defaultGap"><dimension>5,5</dimension></param>
+			<param name="smallGap"><dimension>8,8</dimension></param>
+			<param name="mediumGap"><dimension>10,10</dimension></param>
+			<param name="largeGap"><dimension>15,15</dimension></param>
+			<param name="namedGaps"><map/></param>
+		</theme>
+		<theme name="dialoglayout" ref="-defaults">
+			<theme name="label-area-market" ref="-defaults">
+				<param name="background"><image>mobile.box.dark3</image></param>
+				<param name="border"><border>15</border></param>
+				<param name="defaultGap"><dimension>5,5</dimension></param>
+				<param name="smallGap"><dimension>8,8</dimension></param>
+				<param name="mediumGap"><dimension>10,10</dimension></param>
+				<param name="largeGap"><dimension>15,15</dimension></param>
+				<param name="namedGaps"><map/></param>
+				<theme name="label" ref="label" allowWildcard="true">
+					<param name="font"><font>med-noshadow-18-white</font></param>
+				</theme>
+				<theme name="scrollpane" ref="scrollpane">
+					<theme name="label" ref="label" allowWildcard="true">
+            <param name="font">
+              <font>med-noshadow-18-white</font>
+            </param>
+					</theme>
+				</theme>
+			</theme>
+
+			<theme name="label" ref="label" allowWildcard="true">
+				<param name="font"><font>xlarge</font></param>
+			</theme>
+
+			<theme name="button" ref="button" allowWildcard="true">
+				<param name="border"><border>25,20</border></param>
+				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+				<param name="font"><font>xlarge</font></param>
+			</theme>
+			
+			<theme name="valueadjuster" ref="mobile-valueadjuster" overwrite="true">
+				<param name="minHeight"><int>65</int></param>
+				<param name="minWidth"><int>250</int></param>
+				<theme name="decButton" ref="decButton">
+					<param name="minWidth"><int>65</int></param>
+				</theme>
+				<theme name="incButton" ref="incButton">
+					<param name="minWidth"><int>65</int></param>
+				</theme>
+				<theme name="valueDisplay" ref="valueDisplay">
+					<param name="minWidth"><int>100</int></param>
+				</theme>
+				<theme name="valueEdit" ref="valueEdit">
+					<theme name="renderer" ref="renderer">
+						<param name="font"><font>med-noshadow-18-white</font></param>
+						<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+					</theme>
+				</theme>
+			</theme>
+
+			<param name="border"><border>0</border></param>
+			<param name="defaultGap"><dimension>5,5</dimension></param>
+			<param name="smallGap"><dimension>8,8</dimension></param>
+			<param name="mediumGap"><dimension>10,10</dimension></param>
+			<param name="largeGap"><dimension>15,15</dimension></param>
+			<param name="namedGaps"><map/></param>
+		
+			<theme name="tabbedpane" ref="base-tabbed-pane">
+				<param name="background"><image>mobile.box.dark1</image></param>
+				<param name="minWidth"><int>200</int></param>			   
+				<param name="border"><border>0</border></param>
+				<theme name="tabbox" ref="mobile-tabbox" overwrite="true">
+					<theme name="tabbutton" ref="tabbutton">
+						<param name="font"><font>xlarge</font></param>
+					</theme>
+				</theme>
+				<theme name="container" ref="-defaults">
+					<param name="border"><border>5,5,4,2</border></param>
+					<theme name="dialoglayout" ref="-defaults">
+						<param name="background"><image>none</image></param>
+						<param name="minHeight"><int>100</int></param>
+						<param name="border"><border>background.border</border></param>
+						<param name="defaultGap"><dimension>5,5</dimension></param>
+						<param name="smallGap"><dimension>8,8</dimension></param>
+						<param name="mediumGap"><dimension>10,10</dimension></param>
+						<param name="largeGap"><dimension>15,15</dimension></param>
+						<param name="namedGaps"><map/></param>
+						<theme name="scrollpane" ref="scrollpane" allowWildcard="true">
+							<theme name="vscrollbar" ref="vscrollbar-black"/>
+						</theme>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+
+	<!-- font override for market buttons -->
+	<theme name="market-button" ref="button" allowWildcard="true">
+		<param name=""><image>mobile.button.dark3.50.*</image></param>
+		<param name="border"><border>64,10</border></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		<param name="font"><font>xlarge</font></param>
+	</theme>	
+
+	<!-- game shop -->
+	<theme name="mobile-gameshop" ref="gameshop">
+		<param name="background"><image>mobile.window.bottom.background.lightblue</image></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>1</int></param>
+		<param name="titleAreaTop"><int>15</int></param>
+		<param name="titleAreaLeft"><int>15</int></param>
+		<param name="titleAreaRight"><int>-1</int></param>
+		<param name="titleAreaBottom"><int>50</int></param>
+		<param name="closeButtonX"><int>-64</int></param>
+		<param name="closeButtonY"><int>2</int></param>
+		<theme name="title" ref="label" allowWildcard="true">
+			<param name="font"><font>xlarge</font></param>
+		</theme>
+		<theme name="closeButton" ref="-defaults">
+			<param name="background"><image>mobile.icons.close</image></param>
+			<param name="minWidth"><int>60</int></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+		<theme name="combobox" ref="mobile-combobox" overwrite="true">
+			<param name="background"><image>mobile.box.light1</image></param>
+		</theme>
+		<theme name="sortby" ref="-defaults">
+			<param name="font"><font>med-noshadow-18-white</font></param>
+		</theme>
+		<theme name="points" ref="-defaults">
+			<param name="background"><image>none</image></param>
+			<param name="font"><font>med-noshadow-18-white</font></param>
+			<param name="border"><border>5</border></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+		<theme name="button" ref="button">
+			<param name="background"><image>mobile.box.light1</image></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="border"><border>30,0,50,0</border></param>
+			<theme name="tabbedpane" ref="base-tabbed-pane">
+				<param name="tabPosition"><enum type="tabposition">RIGHT</enum></param>
+				<param name="border"><border>0,0,0,0</border></param>
+				<theme name="tabbox" ref="mobile-tabbox" overwrite="true"/>
+				<param name="minWidth"><int>250</int></param>
+				<param name="background"><image>none</image></param>
+				<theme name="container" ref="-defaults">
+					<param name="border"><border>0,0,0,0</border></param>
+					<theme name="dialoglayout" ref="-defaults">
+
+						<param name="background"><image>none</image></param>
+						<theme name="dialoglayout" ref="-dialog">
+							<theme name="tabbedpane" ref="tabbedpane">
+								<param name="tabPosition"><enum type="tabposition">RIGHT</enum></param>
+								<param name="minWidth"><int>250</int></param>
+								<param name="background"><image>none</image></param>
+								<param name="border"><border>0,0,0,0</border></param>
+								<theme name="tabbox" ref="mobile-tabbox" overwrite="true">
+									<theme name="tabbutton" ref="tabbutton">
+										<param name="minWidth"><int>160</int></param>
+									</theme>
+								</theme>
+								<theme name="container" ref="-dialog">
+									<param name="border"><border>0,0,0,10</border></param>
+									<theme name="scrollpane" ref="scrollpane">
+										<param name="minWidth"><int>838</int></param>
+										<param name="maxWidth"><int>838</int></param>
+									</theme>
+									<theme name="sp" ref="scrollpane">
+										<theme name="vscrollbar" ref="vscrollbar"/>
+										<theme name="hscrollbar" ref="hscrollbar"/>
+
+										<param name="border"><border>0,0,0,0</border></param>
+									</theme>
+								</theme>
+							</theme>
+						</theme>
+						<param name="border"><border>0,10,10,10</border></param>
+						<param name="minWidth"><int>750</int></param>
+						<param name="maxWidth"><int>750</int></param>
+						<param name="defaultGap"><dimension>5,5</dimension></param>
+						<param name="smallGap"><dimension>8,8</dimension></param>
+						<param name="mediumGap"><dimension>10,10</dimension></param>
+						<param name="largeGap"><dimension>15,15</dimension></param>
+						<param name="namedGaps"><map/></param>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+
+	<theme name="gameshop-item" ref="-defaults" allowWildcard="true">
+		<param name="background"><image>mobile.rbox.dark3.50</image></param>
+		<param name="border"><border>10,5,5,5</border></param>
+		<param name="defaultGap"><dimension>5,5</dimension></param>
+		<param name="smallGap"><dimension>8,8</dimension></param>
+		<param name="mediumGap"><dimension>10,10</dimension></param>
+		<param name="largeGap"><dimension>15,15</dimension></param>
+		<param name="minWidth"><int>420</int></param>
+		<param name="maxWidth"><int>500</int></param>
+		<param name="namedGaps"><map/></param>
+		<theme name="label" ref="-defaults">
+			<param name="font"><font>med-shadow-16-white</font></param>
+			<param name="minWidth"><int>310</int></param>
+		</theme>
+		<theme name="button" ref="button">
+			<param name="background"><image>mobile.rbox.light1</image></param>
+		</theme>
+		<theme name="item-name" ref="-defaults">
+			<param name="textAlignment"><enum type="alignment">center</enum></param>
+			<param name="font"><font>med-shadow-18-white</font></param>
+			<param name="background"><image>none</image></param>
+			<param name="border"><border>3</border></param>
+		</theme>
+		<theme name="button" ref="button">
+			<param name="font"><font>med-noshadow-18-white</font></param>
+			<param name="minWidth"><int>80</int></param>
+			<param name="minHeight"><int>50</int></param>
+		</theme>
+		<theme name="label-special" ref="-defaults">
+			<param name="background"><image>none</image></param>
+			<param name="minWidth"><int>57</int></param>
+			<param name="minHeight"><int>57</int></param>
+			<param name="maxWidth"><int>57</int></param>
+			<param name="maxHeight"><int>57</int></param>
+			<param name="font"><font>med-shadow-18-white</font></param>
+		</theme>
+		<theme name="label-price" ref="-defaults">
+			<param name="background"><image>mobile.round.label.yellow</image></param>
+			<param name="minWidth"><int>110</int></param>
+			<param name="border"><border>10,0</border></param>
+			<param name="font"><font>med-noshadow-22-white</font></param>
+			<param name="textAlignment"><enum type="alignment">center</enum></param>
+		</theme>
+		<theme name="label-discount" ref="-defaults">
+			<param name="background"><image>mobile.round.label.green</image></param>
+			<param name="minWidth"><int>110</int></param>
+			<param name="border"><border>10,0</border></param>
+			<param name="font"><font>med-noshadow-22-white</font></param>
+			<param name="textAlignment"><enum type="alignment">center</enum></param>
+		</theme>
+	</theme>
+
+	<theme name="gameshop-item-addon" ref="gameshop-item" overwrite="true">
+		<param name="background"><image>mobile.rbox.dark3.50</image></param>
+		<param name="minWidth"><int>430</int></param>
+		<param name="maxWidth"><int>500</int></param>
+		<param name="maxHeight"><int>400</int></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="minWidth"><int>430</int></param>
+			<param name="border"><border>0,5,0,5</border></param>
+			<param name="defaultGap"><dimension>2,2</dimension></param>	
+			<theme name="label" ref="-defaults">
+				<param name="background"><image>mobile.round.label.yellow</image></param>
+				<param name="minWidth"><int>110</int></param>
+				<param name="border"><border>10,0</border></param>
+				<param name="font"><font>med-noshadow-22-white</font></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+			</theme>
+			<theme name="button" ref="button">
+				<param name="background"><image>mobile.rbox.light1</image></param>
+			</theme>
+			<theme name="spritelabel" ref="spritelabel">
+				<param name="background"><image>mobile.bigcircle.white</image></param>
+			</theme>
+			<theme name="item-name" ref="-defaults">
+				<param name="minWidth"><int>420</int></param>
+				<param name="border"><border>0</border></param>
+				<param name="font"><font>med-shadow-22-white</font></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+			</theme>
+			<theme name="item-name-mixed" ref="item-name">
+				<param name="minWidth"><int>490</int></param>
+			</theme>
+			<theme name="item-name-extra" ref="item-name">
+				<param name="font"><font>med-shadow-16-white</font></param>
+			</theme>
+			<theme name="label-special" ref="-defaults">
+				<param name="background"><image>none</image></param>
+				<param name="minWidth"><int>57</int></param>
+				<param name="minHeight"><int>57</int></param>
+				<param name="maxWidth"><int>57</int></param>
+				<param name="maxHeight"><int>57</int></param>
+			</theme>
+			<theme name="label-price" ref="-defaults">
+				<param name="background"><image>mobile.round.label.yellow</image></param>
+				<param name="minWidth"><int>110</int></param>
+				<param name="border"><border>10,0</border></param>
+				<param name="font"><font>med-noshadow-22-white</font></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+			</theme>
+			<theme name="label-discount" ref="-defaults">
+				<param name="background"><image>mobile.round.label.green</image></param>
+				<param name="minWidth"><int>110</int></param>
+				<param name="border"><border>10,0</border></param>
+				<param name="font"><font>med-noshadow-22-white</font></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="gameshop-item-addon-limited" ref="gameshop-item-addon" overwrite="true">
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="defaultGap"><dimension>2,2</dimension></param>
+			<theme name="limited-time" ref="label">
+				<param name="background"><image>mobile.round.label.red</image></param>
+				<param name="textAlignment"><enum type="alignment">center</enum></param>
+				<param name="font"><font>med-noshadow-18-white</font></param>
+			</theme>
+			<theme name="label-special" ref="-defaults">
+				<param name="border"><border>0,0</border></param>
+				<param name="background"><image>shop-item-limited.background</image></param>
+				<param name="minWidth"><int>57</int></param>
+				<param name="minHeight"><int>57</int></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="gameshop-item-addon-seasonal" ref="gameshop-item-addon-limited" overwrite="true">
+		<theme name="dialoglayout" ref="dialoglayout">
+			<theme name="label-special" ref="-defaults">
+				<param name="background"><image>shop-item-seasonal.background</image></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="gameshop-item-addon-sale" ref="gameshop-item-addon-limited" overwrite="true">
+		<theme name="dialoglayout" ref="dialoglayout">
+			<theme name="label-special" ref="-defaults">
+				<param name="background"><image>shop-item-sale.background</image></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="gameshop-item-addon-new" ref="gameshop-item-addon-limited" overwrite="true">
+		<theme name="dialoglayout" ref="dialoglayout">
+			<theme name="label-special" ref="-defaults">
+				<param name="background"><image>shop-item-new.background</image></param>
+			</theme>
+		</theme>
+	</theme>
+
+	<theme name="gameshop-item-limited" ref="gameshop-item" allowWildcard="true" overwrite="true">
+		<theme name="label-special" ref="-defaults">
+			<param name="background"><image>shop-item-limited.background</image></param>
+			<param name="minWidth"><int>57</int></param>
+			<param name="minHeight"><int>57</int></param>
+		</theme>
+		<theme name="limited-time" ref="label">
+			<param name="background"><image>mobile.round.label.red</image></param>
+			<param name="textAlignment"><enum type="alignment">center</enum></param>
+			<param name="font"><font>med-noshadow-18-white</font></param>
+		</theme>
+	</theme>
+
+	<theme name="gameshop-item-seasonal" ref="gameshop-item-limited" allowWildcard="true" overwrite="true">
+		<theme name="label-special" ref="-defaults">
+			<param name="background"><image>shop-item-seasonal.background</image></param>
+		</theme>
+	</theme>
+	
+	<theme name="gameshop-item-sale" ref="gameshop-item-limited" allowWildcard="true" overwrite="true">
+		<theme name="label-special" ref="-defaults">
+			<param name="background"><image>shop-item-sale.background</image></param>
+		</theme>
+	</theme>
+	
+	<theme name="gameshop-item-new" ref="gameshop-item-limited" allowWildcard="true" overwrite="true">
+		<theme name="label-special" ref="-defaults">
+			<param name="background"><image>shop-item-new.background</image></param>
+		</theme>
+	</theme>
+</themes>

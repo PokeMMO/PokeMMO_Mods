@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- This file is only for purpose of loading the theme file with TWL Themer -->
+	
+	<!-- 
+	Constant color defs defined by user in settings
+	They are only defined here so TWL Themer loads properly
+	-->
+	<constantDef name="main-color"><color>#ffffff</color></constantDef>
+	<constantDef name="sub-color"><color>#ffffff</color></constantDef>
+	<constantDef name="title-color"><color>#ffffff</color></constantDef>
+	<constantDef name="effectivity_buttons_lang">res/effectivity_buttons_en.png</constantDef>
+	<constantDef name="gameshop_lang">res/gameshop_en.png</constantDef>
+
+	<include filename="theme.xml"/>
+</themes>

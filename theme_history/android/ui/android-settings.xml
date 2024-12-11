@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<theme name="settings-panel" ref="mobile-panel" overwrite="true">
+		<param name="border"><border>0,0,0,0</border></param>
+		<param name="background"><image>mobile.window.onebar.background</image></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="border"><border>0,0,0,0</border></param>
+			<theme name="tabbedpane" ref="base-tabbed-pane">
+				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+				<param name="background"><image>none</image></param>
+				<param name="border"><border>60,0,0,0</border></param>
+				<theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true"/>
+				<theme name="container" ref="-defaults">
+					<param name="border"><border>0,0,0,0</border></param>
+					<theme name="settings-scrollpane" ref="scrollpane">
+						<param name="border"><border>0,0,0,0</border></param>
+						<theme name="vscrollbar" ref="vscrollbar"/>
+						<theme name="hscrollbar" ref="hscrollbar"/>
+						 <param name="background"><image>none</image></param>
+						 <param name="border"><border>15</border></param>
+						 <param name="minWidth"><int>1080</int></param>
+						 <param name="maxWidth"><int>800</int></param>
+						 <param name="minHeight"><int>650</int></param>
+						 <param name="defaultGap"><dimension>5,5</dimension></param>
+						 <param name="smallGap"><dimension>8,8</dimension></param>
+						 <param name="mediumGap"><dimension>10,10</dimension></param>
+						 <param name="largeGap"><dimension>15,15</dimension></param>
+						 <param name="namedGaps"><map/></param>
+					</theme>
+				</theme>
+				<param name="inputMap"><inputMapDef>
+					<action name="nextTab">CTRL TAB</action>
+					<action name="prevTab">CTRL SHIFT TAB</action>
+				</inputMapDef></param>
+			</theme>
+		</theme>
+	</theme>
+						  
+	<theme name="translate-link" ref="button">
+		<param name="font"><font>med-noshadow-18-white</font></param>
+		<param name="border"><border>10</border></param>
+		<param name="maxWidth"><int>1000</int></param>
+		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+	</theme>  
+	<theme name="label-settings-title" ref="label" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<param name="border"><border>0,8,0,8</border></param>
+		<param name="minWidth"><int>400</int></param>
+		<param name="font"><font>med-noshadow-18-white</font></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+	</theme>
+	<theme name="label-settings-title-small" ref="label-settings-title" overwrite="true" allowWildcard="true">
+		<param name="minWidth"><int>80</int></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+	</theme>
+
+	<theme name="label-settings-value" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<param name="border"><border>0</border></param>
+		<param name="font"><font>22pt-gray</font></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		<theme name="label" ref="label" overwrite="true">
+			<param name="font"><font>med-noshadow-18-white</font></param>
+		</theme>
+		<theme name="button" ref="button">
+			<param name="font"><font>med-noshadow-18-white</font></param>
+			<param name="border"><border>0</border></param>
+			<param name="minWidth"><int>300</int></param>
+			<param name="minHeight"><int>50</int></param>
+		</theme>
+		<theme name="togglebutton" ref="togglebutton">
+			<param name="minWidth"><int>300</int></param>
+			<param name="minHeight"><int>50</int></param>
+			<param name="border"><border>0</border></param>
+		</theme>
+		<theme name="togglebutton-small" ref="togglebutton">
+			<param name="minWidth"><int>50</int></param>
+			<param name="minHeight"><int>50</int></param>
+			<param name="border"><border>0</border></param>
+		</theme>
+		<theme name="combobox" ref="mobile-combobox-50" overwrite="true"/>
+	</theme>
+	
+	<theme name="label-settings-value-small" ref="label-settings-value" overwrite="true">
+		<param name="minWidth"><int>80</int></param>
+		<theme name="togglebutton" ref="togglebutton">
+			<param name="minWidth"><int>80</int></param>
+			<param name="minHeight"><int>50</int></param>
+			<param name="border"><border>0</border></param>
+		</theme>
+	</theme>
+	
+	<theme name="label-settings-vai" ref="mobile-valueadjuster-50" overwrite="true"/>
+
+	<theme name="mods-panel" ref="mobile-panel" overwrite="true">
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>200</int></param>
+		<param name="border"><border>0</border></param>
+		<theme name="dialoglayout" ref="-dialog">
+			<param name="defaultGap"><dimension>5,5</dimension></param>
+			<param name="border"><border>60,15,0,15</border></param>
+
+			<theme name="scrollpane" ref="scrollpane">
+				<theme name="settings-label-area" ref="-dialog">
+					<param name="defaultGap"><dimension>5,5</dimension></param>
+					
+					<!-- each instance of mod -->
+					<theme name="dialoglayout" ref="-dialog">
+						<param name="defaultGap"><dimension>5,2</dimension></param>
+						<theme name="label-settings-title" ref="label-settings-title">
+							<param name="background"><image>label1.background</image></param>
+						</theme>
+						<theme name="label-settings-value-modbuttons" ref="-dialog">
+							<param name="defaultGap"><dimension>1,1</dimension></param>
+							<param name="background"><image>none</image></param>
+							<param name="textAlignment"><enum type="alignment">left</enum></param>
+							<param name="border"><border>3,0,0,0</border></param>
+							<param name="font"><font>alphabeta</font></param>
+							<param name="maxWidth"><int>250</int></param>
+							<param name="minWidth"><int>100</int></param>
+							<theme name="togglebutton" ref="togglebutton">
+								<param name="minHeight"><int>48</int></param>
+							</theme>
+							<theme name="button-symbol" ref="button-symbol">
+								<param name="minHeight"><int>48</int></param>
+							</theme>
+						</theme>
+					</theme>
+					<theme name="label" ref="label">
+						<param name="font"><font>med-noshadow-22-white</font></param>
+					</theme>
+				</theme>
+			</theme>
+			<theme name="label" ref="label">
+				<param name="font"><font>med-noshadow-18-white</font></param>
+			</theme>
+			<theme name="button" ref="button">
+				<param name="minWidth"><int>200</int></param>
+				<param name="minHeight"><int>60</int></param>
+				<param name="font"><font>med-noshadow-22-white</font></param>
+				<param name="border"><border>0</border></param>
+				<param name="background"><image>mobile.box.light1</image></param>
+			</theme>
+		</theme>
+	</theme>
+	
+	<theme name="rom-panel" ref="mobile-panel" overwrite="true">
+		<param name="border"><border>0</border></param>
+		<theme name="dialoglayout" ref="dialoglayout">
+			 <param name="border"><border>60,15,80,15</border></param>
+			 <theme name="dialoglayout" ref="-defaults">
+				 <param name="background"><image>mobile.frame.background</image></param>
+				 <param name="border"><border>80,15,60,15</border></param>
+				 <param name="minWidth"><int>200</int></param>
+				 <param name="defaultGap"><dimension>5,5</dimension></param>
+				 <param name="smallGap"><dimension>8,8</dimension></param>
+				 <param name="mediumGap"><dimension>10,10</dimension></param>
+				 <param name="largeGap"><dimension>15,15</dimension></param>
+				 <param name="namedGaps"><map/></param>
+				 <theme name="button" ref="button">
+					<param name="minWidth"><int>300</int></param>
+					<param name="minHeight"><int>55</int></param>
+					<param name="font"><font>med-noshadow-22-white</font></param>
+					<param name="border"><border>0,8,0,8</border></param>
+				 </theme>
+							
+				 <theme name="label-settings-title" ref="label" allowWildcard="true">
+					 <param name="background"><image>none</image></param>
+					 <param name="border"><border>0,8,0,8</border></param>
+					 <param name="minWidth"><int>400</int></param>
+					 <param name="font"><font>22pt-gray</font></param>
+					 <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+				 </theme>
+				
+				 <theme name="label" ref="label" allowWildcard="true">
+					 <param name="background"><image>none</image></param>
+					 <param name="border"><border>0,8,0,8</border></param>
+					 <param name="minWidth"><int>200</int></param>
+					 <param name="font"><font>22pt-gray</font></param>
+					 <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+				 </theme>
+				
+				 <theme name="label-set" ref="label" allowWildcard="true">
+					 <param name="background"><image>none</image></param>
+					 <param name="border"><border>0,8,0,8</border></param>
+					 <param name="minWidth"><int>200</int></param>
+					 <param name="font"><font>22pt-gray</font></param>
+					 <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+				 </theme>
+				 <theme name="combobox" ref="combobox" allowWildcard="true">
+					<param name="popupHeight"><int>150</int></param>
+					<theme name="display" ref="label">
+						<param name="font"><font>med-noshadow-22-white</font></param>
+						<param name="focus"><image>input.background</image></param>
+						 <param name="border"><border>0</border></param>
+						<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+					</theme>
+					<param name="font"><font>med-noshadow-22-white</font></param>
+					<param name="border"><border>0,8,0,8</border></param>
+					<param name=""><image>ui-button.*</image></param>
+					<param name="minWidth"><int>605</int></param>
+					<param name="minHeight"><int>55</int></param>
+					
+					<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+					<theme name="button" ref="-defaults">
+						<param name=""><image>ui-button-picker.*</image></param>
+						<param name="border"><border>0,0,0,5</border></param>
+					</theme>
+				</theme>
+				<theme name="combobox-small" ref="combobox" allowWildcard="true">
+					<param name="minWidth"><int>300</int></param>
+				</theme>
+			 </theme>
+		</theme>
+	</theme>
+</themes>

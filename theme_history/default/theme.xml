@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- Colors and stuff -->
+	<constantDef name="main-theme-color"><color>#6a889b</color></constantDef>
+	<!-- Overrides Button hover and inputbox select -->
+	<constantDef name="main-color"><color>#5db1ff</color></constantDef>
+	<constantDef name="sub-color"><color>#5db1ff</color></constantDef>
+	<constantDef name="tooltip-tint"><color>#FF565D63</color></constantDef>
+
+	<!-- Include Main Theme -->
+	<include filename="fonts.xml"/>
+	<!-- Must be included after all fonts are loaded -->
+	<fontGen/>
+	
+	<include filename="cursors.xml"/>
+	<include filename="gfx.xml"/>
+	<include filename="gfx_ui.xml"/>
+	<include filename="init.xml"/>
+	
+	<!-- Including rest of the GUI -->
+	<include filename="ui/main.xml"/>
+	<include filename="ui/battle.xml"/>
+	<include filename="ui/contest.xml"/>
+	<include filename="ui/party.xml"/>
+	<include filename="ui/inventory.xml"/>
+	<include filename="ui/chat.xml"/>
+	<include filename="ui/monster-dex.xml"/>
+	<include filename="ui/monster-frame.xml"/>
+	<include filename="ui/customization.xml"/>
+	<include filename="ui/settings.xml"/>
+	<include filename="ui/guild.xml"/>
+	<include filename="ui/matchmaking.xml"/>
+	<include filename="ui/social.xml"/>
+	<include filename="ui/instance.xml"/>
+	<include filename="ui/trade.xml"/>
+	<include filename="ui/shop.xml"/>
+	<include filename="ui/link.xml"/>
+	<include filename="ui/misc.xml"/>
+	<include filename="ui/broker.xml"/>
+  <include filename="ui/pc.xml"/>
+	<include filename="ui/staff.xml"/>
+	<include filename="main-widgets.xml"/>
+</themes>

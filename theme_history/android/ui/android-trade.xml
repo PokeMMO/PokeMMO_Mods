@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- Trade Frame -->
+	<theme name="trade-frame" ref="base-frame">
+		<param name="background"><image>mobile.window.background.green</image></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>1</int></param>
+		<param name="titleAreaTop"><int>15</int></param>
+		<param name="titleAreaLeft"><int>15</int></param>
+		<param name="titleAreaRight"><int>-1</int></param>
+		<param name="titleAreaBottom"><int>50</int></param>
+		<param name="closeButtonX"><int>-64</int></param>
+		<param name="closeButtonY"><int>0</int></param>
+		<theme name="title" ref="label" allowWildcard="true">
+			<param name="font"><font>xlarge</font></param>
+		</theme>
+		<theme name="closeButton" ref="-defaults">
+			<param name="background"><image>mobile.icons.close</image></param>
+			<param name="minWidth"><int>60</int></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+		<theme name="dialoglayout" ref="dialoglayout">
+			<param name="border"><border>60,0,0,0</border></param>
+			<param name="defaultGap"><dimension>5,5</dimension></param>
+			<param name="smallGap"><dimension>8,8</dimension></param>
+			<param name="mediumGap"><dimension>10,10</dimension></param>
+			<param name="largeGap"><dimension>15,15</dimension></param>
+			<param name="namedGaps"><map/></param>
+			<theme name="label" ref="label" allowWildcard="true">
+				<param name="font"><font>med-shadow-22-white</font></param>
+				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+				<param name="minWidth"><int>300</int></param>
+			</theme>
+			<theme name="dialoglayout" ref="-defaults">
+				<param name="background"><image>none</image></param>
+				<param name="border"><border>0</border></param>
+				<param name="defaultGap"><dimension>5,5</dimension></param>
+				<param name="smallGap"><dimension>8,8</dimension></param>
+				<param name="mediumGap"><dimension>10,10</dimension></param>
+				<param name="largeGap"><dimension>15,15</dimension></param>
+				<param name="namedGaps"><map/></param>
+				<theme name="pokeframe" ref="-defaults">
+					<param name="border"><border>0</border></param>
+					<param name="defaultGap"><dimension>10,5</dimension></param>
+					<param name="smallGap"><dimension>8,8</dimension></param>
+					<param name="mediumGap"><dimension>10,10</dimension></param>
+					<param name="largeGap"><dimension>15,15</dimension></param>
+					<param name="namedGaps"><map/></param>
+					<theme name="partyslot" ref="-defaults">
+						<param name="background"><image>mobile.circle.small.white</image></param>
+						<param name="border"><border>0</border></param>
+						<param name="defaultGap"><dimension>0,0</dimension></param>
+						<param name="smallGap"><dimension>8,8</dimension></param>
+						<param name="mediumGap"><dimension>10,10</dimension></param>
+						<param name="largeGap"><dimension>15,15</dimension></param>
+						<param name="namedGaps"><map/></param>
+						
+						<theme name="label" ref="label" allowWildcard="true">
+							<param name="font"><font>med-shadow-18-white</font></param>
+							<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+						</theme>
+					</theme>
+					<theme name="partyslot-shiny" ref="-defaults">
+						<param name="background"><image>mobile.circle.small.gold</image></param>
+						<param name="border"><border>0</border></param>
+						<param name="defaultGap"><dimension>0,0</dimension></param>
+						<param name="smallGap"><dimension>8,8</dimension></param>
+						<param name="mediumGap"><dimension>10,10</dimension></param>
+						<param name="largeGap"><dimension>15,15</dimension></param>
+						<param name="namedGaps"><map/></param>
+						
+						<theme name="label" ref="label" allowWildcard="true">
+							<param name="font"><font>med-shadow-18-white</font></param>
+							<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+						</theme>
+					</theme>
+					<theme name="item-slot" ref="-defaults">
+						<param name="minWidth"><int>70</int></param>
+						<param name="minHeight"><int>32</int></param>
+						<param name="background"><image>mobile.circle.small.white</image></param>
+						<param name="border"><border>8</border></param>
+						<param name="defaultGap"><dimension>5,5</dimension></param>
+						<param name="smallGap"><dimension>8,8</dimension></param>
+						<param name="mediumGap"><dimension>10,10</dimension></param>
+						<param name="largeGap"><dimension>15,15</dimension></param>
+						<param name="namedGaps"><map/></param>
+						<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+						<param name="font"><font>med-noshadow-16-gray</font></param>
+						<param name="font2"><font>med-noshadow-16-gray</font></param>
+					</theme>
+				</theme>
+				<theme name="label" ref="label" allowWildcard="true">
+					<param name="font"><font>med-shadow-22-white</font></param>
+					<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+				</theme>
+				<theme name="dialoglayout" ref="-defaults">
+					<param name="border"><border>8,5</border></param>
+					<param name="defaultGap"><dimension>5,5</dimension></param>
+					<param name="smallGap"><dimension>8,8</dimension></param>
+					<param name="mediumGap"><dimension>10,10</dimension></param>
+					<param name="largeGap"><dimension>15,15</dimension></param>
+					<param name="namedGaps"><map/></param>
+				</theme>
+				<theme name="label-horizontal-value" ref="label" allowWildcard="true">
+					<param name="background"><image>none</image></param>
+					<param name="textAlignment"><enum type="alignment">left</enum></param>
+					<param name="border"><border>7,5</border></param>
+					<param name="maxWidth"><int>100</int></param>
+					<param name="minHeight"><int>40</int></param>
+					<param name="font"><font>med-shadow-18-white</font></param>
+				</theme>
+				<theme name="valueadjuster-bg" ref="valueadjuster" allowWildcard="true">
+					<param name="font"><font>med-noshadow-18-white</font></param>
+					<theme name="decButton" ref="button">
+						<param name=""><image>ui-button.*</image></param>
+						<param name="text"><string>-</string></param>
+						<param name="border"><border>12,6</border></param>
+						<param name="minWidth"><int>40</int></param>
+						<param name="font"><font>med-noshadow-18-white</font></param>
+					</theme>
+					<theme name="incButton" ref="button">
+						<param name=""><image>ui-button.*</image></param>
+						<param name="text"><string>+</string></param>
+						<param name="border"><border>12,6</border></param>
+						<param name="minWidth"><int>40</int></param>
+						<param name="font"><font>med-noshadow-18-white</font></param>
+					</theme>
+					<theme name="valueDisplay" ref="button">
+						<param name=""><image>ui-button.*</image></param>
+						<param name="border"><border>0,6</border></param>
+						<param name="minWidth"><int>200</int></param>
+						<param name="font"><font>med-noshadow-18-white</font></param>
+					</theme>
+					<theme name="valueEdit" ref="editfield">
+						<theme name="renderer" ref="renderer">
+							<param name="font"><font>med-noshadow-18-white</font></param>
+							<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+						</theme>
+					</theme>
+				</theme>
+			</theme>
+		</theme>
+	</theme>
+</themes>

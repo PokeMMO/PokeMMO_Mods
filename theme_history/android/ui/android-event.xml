@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme name="event-tracker" ref="event-tracker">
+    <theme name="label" ref="label">
+      <param name="font"><font>med-shadow-16-white</font></param>
+    </theme>
+    <theme name="event-progressbar" ref="-defaults" allowWildcard="true">
+      <param name="fadeDurationShow"><int>200</int></param>
+      <param name="fadeDurationHide"><int>200</int></param>
+      <param name=""><image>progressbar-white.*</image></param>
+      <param name="border"><border>background.border</border></param>
+      <param name="minWidth"><int>200</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="event-progressbar-halloween" ref="event-progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.halloween.progressImage</image></param>
+      <param name="background"><image>none</image></param>
+      <param name="overlay"><image>mobile.progress.overlay</image></param>
+    </theme>
+    <theme name="event-progressbar-halloween-pumpcat" ref="event-progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.orange.progressImage</image></param>
+      <param name="background"><image>none</image></param>
+      <param name="overlay"><image>mobile.progress.overlay</image></param>
+    </theme>
+  </theme>
+</themes>
