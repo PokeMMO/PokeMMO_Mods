@@ -224,7 +224,8 @@
 			<alias ref="ui-box.default" tint="#6635a135"/>
 		</select>
 
-		<area name="ui-button.default" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4"/>
+    <area name="ui-button.default" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4"/>
+    <area name="ui-button.default.selected" tint="#FF999999" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4"/>
 		<area name="ui-button.pressed.background" xywh="290,116,29,29" splitx="L4,R4" splity="T4,B4"/>
 
     <area name="ui-button.selected.background" tint="main-color" xywh="353,147,29,29" splitx="L4,R4" splity="T4,B4"/>
@@ -270,6 +271,17 @@
       <alias ref="ui-button.hover-animation"/>
 		</composed>
 
+    <composed name="ui-button.selected.alt">
+      <alias ref="ui-button.default.selected"/>
+      <alias ref="ui-button.selected.background"/>
+    </composed>
+
+    <composed name="ui-button.selected.hover.alt">
+      <alias ref="ui-button.default.selected"/>
+      <alias ref="ui-button.selected.background"/>
+      <alias ref="ui-button.hover-animation"/>
+    </composed>
+
     <composed name="ui-button.disabled.selected">
       <alias ref="ui-button.disabled"/>
       <alias ref="ui-button.selected.background"/>
@@ -281,17 +293,31 @@
       <alias ref="ui-button.hover-animation"/>
     </composed>
 
-		<select name="ui-button.background">
-			<alias ref="ui-button.disabled.hover" if="disabled + hover"/>
-			<alias ref="ui-button.disabled.selected" if="disabled + (hover | keyboardFocus | selected)"/>
-			<alias ref="ui-button.disabled" if="disabled"/>
-			<!--<alias ref="ui-button.disabled" if="disabled"/>-->
-			<alias ref="ui-button.pressed" if="pressed"/>
-			<alias ref="ui-button.selected.hover" if="hover + (keyboardFocus)"/>
-			<alias ref="ui-button.selected" if="keyboardFocus"/>
-			<alias ref="ui-button.hover" if="hover"/>
-			<alias ref="ui-button.default"/>
-		</select>
+    <select name="ui-button.background">
+      <alias ref="ui-button.disabled.hover" if="disabled + hover"/>
+      <alias ref="ui-button.disabled.selected" if="disabled + (hover | keyboardFocus | selected)"/>
+      <alias ref="ui-button.disabled" if="disabled"/>
+      <!--<alias ref="ui-button.disabled" if="disabled"/>-->
+      <alias ref="ui-button.pressed" if="pressed"/>
+      <alias ref="ui-button.selected.hover" if="hover + (keyboardFocus)"/>
+      <alias ref="ui-button.selected" if="keyboardFocus"/>
+      <alias ref="ui-button.hover" if="hover"/>
+      <alias ref="ui-button.default"/>
+    </select>
+
+    <select name="ui-select-button.background">
+      <alias ref="ui-button.disabled.hover" if="disabled + hover"/>
+      <alias ref="ui-button.disabled.selected" if="disabled + (hover | keyboardFocus | selected)"/>
+      <alias ref="ui-button.disabled" if="disabled"/>
+      <!--<alias ref="ui-button.disabled" if="disabled"/>-->
+      <alias ref="ui-button.pressed" if="pressed"/>
+      <alias ref="ui-button.selected.hover.alt" if="hover + (keyboardFocus)"/>
+      <alias ref="ui-button.selected.alt" if="keyboardFocus"/>
+      <alias ref="ui-button.selected.hover.alt" if="hover + (selected)"/>
+      <alias ref="ui-button.selected.alt" if="selected"/>
+      <alias ref="ui-button.hover" if="hover"/>
+      <alias ref="ui-button.default"/>
+    </select>
 
 		<alias name="ui-button.background-defaultdex" ref="ui-button.background"/>
 

@@ -242,6 +242,9 @@
     <theme name="event-progressbar-halloween-pumpcat" ref="event-progressbar" allowWildcard="true">
       <param name=""><image>progressbar-orange.*</image></param>
     </theme>
+    <theme name="event-progressbar-xmas-hunt" ref="event-progressbar" allowWildcard="true">
+      <param name=""><image>progressbar-violet.*</image></param>
+    </theme>
   </theme>
   
 	<theme name="hudgui" ref="-defaults">

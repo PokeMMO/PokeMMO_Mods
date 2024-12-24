@@ -1151,6 +1151,9 @@
     <alias name="progressbar-orange.progressImage" tint="#c68a55" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-orange.background" ref="progressbar-white.background"/>
 
+    <alias name="progressbar-violet.progressImage" tint="#8b73bd" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-violet.background" ref="progressbar-white.background"/>
+
     <alias name="progressbar-halloween.progressImage" tint="#dd84fd" ref="progressbar-white.progressImage"/>
     <alias name="progressbar-halloween.background" ref="progressbar-white.background"/>
 

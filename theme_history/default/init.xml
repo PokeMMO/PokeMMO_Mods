@@ -106,7 +106,7 @@
 		<param name="fadeDurationHide"><int>200</int></param>
 		<param name="mouseCursor"><cursor>mouseCursor.*</cursor></param>
 		<theme name="title" ref="-defaults">
-		<param name="border"><border>0,5,2,0</border></param>
+		  <param name="border"><border>0,5,2,0</border></param>
 			<param name="textAlignment"><enum type="alignment">left</enum></param>
 			<param name="font"><font>title-font</font></param>
 		</theme>

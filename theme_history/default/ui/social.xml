@@ -116,6 +116,11 @@
 			</theme>
 			<!-- Titles -->
       <theme name="label-title" ref="label-value" allowWildcard="true">
+        <param name="defaultGap"><dimension>4,5</dimension></param>
+        <param name="smallGap"><dimension>8,8</dimension></param>
+        <param name="mediumGap"><dimension>10,10</dimension></param>
+        <param name="largeGap"><dimension>15,15</dimension></param>
+        <param name="namedGaps"><map/></param>
         <param name="background"><image>ui-header.background</image></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       </theme>

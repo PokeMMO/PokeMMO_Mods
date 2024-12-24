@@ -69,15 +69,24 @@
 
 		<area name="mobile.box.dark3.left" xywh="743,28,20,20" inset="0,-10,0,0" tint="#80FFFFFF"/>
 		<area name="mobile.circle.white" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B0FFFFFF"/>
-		<area name="mobile.circle.blue" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B000D0FF"/>
+    <area name="mobile.circle.blue" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B000D0FF"/>
 		<area name="mobile.circle.disabled" xywh="551,318,100,100" center="true" sizeOverwriteH="100" sizeOverwriteV="100" tint="#ffcccc"/>
 		<area name="mobile.circle.item.white" xywh="563,329,76,76" center="true" sizeOverwriteH="76" sizeOverwriteV="76" tint="#80FFFFFF"/>
 		<area name="mobile.circle.small.white" xywh="563,329,76,76" center="true" sizeOverwriteH="76" sizeOverwriteV="76" tint="#B0FFFFFF"/>
 		<area name="mobile.circle.small.gold" xywh="563,329,76,76" center="true" sizeOverwriteH="76" sizeOverwriteV="76" tint="#B0EADD27"/>
 		<area name="mobile.circle.purple" xywh="551,318,100,100" sizeOverwriteH="100" sizeOverwriteV="100" tint="#B09B59B6"/>
 		<area name="mobile.circle.red" xywh="661,316,100,100"/>
+    <area name="mobile.bigcircle.selected" xywh="643,425,136,136" center="true" tint="#B000D0FF"/>
 		<area name="mobile.bigcircle.white" xywh="643,425,136,136" inset="0,0,0,0" center="true" sizeOverwriteH="136" sizeOverwriteV="136" tint="#80FFFFFF"/>
 
+    <select name="mobile.bigcircle.background">
+      <composed if="keyboardFocus | selected">
+        <alias ref="mobile.bigcircle.selected"/>
+        <alias ref="mobile.bigcircle.white" inset="7"/>
+      </composed>
+      <alias ref="mobile.bigcircle.white" inset="7"/>
+    </select>
+    
 		<select name="mobile.circle.plain">
 			<composed if="disabled">
 				<alias ref="mobile.circle.disabled"/>
@@ -281,6 +290,7 @@
 		<alias name="mobile.progress.progressImage" ref="-mobile.progress.progressImage" tint="#3498DB"/>
 		<alias name="mobile.progress.orange.progressImage" ref="-mobile.progress.progressImage" tint="#E67E22"/>
 		<alias name="mobile.progress.violet.progressImage" ref="-mobile.progress.progressImage" tint="#9B59B6"/>
+    <alias name="mobile.progress.darkviolet.progressImage" ref="-mobile.progress.progressImage" tint="#8B73BD"/>
     <alias name="mobile.progress.green.progressImage" ref="-mobile.progress.progressImage" tint="#2ECC71"/>
 		<alias name="mobile.progress.yellow.progressImage" ref="-mobile.progress.progressImage" tint="#F1C40F"/>
     <alias name="mobile.progress.darkblue.progressImage" ref="-mobile.progress.progressImage" tint="#444B77"/>

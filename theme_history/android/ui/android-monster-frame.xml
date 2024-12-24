@@ -188,7 +188,12 @@
       <param name="font"><font>18pt-gray</font></param>
     </theme>
 
-    <theme name="label-hidden-ability" ref="label-monster-value">
+    <theme name="label-hidden-ability" ref="label">
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="border"><border>15,15,15,15</border></param>
+      <param name="maxWidth"><int>180</int></param>
+      <param name="minWidth"><int>180</int></param>
       <param name="font"><font>med-noshadow-18-dark-gold-yellow</font></param>
     </theme>
 
@@ -219,7 +224,13 @@
       <param name="font"><font>18pt-gray</font></param>
     </theme>
 
-    <theme name="label-monster-value-tooltip" ref="label-monster-value" allowWildcard="true">
+    <theme name="label-monster-value-tooltip" ref="label" allowWildcard="true">
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="border"><border>15,15,15,15</border></param>
+      <param name="maxWidth"><int>180</int></param>
+      <param name="minWidth"><int>180</int></param>
+      <param name="font"><font>18pt-gray</font></param>
       <param name="mouseCursor"><cursor>cursor.help</cursor></param>
     </theme>
 
