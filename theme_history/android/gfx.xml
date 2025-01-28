@@ -295,6 +295,8 @@
 		<alias name="mobile.progress.yellow.progressImage" ref="-mobile.progress.progressImage" tint="#F1C40F"/>
     <alias name="mobile.progress.darkblue.progressImage" ref="-mobile.progress.progressImage" tint="#444B77"/>
     <alias name="mobile.progress.red.progressImage" ref="-mobile.progress.progressImage" tint="#FF8C70"/>
+    <alias name="mobile.progress.darkred.progressImage" ref="-mobile.progress.progressImage" tint="#800000"/>
+    <alias name="mobile.progress.gold.progressImage" ref="-mobile.progress.progressImage" tint="#d4af37"/>
     <alias name="mobile.progress.halloween.progressImage" ref="-mobile.progress.progressImage" tint="#dd84fd"/>
 
 

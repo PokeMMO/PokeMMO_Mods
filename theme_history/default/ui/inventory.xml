@@ -8,7 +8,9 @@
 		<param name="titleAreaRight"><int>-1</int></param>
 		<param name="titleAreaBottom"><int>75</int></param>
 		<param name="closeButtonX"><int>-24</int></param>
-		<param name="closeButtonY"><int>50</int></param>
+    <param name="closeButtonY">
+      <int>47</int>
+    </param>
 
 		<param name="fadeColorInactive"><color>#FFFFFFFF</color></param>
 		<param name="fadeDurationActivate"><int>200</int></param>

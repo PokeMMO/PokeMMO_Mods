@@ -1737,4 +1737,32 @@
 	<theme name="server-status-danger" ref="server-status-success">
 		<param name="font"><font>med-shadow-22-white</font></param>
 	</theme>
+
+  <theme name="clause-failure" ref="mobile-panel" allowWildcard="true">
+    <param name="background"><image>mobile.window.background.lightblue</image></param>
+    <param name="fadeDurationShow"><int>200</int></param>
+    <param name="fadeDurationHide"><int>1</int></param>
+    <param name="titleAreaTop"><int>15</int></param>
+    <param name="titleAreaLeft"><int>15</int></param>
+    <param name="titleAreaRight"><int>-1</int></param>
+    <param name="titleAreaBottom"><int>50</int></param>
+    <param name="closeButtonX"><int>-64</int></param>
+    <param name="closeButtonY"><int>0</int></param>
+    <theme name="title" ref="label" allowWildcard="true">
+      <param name="font"><font>xlarge</font></param>
+    </theme>
+    <theme name="closeButton" ref="-defaults">
+      <param name="background"><image>mobile.icons.close</image></param>
+      <param name="minWidth"><int>60</int></param>
+      <param name="minHeight"><int>60</int></param>
+    </theme>
+    <theme name="label" ref="label" allowWildcard="true">
+      <param name="font"><font>mechabold-large</font></param>
+    </theme>
+    <theme name="label-blurb" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-status-warning.default</image></param>
+      <param name="font"><font>mechabold-large</font></param>
+      <param name="border"><border>0,4,4,4</border></param>
+    </theme>
+  </theme>
 </themes>

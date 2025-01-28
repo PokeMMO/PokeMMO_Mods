@@ -1159,7 +1159,13 @@
 
 		<alias name="progressbar-pink.progressImage" tint="#FF99CC" ref="progressbar-white.progressImage"/>
 		<alias name="progressbar-pink.background" ref="progressbar-white.background"/>
-	</images>
+
+    <alias name="progressbar-darkred.progressImage" tint="#800000" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-darkred.background" ref="progressbar-white.background"/>
+
+    <alias name="progressbar-gold.progressImage" tint="#d4af37" ref="progressbar-white.progressImage"/>
+    <alias name="progressbar-gold.background" ref="progressbar-white.background"/>
+  </images>
 	<images file="res/MainTCTexture.png">
 		<area name="trainer-card.background" xywh="0,0,454,287"/>
 	</images>

@@ -27,5 +27,15 @@
       <param name="background"><image>none</image></param>
       <param name="overlay"><image>mobile.progress.overlay</image></param>
     </theme>
+    <theme name="event-progressbar-cny-raids" ref="event-progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.darkred.progressImage</image></param>
+      <param name="background"><image>none</image></param>
+      <param name="overlay"><image>mobile.progress.overlay</image></param>
+    </theme>
+    <theme name="event-progressbar-cny-coop" ref="event-progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.darkred.progressImage</image></param>
+      <param name="background"><image>none</image></param>
+      <param name="overlay"><image>mobile.progress.overlay</image></param>
+    </theme>
   </theme>
 </themes>
