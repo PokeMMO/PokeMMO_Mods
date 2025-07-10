@@ -736,7 +736,10 @@
 
 		<composed name="monster-slot-selected">
 			<alias ref="ui-button.default"/>
-			<alias ref="ui-popup-button.hover" inset="2,2,1,1"/>
+      <alias ref="ui-button.selected.background" inset="-2,-2,-3,-3" tint="#FFFFFFFF"/>
+      <alias ref="ui-button.selected.background" inset="-1,-1,-2,-2" tint="#FFFFFFFF"/>
+      <alias ref="ui-button.selected.background" inset="0,0,-1,-1" tint="#FFFFFFFF"/>
+      <alias ref="ui-button.hover"/>
 		</composed>
 
 		<area name="button-npc-dark.selected" xywh="400,117,8,9" splitx="L20,R7" splity="T6,B8"/>

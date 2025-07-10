@@ -102,6 +102,11 @@
         <enum type="alignment">CENTER</enum>
       </param>
     </theme>
+    <theme name="ptslabel" ref="label">
+      <param name="font"><font>mechabold</font></param>
+      <param name="border"><border>5</border></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
     <theme name="login-panel" ref="base-frame" allowWildcard="true">
       <param name="background">
         <image>label1.background</image>
@@ -250,6 +255,132 @@
     </theme>
     <theme name="event-progressbar-cny-coop" ref="event-progressbar" allowWildcard="true">
       <param name=""><image>progressbar-darkred.*</image></param>
+    </theme>
+  </theme>
+
+  <theme name="encounter-counter" ref="resizableframe">
+    <param name="titleAreaTop"><int>8</int></param>
+    <param name="titleAreaLeft"><int>11</int></param>
+    <param name="titleAreaRight"><int>-1</int></param>
+    <param name="titleAreaBottom"><int>20</int></param>
+    <param name="border"><border>20,0,0,0</border></param>
+    <param name="background"><image>frame-draggable-alpha.background</image></param>
+    <param name="minWidth"><int>200</int></param>
+    <theme name="content" ref="-defaults">
+      <theme name="label" ref="label">
+        <param name="minWidth"><int>50</int></param>
+        <param name="font"><font>alphabeta-border</font></param>
+        <param name="border"><border>7,7</border></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <theme name="label-left" ref="label">
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <theme name="icon" ref="label">
+        <param name="border"><border>7,7</border></param>
+      </theme>
+      <theme name="cell" ref="label">
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="border"><border>5</border></param>
+      </theme>
+    </theme>
+  </theme>
+
+  <theme name="encounter-counter-shiny" ref="resizableframe">
+    <param name="background"><image>monster-caught.background</image></param>
+    <param name="border"><border>0,0,0,0</border></param>
+
+    <param name="maxWidth"><int>498</int></param>
+    <param name="maxHeight"><int>444</int></param>
+    <theme name="title" ref="-defaults">
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="font"><font>title-font-black</font></param>
+      <param name="border"><border>2,2,0,0</border></param>
+    </theme>
+
+    <param name="titleAreaTop"><int>12</int></param>
+    <param name="titleAreaLeft"><int>15</int></param>
+    <param name="titleAreaRight"><int>-30</int></param>
+    <param name="titleAreaBottom"><int>34</int></param>
+
+    <param name="closeButtonX"><int>-32</int></param>
+    <param name="closeButtonY"><int>18</int></param>
+    
+    <theme name="content" ref="-defaults">
+      <param name="border"><border>0,0,0,0</border></param>
+      <theme name="button" ref="label">
+        <param name="font"><font>alphabeta-border</font></param>
+        <param name="border"><border>7,7</border></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <theme name="cell-large" ref="label">
+        <param name="font"><font>mechabold</font></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        <param name="border"><border>5</border></param>
+      </theme>
+      <theme name="cell" ref="label">
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="border"><border>5</border></param>
+      </theme>
+      <theme name="cell-markup" ref="cell">
+        <param name="font"><font>alphabeta-markup</font></param>
+        <param name="border"><border>5</border></param>
+      </theme>
+      <theme name="button-reset" ref="button">
+      </theme>
+      <theme name="button-share" ref="button">
+        <param name=""><image>ui-button.*</image></param>
+        <param name="border"><border>16</border></param>
+      </theme>
+    </theme>
+  </theme>
+
+  <theme name="encounter-counter-frame" ref="base-tabbed-frame">
+    <param name="titleAreaTop"><int>8</int></param>
+    <param name="titleAreaLeft"><int>11</int></param>
+    <param name="titleAreaRight"><int>-1</int></param>
+    <param name="titleAreaBottom"><int>20</int></param>
+    <param name="border"><border>20,0,0,0</border></param>
+    <param name="minWidth"><int>540</int></param>
+    <param name="maxHeight"><int>340</int></param>
+    <theme name="tabbedpane" ref="base-tabbed-pane">
+      <theme name="tabbox" ref="tabbox">
+        <theme name="tabbutton" ref="tabbutton">
+          <param name="background"><image>ui-tab-shop.background</image></param>
+        </theme>
+      </theme>
+      <theme name="container" ref="-defaults">
+        <param name="border"><border>2,4,4,0</border></param>
+        <theme name="encounter-counter-summary" ref="-defaults">
+          <theme name="cell-right" ref="label">
+            <param name="background"><image>ui-inputbox.background</image></param>
+            <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+            <param name="border"><border>5</border></param>
+            <param name="minWidth"><int>100</int></param>
+          </theme>
+          <theme name="scrollpane" ref="scrollpane">
+            <param name="minHeight"><int>260</int></param>
+            <theme name="cell" ref="cell">
+              <param name="border"><border>5,7,3,0</border></param>
+            </theme>
+            <theme name="cell-center" ref="cell">
+              <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+            </theme>
+          </theme>
+        </theme>
+        <theme name="encounter-counter-history" ref="-defaults">
+          <theme name="cell-right" ref="label">
+            <param name="background"><image>ui-inputbox.background</image></param>
+            <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+            <param name="border"><border>5</border></param>
+            <param name="minWidth"><int>100</int></param>
+          </theme>
+          <theme name="scrollpane" ref="scrollpane">
+            <param name="minHeight"><int>260</int></param>
+          </theme>
+        </theme>
+      </theme>
     </theme>
   </theme>
   

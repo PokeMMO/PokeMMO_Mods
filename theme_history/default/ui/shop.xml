@@ -116,7 +116,7 @@
 						<param name="background"><image>ui-tab-shop.background</image></param>
 					</theme>
 				</theme>
-				<param name="minWidth"><int>250</int></param>
+				<param name="minWidth"><int>870</int></param>
 				<param name="background"><image>ui-inner-tab.background</image></param>
 				<theme name="container" ref="-defaults">
 					<param name="border"><border>35,5,40,5</border></param>

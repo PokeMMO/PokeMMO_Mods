@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE themes PUBLIC "-//www.matthiasmann.de//TWL-Theme//EN" "http://hg.l33tlabs.org/twl/raw-file/tip/src/de/matthiasmann/twl/theme/theme.dtd">
+<themes>
+  <theme name="incubator-frame" ref="mobile-panel">
+    <theme name="incubator-main-table" ref="table">
+      <theme name="incubator-slot" ref="-defaults">
+        <param name="background"><image>pc-slot.background</image></param>
+        <param name="minWidth"><int>32</int></param>
+        <param name="minHeight"><int>32</int></param>
+        <theme name="label-dark" ref="label" allowWildcard="true">
+          <param name="font"><font>alphabeta</font></param>
+          <param name="border"><border>1,25,0,0</border></param>
+          <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        </theme>
+        <theme name="incubator-temporary-uses" ref="-defaults" allowWildcard="true">
+          <param name=""><image>mi-hpbar-green.*</image></param>
+          <param name="border"><border>background.border</border></param>
+          <param name="minWidth"><int>100</int></param>
+        </theme>
+      </theme>
+      <theme name="empty-incubator-slot" ref="incubator-slot"/>
+      <theme name="incubator-monster-slot" ref="incubator-slot"/>
+      <theme name="desc-label" ref="label">
+        <param name="font"><font>med-noshadow-16-white</font></param>
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="textAlignment"><enum type="alignment">center</enum></param>
+        <param name="border"><border>6</border></param>
+        <param name="minWidth"><int>360</int></param>
+        <param name="minHeight"><int>505</int></param>
+      </theme>
+    </theme>
+  </theme>
+</themes>

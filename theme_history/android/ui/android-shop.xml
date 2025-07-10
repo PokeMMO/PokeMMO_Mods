@@ -175,6 +175,12 @@
 				<param name="background"><image>none</image></param>
 				<theme name="container" ref="-defaults">
 					<param name="border"><border>0,0,0,0</border></param>
+          <theme name="cell" ref="label" allowWildcard="true">
+            <param name="background"><image>mobile.button.flat.background</image></param>
+            <param name="textAlignment"><enum type="alignment">left</enum></param>
+            <param name="border"><border>6</border></param>
+            <param name="minWidth"><int>160</int></param>
+          </theme>
 					<theme name="dialoglayout" ref="-defaults">
 
 						<param name="background"><image>none</image></param>

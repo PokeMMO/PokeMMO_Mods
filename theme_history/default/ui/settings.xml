@@ -88,7 +88,7 @@
 		<param name="background"><image>ui-header.background</image></param>
 		<param name="minWidth"><int>220</int></param>
 		<param name="minHeight"><int>28</int></param>
-		<param name="border"><border>2,6,3,0</border></param>
+		<param name="border"><border>2,9,4,0</border></param>
 	</theme>
 	<theme name="label-settings-title-small" ref="label-settings-title" allowWildcard="true">
 		<param name="minWidth"><int>80</int></param>

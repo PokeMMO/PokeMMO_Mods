@@ -51,16 +51,26 @@
 						<param name="color0"><font>alphabeta-green</font></param>
 						<param name="color1"><font>alphabeta</font></param>
 						<param name="color2"><font>alphabeta</font></param>
-						<param name="link"><font>alphabeta-link</font></param>
-						<param name="normal"><font>alphabeta</font></param>
-						<param name="shout"><font>alphabeta-orange</font></param>
-						<param name="whisper"><font>alphabeta-lightgreen</font></param>
-						<param name="trade"><font>alphabeta-purple</font></param>
-						<param name="global"><font>alphabeta-teal</font></param>
-						<param name="channel"><font>alphabeta-yellow</font></param>
-						<param name="team"><font>alphabeta-brown</font></param>
-						<param name="system"><font>alphabeta-blue</font></param>
-						<param name="battle"><font>alphabeta-battle</font></param>
+            <param name="link"><font>alphabeta-link</font></param>
+            <param name="normal"><font>alphabeta</font></param>
+            <param name="shout"><font>alphabeta-orange</font></param>
+            <param name="whisper"><font>alphabeta-lightgreen</font></param>
+            <param name="trade"><font>alphabeta-purple</font></param>
+            <param name="global"><font>alphabeta-teal</font></param>
+            <param name="channel"><font>alphabeta-yellow</font></param>
+            <param name="team"><font>alphabeta-brown</font></param>
+            <param name="system"><font>alphabeta-blue</font></param>
+            <param name="battle"><font>alphabeta-battle</font></param>
+            <param name="link-highlight"><font>alphabeta-orange</font></param>
+            <param name="normal-highlight"><font>alphabeta-orange</font></param>
+            <param name="shout-highlight"><font>alphabeta-link</font></param>
+            <param name="whisper-highlight"><font>alphabeta-orange</font></param>
+            <param name="trade-highlight"><font>alphabeta-orange</font></param>
+            <param name="global-highlight"><font>alphabeta-orange</font></param>
+            <param name="channel-highlight"><font>alphabeta-orange</font></param>
+            <param name="team-highlight"><font>alphabeta-orange</font></param>
+            <param name="system-highlight"><font>alphabeta-orange</font></param>
+            <param name="battle-highlight"><font>alphabeta-orange</font></param>
 					</map></param>
 					<param name="classes"><map/></param>
 					<param name="images"><map>
@@ -175,6 +185,18 @@
 		<param name="minWidth"><int>24</int></param>
 		<param name="minHeight"><int>24</int></param>
 	</theme>
+  
+  <theme name="chatframe-hidden-whisper" ref="chatframe-hidden" overwrite="true">
+    <param name="overlay"><image>chaticon.chat-indicator-whisper</image></param>
+  </theme>
+  
+  <theme name="chatframe-hidden-team" ref="chatframe-hidden" overwrite="true">
+    <param name="overlay"><image>chaticon.chat-indicator-team</image></param>
+  </theme>
+  
+  <theme name="chatframe-hidden-whisper-team" ref="chatframe-hidden" overwrite="true">
+    <param name="overlay"><image>chaticon.chat-indicator-whisper-team</image></param>
+  </theme>
 
 	<!-- Chat Tab Settings -->
 	<theme name="chat-tab-settings" ref="base-frame">

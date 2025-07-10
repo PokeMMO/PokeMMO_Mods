@@ -196,23 +196,59 @@
 	</theme>
 
 	<theme name="read-mail" ref="mail-inner" overwrite="true">
-		<param name="minWidth"><int>530</int></param>
-		<param name="minHeight"><int>420</int></param>
-		<theme name="dialoglayout" ref="dialoglayout">
-			<param name="border"><border>0,0,0,0</border></param>
-			<theme name="editfield" ref="editfield">
-				<param name="background"><image>ui-header.background</image></param>
-				<param name="minHeight"><int>26</int></param>
-				<param name="font"><font>med-noshadow-18-white</font></param>
+    <param name="border"><border>0,0,0,0</border></param>
+    <theme name="editfield" ref="editfield">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="font"><font>med-noshadow-18-white</font></param>
+      <theme name="renderer" ref="renderer">
+        <param name="border"><border>4,5</border></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="font"><font>med-noshadow-18-white</font></param>
+      </theme>
+    </theme>
+    <theme name="body-editfield" ref="editfield"/>
+    <theme name="button-small2" ref="button" allowWildcard="true"/>
+    <theme name="item-slot" ref="-defaults">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="border"><border>6</border></param>
+      <param name="font"><font>med-shadow-18-white</font></param>
+    </theme>
+    <theme name="monster-slot" ref="-defaults">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <!--        <param name="border"><border>6</border></param>-->
+      <param name="font"><font>med-noshadow-18-white</font></param>
 
-				<theme name="renderer" ref="renderer">
-					<param name="border"><border>4,5</border></param>
-					<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-					<param name="font"><font>med-noshadow-18-white</font></param>
-				</theme>
-			</theme>
-		</theme>
-	</theme>
+      <theme name="label-dark" ref="label" allowWildcard="true">
+        <param name="font"><font>med-shadow-18-white</font></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+    </theme>
+    <theme name="button" ref="button" overwrite="true">
+      <param name="font"><font>med-noshadow-18-white</font></param>
+    </theme>
+    <!-- Value -->
+    <theme name="label-value" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>6</border></param>
+      <param name="font"><font>med-noshadow-18-white</font></param>
+    </theme>
+    <theme name="label-value-small" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>6</border></param>
+      <param name="font"><font>med-noshadow-18-white</font></param>
+    </theme>
+    <theme name="label-title" ref="label-value" allowWildcard="true">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="label-title-small" ref="label-value-small" allowWildcard="true">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="spritelabel" ref="-defaults" allowWildcard="true"/>
+  </theme>
 
 	<theme name="write-mail" ref="mail-inner" overwrite="true">
 		<param name="minWidth"><int>800</int></param>

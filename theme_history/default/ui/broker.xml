@@ -59,14 +59,21 @@
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>5</border></param>
-      <param name="minWidth"><int>96</int></param>
+      <param name="minWidth"><int>50</int></param>
     </theme>
     <theme name="cell-danger" ref="label">
       <param name="font"><font>pb-dark-red</font></param>
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>5</border></param>
-      <param name="minWidth"><int>96</int></param>
+      <param name="minWidth"><int>50</int></param>
+    </theme>
+    <theme name="cell-positive" ref="label">
+      <param name="font"><font>pb-dark-green</font></param>
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="border"><border>5</border></param>
+      <param name="minWidth"><int>50</int></param>
     </theme>
     <theme name="cell-button" ref="cell">
       <param name="background"><image>ui-button.background</image></param>
@@ -135,6 +142,29 @@
     </theme>
   </theme>
 
+  <theme name="category-view" ref="-defaults">
+    <param name="border"><border>27,0,5,5</border></param>
+    <theme name="category-view-inner" ref="-defaults">
+      <param name="background"><image>ui-inner-frame-tab3.background</image></param>
+      <param name="border"><border>0,10,10,5</border></param>
+      <param name="namedGaps"><map/></param>
+      <theme name="label" ref="label" allowWildcard="true">
+        <param name="border"><border>10,10,0,0</border></param>
+        <param name="background"><image>none</image></param>
+      </theme>
+      <theme name="dialoglayout" ref="-defaults">
+        <theme name="label-info" ref="label">
+          <param name="background"><image>ui-inputbox.background</image></param>
+          <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+          <param name="border"><border>6</border></param>
+          <param name="minWidth"><int>300</int></param>
+          <param name="minHeight"><int>100</int></param>
+        </theme>
+      </theme>
+    </theme>
+  </theme>
+  
+  
 	<theme name="broker-window" ref="base-tabbed-frame">
 		<param name="fadeDurationShow"><int>200</int></param>
 		<param name="fadeDurationHide"><int>200</int></param>

@@ -170,6 +170,7 @@
 			<param name="minWidth"><int>180</int></param>
 			<param name="minHeight"><int>56</int></param>
 			<param name="background"><image>label1.background</image></param>
+			<param name=""><image>mobile.button.50.*</image></param>
 		</theme>
 	</theme>
 

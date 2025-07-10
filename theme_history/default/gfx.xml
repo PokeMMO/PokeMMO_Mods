@@ -2,7 +2,7 @@
 <themes>
 	<images file="res/text-bubble.png" filter="nearest">
 		<area name="text-bubble.background" xywh="0,0,128,128" splitx="L63,R63" splity="T63,B63"/>
-		<area name="text-bubble-arrow.background" xywh="128,0,32,32"  sizeOverwriteH="32"  sizeOverwriteV="32"/>
+		<area name="text-bubble-arrow.background" xywh="128,0,32,32" sizeOverwriteH="32" sizeOverwriteV="32"/>
 	</images>
 	<images file="res/user-interface.png" filter="nearest">
 		<area name="white.background" xywh="11,313,1,1"/>
@@ -151,7 +151,7 @@
 		</grid>
 		<area name="input-black.default" xywh="100,212,28,12" splitx="L2,R2" splity="T2,B2" inset="0,2"/>
 		<area name="input-black.inactive" xywh="100,212,28,12" splitx="L2,R2" splity="T2,B2" inset="0,2"/>
-		<area name="monster-preview-bg" xywh="167,212,28,12" splitx="L2,R2" splity="T2,B2" inset="0,0" />
+		<area name="monster-preview-bg" xywh="167,212,28,12" splitx="L2,R2" splity="T2,B2" inset="0,0"/>
 
 		<select name="input-black.background">
 			<alias ref="input-black.default" if="selected | keyboardFocus"/>
@@ -219,6 +219,7 @@
     
 		<area name="close-handle" xywh="0,500,12,12"/>
 		<area name="minimize-handle" xywh="29,500,12,12"/>
+		<area name="maximize-handle" xywh="52,500,12,12"/>
 		<area name="close-handle-blue" xywh="15,503,9,9"/>
 		<area name="combobox-picker.background" xywh="8,504,7,7" inset="-1,0,-1,0" sizeOverwriteH="7" sizeOverwriteV="7"/>
 
@@ -237,6 +238,7 @@
 		<area name="editfield.selection" tint="sub-color" xywh="0,496,1,1"/>
 
 		<alias name="-frame.minimizeIcon" ref="minimize-handle" inset="2,3,3,3"/>
+		<alias name="-frame.maximizeIcon" ref="maximize-handle" inset="0,3,3,3"/>
 
 		<alias name="-frame.closeIcon" ref="close-handle" inset="2,3,3,3"/>
 		<select name="frame.closebutton.background">
@@ -247,6 +249,10 @@
 			<alias ref="-frame.minimizeIcon" if="armed"/>
 			<alias ref="-frame.minimizeIcon"/>
 		</select>
+    <select name="frame.maximizebutton.background">
+      <alias ref="-frame.maximizeIcon" if="armed"/>
+      <alias ref="-frame.maximizeIcon"/>
+    </select>
 
 
 		<select name="vscrollbar.upbutton.background" center="true">
@@ -518,23 +524,23 @@
 		<area name="eff.bg" xywh="12,83,104,18"/>
 		<composed name="eff.nve.background">
 			<alias ref="eff.bg"/>
-			<alias ref="eff.nve" />
+			<alias ref="eff.nve"/>
 		</composed>
 		<composed name="eff.se.background">
 			<alias ref="eff.bg"/>
-			<alias ref="eff.se" />
+			<alias ref="eff.se"/>
 		</composed>
 		<composed name="eff.e.background">
 			<alias ref="eff.bg"/>
-			<alias ref="eff.e" />
+			<alias ref="eff.e"/>
 		</composed>
 		<composed name="eff.immune.background">
 			<alias ref="eff.bg"/>
-			<alias ref="eff.immune" />
+			<alias ref="eff.immune"/>
 		</composed>
 		<composed name="eff.status.background">
 			<alias ref="eff.bg"/>
-			<alias ref="eff.status" />
+			<alias ref="eff.status"/>
 		</composed>
 		<!--
 			<select center="true">
@@ -556,14 +562,14 @@
 		<area name="pcslot.bg.overlay.battlebox" xywh="129,104,60,50"/>
 		<area name="pcslot.border.default" xywh="3,157,60,50"/>
 		<area name="pcslot.border.selected" xywh="66,157,60,50"/>
-		<area name="pcslot.border.selected2" xywh="66,157,60,50" inset="-1" />
+		<area name="pcslot.border.selected2" xywh="66,157,60,50" inset="-1"/>
 		<area name="pcslot.border.filtered" xywh="129,157,60,50"/>
     <area name="pcslot.border.filtered2" xywh="129,157,60,50" inset="-1"/>
 		<composed name="pc-slot.background">
 			<!-- BG Layer -->
 			<select center="true">
 				<alias ref="pcslot.bg.active" if="filtered"/>
-				<alias ref="pcslot.bg.default" />
+				<alias ref="pcslot.bg.default"/>
 			</select>
 			<!-- BG Overlay Layer -->
 			<select center="true">
@@ -575,7 +581,7 @@
 			<select center="true">
 				<alias ref="pcslot.inner.filtered" if="selected + filtered"/>
 				<alias ref="pcslot.inner.active" if="selected"/>
-				<alias ref="pcslot.inner.default" />
+				<alias ref="pcslot.inner.default"/>
 			</select>
 			<!-- Border Layer -->
           <select center="true">
@@ -946,6 +952,25 @@
 			<alias ref="chaticon.hide"/>
 		</select>
 
+    <animation name="chaticon.chat-indicator-whisper" timeSource="enabled">
+      <frame duration="600" ref="chaticon.default" tint="#00FFFFFF"/>
+      <frame duration="600" ref="chaticon.default" tint="#FF66FF66"/>
+      <frame duration="300" ref="chaticon.default" tint="#FF66FF66"/>
+    </animation>
+    <animation name="chaticon.chat-indicator-team" timeSource="enabled">
+      <frame duration="600" ref="chaticon.default" tint="#00FFFFFF"/>
+      <frame duration="600" ref="chaticon.default" tint="#ffff8484"/>
+      <frame duration="300" ref="chaticon.default" tint="#ffff8484"/>
+    </animation>
+    <animation name="chaticon.chat-indicator-whisper-team" timeSource="enabled">
+      <frame duration="600" ref="chaticon.default" tint="#00FFFFFF"/>
+      <frame duration="600" ref="chaticon.default" tint="#FF66FF66"/>
+      <frame duration="300" ref="chaticon.default" tint="#FF66FF66"/>
+      <frame duration="600" ref="chaticon.default" tint="#00FFFFFF"/>
+      <frame duration="600" ref="chaticon.default" tint="#ffff8484"/>
+      <frame duration="300" ref="chaticon.default" tint="#ffff8484"/>
+    </animation>
+
 		<select name="gmicon1.background">
 			<alias ref="gmicon1.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
 			<alias ref="gmicon1.default" tint="#1f7bc9" if="selected"/>
@@ -1024,6 +1049,10 @@
 			<alias ref="button-icon.default" tint="#00FFFFFF"/>
 		</select>
 	</images>
+
+  <images file="res/caught-window.png" filter="nearest">
+    <area name="monster-caught.background" xywh="0,0,498,410"/>
+  </images>
 
 	<images file="res/monster-info.png" filter="nearest">
 		<area name="mi-label-title" xywh="7,58,15,24" splitx="L10,R0" splity="T16,B0"/>
@@ -1273,7 +1302,7 @@
 
     <area name="pc-preview.background" xywh="2,2,20,20" splitx="L7,R7" splity="T7,B7"/>
 
-    <grid name="pc-preview-pattern.background" weightsX="1" weightsY="1" tint="#0FFFFFFF" >
+    <grid name="pc-preview-pattern.background" weightsX="1" weightsY="1" tint="#0FFFFFFF">
       <area xywh="23,2,10,10" repeatX="true" repeatY="true" sizeOverwriteV="0"/>
     </grid>
 

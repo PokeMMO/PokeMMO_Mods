@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <!-- PC Storage GUI's -->
+  <theme name="incubator-frame" ref="base-tabbed-frame">
+    <param name="border"><border>35,10,10,10</border></param>
+    <param name="minHeight"><int>190</int></param>
+    <theme name="title" ref="title">
+      <param name="border"><border>9,5,2,0</border></param>
+    </theme>
+    <theme name="incubator-main-table" ref="table">
+      <param name="background"><image>ui-inner-frame-inverted.background</image></param>
+      <theme name="incubator-slot" ref="-defaults">
+        <param name=""><image>pc-slot.*</image></param>
+        <param name="minWidth"><int>62</int></param>
+        <param name="minHeight"><int>62</int></param>
+        <theme name="incubator-temporary-uses" ref="-defaults" allowWildcard="true">
+          <param name=""><image>mi-hpbar-green.*</image></param>
+          <param name="border"><border>0</border></param>
+          <param name="minWidth"><int>100</int></param>
+        </theme>
+      </theme>
+      <theme name="empty-incubator-slot" ref="incubator-slot">
+        <param name="maxWidth"><int>62</int></param>
+        <param name="maxHeight"><int>62</int></param>
+      </theme>
+
+      <theme name="button" ref="button">
+        <param name="border"><border>6</border></param>
+      </theme>
+      <theme name="incubator-monster-slot" ref="incubator-slot"/>
+      <theme name="desc-label" ref="label">
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="textAlignment"><enum type="alignment">center</enum></param>
+        <param name="border"><border>6</border></param>
+        <param name="minWidth"><int>180</int></param>
+        <param name="minHeight"><int>355</int></param>
+      </theme>
+    </theme>
+  </theme>
+</themes>

@@ -42,13 +42,31 @@
 		<param name="background"><image>none</image></param>
 	</theme>
 
-	<theme name="color-button" ref="button" allowWildcard="true">
-		<param name="font"><font>pb-dark</font></param>
-		<param name="textAlignment"><enum type="alignment">center</enum></param>
-		<param name="background"><image>color-picker.background</image></param>
-		<param name="minWidth"><int>65</int></param>
-		<param name="minHeight"><int>65</int></param>
-	</theme>
+  <theme name="color-button" ref="button" allowWildcard="true">
+    <param name="font"><font>pb-dark</font></param>
+    <param name="textAlignment"><enum type="alignment">center</enum></param>
+    <param name="background"><image>color-picker.background</image></param>
+    <param name="minWidth"><int>65</int></param>
+    <param name="minHeight"><int>65</int></param>
+  </theme>
+
+  <theme name="color-button-mobile" ref="color-button" allowWildcard="true">
+    <param name="minWidth"><int>42</int></param>
+    <param name="minHeight"><int>42</int></param>
+  </theme>
+
+  <theme name="color-button-outline" ref="button" allowWildcard="true">
+    <param name="font"><font>pb-dark</font></param>
+    <param name="textAlignment"><enum type="alignment">center</enum></param>
+    <param name="background"><image>color-picker-selected</image></param>
+    <param name="minWidth"><int>65</int></param>
+    <param name="minHeight"><int>65</int></param>
+  </theme>
+
+  <theme name="color-button-outline-mobile" ref="color-button-outline" allowWildcard="true">
+    <param name="minWidth"><int>42</int></param>
+    <param name="minHeight"><int>42</int></param>
+  </theme>
 
 	<theme name="color-dialog" ref="-defaults" allowWildcard="true">
 		<param name="font"><font>pb-dark</font></param>

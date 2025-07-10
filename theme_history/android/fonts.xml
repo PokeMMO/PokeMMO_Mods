@@ -3,7 +3,8 @@
 	<!-- Include the base font -->
 	<include filename="../default/fonts.xml" />
 
-	<fontDef name="battle" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="72" hinting="Full"/>
+  <fontDef name="battle" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="72" hinting="Full"/>
+  <fontDef name="battle-small" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" markup="true" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="48" hinting="Full"/>
 	<fontDef name="braille" ref="battle" color="#000000"/>
 
   <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f"/>

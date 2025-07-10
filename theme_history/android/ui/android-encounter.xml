@@ -1,0 +1,153 @@
+<themes>
+  <theme name="encounter-counter-frame" ref="mobile-panel" overwrite="true">
+    <param name="border"><border>55,0,0,0</border></param>
+    <param name="minWidth"><int>450</int></param>
+    <param name="maxHeight"><int>340</int></param>
+    <theme name="tabbedpane" ref="base-tabbed-pane">
+      <param name="background"><image>none</image></param>
+      <param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+      <theme name="tabbox" ref="mobile-tabbox-inset"/>
+      <theme name="container" ref="-defaults">
+        <param name="border"><border>2,4,4,0</border></param>
+        <theme name="encounter-counter-summary" ref="-defaults">
+          <theme name="combobox" ref="mobile-combobox">
+            
+          </theme>
+          <theme name="label" ref="label">
+            <param name="font"><font>med-noshadow-18-white</font></param>
+          </theme>
+          <theme name="cell-right" ref="label">
+            <param name="background"><image>ui-inputbox.background</image></param>
+            <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+            <param name="border"><border>5</border></param>
+            <param name="minWidth"><int>100</int></param>
+          </theme>
+          <theme name="scrollpane" ref="scrollpane">
+            <param name="minHeight"><int>260</int></param>
+            <theme name="header-column" ref="label">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minHeight"><int>36</int></param>
+              <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+              <param name="border"><border>6</border></param>
+            </theme>
+            <theme name="header-column-sort-default" ref="header-column">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="overlay"><image>ui-sort-default.background</image></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minWidth"><int>100</int></param>
+              <param name="minHeight"><int>36</int></param>
+            </theme>
+            <theme name="header-column-sort-desc" ref="header-column">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="overlay"><image>ui-sort-desc.background</image></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minWidth"><int>100</int></param>
+              <param name="minHeight"><int>36</int></param>
+            </theme>
+            <theme name="header-column-sort-asc" ref="header-column">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="overlay"><image>ui-sort-asc.background</image></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minWidth"><int>100</int></param>
+              <param name="minHeight"><int>36</int></param>
+            </theme>
+            <theme name="cell" ref="cell">
+              <param name="font"><font>med-noshadow-18-white</font></param>
+            </theme>
+            <theme name="cell-center" ref="cell">
+              <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+            </theme>
+            <theme name="cell-button" ref="cell-button">
+              <param name="minWidth"><int>100</int></param>
+              <param name="font"><font>med-noshadow-18-white</font></param>
+            </theme>
+          </theme>
+        </theme>
+        <theme name="encounter-counter-history" ref="-defaults">
+          <theme name="combobox" ref="mobile-combobox">
+            
+          </theme>
+          <theme name="label" ref="label">
+            <param name="font"><font>med-noshadow-18-white</font></param>
+          </theme>
+          <theme name="cell" ref="cell">
+            <param name="font"><font>med-noshadow-18-white</font></param>
+          </theme>
+          <theme name="cell-right" ref="cell">
+            <param name="background"><image>ui-inputbox.background</image></param>
+            <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+            <param name="border"><border>5</border></param>
+            <param name="minWidth"><int>100</int></param>
+          </theme>
+          <theme name="scrollpane" ref="scrollpane">
+            <param name="minHeight"><int>260</int></param>
+            <theme name="header-column" ref="label">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minHeight"><int>36</int></param>
+              <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+              <param name="border"><border>6</border></param>
+            </theme>
+            <theme name="header-column-sort-default" ref="header-column">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="overlay"><image>ui-sort-default.background</image></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minWidth"><int>100</int></param>
+              <param name="minHeight"><int>36</int></param>
+            </theme>
+            <theme name="header-column-sort-desc" ref="header-column">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="overlay"><image>ui-sort-desc.background</image></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minWidth"><int>100</int></param>
+              <param name="minHeight"><int>36</int></param>
+            </theme>
+            <theme name="header-column-sort-asc" ref="header-column">
+              <param name="font"><font>med-noshadow-16-white</font></param>
+              <param name="overlay"><image>ui-sort-asc.background</image></param>
+              <param name="background"><image>mobile.box.dark3.50</image></param>
+              <param name="minWidth"><int>100</int></param>
+              <param name="minHeight"><int>36</int></param>
+            </theme>
+            <theme name="cell" ref="cell">
+              <param name="font"><font>med-noshadow-18-white</font></param>
+            </theme>
+          </theme>
+        </theme>
+      </theme>
+    </theme>
+  </theme>
+  <theme name="encounter-counter-shiny" ref="mobile-panel" overwrite="true">
+    <param name="background"><image>monster-caught.background</image></param>
+    <param name="border"><border>0,0,0,0</border></param>
+    <theme name="title" ref="label" allowWildcard="true">
+      <param name="font"><font>med-noshadow-22-gray</font></param>
+    </theme>
+    <theme name="content" ref="-defaults">
+      <param name="border"><border>0,0,0,0</border></param>
+      <theme name="button" ref="label">
+        <param name="font"><font>battle-small</font></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        <param name="minWidth"><int>120</int></param>
+        <param name="minHeight"><int>60</int></param>
+      </theme>
+      <theme name="cell-large" ref="label">
+        <param name="font"><font>battle-small</font></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <theme name="cell" ref="label">
+        <param name="font"><font>battle-small</font></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <theme name="cell-markup" ref="cell">
+        <param name="font"><font>battle-small</font></param>
+      </theme>
+      <theme name="button-reset" ref="button"/>
+      <theme name="button-share" ref="button">
+        <param name=""><image>ui-button.*</image></param>
+        <param name="font"><font>med-shadow-22-white</font></param>
+      </theme>
+    </theme>
+  </theme>
+</themes>

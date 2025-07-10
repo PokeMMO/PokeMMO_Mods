@@ -29,20 +29,21 @@
 			<param name="minHeight"><int>34</int></param>
 			<param name="maxHeight"><int>34</int></param>
 			<param name="border"><border>3,3,6,3</border></param>
-			<theme name="label" ref="-defaults">
-				<param name="font"><font>alphabeta-border</font></param>
-				<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-			</theme>
-			<theme name="label2" ref="-defaults">
-				<param name="font"><font>title-font</font></param>
-				<param name="border"><border>3</border></param>
-				<param name="background"><image>mi-nameplate</image></param>
-			</theme>
-			<param name="defaultGap"><dimension>2,0</dimension></param>
-			<param name="smallGap"><dimension>8,8</dimension></param>
-			<param name="mediumGap"><dimension>10,10</dimension></param>
-			<param name="largeGap"><dimension>15,15</dimension></param>
-			<param name="namedGaps"><map/></param>
+      <param name="defaultGap"><dimension>2,0</dimension></param>
+      <param name="smallGap"><dimension>8,8</dimension></param>
+      <param name="mediumGap"><dimension>10,10</dimension></param>
+      <param name="largeGap"><dimension>15,15</dimension></param>
+      <param name="namedGaps"><map/></param>
+      <theme name="label-level" ref="-defaults">
+        <param name="font"><font>alphabeta-border</font></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <theme name="label-monster-name" ref="-defaults">
+        <param name="font"><font>alphabeta-border</font></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="minWidth"><int>130</int></param>
+        <param name="maxWidth"><int>130</int></param>
+      </theme>
 		</theme>
 
 		<!-- Used for Item Held section -->
@@ -54,11 +55,13 @@
 			<theme name="label" ref="-defaults">
 				<param name="font"><font>alphabeta</font></param>
 				<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-			</theme>
+        <param name="minwdith"><enum type="alignment">LEFT</enum></param>
+      </theme>
 			<theme name="label2" ref="-defaults">
 				<param name="font"><font>alphabeta</font></param>
-				<param name="border"><border>0,10,1,0</border></param>
-			</theme>
+				<param name="border"><border>0,2,1,0</border></param>
+        <param name="minWidth"><int>105</int></param>
+      </theme>
 			<param name="defaultGap"><dimension>2,0</dimension></param>
 			<param name="smallGap"><dimension>8,8</dimension></param>
 			<param name="mediumGap"><dimension>10,10</dimension></param>
@@ -131,7 +134,7 @@
     <theme name="button" ref="-defaults" allowWildcard="true">
       <param name="font"><font>alphabeta-small</font></param>
       <param name="border"><border>0,0,0,0</border></param>
-      <param name=""><image>button-small.*</image></param>
+      <param name="background"><image>ui-checkbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>
 
@@ -182,7 +185,7 @@
     <theme name="label-monster-value" ref="label" allowWildcard="true">
       <param name="background"><image>mi-label-value</image></param>
       <param name="textAlignment"><enum type="alignment">left</enum></param>
-      <param name="border"><border>4,5,5,25</border></param>
+      <param name="border"><border>2,6,2,6</border></param>
       <param name="maxWidth"><int>110</int></param>
       <param name="minWidth"><int>110</int></param>
       <param name="font"><font>alphabeta-small</font></param>
@@ -190,6 +193,16 @@
 
     <theme name="label-hidden-ability" ref="label-monster-value">
       <param name="font"><font>alphabeta-yellow</font></param>
+    </theme>
+
+    <theme name="label-monster-desc" ref="label-monster-value">
+      <param name="minWidth"><int>205</int></param>
+      <param name="maxWidth"><int>205</int></param>
+    </theme>
+
+    <theme name="label-monster-ability-desc" ref="label-monster-value">
+      <param name="border"><border>3,5,3,0</border></param>
+      <param name="maxHeight"><int>42</int></param>
     </theme>
 
     <theme name="label-monster-value-stat-complete" ref="label" allowWildcard="true">

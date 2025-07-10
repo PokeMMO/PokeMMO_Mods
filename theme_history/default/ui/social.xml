@@ -65,17 +65,12 @@
 		<param name="autoScrollSpeed"><int>10</int></param>
 		<param name="scrollbarsAlwaysVisible"><bool>false</bool></param>
 		<theme name="dialoglayout" ref="-defaults">
-			<param name="background"><image>none</image></param>
-			<param name="border"><border>0,0,0,0</border></param>
-			<param name="defaultGap"><dimension>4,5</dimension></param>
-			<param name="smallGap"><dimension>8,8</dimension></param>
-			<param name="mediumGap"><dimension>10,10</dimension></param>
-			<param name="largeGap"><dimension>15,15</dimension></param>
-			<param name="namedGaps"><map/></param>
-			<param name="minWidth"><int>415</int></param>
-			<param name="maxWidth"><int>415</int></param>
-			
-			<theme name="button-small2" ref="button" allowWildcard="true">
+      <param name="defaultGap"><dimension>4,2</dimension></param>
+      <param name="smallGap"><dimension>8,8</dimension></param>
+      <param name="mediumGap"><dimension>10,10</dimension></param>
+      <param name="largeGap"><dimension>15,15</dimension></param>
+      <param name="namedGaps"><map/></param>
+      <theme name="button-small2" ref="button" allowWildcard="true">
 				<param name="minWidth"><int>100</int></param>
 			</theme>
 			<!-- Value -->
@@ -160,21 +155,52 @@
 	</theme>
 
 	<theme name="read-mail" ref="mail-inner">
-		<param name="minWidth"><int>440</int></param>
-		<param name="minHeight"><int>400</int></param>
-		<theme name="dialoglayout" ref="dialoglayout">
-
-			<theme name="editfield" ref="editfield">
-				<param name="background"><image>ui-header.background</image></param>
-				<param name="minHeight"><int>26</int></param>
-
-				<theme name="renderer" ref="renderer">
-					<param name="border"><border>4,5</border></param>
-					<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
-				</theme>
-			</theme>
-		</theme>
-	</theme>
-
+    <theme name="item-slot" ref="-defaults">
+      <param name="background"><image>ui-button.background</image></param>
+      <param name="textAlignment"><enum type="alignment">bottom</enum></param>
+      <param name="border"><border>0,0,2,0</border></param>
+    </theme>
+    <theme name="monster-slot" ref="-defaults">
+      <param name="background"><image>ui-button.background</image></param>
+      <param name="textAlignment"><enum type="alignment">bottom</enum></param>
+      <param name="border"><border>0,0,2,0</border></param>
+    </theme>
+    <theme name="spritelabel" ref="spritelabel" allowWildcard="true"/>
+    <theme name="button" ref="button"/>
+    <theme name="editfield" ref="editfield">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="minHeight"><int>26</int></param>
+      <theme name="renderer" ref="renderer">
+        <param name="border"><border>4,5</border></param>
+        <param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+      </theme>
+    </theme>
+    <theme name="body-editfield" ref="editfield">
+      <param name="minWidth"><int>150</int></param>
+    </theme>
+    <theme name="button-small2" ref="button" allowWildcard="true">
+      <param name="minWidth"><int>100</int></param>
+    </theme>
+    <!-- Value -->
+    <theme name="label-value" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>6</border></param>
+    </theme>
+    <theme name="label-value-small" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="textAlignment"><enum type="alignment">left</enum></param>
+      <param name="border"><border>6</border></param>
+      <param name="minWidth"><int>135</int></param>
+    </theme>
+    <theme name="label-title" ref="label-value" allowWildcard="true">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="label-title-small" ref="label-value-small" allowWildcard="true">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+  </theme>
 	<theme name="write-mail" ref="mail-inner"/>
 </themes>

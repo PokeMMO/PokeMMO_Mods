@@ -2,7 +2,8 @@
 <themes>
 	<!-- matchmaking stats window -->
 	<theme name="mm-stats-window" ref="base-tabbed-frame">
-		<theme name="dialoglayout" ref="dialoglayout">
+
+    <theme name="dialoglayout" ref="dialoglayout">
 			<param name="border"><border>5</border></param>
 			<param name="defaultGap"><dimension>5,5</dimension></param>
 			<param name="smallGap"><dimension>8,8</dimension></param>
@@ -184,7 +185,37 @@
 		</theme>
 	</theme>
 
-	<theme name="tournament-table" ref="table" allowWildcard="true">
+  <theme name="info-layout" ref="dialoglayout">
+    <param name="border"><border>10,10,10,10</border></param>
+    <param name="defaultGap"><dimension>5,5</dimension></param>
+    <param name="smallGap"><dimension>8,8</dimension></param>
+    <param name="mediumGap"><dimension>10,10</dimension></param>
+    <param name="largeGap"><dimension>15,15</dimension></param>
+    <param name="namedGaps"><map/></param>
+
+    <theme name="button" ref="button">
+      <param name="minWidth"><int>102</int></param>
+      <param name="minHeight"><int>30</int></param>
+    </theme>
+    <theme name="togglebutton" ref="togglebutton">
+      <param name="minWidth"><int>102</int></param>
+      <param name="minHeight"><int>30</int></param>
+    </theme>
+    <theme name="label-type" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-table-header.background</image></param>
+      <param name="border"><border>6</border></param>
+      <param name="minWidth"><int>120</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="label-desc" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-table-row.background</image></param>
+      <param name="border"><border>6</border></param>
+      <param name="minWidth"><int>310</int></param>
+      <param name="maxWidth"><int>32767</int></param>
+    </theme>
+  </theme>
+
+  <theme name="tournament-table" ref="table" allowWildcard="true">
 		<param name="columnWidths">
 			<map>
 				<param name="0"><int>font.EM * 20</int></param>
@@ -299,54 +330,10 @@
 							<param name="background"><image>ui-inputbox.yellow</image></param>
 						</theme>
 				</theme>
-
-				<theme name="info-layout" ref="dialoglayout">
-					<param name="border"><border>10,10,10,10</border></param>
-					<param name="defaultGap"><dimension>5,5</dimension></param>
-					<param name="smallGap"><dimension>8,8</dimension></param>
-					<param name="mediumGap"><dimension>10,10</dimension></param>
-					<param name="largeGap"><dimension>15,15</dimension></param>
-					<param name="namedGaps"><map/></param>
-
-					<theme name="button" ref="button">
-						<param name="minWidth"><int>102</int></param>
-						<param name="minHeight"><int>30</int></param>
-					</theme>
-					<theme name="togglebutton" ref="togglebutton">
-						<param name="minWidth"><int>102</int></param>
-						<param name="minHeight"><int>30</int></param>
-					</theme>
-					<theme name="label-type" ref="label" allowWildcard="true">
-						<param name="background"><image>ui-table-header.background</image></param>
-						<param name="border"><border>6</border></param>
-						<param name="minWidth"><int>120</int></param>
-						<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-					</theme>
-					<theme name="label-desc" ref="label" allowWildcard="true">
-						<param name="background"><image>ui-table-row.background</image></param>
-						<param name="border"><border>6</border></param>
-						<param name="minWidth"><int>310</int></param>
-						<param name="maxWidth"><int>32767</int></param>
-					</theme>
-					<theme name="label-banned-monster" ref="label" allowWildcard="true">
-						<param name="background"><image>ui-inputbox.red</image></param>
-						<param name="border"><border>6</border></param>
-						<param name="minWidth"><int>310</int></param>
-					</theme>
-					<theme name="label-suspect-testing-monster" ref="label" allowWildcard="true">
-						<param name="background"><image>ui-inputbox.yellow</image></param>
-						<param name="border"><border>6</border></param>
-						<param name="minWidth"><int>310</int></param>
-					</theme>
-					<theme name="label-banned-title" ref="button" allowWildcard="true">
-						<param name="background"><image>ui-table-header.background</image></param>
-						<param name="font"><font>title-font</font></param>
-						<param name="border"><border>8,12,8,8</border></param>
-						<param name="minWidth"><int>306</int></param>
-						<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-					</theme>
-				</theme>
-			</theme>
+        <theme name="scrollpane" ref="scrollpane" allowWildcard="true">
+          <theme name="vscrollbar" ref="vscrollbar-white"/>
+          </theme>
+      </theme>
 			<param name="inputMap"><inputMapDef>
 				<action name="nextTab">CTRL TAB</action>
 				<action name="prevTab">CTRL SHIFT TAB</action>
@@ -354,7 +341,7 @@
 		</theme>
 	</theme>
 
-	<theme name="tier-tabbed-pane" ref="base-tabbed-pane">
+  <theme name="tier-tabbed-pane" ref="base-tabbed-pane">
 		<param name="tabPosition"><enum type="tabposition">TOP</enum></param>
 		<theme name="tabbox" ref="tabbox">
 			<param name="spacing"><int>5</int></param>
@@ -380,6 +367,33 @@
 			</theme>
 		</theme>
 	</theme>
+  
+  <theme name="bans" ref="-defaults">
+    <param name="background"><image>none</image></param>
+    <param name="overlay"><image>none</image></param>
+    <theme name="hscrollbar" ref="hscrollbar"/>  <!-- not used -->
+    <theme name="vscrollbar" ref="vscrollbar-white"/>
+    <param name="border"><border>0</border></param>
+    <param name="minWidth"><int>100</int></param>
+    <param name="minHeight"><int>100</int></param>
+    <param name="maxWidth"><int>32767</int></param>
+    <param name="maxHeight"><int>32767</int></param>
+
+    <theme name="label-banned-monster" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.red</image></param>
+      <param name="border"><border>6</border></param>
+    </theme>
+    <theme name="label-suspect-testing-monster" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.yellow</image></param>
+      <param name="border"><border>6</border></param>
+    </theme>
+    <theme name="label-banned-title" ref="button" allowWildcard="true">
+      <param name="background"><image>ui-table-header.background</image></param>
+      <param name="font"><font>title-font</font></param>
+      <param name="border"><border>8,12,8,8</border></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+    </theme>
+  </theme>
 
 	<theme name="stats">
 		<param name="background"><image>none</image></param>

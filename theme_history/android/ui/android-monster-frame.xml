@@ -32,16 +32,17 @@
 			<param name="minHeight"><int>34</int></param>
 			<param name="maxHeight"><int>34</int></param>
 			<param name="border"><border>2,3</border></param>
-			<theme name="label" ref="-defaults">
-				<param name="font"><font>med-shadow-22-white</font></param>
-				<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-			</theme>
-			<theme name="label2" ref="-defaults">
-				<param name="font"><font>title-font</font></param>
-				<param name="border"><border>3</border></param>
-				<param name="background"><image>mi-nameplate</image></param>
-			</theme>
-			<param name="defaultGap"><dimension>2,0</dimension></param>
+      <theme name="label-level" ref="-defaults">
+        <param name="font"><font>med-shadow-22-white</font></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <theme name="label-monster-name" ref="-defaults">
+        <param name="font"><font>med-shadow-22-white</font></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="minWidth"><int>250</int></param>
+        <param name="maxWidth"><int>250</int></param>
+      </theme>
+      <param name="defaultGap"><dimension>2,0</dimension></param>
 			<param name="smallGap"><dimension>8,8</dimension></param>
 			<param name="mediumGap"><dimension>10,10</dimension></param>
 			<param name="largeGap"><dimension>15,15</dimension></param>
@@ -61,7 +62,8 @@
 			<theme name="label2" ref="-defaults">
 				<param name="font"><font>18pt-gray</font></param>
 				<param name="background"><image>mobile.label.value</image></param>
-				<param name="border"><border>0,10,1,60</border></param>
+        <param name="border"><border>0,15,1,60</border></param>
+        <param name="minWidth"><int>240</int></param>
 			</theme>
 			<param name="defaultGap"><dimension>2,0</dimension></param>
 			<param name="smallGap"><dimension>8,8</dimension></param>
@@ -183,8 +185,8 @@
       <param name="background"><image>mobile.label.value</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>15,15,15,15</border></param>
-      <param name="maxWidth"><int>180</int></param>
-      <param name="minWidth"><int>180</int></param>
+      <param name="maxWidth"><int>200</int></param>
+      <param name="minWidth"><int>200</int></param>
       <param name="font"><font>18pt-gray</font></param>
     </theme>
 
@@ -192,17 +194,37 @@
       <param name="background"><image>mobile.label.value</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>15,15,15,15</border></param>
-      <param name="maxWidth"><int>180</int></param>
-      <param name="minWidth"><int>180</int></param>
+      <param name="maxWidth"><int>200</int></param>
+      <param name="minWidth"><int>200</int></param>
       <param name="font"><font>med-noshadow-18-dark-gold-yellow</font></param>
+    </theme>
+
+    <theme name="label-monster-desc" ref="label-monster-value">
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="border"><border>15,15,15,15</border></param>
+      <param name="font"><font>18pt-gray</font></param>
+      <param name="minWidth"><int>440</int></param>
+      <param name="maxWidth"><int>440</int></param>
+    </theme>
+
+    <theme name="label-monster-ability-desc" ref="label-monster-value">
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="border"><border>15,15,20,20</border></param>
+      <param name="font"><font>18pt-gray</font></param>
+      <param name="minWidth"><int>440</int></param>
+      <param name="maxWidth"><int>440</int></param>
+      <param name="minHeight"><int>90</int></param>
+      <param name="maxHeight"><int>150</int></param>
     </theme>
 
     <theme name="label-monster-value-stat-complete" ref="label" allowWildcard="true">
       <param name="background"><image>mobile.label.value</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>15,15,15,15</border></param>
-      <param name="maxWidth"><int>180</int></param>
-      <param name="minWidth"><int>180</int></param>
+      <param name="maxWidth"><int>200</int></param>
+      <param name="minWidth"><int>200</int></param>
       <param name="font"><font>med-noshadow-18-green</font></param>
     </theme>
 
@@ -210,8 +232,8 @@
       <param name="background"><image>mobile.label.value</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>15,15,15,15</border></param>
-      <param name="maxWidth"><int>180</int></param>
-      <param name="minWidth"><int>180</int></param>
+      <param name="maxWidth"><int>200</int></param>
+      <param name="minWidth"><int>200</int></param>
       <param name="font"><font>med-noshadow-18-darkred</font></param>
     </theme>
 
@@ -219,8 +241,8 @@
       <param name="background"><image>mobile.label.value</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       <param name="border"><border>15,15,15,15</border></param>
-      <param name="maxWidth"><int>180</int></param>
-      <param name="minWidth"><int>180</int></param>
+      <param name="maxWidth"><int>200</int></param>
+      <param name="minWidth"><int>200</int></param>
       <param name="font"><font>18pt-gray</font></param>
     </theme>
 
@@ -228,8 +250,8 @@
       <param name="background"><image>mobile.label.value</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>15,15,15,15</border></param>
-      <param name="maxWidth"><int>180</int></param>
-      <param name="minWidth"><int>180</int></param>
+      <param name="maxWidth"><int>200</int></param>
+      <param name="minWidth"><int>200</int></param>
       <param name="font"><font>18pt-gray</font></param>
       <param name="mouseCursor"><cursor>cursor.help</cursor></param>
     </theme>

@@ -120,6 +120,11 @@
 			<param name="minWidth"><int>9</int></param>
 			<param name="minHeight"><int>9</int></param>
 		</theme>
+    <theme name="maximizeButton" ref="-defaults">
+      <param name="background"><image>frame.maximizebutton.background</image></param>
+      <param name="minWidth"><int>9</int></param>
+      <param name="minHeight"><int>9</int></param>
+    </theme>
 		<theme name="resizeHandle" ref="-defaults"/>
 	</theme>
 
@@ -676,6 +681,8 @@
 		<param name="ensureColumnHeaderMinWidth"><bool>true</bool></param>
 		<param name="inputMap"><inputMapDef ref="-defaultInputMap">
 			<action name="toggleSelectionOnLeadRow">ctrl SPACE</action>
+			<action name="selectNextRow">DOWN</action>
+			<action name="selectPreviousRow">UP</action>
 		</inputMapDef></param>
 		<theme name="" ref="*"/>
 		<theme name="ComboBoxCellRenderer">
@@ -718,7 +725,7 @@
 				<param name="mouseCursor"><cursor>cursor.text</cursor></param>
 				<param name="border"><border>2,0</border></param>
 			</theme>
-			<param name="minHeight"><int>node.font.lineHeight + 4</int></param>
+			<param name="minHeight"><int>16</int></param>
 			<param name="alignment"><enum type="alignment">center</enum></param>
 			<param name="mouseCursor"><cursor>cursor.text</cursor></param>
 		</theme>
@@ -915,6 +922,43 @@
 		<param name="fadeDurationHide"><int>0</int></param>
 	</theme>
 
+  <theme name="header-column" ref="label">
+    <param name="background"><image>ui-header.background</image></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    <param name="border"><border>6</border></param>
+  </theme>
+  
+  <theme name="header-column-sort-default" ref="header-column">
+    <param name="overlay"><image>ui-sort-default.background</image></param>
+    <param name="background"><image>ui-header.background</image></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+  </theme>
+  <theme name="header-column-sort-desc" ref="header-column">
+    <param name="overlay"><image>ui-sort-desc.background</image></param>
+    <param name="background"><image>ui-header.background</image></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+  </theme>
+  <theme name="header-column-sort-asc" ref="header-column">
+    <param name="overlay"><image>ui-sort-asc.background</image></param>
+    <param name="background"><image>ui-header.background</image></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+  </theme>
+  
+  <theme name="cell" ref="label">
+    <param name="background"><image>ui-inputbox.background</image></param>
+    <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+    <param name="border"><border>5</border></param>
+  </theme>
+
+  <theme name="cell-button" ref="cell">
+    <param name="background">
+      <image>ui-button.background</image>
+    </param>
+    <param name="textAlignment">
+      <enum type="alignment">CENTER</enum>
+    </param>
+  </theme>
+
 	<!-- Used for Confirmation Window -->
 	<theme name="confirm-panel" ref="-defaults" allowWildcard="true">
 		<param name="background"><image>ui-popup.background</image></param>
@@ -930,12 +974,37 @@
 			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		</theme>
     
+    <theme name="dialoglayout" ref="-defaults">
+      <param name="border"><border>5</border></param>
+      <param name="defaultGap"><dimension>5,5</dimension></param>
+      <param name="smallGap"><dimension>8,8</dimension></param>
+      <param name="mediumGap"><dimension>10,10</dimension></param>
+      <param name="largeGap"><dimension>15,15</dimension></param>
+      <param name="namedGaps"><map/></param>
+
+      <theme name="color-button" ref="button" allowWildcard="true">
+        <param name="font"><font>pb-dark</font></param>
+        <param name="textAlignment"><enum type="alignment">center</enum></param>
+        <param name="background"><image>color-picker.background</image></param>
+        <param name="minWidth"><int>26</int></param>
+        <param name="minHeight"><int>26</int></param>
+      </theme>
+
+      <theme name="color-button-outline" ref="color-button" allowWildcard="true">
+        <param name="background"><image>color-picker-selected</image></param>
+      </theme>
+    </theme>
+
     <theme name="container" ref="-defaults">
       <theme name="progressbar" ref="-defaults" allowWildcard="true">
         <param name=""><image>progressbar.*</image></param>
         <param name="minWidth"><int>100</int></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       </theme>
+    </theme>
+    
+    <theme name="graph" ref="-defaults">
+      <param name="background"><image>label1.background</image></param>
     </theme>
 
 		<param name="namedGaps"><map/></param>
@@ -963,28 +1032,126 @@
 			<param name="minWidth"><int>240</int></param>
 		</theme>
     <theme name="textarea" ref="-defaults">
-      <param name="minWidth">
-        <int>500</int>
-      </param>
-      <param name="minHeight">
-        <int>50</int>
-      </param>
+      <param name="minWidth"><int>500</int></param>
+      <param name="minHeight"><int>50</int></param>
       <param name="fonts">
         <map>
-          <param name="default">
-            <font>alphabeta</font>
-          </param>
-          <param name="link">
-            <font>alphabeta-blue</font>
-          </param>
+          <param name="default"><font>alphabeta</font></param>
+          <param name="link"><font>alphabeta-blue</font></param>
         </map>
       </param>
-      <param name="classes">
-        <map/>
+      <param name="classes"><map/></param>
+      <param name="images"><map/></param>
+    </theme>
+  </theme>
+
+  <theme name="gtl-buy-panel" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>ui-popup.background</image></param>
+    <param name="border"><border>20</border></param>
+    <param name="defaultGap"><dimension>5,5</dimension></param>
+    <param name="smallGap"><dimension>8,8</dimension></param>
+    <param name="mediumGap"><dimension>10,10</dimension></param>
+    <param name="largeGap"><dimension>15,15</dimension></param>
+
+    <theme name="progressbar" ref="-defaults" allowWildcard="true">
+      <param name=""><image>progressbar.*</image></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+
+    <theme name="top-left" ref="-defaults">
+      <param name="background"><image>label2.background</image></param>
+      <param name="border"><border>5</border></param>
+      <param name="defaultGap"><dimension>5,5</dimension></param>
+      <param name="smallGap"><dimension>8,8</dimension></param>
+      <param name="mediumGap"><dimension>10,10</dimension></param>
+      <param name="largeGap"><dimension>15,15</dimension></param>
+      <param name="namedGaps"><map/></param>
+
+      <theme name="color-button" ref="button" allowWildcard="true">
+        <param name="font"><font>pb-dark</font></param>
+        <param name="textAlignment"><enum type="alignment">center</enum></param>
+        <param name="background"><image>color-picker.background</image></param>
+        <param name="minWidth"><int>26</int></param>
+        <param name="minHeight"><int>26</int></param>
+      </theme>
+
+      <theme name="color-button-outline" ref="color-button" allowWildcard="true">
+        <param name="background"><image>color-picker-selected</image></param>
+      </theme>
+
+      <theme name="graph" ref="-defaults">
+        <param name="background"><image>label1.background</image></param>
+      </theme>
+
+      <theme name="cell-icon" ref="label">
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        <param name="border"><border>0</border></param>
+        <param name="minWidth"><int>24</int></param>
+      </theme>
+    </theme>
+
+    <theme name="broker-table" ref="-defaults">
+      <param name="background"><image>label5.background</image></param>
+      <param name="border"><border>0,0,0,0</border></param>
+      <param name="defaultGap"><dimension>4,5</dimension></param>
+      <param name="smallGap"><dimension>8,8</dimension></param>
+      <param name="mediumGap"><dimension>10,10</dimension></param>
+      <param name="largeGap"><dimension>15,15</dimension></param>
+      <param name="namedGaps"><map/></param>
+
+      <theme name="header-column" ref="label">
+        <param name="background"><image>ui-header.background</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        <param name="border"><border>6</border></param>
+      </theme>
+    </theme>
+
+    <theme name="container" ref="-defaults">
+      <theme name="progressbar" ref="-defaults" allowWildcard="true">
+        <param name=""><image>progressbar.*</image></param>
+        <param name="minWidth"><int>100</int></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+    </theme>
+
+
+    <param name="namedGaps"><map/></param>
+    <theme name="label" ref="-defaults">
+      <param name="font"><font>pb-dark</font></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="label-danger" ref="-defaults">
+      <param name="font"><font>pb-dark-red</font></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="label-title" ref="label" allowWildcard="true">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <param name="minWidth"><int>120</int></param>
+      <param name="border"><border>6</border></param>
+      <param name="font"><font>pb-dark</font></param>
+    </theme>
+    <theme name="label-lalign" ref="label" allowWildcard="true">
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+    </theme>
+    <theme name="valueadjuster-small" ref="valueadjuster">
+      <param name="width"><int>92</int></param>
+    </theme>
+    <theme name="valueadjuster" ref="valueadjuster">
+      <param name="minWidth"><int>240</int></param>
+    </theme>
+    <theme name="textarea" ref="-defaults">
+      <param name="minWidth"><int>500</int></param>
+      <param name="minHeight"><int>50</int></param>
+      <param name="fonts">
+        <map>
+          <param name="default"><font>alphabeta</font></param>
+          <param name="link"><font>alphabeta-blue</font></param>
+        </map>
       </param>
-      <param name="images">
-        <map/>
-      </param>
+      <param name="classes"><map/></param>
+      <param name="images"><map/></param>
     </theme>
   </theme>
   
@@ -1011,30 +1178,23 @@
 
   <theme name="disconnection-widget" ref="confirm-widget" allowWildcard="true">
     <theme name="confirm-panel" ref="confirm-panel">
+      <theme name="label-title-permanent-ban" ref="label" allowWildcard="true">
+        <param name="font"><font>mechabold-red</font></param>
+      </theme>
+      <theme name="label-title-tempban" ref="label" allowWildcard="true">
+        <param name="font"><font>mechabold-yellow</font></param>
+      </theme>
+      <theme name="label-default" ref="label" allowWildcard="true">
+        <param name="font"><font>alphabeta</font></param>
+      </theme>
       <theme name="textarea" ref="-defaults">
-        <param name="minWidth">
-          <int>200</int>
-        </param>
-        <param name="minHeight">
-          <int>25</int>
-        </param>
-        <param name="maxWidth">
-          <int>800</int>
-        </param>
+        <param name="minWidth"><int>100</int></param>
+        <param name="minHeight"><int>25</int></param>
+        <param name="maxWidth"><int>800</int></param>
         <param name="fonts">
           <map>
-            <param name="default">
-              <font>alphabeta</font>
-            </param>
-            <param name="link">
-              <font>alphabeta-blue</font>
-            </param>
-            <param name="big-yellow">
-              <font>mechabold-yellow</font>
-            </param>
-            <param name="big-red">
-              <font>mechabold-red</font>
-            </param>
+            <param name="default"><font>alphabeta</font></param>
+            <param name="link"><font>alphabeta-blue</font></param>
           </map>
         </param>
       </theme>
@@ -1132,13 +1292,10 @@
 			<theme name="combobox" ref="combobox" allowWildcard="true">
 				<param name="minWidth"><int>188</int></param>
 			</theme>
-
 			<theme name="valueadjuster" ref="valueadjuster">
 				<param name="minWidth"><int>100</int></param>
 				<param name="maxWidth"><int>188</int></param>
 			</theme>
-
-
 		</theme>
 	</theme>
 </themes>
