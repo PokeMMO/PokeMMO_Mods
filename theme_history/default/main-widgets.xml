@@ -286,6 +286,8 @@
       </theme>
     </theme>
   </theme>
+  
+  <theme name="encounter-counter-expanded" ref="encounter-counter"/>
 
   <theme name="encounter-counter-shiny" ref="resizableframe">
     <param name="background"><image>monster-caught.background</image></param>

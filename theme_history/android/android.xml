@@ -712,6 +712,10 @@
       <param name="font"><font>med-noshadow-16-red</font></param>
       <param name="background"><image>mobile.box.dark1.50</image></param>
     </theme>
+    <theme name="cell-positive" ref="cell-positive">
+      <param name="font"><font>med-noshadow-16-dark-green</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+    </theme>
     <theme name="button-monster" ref="cell">
       <param name="font"><font>med-noshadow-16-white</font></param>
       <param name="background"><image>mobile.box.dark1.50</image></param>

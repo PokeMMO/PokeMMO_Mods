@@ -1,4 +1,36 @@
 <themes>
+  <theme name="encounter-counter" ref="resizableframe">
+    <param name="titleAreaTop"><int>8</int></param>
+    <param name="titleAreaLeft"><int>11</int></param>
+    <param name="titleAreaRight"><int>-1</int></param>
+    <param name="titleAreaBottom"><int>20</int></param>
+    <param name="border"><border>20,0,0,0</border></param>
+    <param name="background"><image>frame-draggable-alpha.background</image></param>
+    <param name="minWidth"><int>200</int></param>
+    <theme name="content" ref="-defaults">
+      <theme name="label" ref="label">
+        <param name="minWidth"><int>50</int></param>
+        <param name="font"><font>med-noshadow-22-white</font></param>
+        <param name="border"><border>7,7</border></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <theme name="label-left" ref="label">
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="font"><font>med-noshadow-22-white</font></param>
+      </theme>
+      <theme name="icon" ref="label">
+        <param name="border"><border>7,7</border></param>
+      </theme>
+      <theme name="cell" ref="label">
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        <param name="border"><border>5</border></param>
+      </theme>
+    </theme>
+  </theme>
+  
+  <theme name="encounter-counter-expanded" ref="encounter-counter"/>
+  
   <theme name="encounter-counter-frame" ref="mobile-panel" overwrite="true">
     <param name="border"><border>55,0,0,0</border></param>
     <param name="minWidth"><int>450</int></param>
