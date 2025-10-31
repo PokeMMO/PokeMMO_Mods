@@ -12,17 +12,32 @@
 			<param name="border"><border>0,0,7,0</border></param>
 		</theme>
 		<param name="border"><border>65,64,64,65</border></param>
-		<theme name="ball-count" ref="-defaults">
-			<param name="border"><border>0</border></param>
-			<param name="defaultGap"><dimension>2,2</dimension></param>
-			<param name="smallGap"><dimension>2,2</dimension></param>
-			<param name="mediumGap"><dimension>2,2</dimension></param>
-			<param name="largeGap"><dimension>2,2</dimension></param>
-			<param name="namedGaps"><map/></param>
-		</theme>
-	</theme>
+  </theme>
+  
+  <theme name="battlegui-dark" ref="battlegui"/>
 
-	<theme name="battle-ability" ref="-defaults">
+  <theme name="ball-count" ref="-defaults">
+    <param name="border">
+      <border>0</border>
+    </param>
+    <param name="defaultGap">
+      <dimension>2,2</dimension>
+    </param>
+    <param name="smallGap">
+      <dimension>2,2</dimension>
+    </param>
+    <param name="mediumGap">
+      <dimension>2,2</dimension>
+    </param>
+    <param name="largeGap">
+      <dimension>2,2</dimension>
+    </param>
+    <param name="namedGaps">
+      <map/>
+    </param>
+  </theme>
+
+  <theme name="battle-ability" ref="-defaults">
 		<param name="background"><image>battle-ability</image></param>
 		<param name="minWidth"><int>272</int></param>
 		<param name="maxWidth"><int>272</int></param>
@@ -54,26 +69,62 @@
 
 	<theme name="battle-gui-self" ref="-defaults">
 		<param name="background"><image>battle-ui-self</image></param>
-		<param name="border"><border>0,0,1,0</border></param>
+    <theme name="health-label" ref="label" allowWildcard="true">
+      <param name="font">
+        <font>mechabold</font>
+      </param>
+    </theme>
 	</theme>
 
-	<theme name="battle-gui-self-slim" ref="-defaults">
+  <theme name="battle-gui-self-slim" ref="battle-gui-self">
 		<param name="background"><image>battle-ui-self-slim</image></param>
-	</theme>
+  </theme>
 
   <theme name="battle-gui-boss" ref="-defaults">
     <param name="background"><image>battle-ui-boss</image></param>
   </theme>
 
+  <theme name="stat-boost" ref="-defaults">
+    <param name="background"><image>battle-ui-green-label</image></param>
+    <param name="font"><font>tooltip-font</font></param>
+    <param name="border"><border>5,5</border></param>
+    <param name="fadeInTime"><int>500</int></param>
+    <param name="fadeDurationShow"><int>200</int></param>
+    <param name="fadeDurationHide"><int>200</int></param>
+    <param name="minWidth"><int>40</int></param>
+    <param name="minHeight"><int>18</int></param>
+  </theme>
+
+  <theme name="stat-drop" ref="stat-boost">
+    <param name="background">
+      <image>battle-ui-orangered-label</image>
+    </param>
+  </theme>
+
+  <theme name="buff" ref="-defaults">
+    <param name="background">
+      <image>battle-ui-blue-label</image>
+    </param>
+  </theme>
+
+  <theme name="debuff" ref="-defaults">
+    <param name="background">
+      <image>battle-ui-purple-label</image>
+    </param>
+  </theme>
+
   <!-- Monster Name @ Health Bars -->
 	<theme name="redlabel" ref="-defaults" allowWildcard="true">
 		<param name="font"><font>mechabold</font></param>
-		<param name="border"><border>0,0,7,0</border></param>
-	</theme>
+		<param name="border"><border>0,0,0,0</border></param>
+    <param name="textAlignment">
+      <enum type="alignment">LEFT</enum>
+    </param>
+  </theme>
 
   <theme name="redlabel-large" ref="-defaults" allowWildcard="true">
     <param name="font"><font>mechabold-large</font></param>
-    <param name="border"><border>0,0,7,0</border></param>
+    <param name="border"><border>0,0,0,0</border></param>
   </theme>
 
   <theme name="time-progressbar" ref="-defaults" allowWildcard="true">
@@ -166,6 +217,18 @@
 	<theme name="battle-button-confirm" ref="battle-button-return" allowWildcard="true">
 		<param name=""><image>battle-button-confirm.*</image></param>
 	</theme>
+	<theme name="battle-button-register" ref="-defaults" allowWildcard="true">
+	  <param name="border"><border>2,4,4,4</border></param>
+	  <param name="font"><font>alphabeta-border</font></param>
+    <param name=""><image>battle-button.*</image></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    <theme name="label" ref="label" allowWildcard="true">
+      <param name="font"><font>alphabeta</font></param>
+    </theme>
+    <theme name="label-button" ref="label" allowWildcard="true">
+      <param name="font"><font>alphabeta</font></param>
+    </theme>
+  </theme>
 
 	<!-- Used for Battle Monster Switch buttons @ Battle Frame -->
 	<theme name="battle-button" ref="-defaults" allowWildcard="true">
@@ -199,6 +262,15 @@
 
 	<theme name="battle-frame" ref="-defaults" allowWildcard="true">
 		<param name="background"><image>label1.background</image></param>
+    <theme name="battle-text" ref="label" allowWildcard="true">
+      <param name="font"><font>battle</font></param>
+      <param name="border"><border>17,17,0,7</border></param>
+      <param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+    </theme>
+    <theme name="label" ref="-defaults" allowWildcard="true">
+      <param name="font"><font>mechabold</font></param>
+      <param name="border"><border>0,0,7,0</border></param>
+    </theme>
 	</theme>
 
 	<!-- Theme used by various battle windows including the main window, skill learn dialog and item selection dialog -->
@@ -257,6 +329,10 @@
             <enum type="alignment">RIGHT</enum>
           </param>
         </theme>
+    <theme name="battle-text" ref="label" allowWildcard="true">
+      <param name="font"><font>battle</font></param>
+      <param name="border"><border>17,17,7,7</border></param>
+    </theme>
     </theme>
 
   <theme name="battle-panel-dark" ref="battle-panel" allowWildcard="true">
@@ -447,12 +523,11 @@
     <param name="namedGaps"><map/></param>
     <param name="fadeInTime"><int>500</int></param>
     <param name="background"><image>bubble.background</image></param>
-    
     <theme name="label" ref="-defaults">
       <param name="font"><font>tooltip-font</font></param>
-      <param name="border"><border>5,8</border></param>
+      <param name="border"><border>4,5,3,4</border></param>
+      <param name="textAlignment"><enum type="alignment">TOP</enum></param>
     </theme>
-
     <param name="columnWidths">
       <map><param name="0"><int>60</int></param></map>
     </param>
@@ -460,16 +535,23 @@
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
     </theme>
   </theme>
+  
+  <theme name="rbattle-big" ref="rbattle">
+    <param name="minWidth"><int>209</int></param>
+    <param name="minHeight"><int>52</int></param>
+  </theme>
 
-  <theme name="battle-fight" ref="rbattle" allowWildcard="true"/>
-	<theme name="battle-switch" ref="rbattle" allowWildcard="true"/>
-	<theme name="battle-bag" ref="rbattle" allowWildcard="true"/>
-	<theme name="battle-run" ref="rbattle" allowWildcard="true"/>
-	<theme name="battle-win" ref="rbattle" allowWildcard="true"/>
-    <theme name="battle-shift" ref="rbattle" allowWildcard="true"/>
-    <theme name="battle-rotate" ref="rbattle" allowWildcard="true"/>
+  <theme name="battle-fight" ref="rbattle-big" allowWildcard="true"/>
+	<theme name="battle-switch" ref="rbattle-big" allowWildcard="true"/>
+	<theme name="battle-bag" ref="rbattle-big" allowWildcard="true"/>
+	<theme name="battle-run" ref="rbattle-big" allowWildcard="true"/>
+	<theme name="battle-win" ref="rbattle-big" allowWildcard="true"/>
+  <theme name="battle-shift" ref="rbattle-big" allowWildcard="true"/>
+  <theme name="battle-rotate" ref="rbattle-big" allowWildcard="true"/>
+  <theme name="battle-sheet" ref="rbattle-big" allowWildcard="true"/>
+  <theme name="battle-carving" ref="rbattle-big" allowWildcard="true"/>
 
-	<theme name="battle-ball" ref="rbattle" allowWildcard="true"/>
-	<theme name="battle-bait" ref="rbattle" allowWildcard="true"/>
-	<theme name="battle-rock" ref="rbattle" allowWildcard="true"/>
+	<theme name="battle-ball" ref="rbattle-big" allowWildcard="true"/>
+	<theme name="battle-bait" ref="rbattle-big" allowWildcard="true"/>
+	<theme name="battle-rock" ref="rbattle-big" allowWildcard="true"/>
 </themes>

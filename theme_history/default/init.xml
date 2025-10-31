@@ -1045,6 +1045,18 @@
     </theme>
   </theme>
 
+  <!-- CollapsibleMenu theme definition -->
+  <theme name="collapsiblemenu" ref="-defaults">
+    <param name="background"><image>ui-inner-frame-floating.background</image></param>
+    <param name="border"><border>6</border></param>
+    <theme name="expandbutton-closed" ref="togglebutton">
+      <param name="background"><image>ui-c-menu.right-b.background</image></param>
+    </theme>
+    <theme name="expandbutton-open" ref="togglebutton">
+      <param name="background"><image>ui-c-menu.down-b.background</image></param>
+    </theme>
+  </theme>
+
   <theme name="gtl-buy-panel" ref="-defaults" allowWildcard="true">
     <param name="background"><image>ui-popup.background</image></param>
     <param name="border"><border>20</border></param>
@@ -1296,6 +1308,20 @@
 				<param name="minWidth"><int>100</int></param>
 				<param name="maxWidth"><int>188</int></param>
 			</theme>
-		</theme>
+      <theme name="collapsiblemenu" ref="collapsiblemenu">
+        <theme name="label-title" ref="label" allowWildcard="true">
+          <param name="background"><image>ui-inputbox.background</image></param>
+          <param name="minWidth"><int>100</int></param>
+          <param name="border"><border>6</border></param>
+          <param name="font"><font>pb-dark</font></param>
+        </theme>
+        <theme name="label-settings-value" ref="-dialog" allowWildcard="true">
+          <theme name="togglebutton" ref="togglebutton">
+            <param name="maxWidth"><int>30</int></param>
+            <param name="maxHeight"><int>30</int></param>
+          </theme>
+        </theme>
+      </theme>
+    </theme>
 	</theme>
 </themes>

@@ -909,8 +909,10 @@
 		<area name="mobile.battle.back" xywh="123,521,116,116" center="true"/>
 		<area name="mobile.battle.selected.noanim" xywh="123,639,116,116"/>
 		<area name="mobile.battle.selected.noanim-inset" xywh="123,639,116,116" inset="1"/>
-        <area name="mobile.battle.shift" xywh="242,639,116,116" center="true"/>
-        <area name="mobile.battle.rotate" xywh="5,1035,116,116" center="true"/>
+    <area name="mobile.battle.shift" xywh="242,639,116,116" center="true"/>
+    <area name="mobile.battle.rotate" xywh="5,1035,116,116" center="true"/>
+    <area name="mobile.battle.sheet" xywh="141,1035,116,116" center="true"/>
+    <area name="mobile.battle.carve" xywh="270,1035,116,116" center="true"/>
 
 		<area name="mobile.battle.rock" xywh="5,762,116,116" center="true"/>
 		<area name="mobile.battle.bait" xywh="123,762,116,116" center="true"/>
@@ -945,15 +947,31 @@
 			<alias ref="mobile.battle.shift"/>
 		</select>
 
-        <select name="mobile.battle.rotate.background">
-            <composed if="selected | keyboardFocus">
-                <alias ref="mobile.battle.rotate"/>
-                <alias ref="mobile.battle.selected"/>
-            </composed>
+    <select name="mobile.battle.rotate.background">
+        <composed if="selected | keyboardFocus">
             <alias ref="mobile.battle.rotate"/>
-        </select>
+            <alias ref="mobile.battle.selected"/>
+        </composed>
+        <alias ref="mobile.battle.rotate"/>
+    </select>
+    
+    <select name="mobile.battle.sheet.background">
+        <composed if="selected | keyboardFocus">
+            <alias ref="mobile.battle.sheet"/>
+            <alias ref="mobile.battle.selected"/>
+        </composed>
+        <alias ref="mobile.battle.sheet"/>
+    </select>
+    
+    <select name="mobile.battle.carve.background">
+        <composed if="selected | keyboardFocus | hover">
+            <alias ref="mobile.battle.carve"/>
+            <alias ref="mobile.battle.selected"/>
+        </composed>
+        <alias ref="mobile.battle.carve"/>
+    </select>
 
-        <select name="mobile.battle.back.background">
+    <select name="mobile.battle.back.background">
 			<composed if="selected | keyboardFocus">
 				<alias ref="mobile.battle.back"/>
 				<alias ref="mobile.battle.selected"/>

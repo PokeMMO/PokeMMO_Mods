@@ -287,6 +287,18 @@
 		<param name="tabPosition"><enum type="tabposition">TOP</enum></param>
 		<param name="background"><image>none</image></param>
 		<theme name="tabbox" ref="mobile-tabbox" overwrite="true"/>
+    <theme name="scrollControls" ref="scrollControls">
+      <theme name="scrollLeft" ref="button">
+        <param name="text"><string>&lt;</string></param>
+        <param name="minWidth"><int>60</int></param>
+        <param name="minHeight"><int>60</int></param>
+      </theme>
+      <theme name="scrollRight" ref="button">
+        <param name="text"><string>&gt;</string></param>
+        <param name="minWidth"><int>60</int></param>
+        <param name="minHeight"><int>60</int></param>
+      </theme>
+    </theme>
 		<theme name="container" ref="container">
 			<param name="border"><border>5,5,8,5</border></param>
 			<param name="minWidth"><int>480</int></param>

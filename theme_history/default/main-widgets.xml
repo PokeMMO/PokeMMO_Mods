@@ -130,6 +130,8 @@
         <map/>
       </param>
       <theme name="button" ref="button">
+        <param name="minWidth"><int>100</int></param>
+        <param name="minHeight"><int>50</int></param>
         <param name="border">
           <border>10,4</border>
         </param>
@@ -1484,55 +1486,13 @@
 	<!-- Login GUI - ChangeLog Widget -->
 	<theme name="changelog-frame" ref="resizableframe">
 		<param name="background"><image>none</image></param>
-		<theme name="dialoglayout" ref="-defaults">
-			<param name="defaultGap"><dimension>5,5</dimension></param>
-			<param name="smallGap"><dimension>8,8</dimension></param>
-			<param name="mediumGap"><dimension>10,10</dimension></param>
-			<param name="largeGap"><dimension>15,15</dimension></param>
-			<param name="namedGaps"><map/></param>
-			<param name="border"><border>0,5,5,5</border></param>
-			<theme name="button" ref="label">
-				<param name="background"><image>label2.background</image></param>
-				<param name="border"><border>5</border></param>
-				<param name="font"><font>alphabeta</font></param>
-			</theme>
-			<theme name="faq-content">
-				<param name="background"><image>label1.background</image></param>
-				<param name="overlay"><image>none</image></param>
-				<theme name="hscrollbar" ref="hscrollbar"/>  <!-- not used -->
-				<theme name="vscrollbar" ref="vscrollbar"/>
-				<param name="border"><border>8</border></param>
-				<param name="minWidth"><int>100</int></param>
-				<param name="minHeight"><int>100</int></param>
-				<param name="maxWidth"><int>32767</int></param>
-				<param name="maxHeight"><int>32767</int></param>
-				<param name="hasDragButton"><bool>false</bool></param>
-				<param name="autoScrollArea"><int>5</int></param>
-				<param name="autoScrollSpeed"><int>10</int></param>
-				<param name="scrollbarsAlwaysVisible"><bool>false</bool></param>
-				<theme name="textarea" ref="-defaults">
-					<param name="minWidth"><int>600</int></param>
-					<param name="minHeight"><int>400</int></param>
-					<param name="fonts"><map>
-						<param name="default"><font>listbox-display</font></param>
-						<param name="orange"><font>alphabeta-blue</font></param>
-						<param name="link"><font>alphabeta-blue</font></param>
-					</map></param>
-					<param name="classes"><map/></param>
-					<param name="images">
-					<map>
-						<param name="ul-bullet"><image>ul-list</image></param>
-					</map>
-					</param>
-				</theme>
-			</theme>
-			<theme name="editfield" ref="editfield">
-				<param name="border"><border>5,0</border></param>
-				<param name="maxWidth"><int>140</int></param>
-				<param name="width"><int>60</int></param>
-				<param name="columns"><int>16</int></param>
-			</theme>
-		</theme>
+    <theme name="button" ref="label">
+      <param name="background"><image>label2.background</image></param>
+      <param name="border"><border>5</border></param>
+      <param name="font"><font>alphabeta</font></param>
+      <param name="minWidth"><int>300</int></param>
+      <param name="maxWidth"><int>300</int></param>
+    </theme>
 	</theme>
 
 	<!-- Edit Word Ping List -->

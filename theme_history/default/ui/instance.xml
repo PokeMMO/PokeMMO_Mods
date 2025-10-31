@@ -3,7 +3,8 @@
 	<!-- instance window -->
 	<theme name="instance-window" ref="base-frame">
 		<param name="fadeDurationShow"><int>200</int></param>
-		<param name="fadeDurationHide"><int>200</int></param><param name="border"><border>0,0,8,8</border></param>
+		<param name="fadeDurationHide"><int>200</int></param>
+    <param name="border"><border>0,8,8,8</border></param>
 		<theme name="dialoglayout" ref="dialoglayout">
 			<theme name="roster">
 				<param name="background"><image>none</image></param>
@@ -79,7 +80,6 @@
 	</theme>
 
 	<theme name="instance-table" ref="table" allowWildcard="true">
-		<param name="border"><border>0,10,0,0</border></param>
 		<param name="columnWidths">
 			<map>
 				<param name="1"><int>font.EM * 8</int></param>

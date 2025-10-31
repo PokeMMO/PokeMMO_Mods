@@ -1769,4 +1769,59 @@
       <param name="border"><border>0,4,4,4</border></param>
     </theme>
   </theme>
+
+  <!-- Login GUI - ChangeLog Widget -->
+  <theme name="changelog-frame" ref="resizableframe">
+    <param name="background"><image>none</image></param>
+    <theme name="title" ref="label" allowWildcard="true">
+      <param name="font"><font>mechabold-large</font></param>
+    </theme>
+    <param name="titleAreaBottom"><int>0</int></param>
+    <theme name="button" ref="label">
+      <param name="background"><image>label2.background</image></param>
+      <param name="border"><border>5</border></param>
+      <param name="font"><font>mechabold</font></param>
+      <param name="minWidth"><int>300</int></param>
+      <param name="maxWidth"><int>300</int></param>
+      <param name="minHeight"><int>40</int></param>
+    </theme>
+  </theme>
+  
+  <theme name="duel-confirm-widget" ref="confirm-widget">
+    <theme name="duel-confirm-panel" ref="confirm-panel">
+      <theme name="togglebutton" ref="togglebutton">
+        <param name="minWidth"><int>60</int></param>
+        <param name="minHeight"><int>40</int></param>
+      </theme>
+      <theme name="label-title" ref="label" allowWildcard="true" overwrite="true">
+        <param name="background"><image>ui-inputbox.background</image></param>
+        <param name="minWidth"><int>200</int></param>
+        <param name="border"><border>6</border></param>
+        <param name="font"><font>med-noshadow-18-white</font></param>
+      </theme>
+      <theme name="combobox" ref="mobile-combobox" allowWildcard="true" overwrite="true">
+        <param name="minWidth"><int>188</int></param>
+      </theme>
+      <theme name="valueadjuster" ref="mobile-valueadjuster" overwrite="true">
+        <param name="minWidth"><int>100</int></param>
+        <param name="maxWidth"><int>188</int></param>
+      </theme>
+      <theme name="collapsiblemenu" ref="collapsiblemenu">
+        <theme name="label" ref="label" allowWildcard="true" overwrite="true">
+          <param name="minWidth"><int>200</int></param>
+          <param name="border"><border>6</border></param>
+          <param name="font"><font>med-noshadow-18-white</font></param>
+        </theme>
+        <theme name="label-title" ref="label" overwrite="true">
+          <param name="background"><image>ui-inputbox.background</image></param>
+        </theme>
+        <theme name="label-settings-value" ref="-dialog" allowWildcard="true">
+          <theme name="togglebutton" ref="togglebutton">
+            <param name="minWidth"><int>60</int></param>
+            <param name="minHeight"><int>40</int></param>
+          </theme>
+        </theme>
+      </theme>
+    </theme>
+  </theme>
 </themes>

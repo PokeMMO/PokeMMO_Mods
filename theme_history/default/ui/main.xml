@@ -195,4 +195,8 @@
 		<param name="minWidth"><int>100</int></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
+
+  <theme name="menu-item">
+    <param name="background"><image>ui-popup.background</image></param>
+  </theme>
 </themes>
