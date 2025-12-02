@@ -284,8 +284,8 @@
 		<param name="background"><image>mobile.label.value</image></param>
 		<param name="font"><font>22pt-gray</font></param>
 		<param name="font2"><font>16pt-gray</font></param>
-		<param name="minWidth"><int>160</int></param>
-		<param name="minHeight"><int>40</int></param>
+		<param name="minWidth"><int>213</int></param>
+		<param name="minHeight"><int>121</int></param>
 		<param name="border"><border>20,0,10,0</border></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>

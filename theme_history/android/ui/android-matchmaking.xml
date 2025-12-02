@@ -448,7 +448,7 @@
 			<theme name="label-name-spectate-value-button" ref="label" allowWildcard="true">
 				<param name=""><image>ui-button.*</image></param>
 				<param name="border"><border>6</border></param>
-				<param name="minWidth"><int>312</int></param>
+				<param name="minWidth"><int>300</int></param>
 				<param name="font"><font>med-noshadow-18-white</font></param>
 			</theme>
 			<theme name="label-name-icon-value" ref="label-stats" allowWildcard="true"  overwrite="true">
@@ -465,8 +465,7 @@
 			<theme name="label-battle" ref="label-stats" allowWildcard="true"  overwrite="true">
 				<param name="background"><image>ui-header.background</image></param>
 				<param name="border"><border>6</border></param>
-				<param name="minWidth"><int>696</int></param>
-				<param name="maxWidth"><int>32767</int></param>
+				<param name="minWidth"><int>752</int></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 			</theme>
 
@@ -528,13 +527,13 @@
 			<theme name="label-duration" ref="label-stats" allowWildcard="true"  overwrite="true">
 				<param name="background"><image>ui-header.background</image></param>
 				<param name="border"><border>6</border></param>
-				<param name="minWidth"><int>120</int></param>
+				<param name="minWidth"><int>100</int></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 			</theme>
 			<theme name="label-duration-value" ref="label-stats" allowWildcard="true"  overwrite="true">
 				<param name="background"><image>ui-table-row.background</image></param>
 				<param name="border"><border>6</border></param>
-				<param name="minWidth"><int>120</int></param>
+				<param name="minWidth"><int>100</int></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 			</theme>
 

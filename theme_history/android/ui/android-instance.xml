@@ -2,42 +2,7 @@
 <themes>
 	<!-- instance window -->
 	<theme name="instance-window" ref="mobile-panel">
-		<theme name="vscrollbar" ref="vscrollbar-white"/>
-		<param name="border"><border>0</border></param>
-		<param name="hasDragButton"><bool>false</bool></param>
-		<param name="scrollbarsAlwaysVisible"><bool>false</bool></param>
-		<param name="autoScrollArea"><int>5</int></param>
-		<param name="autoScrollSpeed"><int>10</int></param>
-		<theme name="dialoglayout" ref="dialoglayout">
-			<param name="border"><border>0</border></param>
-			<theme name="tabbedpane" ref="base-tabbed-pane">
-				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
-				<param name="background"><image>none</image></param>
-				<theme name="tabbox" ref="mobile-tabbox-inset" overwrite="true">
-					<param name="border"><border>60,0,0,0</border></param>
-					<theme name="tabbutton" ref="tabbutton">
-						<param name="minWidth"><int>208</int></param>
-					</theme>
-				</theme>
-				<theme name="container" ref="container">
-					<theme name="dialoglayout" ref="dialoglayout">
-						<param name="border"><border>0,10,0,10</border></param>
-						<theme name="label" ref="label" overwrite="true">
-							<param name="border"><border>0,0</border></param>
-							<param name="font"><font>med-noshadow-18-white</font></param>
-						</theme>
-						<theme name="button" ref="mobile-bottom-button" overwrite="true">
-							<param name="minWidth"><int>150</int></param>
-						</theme>
-						<theme name="editfield" ref="editfield">
-							<theme name="renderer" ref="renderer">
-								<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-							</theme>
-						</theme>
-					</theme>
-				</theme>
-			</theme>
-		</theme>
+		<param name="border"><border>70,0,0,0</border></param>
 	</theme>
 
 	<theme name="instance-table" ref="table" overwrite="true">
