@@ -2,8 +2,8 @@
 <themes>
 	<!-- Trade Frame -->
 	<theme name="trade-frame" ref="base-frame">
+	  <param name="border"><border>45,5,5,5</border></param>
 		<theme name="dialoglayout" ref="dialoglayout">
-			<param name="border"><border>45,5,5,5</border></param>
 			<param name="defaultGap"><dimension>5,5</dimension></param>
 			<param name="smallGap"><dimension>8,8</dimension></param>
 			<param name="mediumGap"><dimension>10,10</dimension></param>
@@ -73,7 +73,6 @@
 					<param name="background"><image>ui-inputbox.background</image></param>
 					<param name="textAlignment"><enum type="alignment">left</enum></param>
 					<param name="border"><border>7,5</border></param>
-					<param name="maxWidth"><int>100</int></param>
 					<param name="minHeight"><int>20</int></param>
 					<param name="font"><font>pb-dark</font></param>
 				</theme>
@@ -81,9 +80,8 @@
 					<param name="background"><image>none</image></param>
 					<param name="textAlignment"><enum type="alignment">left</enum></param>
 					<param name="border"><border>0</border></param>
-					<param name="maxWidth"><int>50</int></param>
-					<param name="minWidth"><int>50</int></param>
 					<param name="font"><font>pb-dark</font></param>
+					<param name="minWidth"><int>50</int></param>
 				</theme>
 			</theme>
 		</theme>

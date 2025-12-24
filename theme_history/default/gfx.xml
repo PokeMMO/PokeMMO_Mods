@@ -607,6 +607,7 @@
 
   <images file="res/battle-hud.png" filter="nearest">
 		<area name="progress.progressImage" xywh="27,21,1,2" tint="#90F8A0" inset="5,2"/>
+    <area name="progress-white.progressImage" xywh="27,21,1,2" tint="#FFFFFF" inset="5,2"/>
 		<area name="xp-progressbar.progressImage" xywh="27,21,1,2" tint="#3035CE" inset="5,2"/>
 		<area name="health-progressbar.progressImage" xywh="20,9,1,4" inset="1,1,1,1"/>
 		<area name="health-progressbar-orange.progressImage" xywh="22,9,1,4" inset="1,1,1,1"/>

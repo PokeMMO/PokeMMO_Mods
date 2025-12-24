@@ -1213,18 +1213,6 @@
     </theme>
   </theme>
 
-  <theme name="trade-confirm-widget" ref="confirm-widget">
-		<param name="minWidth"><int>500</int></param>
-		<param name="minHeight"><int>250</int></param>
-
-		<param name="border"><border>5</border></param>
-		<param name="defaultGap"><dimension>5,5</dimension></param>
-		<param name="smallGap"><dimension>8,8</dimension></param>
-		<param name="mediumGap"><dimension>10,10</dimension></param>
-		<param name="largeGap"><dimension>15,15</dimension></param>
-		<param name="namedGaps"><map/></param>
-	</theme>
-
 	<theme name="confirm-panel-dialog" ref="-defaults">
 		<param name="border"><border>0</border></param>
 		<param name="defaultGap"><dimension>5,5</dimension></param>
@@ -1232,6 +1220,7 @@
 		<param name="mediumGap"><dimension>10,10</dimension></param>
 		<param name="largeGap"><dimension>15,15</dimension></param>
 		<param name="namedGaps"><map/></param>
+    <param name="minWidth"><int>250</int></param>
 
 		<theme name="label" ref="label">
 			<param name="font"><font>pb-dark</font></param>
@@ -1250,7 +1239,27 @@
 		</theme>
 	</theme>
 
-	<theme name="notification" ref="-defaults" allowWildcard="true">
+  <theme name="trade-confirm-widget" ref="confirm-widget">
+    <param name="maxHeight"><int>600</int></param>
+    <theme name="scrollpane" ref="scrollpane">
+      <param name="minWidth"><int>500</int></param>
+      <theme name="trade-frame-confirm-dialog" ref="confirm-panel-dialog">
+        <theme name="label" ref="label">
+          <param name="font"><font>pb-dark</font></param>
+          <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        </theme>
+        <theme name="label-markup" ref="label">
+          <param name="font"><font>alphabeta-markup</font></param>
+        </theme>
+        <theme name="button" ref="button">
+          <param name="minWidth"><int>102</int></param>
+          <param name="minHeight"><int>30</int></param>
+        </theme>
+      </theme>
+    </theme>
+  </theme>
+
+  <theme name="notification" ref="-defaults" allowWildcard="true">
 		<param name="background"><image>ui-popup.background</image></param>
 		<param name="border"><border>5</border></param>
 		<param name="titleAreaTop"><int>25</int></param>

@@ -61,6 +61,8 @@
 	<include filename="ui/android-shop.xml"/>
 	<include filename="ui/android-misc.xml"/>
 	<include filename="ui/android-staff.xml"/>
+	<include filename="ui/android-advanced-search.xml"/>
+	<include filename="ui/android-broker.xml"/>
 	<include filename="ui/android-pc.xml"/>
 	<include filename="ui/android-trade.xml"/>
 	<include filename="ui/android-link.xml"/>

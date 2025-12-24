@@ -36,9 +36,10 @@
 	<include filename="ui/shop.xml"/>
 	<include filename="ui/link.xml"/>
 	<include filename="ui/misc.xml"/>
+	<include filename="ui/advanced-search.xml"/>
 	<include filename="ui/broker.xml"/>
   <include filename="ui/pc.xml"/>
-   <include filename="ui/incubator.xml"/>
+  <include filename="ui/incubator.xml"/>
 	<include filename="ui/staff.xml"/>
 	<include filename="main-widgets.xml"/>
 </themes>

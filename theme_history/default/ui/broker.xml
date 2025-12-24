@@ -42,6 +42,50 @@
       <param name="background"><image>ui-header.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>
+
+    <!-- Market Info Boxes -->
+    <theme name="box-double" ref="label">
+      <param name="font2"><font>pb-dark</font></param>
+      <param name="font"><font>pb-dark</font></param>
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
+      <param name="textAlignment2"><enum type="alignment">LEFT</enum></param>
+      <param name="border"><border>10</border></param>
+      <param name="minWidth"><int>50</int></param>
+    </theme>
+    <theme name="box-double-warn" ref="box-double">
+      <param name="font2"><font>pb-dark-yellow</font></param>
+    </theme>
+    <theme name="box-double-danger" ref="box-double">
+      <param name="font2"><font>pb-dark-red</font></param>
+    </theme>
+    <theme name="box-double-positive" ref="box-double">
+      <param name="font2"><font>pb-dark-green</font></param>
+    </theme>
+    
+    <!-- Market Stack Info -->
+    <theme name="market-section-header" ref="label">
+      <param name="font"><font>noto-bold-large-white</font></param>
+    </theme>
+    <theme name="market-stack-progressbar" ref="-defaults">
+      <param name="fadeDurationShow"><int>200</int></param>
+      <param name="fadeDurationHide"><int>200</int></param>
+      <param name=""><image>progress-white.*</image></param>
+      <param name="border"><border>2,4</border></param>
+      <param name="minWidth"><int>200</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="market-stack-button" ref="label">
+      <param name="background"><image>ui-button.background</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="market-stack-right" ref="label">
+      <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+      <param name="border"><border>5</border></param>
+    </theme>
+    <theme name="label-muted" ref="label">
+      <param name="font"><font>alphabeta-lightgray</font></param>
+    </theme>
     
     <!-- Cells -->
     <theme name="cell" ref="label">
@@ -55,21 +99,21 @@
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>
     <theme name="cell-warn" ref="label">
-      <param name="font"><font>pb-dark-yellow</font></param>
+      <param name="font"><font>pb-dark</font></param>
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>5</border></param>
       <param name="minWidth"><int>50</int></param>
     </theme>
     <theme name="cell-danger" ref="label">
-      <param name="font"><font>pb-dark-red</font></param>
+      <param name="font"><font>pb-dark</font></param>
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>5</border></param>
       <param name="minWidth"><int>50</int></param>
     </theme>
     <theme name="cell-positive" ref="label">
-      <param name="font"><font>pb-dark-green</font></param>
+      <param name="font"><font>pb-dark</font></param>
       <param name="background"><image>ui-inputbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       <param name="border"><border>5</border></param>
@@ -109,36 +153,6 @@
     </theme>
     <theme name="valueadjuster" ref="valueadjuster" allowWildcard="true">
       <param name="width"><int>92</int></param>
-    </theme>
-  </theme>
-
-  <theme name="advanced-search-dialog" ref="dialoglayout">
-    <param name="border"><border>5,0,0,10</border></param>
-
-    <!-- adv search -->
-    <theme name="mark-button" ref="button">
-      <param name="background"><image>none</image></param>
-    </theme>
-    <theme name="label-button-small2-centered" ref="button">
-      <param name="background"><image>ui-button.background</image></param>
-      <param name="border"><border>6</border></param>
-      <param name="minWidth"><int>96</int></param>
-      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-    </theme>
-    <theme name="label-title-medium2" ref="label">
-      <param name="background"><image>ui-header.background</image></param>
-      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-      <param name="border"><border>6</border></param>
-      <param name="minWidth"><int>228</int></param>
-    </theme>
-    <theme name="valueadjuster" ref="valueadjuster">
-      <param name="minWidth"><int>184</int></param>
-    </theme>
-    <theme name="combobox" ref="combobox">
-      <param name="minWidth"><int>184</int></param>
-    </theme>
-    <theme name="editfield" ref="editfield">
-      <param name="maxWidth"><int>184</int></param>
     </theme>
   </theme>
 

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme name="broker-table" ref="broker-table">
+
+    <param name="maxWidth"><int>1080</int></param>
+    <theme name="label-info" ref="label-info">
+      <param name="font"><font>med-noshadow-18-white</font></param>
+    </theme>
+
+    <theme name="valueadjuster" ref="mobile-valueadjuster" overwrite="true"/>
+
+    <theme name="editfield" ref="mobile-editfield">
+      <param name="border"><border>6</border></param>
+      <param name="background"><image>mobile.box.light1.50</image></param>
+      <theme name="renderer" ref="-input">
+        <param name="font"><font>med-noshadow-18-white</font></param>
+        <param name="border"><border>0,5</border></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <param name="autocompletion-height"><int>150</int></param>
+    </theme>
+
+    <theme name="itemplate" ref="-defaults">
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="minHeight"><int>40</int></param>
+      <param name="maxHeight"><int>40</int></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+      <param name="font"><font>18pt-gray</font></param>
+      <param name="namedGaps"><map/></param>
+      <param name="border"><border>30,0</border></param>
+    </theme>
+
+    <theme name="progressbar" ref="-defaults" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.progressImage</image></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+      <param name="border"><border>background.border</border></param>
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+
+    <theme name="progressbar-100" ref="progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.gtl.100.progressImage</image></param>
+    </theme>
+
+    <theme name="progressbar-80" ref="progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.gtl.80.progressImage</image></param>
+    </theme>
+
+    <theme name="progressbar-60" ref="progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.gtl.60.progressImage</image></param>
+    </theme>
+
+    <theme name="progressbar-40" ref="progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.gtl.40.progressImage</image></param>
+    </theme>
+
+    <theme name="progressbar-20" ref="progressbar" allowWildcard="true">
+      <param name="progressImage"><image>mobile.progress.gtl.20.progressImage</image></param>
+      <!--
+      <param name="font"><font>med-noshadow-16-red</font></param>
+      -->
+    </theme>
+
+    <!-- Market Info Boxes -->
+    <theme name="box-double">
+      <param name="font2"><font>16pt-gray</font></param>
+      <param name="font"><font>16pt-gray</font></param>
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="minHeight"><int>90</int></param>
+      <param name="border"><border>20</border></param>
+    </theme>
+    <theme name="box-double-warn">
+      <param name="font2"><font>16pt-gray</font></param>
+      <param name="font"><font>16pt-gray</font></param>
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="minHeight"><int>90</int></param>
+      <param name="border"><border>20</border></param>
+    </theme>
+    <theme name="box-double-danger">
+      <param name="font2"><font>med-noshadow-18-darkred</font></param>
+      <param name="font"><font>16pt-gray</font></param>
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="minHeight"><int>90</int></param>
+      <param name="border"><border>20</border></param>
+    </theme>
+    <theme name="box-double-positive">
+      <param name="font2"><font>med-noshadow-18-green</font></param>
+      <param name="font"><font>med-noshadow-16-gray</font></param>
+      <param name="background"><image>mobile.label.value</image></param>
+      <param name="minHeight"><int>90</int></param>
+      <param name="border"><border>20</border></param>
+    </theme>
+
+    <!-- Market Stack Info -->
+    <theme name="market-section-header">
+      <param name="font"><font>med-shadow-22-white-transparent</font></param>
+    </theme>
+    <theme name="market-stack-progressbar">
+      <param name=""><image>progress-white.*</image></param>
+    </theme>
+    <theme name="market-stack-button">
+      <param name="background"><image>mobile.box.light1.50</image></param>
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="minHeight"><int>40</int></param>
+    </theme>
+    <theme name="market-stack-right">
+      <param name="font"><font>med-noshadow-14-white</font></param>
+    </theme>
+    <theme name="label-muted">
+      <param name="font"><font>med-noshadow-14-white</font></param>
+    </theme>
+    
+    <theme name="monster-slot" ref="monster-slot">
+      <param name="border"><border>0,0</border></param>
+      <param name="minWidth"><int>120</int></param>
+      <param name="minHeight"><int>120</int></param>
+      <param name="background"><image>mobile.label.value</image></param>
+      <theme name="slot-health-progressbar" ref="-defaults" allowWildcard="true">
+        <param name="border"><border>0</border></param>
+        <param name="minWidth"><int>100</int></param>
+      </theme>
+    </theme>
+    
+    <theme name="header-column" ref="label">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="background"><image>mobile.box.dark3.50</image></param>
+      <param name="minHeight"><int>36</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="border"><border>6</border></param>
+    </theme>
+    <theme name="header-column-sort-default" ref="header-column">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="overlay"><image>ui-sort-default.background</image></param>
+      <param name="background"><image>mobile.box.dark3.50</image></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="minHeight"><int>36</int></param>
+    </theme>
+    <theme name="header-column-sort-desc" ref="header-column">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="overlay"><image>ui-sort-desc.background</image></param>
+      <param name="background"><image>mobile.box.dark3.50</image></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="minHeight"><int>36</int></param>
+    </theme>
+    <theme name="header-column-sort-asc" ref="header-column">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="overlay"><image>ui-sort-asc.background</image></param>
+      <param name="background"><image>mobile.box.dark3.50</image></param>
+      <param name="minWidth"><int>100</int></param>
+      <param name="minHeight"><int>36</int></param>
+    </theme>
+    <theme name="cell-button" ref="cell-button">
+      <param name="background"><image>mobile.box.light1.50</image></param>
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="minWidth"><int>60</int></param>
+      <param name="minHeight"><int>46</int></param>
+    </theme>
+    <theme name="cell-button-addon" ref="cell-button">
+      <param name="background"><image>mobile.box.light1.50</image></param>
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      <param name="minWidth"><int>60</int></param>
+      <param name="minHeight"><int>46</int></param>
+    </theme>
+    <theme name="cell" ref="cell">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+      <param name="minHeight"><int>46</int></param>
+    </theme>
+    <theme name="cell-markup" ref="cell">
+      <param name="border"><border>0,0</border></param>
+      <param name="font"><font>med-noshadow-16-white-markup</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+      <param name="minHeight"><int>46</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="cell-icon" ref="cell-icon">
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+      <param name="minHeight"><int>46</int></param>
+    </theme>
+    <theme name="cell-warn" ref="cell-warn">
+      <param name="font"><font>med-noshadow-16-yellow</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+    </theme>
+    <theme name="cell-danger" ref="cell-danger">
+      <param name="font"><font>med-noshadow-16-red</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+    </theme>
+    <theme name="cell-positive" ref="cell-positive">
+      <param name="font"><font>med-noshadow-16-dark-green</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+    </theme>
+    <theme name="button-monster" ref="cell">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="background"><image>mobile.box.dark1.50</image></param>
+      <param name="minHeight"><int>46</int></param>
+    </theme>
+    <theme name="button-species" ref="cell">
+      <param name="font"><font>med-noshadow-16-white</font></param>
+      <param name="background"><image>mobile.box.light1.50</image></param>
+      <param name="minHeight"><int>46</int></param>
+    </theme>
+  </theme>
+	<theme name="mobile-broker-window" ref="broker-window">
+		<param name="background"><image>mobile.window.bottom.background.yellow</image></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>1</int></param>
+		<param name="titleAreaTop"><int>15</int></param>
+		<param name="titleAreaLeft"><int>15</int></param>
+		<param name="titleAreaRight"><int>-1</int></param>
+		<param name="titleAreaBottom"><int>50</int></param>
+		<param name="closeButtonX"><int>-64</int></param>
+		<param name="closeButtonY"><int>2</int></param>
+		<theme name="title" ref="label" allowWildcard="true">
+			<param name="font"><font>xlarge</font></param>
+		</theme>
+		<theme name="closeButton" ref="-defaults">
+			<param name="background"><image>mobile.icons.close</image></param>
+			<param name="minWidth"><int>60</int></param>
+			<param name="minHeight"><int>60</int></param>
+		</theme>
+
+		<param name="border"><border>0,0</border></param>
+		<param name="fadeDurationShow"><int>200</int></param>
+		<param name="fadeDurationHide"><int>1</int></param>
+    <param name="minWidth"><int>0</int></param>
+      
+    <theme name="tabbedpane" ref="base-tabbed-pane">
+      <param name="tabPosition"><enum type="tabposition">ABSOLUTE</enum></param>
+      <param name="border"><border>0,0,0,0</border></param>
+      <param name="background"><image>none</image></param>
+      <theme name="tabbox" ref="mobile-tabbox" overwrite="true">
+        <theme name="tabbutton" ref="tabbutton">
+          <param name="minWidth"><int>100</int></param>
+        </theme>
+      </theme>
+      <theme name="container" ref="container">
+        <theme name="dialoglayout" ref="dialoglayout">
+          <theme name="label-info" ref="label">
+            <param name="background"><image>ui-inputbox.background</image></param>
+            <param name="textAlignment"><enum type="alignment">center</enum></param>
+            <param name="border"><border>20</border></param>
+            <param name="minWidth"><int>300</int></param>
+            <param name="minHeight"><int>100</int></param>
+            <param name="font"><font>med-noshadow-22-white</font></param>
+          </theme>
+        </theme>
+        
+        <param name="background"><image>none</image></param>
+        <param name="border"><border>0,0,0,0</border></param>
+        <param name="namedGaps"><map/></param>
+
+        <theme name="label" ref="label" allowWildcard="true">
+          <param name="border"><border>10,10,0,0</border></param>
+          <param name="background"><image>none</image></param>
+        </theme>
+        
+        <theme name="editfield" ref="editfield-search"/>
+        
+        <theme name="advanced-search-dialog" ref="advanced-search-dialog-alt"/>
+
+        <theme name="button" ref="button">
+          <param name="background"><image>mobile.box.dark3.50</image></param>
+          <param name="font"><font>med-noshadow-22-white</font></param>
+          <param name="minWidth"><int>60</int></param>
+          <param name="minHeight"><int>60</int></param>
+        </theme>
+
+        <theme name="combobox" ref="combobox">
+          <param name="background"><image>mobile.box.dark3.50</image></param>
+          <param name="minWidth"><int>200</int></param>
+        </theme>
+
+        <theme name="button-symbol" ref="button-symbol">
+          <param name="background"><image>mobile.box.dark3.50</image></param>
+          <param name="minWidth"><int>60</int></param>
+          <param name="minHeight"><int>60</int></param>
+        </theme>
+
+        <theme name="pager" ref="mobile-pager"/>
+      </theme>
+      <param name="inputMap"><inputMapDef>
+        <action name="nextTab">CTRL TAB</action>
+        <action name="prevTab">CTRL SHIFT TAB</action>
+      </inputMapDef></param>
+    </theme>
+  </theme>
+</themes>

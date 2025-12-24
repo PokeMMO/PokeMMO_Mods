@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme name="advanced-search-dialog" ref="dialoglayout">
+    <param name="border"><border>5,0,0,10</border></param>
+
+    <!-- adv search -->
+    <theme name="mark-button" ref="button">
+      <param name="background"><image>none</image></param>
+    </theme>
+    <theme name="label-button-small2-centered" ref="button">
+      <param name="background"><image>ui-button.background</image></param>
+      <param name="border"><border>6</border></param>
+      <param name="minWidth"><int>96</int></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    </theme>
+    <theme name="label-title-medium2" ref="label">
+      <param name="background"><image>ui-header.background</image></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="border"><border>6</border></param>
+      <param name="minWidth"><int>228</int></param>
+    </theme>
+    <theme name="valueadjuster" ref="valueadjuster">
+      <param name="minWidth"><int>184</int></param>
+    </theme>
+    <theme name="combobox" ref="combobox">
+      <param name="minWidth"><int>184</int></param>
+    </theme>
+    <theme name="editfield" ref="editfield">
+      <param name="maxWidth"><int>184</int></param>
+    </theme>
+  </theme>
+  
+  <theme name="advanced-search-frame" ref="resizableframe">
+    <param name="minHeight"><int>600</int></param>
+  </theme>
+</themes>
