@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="Example String Override Mod" version="1.0" description="Simple mod which overrides the login screen strings." author="Desu" weblink="https://forums.pokemmo.eu/index.php?/user/2-desu/">
+    <strings string_revision="1">
+        <!-- All paths to strings files must be defined here -->
+
+		<!-- These base files can be found in the data/strings folder -->
+        <string path="custom-strings/strings_de.xml"/>
+        <string path="custom-strings/strings_en.xml"/>
+        <string path="custom-strings/strings_es.xml"/>
+        <string path="custom-strings/strings_fr.xml"/>
+        <string path="custom-strings/strings_it.xml"/>
+        <string path="custom-strings/strings_ja.xml"/>
+        <string path="custom-strings/strings_ko.xml"/>
+        <string path="custom-strings/strings_pl.xml"/>
+        <string path="custom-strings/strings_pt-BR.xml"/>
+        <string path="custom-strings/strings_zh-Hant.xml"/>
+        <string path="custom-strings/strings_zh.xml"/>
+
+        <!-- These files are generated via the Settings -> Utilities -> Dump Storyline Strings utility -->
+        <!-- Note, only EN exists in this mod, but you can include just one, some, or all languages -->
+        <string path="custom-strings/gba_0_en.xml"/>
+        <string path="custom-strings/gba_1_en.xml"/>
+        <string path="custom-strings/nds_2_0_en.xml"/>
+        <string path="custom-strings/nds_2_1_en.xml"/>
+        <string path="custom-strings/nds_3_0_en.xml"/>
+        <string path="custom-strings/nds_4_0_en.xml"/>
+    </strings>
+</resource>

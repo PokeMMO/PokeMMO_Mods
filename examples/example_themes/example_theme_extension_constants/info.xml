@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="Example Desktop Extension Constant Theme" version="1.0" description="Simple extension theme with constants." author="Desu" weblink="https://forums.pokemmo.eu/index.php?/user/2-desu/">
+  <theme_extensions theme_extension_revision="1">
+      <theme_extension name="Kyu Background" path="extension_background/login_background.xml" is_mobile="false">
+        <constants>
+          <constant name="ext-background-image" public_name="Background Image" type="IMAGE" default_value="background-image">
+            <whitelist_value>background-image</whitelist_value>
+            <whitelist_value>kyu-background-image</whitelist_value>
+            <whitelist_value>vukooo-background-image</whitelist_value>
+          </constant>
+          <constant name="ext-label-width" public_name="Label Width" type="INT" default_value="100"/>
+        </constants>
+      </theme_extension>
+  </theme_extensions>
+</resource>

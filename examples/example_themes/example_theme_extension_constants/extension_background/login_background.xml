@@ -1,0 +1,20 @@
+<themes>
+  <images file="res/bg_kyu.png" filter="nearest">
+    <area name="kyu-background-image" xywh="*"/>
+  </images>
+  <images file="res/bg_vukooo.png" filter="nearest">
+    <area name="vukooo-background-image" xywh="*"/>
+  </images>
+  <theme name="logingui" ref="logingui">
+    <theme name="logo" ref="logo">
+      <param name="background"><constant>ext-background-image</constant></param>
+    </theme>
+    <theme name="login-window" ref="login-window">
+      <theme name="dialoglayout" ref="dialoglayout">
+        <theme name="label" ref="label">
+          <param name="minWidth"><constant>ext-label-width</constant></param>
+        </theme>
+      </theme>
+    </theme>
+  </theme>
+</themes>

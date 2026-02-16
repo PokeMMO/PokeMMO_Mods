@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<strings is_primary="0" lang="es" lang_full="Español (Spanish)" is_override="1"> <!-- this file must have a unique name, is_override is used to load and replace after main strings file, is_primary must be 0 -->
+  <string id="1000">Testing Iniciar sesión</string>
+  <string id="1001">Testing Usuario:</string>
+  <string id="1002">Testing Contraseña:</string>
+  <!-- DO NOT INCLUDE ENTRIES YOU DID NOT MODIFY -->
+</strings>

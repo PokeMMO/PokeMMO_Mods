@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="Example Desktop Extension Theme" version="1.0" description="Simple extension theme." author="Desu" weblink="https://forums.pokemmo.eu/index.php?/user/2-desu/">
+  <theme_extensions theme_extension_revision="1">
+      <theme_extension name="Kyu Background Desktop" path="extension_background/login_background.xml" is_mobile="false"/>
+      <theme_extension name="Kyu Background Mobile" path="extension_background/login_background.xml" is_mobile="true"/>
+  </theme_extensions>
+</resource>

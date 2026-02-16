@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="Example Desktop/Mobile Theme Mod" version="1.0" description="Simple desktop/mobile theme mod." author="Desu" weblink="https://forums.pokemmo.eu/index.php?/user/2-desu/">
+  <themes theme_revision="7">
+    <theme path="example-themes/desktop-example" name="Example Desktop Theme" is_mobile="false"/>
+    <theme path="example-themes/mobile-example" name="Example Mobile Theme" is_mobile="true"/>
+  </themes>
+</resource>

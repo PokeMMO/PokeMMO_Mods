@@ -1,0 +1,10 @@
+<themes>
+	<images file="res/bg.png" filter="nearest">
+		<area name="kyu-background" xywh="*"/>
+	</images>
+    <theme name="logingui" ref="logingui">
+        <theme name="logo" ref="logo">
+            <param name="background"><constant>kyu-background</constant></param>
+        </theme>
+    </theme>
+</themes>

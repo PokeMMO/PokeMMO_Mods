@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="Example Constants Preset Theme Mod" version="1.0" description="Simple constants preset theme mod." author="Desu" weblink="https://forums.pokemmo.eu/index.php?/user/2-desu/">
+  <themes theme_revision="7">
+    <theme path="example-themes/preset-example/" name="Example Preset Theme" is_mobile="false">
+      <constants>
+        <constant name="main-color" public_name="Main Color" type="COLOR" default_value="#5db1ff"/>
+        <constant name="sub-color" public_name="Sub Color" type="COLOR" default_value="#5db1ff"/>
+      </constants>
+      <constants_presets>
+        <constants_preset name="Pink Preset">
+          <constant name="main-color">#f75dff</constant>
+          <constant name="sub-color">#f75dff</constant>
+        </constants_preset>
+        <constants_preset name="Yellow Preset">
+          <constant name="main-color">#eeff7d</constant>
+          <constant name="sub-color">#eeff7d</constant>
+        </constants_preset>
+      </constants_presets>
+    </theme>
+  </themes>
+</resource>
