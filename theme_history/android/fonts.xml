@@ -23,7 +23,8 @@
   <fontDef name="level" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#ffc600" incremental="false" characters="Lv." size="10" border_width="1">
     <fontParam if="disabled" color="#CCC"/>
   </fontDef>
-
+  
+  <fontDef name="med-noshadow-12-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="12"/>
   <fontDef name="med-noshadow-14-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="14"/>
   <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="16"/>
   <fontDef name="med-noshadow-16-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#FFFFFF" size="16"/>

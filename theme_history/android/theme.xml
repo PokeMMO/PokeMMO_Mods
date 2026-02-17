@@ -67,6 +67,7 @@
 	<include filename="ui/android-trade.xml"/>
 	<include filename="ui/android-link.xml"/>
   <include filename="ui/android-instance.xml"/>
+  <include filename="ui/android-tt.xml"/>
   <include filename="ui/android-encounter.xml"/>
   <include filename="ui/android-incubator.xml"/>
 </themes>

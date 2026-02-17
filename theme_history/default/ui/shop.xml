@@ -171,7 +171,7 @@
 		<param name="smallGap"><dimension>8,8</dimension></param>
 		<param name="mediumGap"><dimension>10,10</dimension></param>
 		<param name="largeGap"><dimension>15,15</dimension></param>
-		<param name="minWidth"><int>420</int></param>
+		<param name="minWidth"><int>407</int></param>
 		<param name="maxWidth"><int>407</int></param>
 		<param name="namedGaps"><map/></param>
 		<theme name="label" ref="-defaults">

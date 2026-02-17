@@ -269,7 +269,7 @@
       <param name="border"><border>2,0,0,0</border></param>
       <param name="maxWidth"><int>92</int></param>
       <param name="minWidth"><int>92</int></param>
-      <param name="font"><font>alphabeta-border</font></param>
+      <param name="font"><font>main-border</font></param>
     </theme>
 
     <theme name="label-skill-arrowup" ref="label" allowWildcard="true">

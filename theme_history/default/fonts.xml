@@ -25,52 +25,52 @@
            shadow_color="#CC000000" size="48" hinting="Full"/>
   <fontDef name="braille" ref="battle" color="#000000"/>
 
-  <fontDef name="alphabeta" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12"
+  <fontDef name="main" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12"
            size_cjk="14" hinting="Full" hinting_cjk="Slight" default="true"
            unique_atlas="true"><!-- Chat font gets its own atlas -->
     <fontParam if="disabled" color="#A9A9A9"/>
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
-  <fontDef name="alphabeta-markup" markup="true" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp"
+  <fontDef name="main-markup" markup="true" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp"
            color="#FFFFFF" size="12" size_cjk="14" hinting="Full" hinting_cjk="Slight"
            unique_atlas="true"><!-- Chat font gets its own atlas -->
     <fontParam if="disabled" color="#A9A9A9"/>
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
-  <fontDef name="alphabeta-gray" ref="alphabeta" color="#484848"/>
-  <fontDef name="alphabeta-lightgray" ref="alphabeta" color="#CECECE"/>
-  <fontDef name="alphabeta-black" ref="alphabeta" color="black"/>
-  <fontDef name="alphabeta-green" ref="alphabeta" color="#7CB147"/>
-  <fontDef name="alphabeta-blue" ref="alphabeta" color="#AACFFF"/>
-  <fontDef name="alphabeta-orange-shadow" ref="alphabeta" color="#FF9900"/>
-  <fontDef name="alphabeta-battle" ref="alphabeta" color="#FFFF00"/>
-  <fontDef name="alphabeta-orange" ref="alphabeta" color="#FF9900"/>
-	<fontDef name="alphabeta-lightgreen" ref="alphabeta" color="#66FF66"/>
-	<fontDef name="alphabeta-purple" ref="alphabeta" color="#FF99FF"/>
-	<fontDef name="alphabeta-teal" ref="alphabeta" color="#81ddf1"/>
-	<fontDef name="alphabeta-red" ref="alphabeta" color="#f09999"/>
-	<fontDef name="alphabeta-yellow" ref="alphabeta" color="#e2c57e"/>
-	<fontDef name="alphabeta-brown" ref="alphabeta" color="#ff8484"/>
-	<fontDef name="alphabeta-gm" ref="alphabeta" color="#5e98ff"/>
-	<fontDef name="alphabeta-cm" ref="alphabeta" color="#58ff64"/>
-	<fontDef name="alphabeta-hgm" ref="alphabeta" color="#ff5858"/>
-	<fontDef name="alphabeta-dev" ref="alphabeta" color="#d575ff"/>
-	<fontDef name="alphabeta-admin" ref="alphabeta" color="#ff63cb"/>
-	<fontDef name="alphabeta-friend" ref="alphabeta" color="#58ff64"/>
-	<fontDef name="alphabeta-team" ref="alphabeta" color="#00ffff"/>
-	<fontDef name="alphabeta-link" ref="alphabeta" color="#00e6b8"/>
+  <fontDef name="main-gray" ref="main" color="#484848"/>
+  <fontDef name="main-lightgray" ref="main" color="#CECECE"/>
+  <fontDef name="main-black" ref="main" color="black"/>
+  <fontDef name="main-green" ref="main" color="#7CB147"/>
+  <fontDef name="main-blue" ref="main" color="#AACFFF"/>
+  <fontDef name="main-orange-shadow" ref="main" color="#FF9900"/>
+  <fontDef name="main-battle" ref="main" color="#FFFF00"/>
+  <fontDef name="main-orange" ref="main" color="#FF9900"/>
+	<fontDef name="main-lightgreen" ref="main" color="#66FF66"/>
+	<fontDef name="main-purple" ref="main" color="#FF99FF"/>
+	<fontDef name="main-teal" ref="main" color="#81ddf1"/>
+	<fontDef name="main-red" ref="main" color="#f09999"/>
+	<fontDef name="main-yellow" ref="main" color="#e2c57e"/>
+	<fontDef name="main-brown" ref="main" color="#ff8484"/>
+	<fontDef name="main-gm" ref="main" color="#5e98ff"/>
+	<fontDef name="main-cm" ref="main" color="#58ff64"/>
+	<fontDef name="main-hgm" ref="main" color="#ff5858"/>
+	<fontDef name="main-dev" ref="main" color="#d575ff"/>
+	<fontDef name="main-admin" ref="main" color="#ff63cb"/>
+	<fontDef name="main-friend" ref="main" color="#58ff64"/>
+	<fontDef name="main-team" ref="main" color="#00ffff"/>
+	<fontDef name="main-link" ref="main" color="#00e6b8"/>
 
-	<fontDef name="alphabeta-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#434343">
+	<fontDef name="main-border" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" kerning="true" color="white" size="12" size_cjk="14" hinting="AutoSlight" hinting_cjk="Full" border_width="1" border_color="#434343">
 		<fontParam if="pressed" offsetX="1" offsetY="1"/>
 	</fontDef>
-	<fontDef name="alphabeta-border-red" ref="alphabeta-border" color="#f09999"/>
-	<fontDef name="alphabeta-border-friend" ref="alphabeta-border" color="#58ff64"/>
-	<fontDef name="alphabeta-border-team" ref="alphabeta-border" color="#00ffff"/>
-	<fontDef name="alphabeta-border-yellow" ref="alphabeta-border" color="#e2c57e"/>
+	<fontDef name="main-border-red" ref="main-border" color="#f09999"/>
+	<fontDef name="main-border-friend" ref="main-border" color="#58ff64"/>
+	<fontDef name="main-border-team" ref="main-border" color="#00ffff"/>
+	<fontDef name="main-border-yellow" ref="main-border" color="#e2c57e"/>
 
-  <fontDef name="alphabeta-small" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12" size_cjk="13" hinting="Full" hinting_cjk="Slight"/>
+  <fontDef name="main-small" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12" size_cjk="13" hinting="Full" hinting_cjk="Slight"/>
 
-  <fontDef name="pb-dark" ref="alphabeta" color="#FFFFFF">
+  <fontDef name="pb-dark" ref="main" color="#FFFFFF">
     <fontParam if="disabled" color="#A9A9A9"/>
     <fontParam if="pressed" offsetX="1" offsetY="1"/>
   </fontDef>
@@ -121,12 +121,12 @@
 
   <fontDef name="trainer-name" filename="res/fonts/NotoSans-SemiCondensedBlack.ttf" color="#434343" size="18" incremental="false" characters="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"/>
 
-  <fontDef name="console-green" ref="alphabeta" color="#7CB147"/>
-  <fontDef name="console-red" ref="alphabeta" color="#FF0000"/>
-  <fontDef name="console-blue" ref="alphabeta" color="#AACFFF"/>
-  <fontDef name="console-purple" ref="alphabeta" color="#FF99FF"/>
-  <fontDef name="console-orange" ref="alphabeta" color="#FF9900"/>
-  <fontDef name="console" ref="alphabeta" color="#FFFFFF"/>
+  <fontDef name="console-green" ref="main" color="#7CB147"/>
+  <fontDef name="console-red" ref="main" color="#FF0000"/>
+  <fontDef name="console-blue" ref="main" color="#AACFFF"/>
+  <fontDef name="console-purple" ref="main" color="#FF99FF"/>
+  <fontDef name="console-orange" ref="main" color="#FF9900"/>
+  <fontDef name="console" ref="main" color="#FFFFFF"/>
 
   <fontDef name="symbols-white" filename="res/fonts/DejaVuLGCSans.ttf" color="#FFFFFF" size="14" hinting="AutoFull" incremental="false" characters="┌├└─←→↑↓▸◂↖↗↙↘☒➤↻☒⇲"/>
   <fontDef name="symbols-black" ref="symbols-white" color="#000000"/>

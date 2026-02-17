@@ -91,7 +91,7 @@
             <param name="minWidth"><int>32</int></param>
             <param name="minHeight"><int>32</int></param>
             <theme name="label-dark" ref="label" allowWildcard="true">
-              <param name="font"><font>alphabeta</font></param>
+              <param name="font"><font>main</font></param>
               <param name="border"><border>1,25,0,0</border></param>
               <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
             </theme>
@@ -188,7 +188,7 @@
 
   <!-- PC Select All Button -->
   <theme name="selectall-button" ref="-defaults" allowWildcard="true">
-    <param name="font"><font>alphabeta</font></param>
+    <param name="font"><font>main</font></param>
     <param name="border"><border>7,5</border></param>
     <param name="background"><image>icon.select-all</image></param>
     <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -196,7 +196,7 @@
 
   <!-- PC Unselect All Button -->
   <theme name="unselectall-button" ref="-defaults" allowWildcard="true">
-    <param name="font"><font>alphabeta</font></param>
+    <param name="font"><font>main</font></param>
     <param name="border"><border>7,5</border></param>
     <param name="background"><image>icon.select-none</image></param>
     <param name="textAlignment"><enum type="alignment">CENTER</enum></param>

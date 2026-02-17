@@ -35,11 +35,11 @@
       <param name="largeGap"><dimension>15,15</dimension></param>
       <param name="namedGaps"><map/></param>
       <theme name="label-level" ref="-defaults">
-        <param name="font"><font>alphabeta-border</font></param>
+        <param name="font"><font>main-border</font></param>
         <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       </theme>
       <theme name="label-monster-name" ref="-defaults">
-        <param name="font"><font>alphabeta-border</font></param>
+        <param name="font"><font>main-border</font></param>
         <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
         <param name="minWidth"><int>130</int></param>
         <param name="maxWidth"><int>130</int></param>
@@ -53,12 +53,12 @@
 			<param name="maxHeight"><int>34</int></param>
 			<param name="border"><border>10,22</border></param>
 			<theme name="label" ref="-defaults">
-				<param name="font"><font>alphabeta</font></param>
+				<param name="font"><font>main</font></param>
 				<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
         <param name="minwdith"><enum type="alignment">LEFT</enum></param>
       </theme>
 			<theme name="label2" ref="-defaults">
-				<param name="font"><font>alphabeta</font></param>
+				<param name="font"><font>main</font></param>
 				<param name="border"><border>0,2,1,0</border></param>
         <param name="minWidth"><int>105</int></param>
       </theme>
@@ -132,7 +132,7 @@
     <param name="namedGaps"><map/></param>
 
     <theme name="button" ref="-defaults" allowWildcard="true">
-      <param name="font"><font>alphabeta-small</font></param>
+      <param name="font"><font>main-small</font></param>
       <param name="border"><border>0,0,0,0</border></param>
       <param name="background"><image>ui-checkbox.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -142,7 +142,7 @@
       <param name="background"><image>mi-label-title</image></param>
       <param name="border"><border>0,14,2,4</border></param>
       <param name="minWidth"><int>100</int></param>
-      <param name="font"><font>alphabeta-small</font></param>
+      <param name="font"><font>main-small</font></param>
     </theme>
 
     <!-- Used with higher boxes -->
@@ -150,14 +150,14 @@
       <param name="background"><image>mi-label-title-inset</image></param>
       <param name="border"><border>0,15,0,5</border></param>
       <param name="minWidth"><int>100</int></param>
-      <param name="font"><font>alphabeta-small</font></param>
+      <param name="font"><font>main-small</font></param>
     </theme>
 
     <theme name="label-monster-title-full" ref="label" allowWildcard="true">
       <param name="background"><image>mi-label-title</image></param>
       <param name="border"><border>0,15,0,5</border></param>
       <param name="minWidth"><int>230</int></param>
-      <param name="font"><font>alphabeta-small</font></param>
+      <param name="font"><font>main-small</font></param>
     </theme>
 
     <!-- Active Skills -->
@@ -188,11 +188,11 @@
       <param name="border"><border>2,6,2,6</border></param>
       <param name="maxWidth"><int>110</int></param>
       <param name="minWidth"><int>110</int></param>
-      <param name="font"><font>alphabeta-small</font></param>
+      <param name="font"><font>main-small</font></param>
     </theme>
 
     <theme name="label-hidden-ability" ref="label-monster-value">
-      <param name="font"><font>alphabeta-yellow</font></param>
+      <param name="font"><font>main-yellow</font></param>
     </theme>
 
     <theme name="label-monster-desc" ref="label-monster-value">
@@ -211,7 +211,7 @@
       <param name="border"><border>4,5,5,25</border></param>
       <param name="maxWidth"><int>110</int></param>
       <param name="minWidth"><int>110</int></param>
-      <param name="font"><font>alphabeta-lightgreen</font></param>
+      <param name="font"><font>main-lightgreen</font></param>
     </theme>
 
     <theme name="label-monster-value-stat-bad" ref="label" allowWildcard="true">
@@ -220,7 +220,7 @@
       <param name="border"><border>4,5,5,25</border></param>
       <param name="maxWidth"><int>110</int></param>
       <param name="minWidth"><int>110</int></param>
-      <param name="font"><font>alphabeta-red</font></param>
+      <param name="font"><font>main-red</font></param>
     </theme>
 
     <theme name="label-monster-value-center" ref="label" allowWildcard="true">
@@ -229,7 +229,7 @@
       <param name="border"><border>15,25,15,25</border></param>
       <param name="maxWidth"><int>110</int></param>
       <param name="minWidth"><int>110</int></param>
-      <param name="font"><font>alphabeta-small</font></param>
+      <param name="font"><font>main-small</font></param>
     </theme>
 
     <theme name="label-monster-value-tooltip" ref="label-monster-value" allowWildcard="true">
@@ -249,7 +249,7 @@
       <param name="border"><border>2,0,0,0</border></param>
       <param name="maxWidth"><int>92</int></param>
       <param name="minWidth"><int>92</int></param>
-      <param name="font"><font>alphabeta</font></param>
+      <param name="font"><font>main</font></param>
     </theme>
 
     <theme name="label-skill-arrowdown" ref="label" allowWildcard="true">
@@ -275,7 +275,7 @@
       <param name="border"><border>0</border></param>
     </theme>
     <theme name="label" ref="-defaults">
-      <param name="font"><font>alphabeta</font></param>
+      <param name="font"><font>main</font></param>
       <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
     </theme>
   </theme>

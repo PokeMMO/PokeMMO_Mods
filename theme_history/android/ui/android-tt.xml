@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- instance window -->
+	<theme name="tt-window" ref="mobile-panel">
+		<param name="border"><border>60,0,0,0</border></param>
+	</theme>
+
+  <theme name="tt-table" ref="mobile-table" allowWildcard="true">
+    <theme name="header-table" ref="table" allowWildcard="true">
+      <param name="headerRowBackground"><image>mobile.box.dark3.50.table</image></param>
+      <theme name="label" ref="-defaults">
+        <param name="font"><font>med-noshadow-16-white</font></param>
+        <param name="background"><image>none</image></param>
+        <param name="border"><border>0</border></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+    </theme>
+    <theme name="scrollpane" ref="scrollpane">
+      <theme name="content-table" ref="table">
+        <param name="headerRowBackground"><image>mobile.box.dark1.50</image></param>
+        <param name="contentRowBackground"><image>mobile.box.dark1.50</image></param>
+        <param name="background"><image>none</image></param>
+        <theme name="label" ref="-defaults">
+          <param name="font"><font>med-noshadow-16-white</font></param>
+          <param name="background"><image>none</image></param>
+          <param name="border"><border>0</border></param>
+          <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        </theme>
+        <theme name="tt-playername" ref="label">
+          <param name="font"><font>med-noshadow-12-white</font></param>
+          <param name="background"><image>none</image></param>
+          <param name="border"><border>0</border></param>
+          <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+        </theme>
+        <theme name="tt-your-team" ref="-defaults">
+          <param name="background"><image>none</image></param>
+          <param name="border"><border>5</border></param>
+          <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        </theme>
+        <theme name="tt-slot-icon" ref="-defaults" allowWildcard="true">
+          <param name="background"><image>mobile.box.dark1.50</image></param>
+          <param name="border"><border>0</border></param>
+          <param name="alignment"><enum type="alignment">CENTER</enum></param>
+        </theme>
+        <theme name="tt-guild-tag" ref="-defaults" allowWildcard="true">
+          <param name="font"><font>med-noshadow-14-white</font></param>
+          <param name="background"><image>mobile.box.dark1.50</image></param>
+          <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+        </theme>
+      </theme>
+    </theme>
+
+  </theme>
+</themes>

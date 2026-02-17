@@ -161,7 +161,7 @@
 	<!-- Used for attack buttons @ Battle Frame -->
 	<theme name="battle-move-button" ref="-defaults" allowWildcard="true">
 		<param name="font"><font>mechabold</font></param>
-		<param name="font2"><font>alphabeta-border</font></param>
+		<param name="font2"><font>main-border</font></param>
 		<param name="border"><border>10,10,8,8</border></param>
 		<param name=""><image>button.*</image></param>
 		<param name="textAlignment"><enum type="alignment">TOPLEFT</enum></param>
@@ -201,17 +201,17 @@
 
 	<!-- Used for Return button @ Battle Frame -->
 	<theme name="battle-button-return" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>alphabeta-border</font></param>
+		<param name="font"><font>main-border</font></param>
 		<param name="border"><border>2,0,4,10</border></param>
 		<param name=""><image>battle-button-return.*</image></param>
 		<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		<theme name="label" ref="label" allowWildcard="true">
 			<param name="border"><border>2,4</border></param>
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 		</theme>
 		<theme name="label-button" ref="label" allowWildcard="true">
 			<param name="border"><border>4,4,0,4</border></param>
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 		</theme>
 	</theme>
 	<theme name="battle-button-confirm" ref="battle-button-return" allowWildcard="true">
@@ -219,14 +219,14 @@
 	</theme>
 	<theme name="battle-button-register" ref="-defaults" allowWildcard="true">
 	  <param name="border"><border>2,4,4,4</border></param>
-	  <param name="font"><font>alphabeta-border</font></param>
+	  <param name="font"><font>main-border</font></param>
     <param name=""><image>battle-button.*</image></param>
     <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     <theme name="label" ref="label" allowWildcard="true">
-      <param name="font"><font>alphabeta</font></param>
+      <param name="font"><font>main</font></param>
     </theme>
     <theme name="label-button" ref="label" allowWildcard="true">
-      <param name="font"><font>alphabeta</font></param>
+      <param name="font"><font>main</font></param>
     </theme>
   </theme>
 
@@ -234,23 +234,23 @@
 	<theme name="battle-button" ref="-defaults" allowWildcard="true">
 		<param name=""><image>battle-button-switch.*</image></param>
 		<param name="font"><font>title-font</font></param>
-		<param name="font2"><font>alphabeta-border</font></param>
+		<param name="font2"><font>main-border</font></param>
 		<param name="border"><border>7,0</border></param>
 		<theme name="label" ref="label" allowWildcard="true">
 			<param name="border"><border>3,4</border></param>
-			<param name="font"><font>alphabeta-border</font></param>
+			<param name="font"><font>main-border</font></param>
 		</theme>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
 
 	<theme name="battle-button-ui" ref="-defaults" allowWildcard="true">
 		<param name=""><image>ui-button.*</image></param>
-		<param name="font"><font>alphabeta-small</font></param>
-		<param name="font2"><font>alphabeta-small</font></param>
+		<param name="font"><font>main-small</font></param>
+		<param name="font2"><font>main-small</font></param>
 		<param name="border"><border>7,0</border></param>
 		<theme name="label" ref="label" allowWildcard="true">
 			<param name="border"><border>3,3</border></param>
-			<param name="font"><font>alphabeta-small</font></param>
+			<param name="font"><font>main-small</font></param>
 		</theme>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
@@ -290,7 +290,7 @@
 			<param name="largeGap"><dimension>15,15</dimension></param>
 			<param name="namedGaps"><map/></param>
 			<theme name="label-black" ref="-defaults" allowWildcard="true">
-				<param name="font"><font>alphabeta-border</font></param>
+				<param name="font"><font>main-border</font></param>
 				<param name="border"><border>0,0,25,0</border></param>
 			</theme>
 		</theme>
@@ -302,7 +302,7 @@
 			<theme name="dialoglayout" ref="-dialog">
 				<param name="defaultGap"><dimension>0,0</dimension></param>
 				<theme name="button" ref="-defaults" allowWildcard="true">
-					<param name="font"><font>alphabeta-border</font></param>
+					<param name="font"><font>main-border</font></param>
 					<param name="border"><border>2,0,4,10</border></param>
 					<param name=""><image>button-small.*</image></param>
 					<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
@@ -315,10 +315,10 @@
 			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		</theme>
 		<theme name="label" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta-border</font></param>
+			<param name="font"><font>main-border</font></param>
 		</theme>
 		<theme name="button" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta-border</font></param>
+			<param name="font"><font>main-border</font></param>
           <param name="border">
             <border>2,0,4,10</border>
           </param>
@@ -382,7 +382,7 @@
       <theme name="scrollpane" ref="scrollpane" allowWildcard="true">
         <theme name="label-black" ref="-defaults" allowWildcard="true">
           <param name="font">
-            <font>alphabeta-border</font>
+            <font>main-border</font>
           </param>
           <param name="border">
             <border>0,0,25,0</border>
@@ -409,7 +409,7 @@
         </param>
         <theme name="button" ref="-defaults" allowWildcard="true">
           <param name="font">
-            <font>alphabeta-border</font>
+            <font>main-border</font>
           </param>
           <param name="border">
             <border>2,0,4,10</border>
@@ -489,25 +489,25 @@
 
   <theme name="monster-preview-panel-label-red" ref="monster-preview-panel-label">
     <param name="font">
-      <font>alphabeta-red</font>
+      <font>main-red</font>
     </param>
   </theme>
 
   <theme name="monster-preview-panel-label-grey" ref="monster-preview-panel-label">
     <param name="font">
-      <font>alphabeta</font>
+      <font>main</font>
     </param>
   </theme>
 
   <theme name="monster-preview-panel-label-yellow" ref="monster-preview-panel-label">
     <param name="font">
-      <font>alphabeta-yellow</font>
+      <font>main-yellow</font>
     </param>
   </theme>
 
   <theme name="monster-preview-panel-label-teal" ref="monster-preview-panel-label">
     <param name="font">
-      <font>alphabeta-teal</font>
+      <font>main-teal</font>
     </param>
   </theme>
 

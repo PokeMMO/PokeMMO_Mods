@@ -13,7 +13,7 @@
           </theme>
           <theme name="townmap-cursor" ref="-defaults" allowWildcard="true">
             <param name="font">
-              <font>alphabeta</font>
+              <font>main</font>
             </param>
             <param name="border">
               <border>0,0</border>
@@ -254,7 +254,7 @@
       </theme>
       <theme name="label-self" ref="label">
         <param name="border"><border>0,0</border></param>
-        <param name="font"><font>alphabeta-lightgreen</font></param>
+        <param name="font"><font>main-lightgreen</font></param>
       </theme>
 		</theme>
 	</theme>

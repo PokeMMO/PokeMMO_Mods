@@ -46,7 +46,7 @@
 	<theme name="-input">
 		<param name="background"><image>none</image></param>
 		<param name="overlay"><image>none</image></param>
-		<param name="font"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
 		<param name="textAlignment"><enum type="alignment">topleft</enum></param>
 		<param name="minWidth"><int>0</int></param>
 		<param name="minHeight"><int>0</int></param>
@@ -149,7 +149,7 @@
 	<!-- Used in a lot of places... -->
 	<theme name="rbattle" ref="-defaults" allowWildcard="true">
 		<param name="font"><font>mechabold</font></param>
-		<param name="font2"><font>alphabeta-border</font></param>
+		<param name="font2"><font>main-border</font></param>
 		<param name="border"><border>0,0,16,0</border></param>
 		<param name=""><image>button.*</image></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -158,8 +158,8 @@
 
 	<!--
 	<theme name="battlebutton" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>alphabeta</font></param>
-		<param name="font2"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
+		<param name="font2"><font>main</font></param>
 		<param name="border"><border>0,0,17,30</border></param>
 		<param name=""><image>mi-skill-use.*</image></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -202,33 +202,43 @@
 	<theme name="editfield-search" ref="editfield"/>
 	<theme name="editfield-fancy" ref="editfield"/>
 
-	<theme name="editfieldautocompletionwindow" ref="-defaults">
-		<theme name="listbox" ref="-defaults">
-			<param name="minDisplayedRows"><int>5</int></param>
-			<theme name="display" ref="-defaults">
-				<param name="minHeight"><int>26</int></param>
-				<param name="minDisplayedRows"><int>5</int></param>
-				<param name="font"><font>listbox-display</font></param>
-				<param name="border"><border>15</border></param>
-				<param name=""><image>ui-popup-button.*</image></param>
-				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-			</theme>
-			<param name="cellHeight"><int>27</int></param>
-			<param name="cellWidth"><constant>SINGLE_COLUMN</constant></param>
-			<param name="rowMajor"><bool>true</bool></param>
-			<param name="fixedCellWidth"><bool>false</bool></param>
-			<param name="fixedCellHeight"><bool>false</bool></param>
-			<param name="font"><font>alphabeta</font></param>
-			<param name="border"><border>4,7</border></param>
-			<param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
-			<param name="maxHeight"><int>250</int></param>
-			<param name="maxWidth"><int>250</int></param>
-		</theme>
-		<param name="font"><font>alphabeta</font></param>
-		<param name="border"><border>0</border></param>
-		<param name=""><image>ui-popup.*</image></param>
-		<param name="minHeight"><int>35</int></param>
-	</theme>
+  <theme name="editfieldautocompletionwindow" ref="-defaults">
+    <theme name="listbox" ref="-defaults">
+      <param name="minDisplayedRows"><int>5</int></param>
+      <theme name="display" ref="-defaults">
+        <param name="minHeight"><int>26</int></param>
+        <param name="minDisplayedRows"><int>5</int></param>
+        <param name="font"><font>listbox-display</font></param>
+        <param name="border"><border>15</border></param>
+        <param name=""><image>ui-popup-button.*</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <param name="cellHeight"><int>27</int></param>
+      <param name="cellWidth"><constant>SINGLE_COLUMN</constant></param>
+      <param name="rowMajor"><bool>true</bool></param>
+      <param name="fixedCellWidth"><bool>false</bool></param>
+      <param name="fixedCellHeight"><bool>false</bool></param>
+      <param name="font"><font>main</font></param>
+      <param name="border"><border>4,7</border></param>
+      <param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
+      <param name="maxHeight"><int>250</int></param>
+      <param name="maxWidth"><int>250</int></param>
+    </theme>
+    <param name="font"><font>main</font></param>
+    <param name="border"><border>0</border></param>
+    <param name=""><image>ui-popup.*</image></param>
+    <param name="minHeight"><int>35</int></param>
+  </theme>
+
+  <theme name="editfield-errorinfowindow" ref="-defaults">
+    <param name=""><image>ui-popup.*</image></param>
+    <param name="minHeight"><int>35</int></param>
+    <theme name="label" ref="-defaults">
+      <param name="border"><border>10</border></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="font"><font>main</font></param>
+    </theme>
+  </theme>
 
 	<theme name="textarea" ref="-defaults">
 		<param name="background"><image>popup.background</image></param>
@@ -373,6 +383,7 @@
 
 	<theme name="combobox" ref="-defaults" allowWildcard="true">
 		<param name="popupHeight"><int>150</int></param>
+		<param name="popupDirection"><enum type="popupdirection">FIT</enum></param>
 		<theme name="display" ref="label">
 			<param name="font"><font>pb-dark</font></param>
 			<param name="focus"><image>input.background</image></param>
@@ -447,6 +458,7 @@
 		<param name="width"><int>100</int></param>
 		<param name="useMouseWheel"><bool>true</bool></param>
 		<param name="displayPrefix"><string/></param>
+		<param name="displaySuffix"><string/></param>
 	</theme>
 
 	<theme name="tabbedframe" ref="resizableframe">
@@ -466,7 +478,7 @@
 				<param name="maxHeight"><int>34</int></param>
 				<param name="border"><border>2,3</border></param>
 				<theme name="label" ref="-defaults">
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
 				</theme>
 				<theme name="label2" ref="-defaults">
@@ -771,7 +783,7 @@
 		<theme name="display" ref="-defaults">
 			<param name="minHeight"><int>26</int></param>
 			<param name="minDisplayedRows"><int>1</int></param>
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>0,7</border></param>
 			<param name=""><image>button-popup.*</image></param>
 			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -781,7 +793,7 @@
 		<param name="rowMajor"><bool>true</bool></param>
 		<param name="fixedCellWidth"><bool>false</bool></param>
 		<param name="fixedCellHeight"><bool>false</bool></param>
-		<param name="font"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
 		<param name="border"><border>4,7</border></param>
 		<param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
 		<param name="maxHeight"><int>250</int></param>
@@ -899,7 +911,7 @@
 	</theme>
 
 	<theme name="fpscounter" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>alphabeta-border</font></param>
+		<param name="font"><font>main-border</font></param>
 		<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 	</theme>
 
@@ -1036,14 +1048,57 @@
       <param name="minHeight"><int>50</int></param>
       <param name="fonts">
         <map>
-          <param name="default"><font>alphabeta</font></param>
-          <param name="link"><font>alphabeta-blue</font></param>
+          <param name="default"><font>main</font></param>
+          <param name="link"><font>main-blue</font></param>
         </map>
       </param>
       <param name="classes"><map/></param>
       <param name="images"><map/></param>
     </theme>
   </theme>
+  
+  <theme name="colorselector" ref="dialoglayout">
+        <theme name="label" ref="label"/>
+        <theme name="colorarea1d" ref="-defaults">
+            <param name="background"><image>label5.background</image></param>
+            <param name="cursor"><image>label6.background</image></param>
+            <param name="border"><border>2</border></param>
+            <param name="minWidth"><int>30</int></param>
+            <param name="minHeight"><int>128</int></param>
+        </theme>
+        <theme name="colorarea2d" ref="-defaults">
+            <param name="background"><image>label5.background</image></param>
+            <param name="cursor"><image>label6.background</image></param>
+            <param name="border"><border>2</border></param>
+            <param name="minWidth"><int>128</int></param>
+            <param name="minHeight"><int>128</int></param>
+        </theme>
+        <theme name="valueadjuster" ref="valueadjuster">
+            <param name="maxWidth"><int>32767</int></param>
+        </theme>
+        <theme name="hexColorEditField" ref="editfield">
+            <param name="maxWidth"><int>32767</int></param>
+        </theme>
+        <theme name="previewLabel" ref="label">
+            <param name="text"><string>Current color:</string></param>
+        </theme>
+        <theme name="preview" ref="dialoglayout">
+            <param name="border"><border>2</border></param>
+            <param name="minWidth"><int>64</int></param>
+            <param name="minHeight"><int>64</int></param>
+            <theme name="colorarea" ref="-defaults">
+              <param name="background"><image>white.background</image></param>
+            </theme>
+            <theme name="previewLabel" ref="label">
+            </theme>
+        </theme>
+
+        <theme name="valueadjuster" ref="valueadjuster" allowWildcard="true">
+          <param name="width"><int>50</int></param>
+        </theme>
+        <param name="mouseCursor."><cursor>eforen.cursor.arrow.*</cursor></param>
+    </theme>
+
 
   <!-- CollapsibleMenu theme definition -->
   <theme name="collapsiblemenu" ref="-defaults">
@@ -1158,8 +1213,8 @@
       <param name="minHeight"><int>50</int></param>
       <param name="fonts">
         <map>
-          <param name="default"><font>alphabeta</font></param>
-          <param name="link"><font>alphabeta-blue</font></param>
+          <param name="default"><font>main</font></param>
+          <param name="link"><font>main-blue</font></param>
         </map>
       </param>
       <param name="classes"><map/></param>
@@ -1179,10 +1234,10 @@
         <param name="minWidth"><int>650</int></param>
         <param name="minHeight"><int>400</int></param>
         <theme name="label" ref="label" allowWildcard="true">
-          <param name="font"><font>alphabeta</font></param>
+          <param name="font"><font>main</font></param>
         </theme>
         <theme name="label-markup" ref="label" allowWildcard="true">
-          <param name="font"><font>alphabeta-markup</font></param>
+          <param name="font"><font>main-markup</font></param>
         </theme>
       </theme>
     </theme>
@@ -1197,7 +1252,7 @@
         <param name="font"><font>mechabold-yellow</font></param>
       </theme>
       <theme name="label-default" ref="label" allowWildcard="true">
-        <param name="font"><font>alphabeta</font></param>
+        <param name="font"><font>main</font></param>
       </theme>
       <theme name="textarea" ref="-defaults">
         <param name="minWidth"><int>100</int></param>
@@ -1205,8 +1260,8 @@
         <param name="maxWidth"><int>800</int></param>
         <param name="fonts">
           <map>
-            <param name="default"><font>alphabeta</font></param>
-            <param name="link"><font>alphabeta-blue</font></param>
+            <param name="default"><font>main</font></param>
+            <param name="link"><font>main-blue</font></param>
           </map>
         </param>
       </theme>
@@ -1249,7 +1304,7 @@
           <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
         </theme>
         <theme name="label-markup" ref="label">
-          <param name="font"><font>alphabeta-markup</font></param>
+          <param name="font"><font>main-markup</font></param>
         </theme>
         <theme name="button" ref="button">
           <param name="minWidth"><int>102</int></param>
@@ -1278,22 +1333,9 @@
 		<param name="fadeDurationShow"><int>0</int></param>
 		<param name="fadeDurationHide"><int>0</int></param>
 		<param name="mouseCursor"><cursor>mouseCursor.*</cursor></param>
-		<theme name="title" ref="-defaults">
+    <theme name="title" ref="-defaults">
 			<param name="textAlignment"><enum type="alignment">left</enum></param>
 			<param name="font"><font>pb-dark</font></param>
-		</theme>
-		<theme name="dialoglayout" ref="-defaults">
-			<param name="border"><border>5</border></param>
-			<param name="defaultGap"><dimension>5,5</dimension></param>
-			<param name="smallGap"><dimension>8,8</dimension></param>
-			<param name="mediumGap"><dimension>10,10</dimension></param>
-			<param name="largeGap"><dimension>15,15</dimension></param>
-			<param name="namedGaps"><map/></param>
-			<theme name="label" ref="-defaults">
-				<param name="border"><border>5</border></param>
-				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-				<param name="font"><font>pb-dark</font></param>
-			</theme>
 		</theme>
 		<theme name="label" ref="-defaults">
 			<param name="border"><border>5</border></param>

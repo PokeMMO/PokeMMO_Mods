@@ -140,7 +140,7 @@
   <!-- Buttons used for additional info, used for trade window [ 16x16 only ] -->
   <theme name="tooltip-button" ref="-defaults" allowWildcard="true">
     <param name="font">
-      <font>alphabeta</font>
+      <font>main</font>
     </param>
     <param name="border">
       <border>7,5</border>
@@ -150,7 +150,7 @@
 	</theme>
 	<!-- PC Version of the tooltip -->
 	<theme name="tooltip-button2" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
 		<param name="border"><border>7,5</border></param>
 		<param name="background"><image>icon3</image></param>
 		<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>

@@ -25,10 +25,10 @@
         <param name="textAlignment"><enum type="alignment">center</enum></param>
       </theme>
       <theme name="label-markup" ref="label" allowWildcard="true">
-        <param name="font"><font>alphabeta-markup</font></param>
+        <param name="font"><font>main-markup</font></param>
       </theme>
       <theme name="label-hidden-ability" ref="label">
-        <param name="font"><font>alphabeta-yellow</font></param>
+        <param name="font"><font>main-yellow</font></param>
       </theme>
       <theme name="border-container" ref="label">
         <param name="background"><image>pc-preview.default</image></param>
@@ -81,7 +81,7 @@
           <param name="namedGaps"><map/></param>
           <param name="border"><border>0,3,0,0</border></param>
           <theme name="label-battle-box" ref="label" allowWildcard="true">
-            <param name="font"><font>alphabeta</font></param>
+            <param name="font"><font>main</font></param>
             <param name="border"><border>6</border></param>
             <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
             <param name="background"><image>label2.background</image></param>
@@ -91,7 +91,7 @@
             <param name="minWidth"><int>32</int></param>
             <param name="minHeight"><int>32</int></param>
             <theme name="label-dark" ref="label" allowWildcard="true">
-              <param name="font"><font>alphabeta</font></param>
+              <param name="font"><font>main</font></param>
               <param name="border"><border>1,25,0,0</border></param>
               <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
             </theme>
@@ -109,7 +109,7 @@
           <param name="minWidth"><int>32</int></param>
           <param name="minHeight"><int>32</int></param>
           <theme name="label-dark" ref="label" allowWildcard="true">
-            <param name="font"><font>alphabeta</font></param>
+            <param name="font"><font>main</font></param>
             <param name="border"><border>1,25,0,0</border></param>
             <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
           </theme>
@@ -165,7 +165,7 @@
 
   <!-- PC Select All Button -->
   <theme name="selectall-button" ref="-defaults" allowWildcard="true">
-    <param name="font"><font>alphabeta</font></param>
+    <param name="font"><font>main</font></param>
     <param name="border"><border>7,5</border></param>
     <param name="background"><image>icon.select-all</image></param>
     <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -173,14 +173,14 @@
 
   <!-- PC Unselect All Button -->
   <theme name="unselectall-button" ref="-defaults" allowWildcard="true">
-    <param name="font"><font>alphabeta</font></param>
+    <param name="font"><font>main</font></param>
     <param name="border"><border>7,5</border></param>
     <param name="background"><image>icon.select-none</image></param>
     <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
   </theme>
 
   <theme name="edit-button" ref="-defaults" allowWildcard="true">
-    <param name="font"><font>alphabeta</font></param>
+    <param name="font"><font>main</font></param>
     <param name="border"><border>7,5</border></param>
     <param name="background"><image>icon.edit</image></param>
     <param name="textAlignment"><enum type="alignment">CENTER</enum></param>

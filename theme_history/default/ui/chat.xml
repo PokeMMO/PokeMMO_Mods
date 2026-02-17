@@ -2,13 +2,13 @@
 <themes>
 	<theme name="chat-monster-info" ref="button" allowWildcard="true">
 		<param name="background"><image>none</image></param>
-		<param name="font"><font>alphabeta-blue</font></param>
+		<param name="font"><font>main-blue</font></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		<param name="border"><border>0,0,0,0</border></param>
 	</theme>
 
 	<theme name="chat-monster-info-shiny" ref="chat-monster-info" allowWildcard="true">
-		<param name="font"><font>alphabeta-battle</font></param>
+		<param name="font"><font>main-battle</font></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
 
@@ -32,7 +32,7 @@
 		<param name="mouseCursor"><cursor>mouseCursor.*</cursor></param>
 		<theme name="title" ref="-defaults">
 			<param name="textAlignment"><enum type="alignment">left</enum></param>
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 		</theme>
 		<theme name="closeButton" ref="-defaults"/>
 		<theme name="resizeHandle" ref="-defaults"/>
@@ -47,30 +47,30 @@
 				<param name="border"><border>0</border></param>
 				<theme name="textarea" ref="-defaults">
 					<param name="fonts"><map>
-						<param name="default"><font>alphabeta</font></param>
-						<param name="color0"><font>alphabeta-green</font></param>
-						<param name="color1"><font>alphabeta</font></param>
-						<param name="color2"><font>alphabeta</font></param>
-            <param name="link"><font>alphabeta-link</font></param>
-            <param name="normal"><font>alphabeta</font></param>
-            <param name="shout"><font>alphabeta-orange</font></param>
-            <param name="whisper"><font>alphabeta-lightgreen</font></param>
-            <param name="trade"><font>alphabeta-purple</font></param>
-            <param name="global"><font>alphabeta-teal</font></param>
-            <param name="channel"><font>alphabeta-yellow</font></param>
-            <param name="team"><font>alphabeta-brown</font></param>
-            <param name="system"><font>alphabeta-blue</font></param>
-            <param name="battle"><font>alphabeta-battle</font></param>
-            <param name="link-highlight"><font>alphabeta-orange</font></param>
-            <param name="normal-highlight"><font>alphabeta-orange</font></param>
-            <param name="shout-highlight"><font>alphabeta-link</font></param>
-            <param name="whisper-highlight"><font>alphabeta-orange</font></param>
-            <param name="trade-highlight"><font>alphabeta-orange</font></param>
-            <param name="global-highlight"><font>alphabeta-orange</font></param>
-            <param name="channel-highlight"><font>alphabeta-orange</font></param>
-            <param name="team-highlight"><font>alphabeta-orange</font></param>
-            <param name="system-highlight"><font>alphabeta-orange</font></param>
-            <param name="battle-highlight"><font>alphabeta-orange</font></param>
+						<param name="default"><font>main</font></param>
+						<param name="color0"><font>main-green</font></param>
+						<param name="color1"><font>main</font></param>
+						<param name="color2"><font>main</font></param>
+            <param name="link"><font>main-link</font></param>
+            <param name="normal"><font>main</font></param>
+            <param name="shout"><font>main-orange</font></param>
+            <param name="whisper"><font>main-lightgreen</font></param>
+            <param name="trade"><font>main-purple</font></param>
+            <param name="global"><font>main-teal</font></param>
+            <param name="channel"><font>main-yellow</font></param>
+            <param name="team"><font>main-brown</font></param>
+            <param name="system"><font>main-blue</font></param>
+            <param name="battle"><font>main-battle</font></param>
+            <param name="link-highlight"><font>main-orange</font></param>
+            <param name="normal-highlight"><font>main-orange</font></param>
+            <param name="shout-highlight"><font>main-link</font></param>
+            <param name="whisper-highlight"><font>main-orange</font></param>
+            <param name="trade-highlight"><font>main-orange</font></param>
+            <param name="global-highlight"><font>main-orange</font></param>
+            <param name="channel-highlight"><font>main-orange</font></param>
+            <param name="team-highlight"><font>main-orange</font></param>
+            <param name="system-highlight"><font>main-orange</font></param>
+            <param name="battle-highlight"><font>main-orange</font></param>
 					</map></param>
 					<param name="classes"><map/></param>
 					<param name="images"><map>
@@ -95,25 +95,25 @@
 				<theme name="togglebutton-normal" ref="button" allowWildcard="true">
 					<param name=""><image>chat-button.*</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<theme name="togglebutton-settings" ref="button" allowWildcard="true">
 					<param name=""><image>chat-button.*</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<theme name="togglebutton-notification" ref="button" allowWildcard="true">
 					<param name=""><image>chat-button.*</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<theme name="togglebutton-normal" ref="button" allowWildcard="true">
 					<param name=""><image>chat-button.*</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<!-- lock icon -->
@@ -145,7 +145,7 @@
 				<theme name="button" ref="button" allowWildcard="true">
 					<param name="border"><border>7,6</border></param>
 					<param name="background"><image>input-black.background</image></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 				</theme>
 				<theme name="button-link" ref="button" allowWildcard="true"/>
@@ -156,7 +156,7 @@
 					<param name="border"><border>5</border></param>
 					<param name="columns"><int>1</int></param>
 					<theme name="renderer" ref="-input">
-						<param name="font"><font>alphabeta</font></param>
+						<param name="font"><font>main</font></param>
 						<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
 					</theme>
 				</theme>
@@ -170,7 +170,7 @@
 	<theme name="chat-playername" ref="button" allowWildcard="true">
 		<param name="border"><border>0,0,0,0</border></param>
 		<param name="background"><image>none</image></param>
-		<param name="font"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
 
@@ -345,7 +345,7 @@
 				<param name="autoScrollSpeed"><int>10</int></param>
 				<param name="minHeight"><int>170</int></param>
 				<theme name="editfield" ref="-defaults" allowWildcard="true">
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="background"><image>editfield.background</image></param>
 					<param name="selection"><image>editfield.selection</image></param>
 					<param name="border"><border>3</border></param>
@@ -366,7 +366,7 @@
 							<param name="default"><font>pb-dark</font></param>
 							<param name="chatdefault"><font>pb-dark</font></param>
 							<param name="orange"><font>pb-dark-orange</font></param>
-							<param name="link"><font>alphabeta-blue</font></param>
+							<param name="link"><font>main-blue</font></param>
 						</map></param>
 						<param name="classes"><map/></param>
 						<param name="images">

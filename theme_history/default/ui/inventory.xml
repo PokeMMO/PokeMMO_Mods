@@ -145,7 +145,7 @@
 		<param name="mouseCursor"><cursor>mouseCursor.*</cursor></param>
 		<theme name="title" ref="-defaults">
 			<param name="textAlignment"><enum type="alignment">left</enum></param>
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 		</theme>
 		<theme name="closeButton" ref="-defaults"/>
 		<theme name="resizeHandle" ref="-defaults"/>

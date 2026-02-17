@@ -90,6 +90,13 @@
 		</theme>
 	</theme>
 	
+	<theme name="settings-collapsiblemenu" ref="collapsiblemenu">
+	  <param name="background"><image>none</image></param>
+	  <theme name="label" ref="label">
+	    <param name="font"><font>med-noshadow-18-white</font></param>
+    </theme>
+  </theme>
+	
 	<theme name="label-settings-vai" ref="mobile-valueadjuster-50" overwrite="true"/>
 
 	<theme name="mods-panel" ref="mobile-panel" overwrite="true">
@@ -115,7 +122,7 @@
 							<param name="background"><image>none</image></param>
 							<param name="textAlignment"><enum type="alignment">left</enum></param>
 							<param name="border"><border>3,0,0,0</border></param>
-							<param name="font"><font>alphabeta</font></param>
+							<param name="font"><font>main</font></param>
 							<param name="maxWidth"><int>250</int></param>
 							<param name="minWidth"><int>100</int></param>
 							<theme name="togglebutton" ref="togglebutton">

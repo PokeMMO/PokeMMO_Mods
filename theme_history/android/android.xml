@@ -59,6 +59,16 @@
 		<param name="background"><image>mobile.editfield.background</image></param>
 	</theme>
 
+  <theme name="editfield-errorinfowindow" ref="-defaults">
+    <param name=""><image>ui-popup.*</image></param>
+    <param name="minHeight"><int>35</int></param>
+    <theme name="label" ref="-defaults">
+      <param name="border"><border>10</border></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="font"><font>xlarge</font></param>
+    </theme>
+  </theme>
+
 	<theme name="mobile-valueadjuster" ref="valueadjuster" allowWildcard="true">
 		<param name="background"><image>none</image></param>
 		<param name="textAlignment"><enum type="alignment">left</enum></param>
@@ -100,6 +110,7 @@
 
 	<theme name="combobox" ref="-defaults" allowWildcard="true">
 		<param name="popupHeight"><int>150</int></param>
+		<param name="popupDirection"><enum type="popupdirection">FIT</enum></param>
 		<theme name="display" ref="label">
 			<param name="font"><font>med-noshadow-18-white</font></param>
 			<param name="focus"><image>input.background</image></param>
@@ -428,13 +439,11 @@
 
 	<!-- font override for toast messages -->
 	<theme name="notification" ref="-defaults" allowWildcard="true">
-		<theme name="dialoglayout" ref="-defaults">
-			<theme name="label" ref="-defaults">
-				<param name="border"><border>5</border></param>
-				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-				<param name="font"><font>xlarge</font></param>
-			</theme>
-		</theme>
+    <theme name="label" ref="-defaults">
+      <param name="border"><border>10</border></param>
+      <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="font"><font>xlarge</font></param>
+    </theme>
 	</theme>
 
 	<!-- android section -->
@@ -830,7 +839,7 @@
 				<param name="background"><image>none</image></param>
 				<theme name="character-select-button" ref="-defaults" allowWildcard="true">
 					<param name="background"><image>ui-inputbox-mixed.background</image></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="border"><border>7,7</border></param>
 
 					<param name="minWidth"><int>400</int></param>
@@ -1326,7 +1335,7 @@
 	</theme>
 
 	<theme name="tooltip-button" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
 		<param name="border"><border>0</border></param>
 		<param name="background"><image>mobile.icons.help</image></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -1335,7 +1344,7 @@
 	</theme>
 
 	<theme name="tooltip-button2" ref="-defaults" allowWildcard="true">
-		<param name="font"><font>alphabeta</font></param>
+		<param name="font"><font>main</font></param>
 		<param name="border"><border>7,5</border></param>
 		<param name="background"><image>mobile.icons.help</image></param>
 		<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
@@ -1481,6 +1490,9 @@
       <param name="background"><image>ui-status-warning.default</image></param>
       <param name="font"><font>mechabold-large</font></param>
       <param name="border"><border>0,4,4,4</border></param>
+    </theme>
+    <theme name="combobox" ref="combobox">
+      <param name="popupDirection"><enum type="popupdirection">TOP</enum></param>
     </theme>
   </theme>
 

@@ -74,56 +74,56 @@
 
   <theme name="gmpanel" ref="-defaults" allowWildcard="true">
 		<theme name="button" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>button-tiny-blue.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-search" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.dbsearch.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-tools" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.tools.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-player" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.psearch.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-move" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.map.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 
 		<theme name="button-sound" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.sound.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 
 		<theme name="button-ping" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.lag.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-support" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>26,0</border></param>
 			<param name=""><image>mobile.icons.pchat.*</image></param>
 			<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
@@ -138,7 +138,7 @@
 		</theme>
 		
 		<theme name="button-gc" ref="-defaults" allowWildcard="true">
-			<param name="font"><font>alphabeta</font></param>
+			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
 			<param name=""><image>mobile.icons.recyle.*</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
@@ -152,7 +152,7 @@
 			<param name="largeGap"><dimension>15,15</dimension></param>
 			<param name="namedGaps"><map/></param>
 			<theme name="button" ref="-defaults" allowWildcard="true">
-				<param name="font"><font>alphabeta</font></param>
+				<param name="font"><font>main</font></param>
 				<param name="border"><border>7,4</border></param>
 				<param name=""><image>button-tiny.*</image></param>
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -163,7 +163,7 @@
 				<param name="textAlignment"><enum type="alignment">left</enum></param>
 				<param name="border"><border>5,5,5,5</border></param>
 				<param name="minWidth"><int>250</int></param>
-				<param name="font"><font>alphabeta</font></param>
+				<param name="font"><font>main</font></param>
 			</theme>
 			<theme name="dialoglayout" ref="-defaults">
 				<param name="border"><border>15</border></param>
@@ -173,7 +173,7 @@
 				<param name="largeGap"><dimension>15,15</dimension></param>
 				<param name="namedGaps"><map/></param>
 				<theme name="button" ref="-defaults" allowWildcard="true">
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 					<param name="border"><border>7,4</border></param>
 					<param name=""><image>button-tiny.*</image></param>
 					<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -184,7 +184,7 @@
 					<param name="textAlignment"><enum type="alignment">left</enum></param>
 					<param name="border"><border>5,5,5,5</border></param>
 					<param name="minWidth"><int>250</int></param>
-					<param name="font"><font>alphabeta</font></param>
+					<param name="font"><font>main</font></param>
 				</theme>
 			</theme>
 		</theme>

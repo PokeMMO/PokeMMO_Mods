@@ -78,7 +78,7 @@
 	
 	<!-- Settings GUI -->
 	<theme name="translate-link" ref="button">
-		<param name="font"><font>alphabeta-orange-shadow</font></param>
+		<param name="font"><font>main-orange-shadow</font></param>
 		<param name="minWidth"><int>455</int></param>
 		<param name="maxWidth"><int>455</int></param>
 		<param name="border"><border>5</border></param>
@@ -86,7 +86,7 @@
 	</theme>
 	<theme name="label-settings-title" ref="label" allowWildcard="true">
 		<param name="background"><image>ui-header.background</image></param>
-		<param name="minWidth"><int>220</int></param>
+		<param name="minWidth"><int>200</int></param>
 		<param name="minHeight"><int>28</int></param>
 		<param name="border"><border>2,9,4,0</border></param>
 	</theme>
@@ -95,11 +95,15 @@
 		<param name="textAlignment"><enum type="alignment">left</enum></param>
 	</theme>
 	
+	<theme name="editfield-settings-value-small" ref="editfield" allowWildcard="true">
+  		<param name="minWidth"><int>40</int></param>
+  		<param name="columns"><int>3</int></param>
+  	</theme>
+	
 	<theme name="label-settings-value" ref="label" allowWildcard="true">
 		<param name="background"><image>none</image></param>
 		<param name="textAlignment"><enum type="alignment">left</enum></param>
 		<param name="border"><border>0,0,0,0</border></param>
-		<param name="maxWidth"><int>250</int></param>
 		<param name="minWidth"><int>250</int></param>
 		<param name="font"><font>pb-dark</font></param>
 		
@@ -147,8 +151,6 @@
 	<theme name="label-settings-vai" ref="valueadjuster" allowWildcard="true">
 		<param name="background"><image>none</image></param>
 		<param name="textAlignment"><enum type="alignment">left</enum></param>
-		<param name="border"><border>0,0,0,20</border></param>
-		<param name="maxWidth"><int>250</int></param>
 		<param name="minWidth"><int>250</int></param>
 		<param name="font"><font>pb-dark</font></param>
 
@@ -178,6 +180,16 @@
 			</theme>
 		</theme>
 	</theme>
+	
+	<theme name="settings-colorselector" ref="colorselector">
+      <theme name="colorarea2d" ref="colorarea2d">
+          <param name="minWidth"><int>210</int></param>
+      </theme>
+	</theme>
+	
+  <theme name="settings-collapsiblemenu" ref="collapsiblemenu">
+  </theme>
+
 
 	<theme name="mods-panel" ref="base-frame" allowWildcard="true">
 		<param name="fadeDurationShow"><int>200</int></param>
@@ -199,7 +211,7 @@
 							<param name="background"><image>none</image></param>
 							<param name="textAlignment"><enum type="alignment">left</enum></param>
 							<param name="border"><border>3,0,0,0</border></param>
-							<param name="font"><font>alphabeta</font></param>
+							<param name="font"><font>main</font></param>
 							<param name="maxWidth"><int>250</int></param>
 							<param name="minWidth"><int>100</int></param>
 						</theme>
@@ -246,7 +258,7 @@
 							<param name="background"><image>none</image></param>
 							<param name="textAlignment"><enum type="alignment">left</enum></param>
 							<param name="border"><border>3,0,0,0</border></param>
-							<param name="font"><font>alphabeta</font></param>
+							<param name="font"><font>main</font></param>
 							<param name="maxWidth"><int>250</int></param>
 							<param name="minWidth"><int>100</int></param>
 						</theme>
