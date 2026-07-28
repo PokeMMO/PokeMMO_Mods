@@ -671,6 +671,10 @@
       </map>
     </param>
   </theme>
+  
+  <theme name="menupopupbattle" ref="menupopup" overwrite="true">
+    <param name="border"><border>5</border></param>
+  </theme>
 
 	<theme name="mobile-menu" ref="button" allowWildcard="true">
 		<param name="background"><image>mobile.icons.menu</image></param>

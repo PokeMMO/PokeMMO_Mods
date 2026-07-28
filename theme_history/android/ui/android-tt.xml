@@ -18,6 +18,7 @@
     <theme name="scrollpane" ref="scrollpane">
       <theme name="content-table" ref="table">
         <param name="headerRowBackground"><image>mobile.box.dark1.50</image></param>
+        <param name="teamRowBackground"><image>mobile.box.light1.50</image></param>
         <param name="contentRowBackground"><image>mobile.box.dark1.50</image></param>
         <param name="background"><image>none</image></param>
         <theme name="label" ref="-defaults">

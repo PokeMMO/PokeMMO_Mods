@@ -248,8 +248,10 @@
 		<area name="ui-button.hover.background" xywh="353,116,29,29" splitx="L4,R4" tint="main-color" splity="T4,B4"/>
 		<area name="ui-button-picker.background" xywh="390,125,9,14" center="true"/>
 		<area name="ui-button.tinted.blue" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#ccf3ff"/>
-        <area name="ui-button.tinted.green" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#d2efc3"/>
-        <area name="ui-button.tinted.red" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#8b0000"/>
+    <area name="ui-button.tinted.green" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#d2efc3"/>
+    <area name="ui-button.tinted.red" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#8b0000"/>
+    <area name="ui-button.tinted.gold" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#d4af37"/>
+    <area name="ui-button.tinted.orange" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#c68a55"/>
 
 		<area name="ui-sort-default.background" xywh="390,125,9,14" inset="0,73,0,0" center="true"/>
 		<area name="ui-sort-asc.background" xywh="390,133,9,8" inset="4,73,0,0" center="true"/>
@@ -518,8 +520,10 @@
 		<area name="ui-inputbox-2px.selected" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="sub-color"/>
 
 		<area name="ui-inputbox-2px.selected.blue" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#5db1ff"/>
-        <area name="ui-inputbox-2px.selected.green" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#78C850"/>
-        <area name="ui-inputbox-2px.selected.red" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#f94449"/>
+    <area name="ui-inputbox-2px.selected.green" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#78C850"/>
+    <area name="ui-inputbox-2px.selected.red" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#f94449"/>
+    <area name="ui-inputbox-2px.selected.gold" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#d4af37"/>
+    <area name="ui-inputbox-2px.selected.orange" xywh="397,25,19,17" splitx="L4,R4" splity="T4,B4" tint="#c68a55"/>
 
 		<area name="ui-inputbox-2px.red" xywh="397,43,66,17" splitx="L4,R4" splity="T4,B4"/>
 		<select name="ui-inputbox-2px.background">
@@ -591,13 +595,30 @@
 			<alias ref="ui-inputbox-2px.selected.green"/>
 		</select>
 
-        <select name="ui-button.background-red">
-          <composed if="selected | keyboardFocus | hover">
-            <alias ref="ui-inputbox.hover-animation"/>
-            <alias ref="ui-inputbox-2px.selected.red"/>
-          </composed>
-          <alias ref="ui-inputbox-2px.selected.red"/>
-        </select>
+    <select name="ui-button.background-red">
+      <composed if="selected | keyboardFocus | hover">
+        <alias ref="ui-inputbox.hover-animation"/>
+        <alias ref="ui-inputbox-2px.selected.red"/>
+      </composed>
+      <alias ref="ui-inputbox-2px.selected.red"/>
+    </select>
+    
+    <select name="ui-button.background-gold">
+      <composed if="selected | keyboardFocus | hover">
+        <alias ref="ui-inputbox.hover-animation"/>
+        <alias ref="ui-inputbox-2px.selected.gold"/>
+      </composed>
+      <alias ref="ui-inputbox-2px.selected.gold"/>
+    </select>
+    
+    
+    <select name="ui-button.background-orange">
+      <composed if="selected | keyboardFocus | hover">
+        <alias ref="ui-inputbox.hover-animation"/>
+        <alias ref="ui-inputbox-2px.selected.orange"/>
+      </composed>
+      <alias ref="ui-inputbox-2px.selected.orange"/>
+    </select>
 
 		<select name="ui-button.selected-green">
 			<composed if="selected + hover">

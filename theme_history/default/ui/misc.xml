@@ -260,12 +260,8 @@
 	</theme>
 
     <theme name="scoreboard-window" ref="base-frame">
-      <param name="minWidth">
-        <int>550</int>
-      </param>
-      <param name="minHeight">
-        <int>360</int>
-      </param>
+      <param name="maxHeight"><int>360</int></param>
+      <param name="minHeight"><int>360</int></param>
       <theme name="dialoglayout" ref="-defaults" allowWildcard="true">
         <param name="background">
           <image>none</image>
@@ -292,12 +288,18 @@
           <param name="fadeDurationShow">
             <int>200</int>
           </param>
-                <param name="fadeDurationHide"><int>0</int></param>
-                <param name="minWidth"><int>150</int></param>
-                <param name="font"><font>pb-dark</font></param>
-                <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
-            </theme>
+          <param name="fadeDurationHide"><int>0</int></param>
+          <param name="minWidth"><int>150</int></param>
+          <param name="font"><font>pb-dark</font></param>
+          <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
         </theme>
+        <theme name="label-danger" ref="label">
+          <param name="font"><font>pb-dark-red</font></param>
+        </theme>
+        <theme name="label-good" ref="label">
+          <param name="font"><font>pb-dark-green</font></param>
+        </theme>
+      </theme>
     </theme>
 
     <theme name="scoreboard-table" ref="table" allowWildcard="true">

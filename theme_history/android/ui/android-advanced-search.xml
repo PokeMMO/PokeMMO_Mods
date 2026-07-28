@@ -103,8 +103,11 @@
       </theme>
     </theme>
 
+	<theme name="advanced-search-dex" ref="advanced-search-dialog">
+	  <param name="border"><border>0,0,0,20</border></param>
+	</theme>
 	
-    <theme name="advanced-search-frame" ref="mobile-panel" overwrite="true">
-      <theme name="advanced-search-dialog" ref="advanced-search-dialog-alt"/>
-    </theme>
+  <theme name="advanced-search-frame" ref="mobile-panel" overwrite="true">
+    <theme name="advanced-search-dialog" ref="advanced-search-dialog-alt"/>
+  </theme>
 </themes>

@@ -243,6 +243,12 @@
                     <action name="prevTab">CTRL SHIFT TAB</action>
                 </inputMapDef></param>
             </theme>
+            <theme name="label-danger" ref="label" allowWildcard="true">
+              <param name="font"><font>med-noshadow-18-darkred</font></param>
+            </theme>
+            <theme name="label-good" ref="label" allowWildcard="true">
+              <param name="font"><font>med-noshadow-18-dark-green</font></param>
+            </theme>
         </theme>
     </theme>
 

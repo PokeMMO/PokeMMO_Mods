@@ -132,6 +132,7 @@
     </theme>
 
     <theme name="editfield" ref="editfield-search">
+      <param name="columns"><int>17</int></param>
     </theme>
     <theme name="button" ref="button">
       <param name="minHeight"><int>60</int></param>

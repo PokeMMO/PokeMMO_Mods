@@ -25,6 +25,8 @@
            shadow_color="#CC000000" size="48" hinting="Full"/>
   <fontDef name="braille" ref="battle" color="#000000"/>
 
+  <fontDef name="marquee" ref="battle" markup="true"/>
+
   <fontDef name="main" filename="res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12"
            size_cjk="14" hinting="Full" hinting_cjk="Slight" default="true"
            unique_atlas="true"><!-- Chat font gets its own atlas -->

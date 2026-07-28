@@ -14,6 +14,7 @@
     <theme name="scrollpane" ref="scrollpane">
       <theme name="content-table" ref="table" allowWildcard="true">
         <param name="headerRowBackground"><image>ui-inputbox.background</image></param>
+        <param name="teamRowBackground"><image>ui-inputbox.selected</image></param>
         <param name="contentRowBackground"><image>ui-inputbox.background</image></param>
 
         <param name="background"><image>ui-table-row.background</image></param>

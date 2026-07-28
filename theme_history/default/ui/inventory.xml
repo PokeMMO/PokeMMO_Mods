@@ -80,7 +80,7 @@
 	<!-- Inventory Tab Button -->
 	<theme name="inventory-tab-empty" ref="-defaults" allowWildcard="true">
 		 <param name="background"><image>ui-tab-color.background</image></param>
-		 <param name="border"><border>26,0</border></param>
+		 <param name="border"><border>20,0</border></param>
 	</theme>
 
 	<!-- Item Slot -->
