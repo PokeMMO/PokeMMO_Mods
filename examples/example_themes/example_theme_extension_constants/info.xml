@@ -5,8 +5,8 @@
         <constants>
           <constant name="ext-background-image" public_name="Background Image" type="IMAGE" default_value="background-image">
             <whitelist_value>background-image</whitelist_value>
-            <whitelist_value>kyu-background-image</whitelist_value>
-            <whitelist_value>vukooo-background-image</whitelist_value>
+            <whitelist_value public_name="Kyu">kyu-background-image</whitelist_value>
+            <whitelist_value public_name="Vukooo">vukooo-background-image</whitelist_value>
           </constant>
           <constant name="ext-label-width" public_name="Label Width" type="INT" default_value="100"/>
         </constants>
