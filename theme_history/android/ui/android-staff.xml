@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+	<images>
+		<select name="hud.staff.search.mobile">
+			<alias ref="hud.staff.search.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.search.36" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.staff.search.36" center="true"/>
+		</select>
+		<select name="hud.staff.tools.mobile">
+			<alias ref="hud.staff.tools.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.tools.36" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.staff.tools.36" center="true"/>
+		</select>
+		<select name="hud.staff.player-search.mobile">
+			<alias ref="hud.staff.player-search.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.player-search.36" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.staff.player-search.36" center="true"/>
+		</select>
+		<select name="hud.staff.map.mobile">
+			<alias ref="hud.staff.map.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.map.36" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.staff.map.36" center="true"/>
+		</select>
+		<select name="hud.staff.sound.mobile">
+			<alias ref="hud.staff.sound.36" tint="#a3e1ff" if="(hover | keyboardFocus) + selected" center="true"/>
+			<alias ref="hud.staff.sound-off.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.sound.36" if="selected" center="true"/>
+			<alias ref="hud.staff.sound-off.36" center="true"/>
+		</select>
+		<select name="hud.staff.network.mobile">
+			<alias ref="hud.staff.network.36" tint="#FF6060" if="selected" center="true"/>
+			<alias ref="hud.staff.network.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.network.36" center="true"/>
+		</select>
+		<select name="hud.staff.recycle.mobile">
+			<alias ref="hud.staff.recycle.36" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.staff.recycle.36" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.staff.recycle.36" center="true"/>
+		</select>
+	</images>
+
 	<theme name="adminframe" ref="-defaults" allowWildcard="true">
 		<param name="background"><image>mobile.frame.background</image></param>
 		<param name="titleAreaTop"><int>10</int></param>
@@ -83,42 +122,42 @@
 		<theme name="button-search" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.dbsearch.*</image></param>
+			<param name="background"><image>hud.staff.search.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-tools" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.tools.*</image></param>
+			<param name="background"><image>hud.staff.tools.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-player" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.psearch.*</image></param>
+			<param name="background"><image>hud.staff.player-search.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-move" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.map.*</image></param>
+			<param name="background"><image>hud.staff.map.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 
 		<theme name="button-sound" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.sound.*</image></param>
+			<param name="background"><image>hud.staff.sound.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 
 		<theme name="button-ping" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.lag.*</image></param>
+			<param name="background"><image>hud.staff.network.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
@@ -140,7 +179,7 @@
 		<theme name="button-gc" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>mobile.icons.recyle.*</image></param>
+			<param name="background"><image>hud.staff.recycle.mobile</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		

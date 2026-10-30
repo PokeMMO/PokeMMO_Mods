@@ -3,11 +3,19 @@
 	<!-- Include the base font -->
 	<include filename="../default/fonts.xml" />
 
-  <fontDef name="battle" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="72" hinting="Full"/>
-  <fontDef name="battle-small" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" markup="true" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="48" hinting="Full"/>
+  <fontDef name="battle" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="72" hinting="Full">
+    <fallbackFontDef filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" scale="0.628"/>
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf" scale="0.628"/>
+  </fontDef>
+  <fontDef name="battle-small" filename="../default/res/fonts/battle.ttf" color="#FFFFFF" markup="true" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="48" hinting="Full" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" scale="0.628"/>
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf" scale="0.628"/>
+  </fontDef>
 	<fontDef name="braille" ref="battle" color="#000000"/>
 
-  <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f"/>
+  <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
   <fontDef name="mechabold-large-red" ref="mechabold" color="#F09999" />
   <fontDef name="mechabold-large-green" ref="mechabold" color="#9BFF9B" />
   <fontDef name="mechabold-large-blue" ref="mechabold" color="#87ceeb" />
@@ -15,29 +23,67 @@
           <fontParam if="disabled" color="#CCC"/>
   </fontDef>
 
-  <fontDef name="mechabold-xl" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" color="#FFFFFF" hinting="AutoFull" kerning="false" size="32" border_width="1" border_color="#2f2f2f" characters="❶❷❸❹❺❻❼❽❾❿"/>
+  <fontDef name="mechabold-xl" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" color="#FFFFFF" hinting="AutoFull" kerning="false" size="32" border_width="1" border_color="#2f2f2f" characters="❶❷❸❹❺❻❼❽❾❿" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
 
-  <fontDef name="symbols-white" filename="../default/res/fonts/DejaVuLGCSans.ttf" color="#FFFFFF" size="32" hinting="AutoFull" incremental="false" characters="┌├└─←→↑↓▸◂↖↗↙↘☒➤↻☒⇲"/>
+  <fontDef name="symbols-white" filename="../default/res/fonts/DejaVuLGCSans.ttf" color="#FFFFFF" size="32" hinting="AutoFull" incremental="false" characters="┌├└─←→↑↓▸◂↖↗↙↘☒➤↻☒⇲" renderer="text"/>
   <fontDef name="symbols-black" ref="symbols-white" color="#000000"/>
 
-  <fontDef name="level" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#ffc600" incremental="false" characters="Lv." size="10" border_width="1">
+  <fontDef name="level" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#ffc600" incremental="false" characters="Lv." size="10" border_width="1" renderer="text">
     <fontParam if="disabled" color="#CCC"/>
   </fontDef>
   
-  <fontDef name="med-noshadow-12-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="12"/>
-  <fontDef name="med-noshadow-14-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="14"/>
-  <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="16"/>
-  <fontDef name="med-noshadow-16-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#FFFFFF" size="16"/>
-  <fontDef name="med-noshadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="18"/>
-  <fontDef name="med-noshadow-18-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#FFFFFF" size="18"/>
-  <fontDef name="med-noshadow-20-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="20"/>
+  <fontDef name="med-noshadow-12-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="12" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-14-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="14" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="16" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-16-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#FFFFFF" size="16" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="18" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-18-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#FFFFFF" size="18" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-20-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="20" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
   <fontDef name="med-noshadow-20-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true"
-           faces="sc,tc,jp" font_color="#FFFFFF" size="20"/>
-  <fontDef name="med-noshadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="22"/>
+           faces="sc,tc,jp" font_color="#FFFFFF" size="20" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-noshadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="22" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
 
-  <fontDef name="med-shadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16"/>
-  <fontDef name="med-shadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true"/>
-  <fontDef name="med-shadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22"/>
+  <fontDef name="med-shadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-shadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
+  <fontDef name="med-shadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
 
   <fontDef name="med-noshadow-16-blue" ref="med-noshadow-16-white" color="#3498DB"/>
   <fontDef name="med-noshadow-18-blue" ref="med-noshadow-18-white" color="#3498DB"/>
@@ -59,7 +105,9 @@
   <fontDef name="med-noshadow-18-red" ref="med-noshadow-18-white" color="#fc6a78"/>
 
   <fontDef name="med-noshadow-16-gray" ref="med-noshadow-16-white" color="#FF333333"/>
-  <fontDef name="med-noshadow-16-gray-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16" color="#FF333333"/>
+  <fontDef name="med-noshadow-16-gray-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16" color="#FF333333" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
 
   <fontDef name="med-noshadow-16-lightgray" ref="med-noshadow-16-white" color="#88111111"/>
   <fontDef name="med-noshadow-18-lightgray" ref="med-noshadow-18-white" color="#88111111"/>
@@ -77,14 +125,27 @@
   <fontDef name="18pt-gray" ref="med-noshadow-18-white" color="#333333"/>
   <fontDef name="22pt-gray" ref="med-noshadow-22-white" color="#333333"/>
 
-	<fontDef name="normal" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="16"/>
-	<fontDef name="xlarge" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="22"/>
+	<fontDef name="normal" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="16" renderer="text">
+		<fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+		<fontParam if="disabled" color="#A9A9A9"/>
+	</fontDef>
+	<fontDef name="xlarge" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="22" renderer="text">
+		<fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+		<fontParam if="disabled" color="#A9A9A9"/>
+	</fontDef>
+	<fontDef name="xlarge-dim" ref="xlarge">
+		<fontParam if="disabled" color="#FF888888"/>
+	</fontDef>
 
 
 	<!-- mostly menu titles etc -->
-	<fontDef name="xxlarge" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="28"/>
+  <fontDef name="xxlarge" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="28" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+    <fontParam if="disabled" color="#A9A9A9"/>
+  </fontDef>
 
- 	<fontDef name="chatfont" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="18" hinting="Full" unique_atlas="true"> <!-- Chat font gets it's own atlas -->
+ 	<fontDef name="chatfont" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="18" hinting="Full" unique_atlas="true" renderer="text"> <!-- Chat font gets it's own atlas -->
+		<fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
 		<fontParam if="disabled" color="#A9A9A9"/>
 		<fontParam if="pressed" offsetX="1" offsetY="1"/>
 	</fontDef>
@@ -95,6 +156,7 @@
 	<fontDef name="chatfont-orange-shadow" ref="chatfont" color="#FF9900"/>
 	<fontDef name="chatfont-battle" ref="chatfont" color="#FFFF00"/>
 	<fontDef name="chatfont-orange" ref="chatfont" color="#FF9900"/>
+	<fontDef name="chatfont-highlight" ref="chatfont" color="#FF9900"/>
 	<fontDef name="chatfont-lightgreen" ref="chatfont" color="#66FF66"/>
 	<fontDef name="chatfont-purple" ref="chatfont" color="#FF99FF"/>
 	<fontDef name="chatfont-teal" ref="chatfont" color="#81ddf1"/>

@@ -94,6 +94,11 @@
 		<param name="minWidth"><int>80</int></param>
 		<param name="textAlignment"><enum type="alignment">left</enum></param>
 	</theme>
+	<!-- Section caption inside a settings tab: same metrics as a row label, but without the header bar so it does not read as an option row. -->
+	<theme name="label-settings-header" ref="label-settings-title" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<param name="border"><border>2,0,4,0</border></param>
+	</theme>
 	
 	<theme name="editfield-settings-value-small" ref="editfield" allowWildcard="true">
   		<param name="minWidth"><int>40</int></param>

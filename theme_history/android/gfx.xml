@@ -15,6 +15,20 @@
 			<area xywh="80,76,14,50"/>
 			<area xywh="122,76,14,50"/>
 		</grid>
+		<grid name="mobile.frame.background.thinbar" weightsX="0,1,0" weightsY="0,0,1,0">
+			<area xywh="33,0,14,9"/>
+			<area xywh="60,0,14,9"/>
+			<area xywh="122,0,14,9"/>
+			<area xywh="33,9,14,60"/>
+			<area xywh="60,9,14,60"/>
+			<area xywh="122,9,14,60"/>
+			<area xywh="33,69,14,7"/>
+			<area xywh="60,69,14,7"/>
+			<area xywh="122,69,14,7"/>
+			<area xywh="33,76,14,50" sizeOverwriteV="8"/>
+			<area xywh="80,76,14,50" sizeOverwriteV="8"/>
+			<area xywh="122,76,14,50" sizeOverwriteV="8"/>
+		</grid>
 		<grid name="mobile.tabwindow.background" weightsX="0,1,0" weightsY="0,1,0">
 			<area xywh="264,9,14,48" sizeOverwriteV="60"/>
 			<area xywh="293,9,14,48" sizeOverwriteV="60"/>
@@ -309,25 +323,7 @@
 		<area name="mobile.bubble.background" xywh="10,855,49,51" splitx="L17,R17" splity="T17,B17"/>
 
 		<area name="mobile.icons.help" xywh="449,821,60,60" center="true"/>
-		<area name="mobile.icons.tools" xywh="502,821,60,60" center="true"/>
-		<area name="mobile.icons.psearch" xywh="564,821,60,60" center="true"/>
 		<area name="mobile.icons.pchat" xywh="629,821,60,60" center="true"/>
-		<area name="mobile.icons.map" xywh="698,821,60,60" center="true"/>
-		<area name="mobile.icons.lag" xywh="758,821,60,60" center="true"/>
-		<area name="mobile.icons.sound" xywh="831,821,28,60" splitx="L1,R1" center="true"/>
-		<area name="mobile.icons.sound-mute" xywh="823,821,60,60" center="true"/>
-		<area name="mobile.icons.recyle" xywh="888,821,60,60" center="true"/>
-		<area name="mobile.icons.dbsearch" xywh="947,821,60,60" center="true"/>
-
-		<select name="mobile.icons.tools.background">
-			<alias ref="mobile.icons.tools" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.tools"/>
-		</select>
-
-		<select name="mobile.icons.psearch.background">
-			<alias ref="mobile.icons.psearch" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.psearch"/>
-		</select>
 
 		<select name="mobile.icons.pchat.background">
 			<alias ref="mobile.icons.pchat" tint="#a3e1ff" if="hover | keyboardFocus"/>
@@ -338,34 +334,6 @@
 				<frame duration="900" ref="mobile.icons.pchat" tint="#FFF4A6A6"/>
 				<frame duration="900" ref="mobile.icons.pchat" tint="#FFFFFFFF"/>
 		</animation>
-
-		<select name="mobile.icons.map.background">
-			<alias ref="mobile.icons.map" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.map"/>
-		</select>
-
-		<select name="mobile.icons.lag.background">
-			<alias ref="mobile.icons.lag" tint="#FF6060" if="selected"/>
-			<alias ref="mobile.icons.lag" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.lag"/>
-		</select>
-
-		<select name="mobile.icons.sound.background">
-			<alias ref="mobile.icons.sound" tint="#a3e1ff" if="(hover | keyboardFocus) + selected"/>
-			<alias ref="mobile.icons.sound-mute" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.sound" if="selected"/>
-			<alias ref="mobile.icons.sound-mute"/>
-		</select>
-
-		<select name="mobile.icons.recyle.background">
-			<alias ref="mobile.icons.recyle" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.recyle"/>
-		</select>
-
-		<select name="mobile.icons.dbsearch.background">
-			<alias ref="mobile.icons.dbsearch" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="mobile.icons.dbsearch"/>
-		</select>
 
 		<area name="mobile.icons.menu" xywh="628,888,60,60"/>
 

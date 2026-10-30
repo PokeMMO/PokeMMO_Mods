@@ -56,19 +56,19 @@
 
 		<!-- Progress Bar / Used in gear -->
 		<grid name="progressbar.background" weightsX="0,1,0" weightsY="1">
-			<area xywh="206,100,2,8"/>
+			<area xywh="206,100,1,8"/>
 			<area xywh="212,100,1,8"/>
-			<area xywh="215,100,2,8"/>
+			<area xywh="216,100,1,8"/>
 		</grid>
-		<area name="progressbar.progressImage" xywh="211,100,1,8" inset="0,2,0,0"/>
+		<area name="progressbar.progressImage" xywh="211,100,1,8" inset="0,1,0,0"/>
 
 		<!-- Progress Bar / Used in gear -->
 		<grid name="progressbar-green.background" weightsX="0,1,0" weightsY="1">
-			<area xywh="206,100,2,8"/>
+			<area xywh="206,100,1,8"/>
 			<area xywh="212,100,1,8"/>
-			<area xywh="215,100,2,8"/>
+			<area xywh="216,100,1,8"/>
 		</grid>
-		<area name="progressbar-green.progressImage" xywh="209,100,1,8" inset="0,2,0,0"/>
+		<area name="progressbar-green.progressImage" xywh="209,100,1,8" inset="0,1,0,0"/>
 
 
 		<area name="monster-frame-nameplate" xywh="224,91,7,34" splitx="L2,R3" inset="0,-5,0,0"/>
@@ -934,23 +934,13 @@
 		<area name="trainer-icon1" xywh="9,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon2" xywh="35,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon3" xywh="60,461,18,18" inset="0,0,0,0"/>
-		<area name="trainer-icon4" xywh="86,461,18,18" inset="0,0,0,0"/>
-		<area name="trainer-icon5" xywh="106,461,18,18" inset="0,0,0,0"/>
-		<area name="trainer-icon6" xywh="131,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon7" xywh="154,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon8" xywh="175,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon9" xywh="200,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon10" xywh="220,461,18,18" inset="0,0,0,0"/>
 		<area name="trainer-icon11" xywh="240,460,18,18" inset="0,0,0,0"/>
 
-		<area name="gmicon1.default" xywh="8,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
-		<area name="gmicon2.default" xywh="33,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
-		<area name="gmicon3.default" xywh="58,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
-		<area name="gmicon4.default" xywh="83,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
 		<area name="gmicon5.default" xywh="105,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
-		<area name="gmicon6.default" xywh="129,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
-		<area name="gmicon7.default" xywh="151,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
-		<area name="gmicon8.default" xywh="172,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
 
 
 		<area name="chaticon.default" xywh="197,482,24,24" inset="0,0,0,0" sizeOverwriteH="24" sizeOverwriteV="24"/>
@@ -980,30 +970,6 @@
       <frame duration="300" ref="chaticon.default" tint="#ffff8484"/>
     </animation>
 
-		<select name="gmicon1.background">
-			<alias ref="gmicon1.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon1.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon1.default"/>
-		</select>
-
-		<select name="gmicon2.background">
-			<alias ref="gmicon2.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon2.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon2.default"/>
-		</select>
-
-		<select name="gmicon3.background">
-			<alias ref="gmicon3.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon3.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon3.default"/>
-		</select>
-
-		<select name="gmicon4.background">
-			<alias ref="gmicon4.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon4.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon4.default"/>
-		</select>
-
 		<select name="gmicon5.background">
 			<alias ref="gmicon5.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
 			<alias ref="gmicon5.default" tint="#1f7bc9" if="selected"/>
@@ -1014,24 +980,6 @@
 			<frame duration="900" ref="gmicon5.default" tint="#FFff3c00"/>
 			<frame duration="900" ref="gmicon5.default" tint="#FFFFFFFF"/>
 		</animation>
-
-		<select name="gmicon6.background">
-			<alias ref="gmicon6.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon6.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon6.default"/>
-		</select>
-
-		<select name="gmicon7.background">
-			<alias ref="gmicon7.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon7.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon7.default"/>
-		</select>
-
-		<select name="gmicon8.background">
-			<alias ref="gmicon8.default" tint="#a3e1ff" if="hover | keyboardFocus"/>
-			<alias ref="gmicon8.default" tint="#1f7bc9" if="selected"/>
-			<alias ref="gmicon8.default"/>
-		</select>
 
 		<select name="button-npc.background">
 			<alias ref="button-npc.selected" if="hover | keyboardFocus"/>

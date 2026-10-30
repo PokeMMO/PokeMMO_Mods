@@ -498,6 +498,11 @@
 		</theme>
 	</theme>
 
+	<theme name="messagebox-square" ref="npc-interaction-popup">
+		<param name="background"><image>white.background</image></param>
+		<param name="border"><border>8</border></param>
+	</theme>
+
   <theme name="msgbox-move-selection-panel" ref="-defaults" allowWildcard="true">
     <param name="background">
       <image>ui-popup.background</image>
@@ -675,6 +680,81 @@
   <theme name="menupopupbattle" ref="menupopup" overwrite="true">
     <param name="border"><border>5</border></param>
   </theme>
+
+	<theme name="sectioned-menu-popup" ref="menupopup">
+		<param name="minWidth"><int>260</int></param>
+		<param name="maxWidth"><int>32767</int></param>
+		<theme name="scrollpane" ref="-defaults">
+			<param name="border"><border>0</border></param>
+			<param name="background"><image>none</image></param>
+			<param name="minHeight"><int>0</int></param>
+			<param name="maxHeight"><int>650</int></param>
+			<theme name="sectioned-menu-rows" ref="-defaults">
+				<param name="defaultGap"><dimension>8,4</dimension></param>
+				<param name="namedGaps"><map>
+					<param name="menuitem"><gap>0</gap></param>
+				</map></param>
+				<theme name="detail-menu-row" ref="popup-button">
+					<param name="background"><image>sectioned-menu-row.background</image></param>
+					<param name="border"><border>5,12</border></param>
+					<param name="minWidth"><int>240</int></param>
+					<param name="minHeight"><int>60</int></param>
+					<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+					<theme name="check" ref="spritelabel">
+						<param name="background"><image>none</image></param>
+					</theme>
+					<theme name="name" ref="label">
+						<param name="font"><font>xlarge-dim</font></param>
+						<param name="background"><image>none</image></param>
+						<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+					</theme>
+					<theme name="detail" ref="label">
+						<param name="font"><font>med-shadow-16-white-transparent</font></param>
+						<param name="background"><image>none</image></param>
+						<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+					</theme>
+				</theme>
+				<theme name="menu-section-header" ref="label">
+					<param name="font"><font>med-shadow-16-white-transparent</font></param>
+					<param name="background"><image>none</image></param>
+					<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+					<param name="border"><border>8,10,0,10</border></param>
+				</theme>
+			</theme>
+		</theme>
+		<theme name="footer" ref="label">
+			<param name="font"><font>med-shadow-16-white-transparent</font></param>
+			<param name="background"><image>none</image></param>
+			<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+			<param name="border"><border>8,10,0,10</border></param>
+		</theme>
+	</theme>
+
+	<theme name="send-to-selector" ref="button" allowWildcard="true">
+		<param name="background"><image>send-to-selector.background</image></param>
+		<param name="border"><border>0,8,0,8</border></param>
+		<param name="minWidth"><int>150</int></param>
+		<param name="minHeight"><int>40</int></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		<theme name="prefix" ref="label">
+			<param name="font"><font>med-shadow-16-white-transparent</font></param>
+			<param name="background"><image>none</image></param>
+			<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		</theme>
+		<theme name="name" ref="label">
+			<param name="font"><font>normal</font></param>
+			<param name="background"><image>none</image></param>
+			<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		</theme>
+		<theme name="detail" ref="label">
+			<param name="font"><font>med-shadow-16-white-transparent</font></param>
+			<param name="background"><image>none</image></param>
+			<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		</theme>
+		<theme name="chevron" ref="spritelabel">
+			<param name="background"><image>none</image></param>
+		</theme>
+	</theme>
 
 	<theme name="mobile-menu" ref="button" allowWildcard="true">
 		<param name="background"><image>mobile.icons.menu</image></param>
@@ -903,88 +983,6 @@
 			<param name="mediumGap"><dimension>10,10</dimension></param>
 			<param name="largeGap"><dimension>15,15</dimension></param>
 			<param name="namedGaps"><map/></param>
-		</theme>
-	</theme>
-
-	<theme name="trainer-hud" ref="resizableframe">
-		<param name="titleAreaTop"><int>8</int></param>
-		<param name="titleAreaLeft"><int>11</int></param>
-		<param name="titleAreaRight"><int>-1</int></param>
-		<param name="titleAreaBottom"><int>0</int></param>
-		<param name="border"><border>5,15,10,10</border></param>
-		<param name="background"><image>none</image></param>
-		<theme name="content" ref="-defaults">
-			<param name="defaultGap"><dimension>5,5</dimension></param>
-			<param name="smallGap"><dimension>8,8</dimension></param>
-			<param name="mediumGap"><dimension>10,10</dimension></param>
-			<param name="largeGap"><dimension>15,15</dimension></param>
-			<param name="namedGaps"><map/></param>
-			<param name="border"><border>5</border></param>
-			<theme name="label" ref="-defaults" allowWildcard="true">
-				<param name="font"><font>med-noshadow-18-white</font></param>
-				<param name="border"><border>0,0,0,0</border></param>
-				<param name="minWidth"><int>200</int></param>
-			</theme>
-			<theme name="label-location" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon1</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-money" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon2</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-time" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon3</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-repel" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon7</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-position" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon4</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-ram" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon6</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-uptime" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon5</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-mail" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon8</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-time-day" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon9</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
-			<theme name="label-time-night" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon10</image></param>
-				<param name="border"><border>0</border></param>
-				<param name="minWidth"><int>27</int></param>
-				<param name="minHeight"><int>27</int></param>
-			</theme>
 		</theme>
 	</theme>
 

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <fontDef name="hud-8-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="8" size_cjk="10" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-9-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="9" size_cjk="11" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-10-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="10" size_cjk="12" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-11-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="11" size_cjk="13" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-13-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="13" size_cjk="15" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-15-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="15" size_cjk="17" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-16-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="16" size_cjk="18" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-20-medium" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#FFFFFF" size="20" size_cjk="22" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Medium.ttf"/>
+  </fontDef>
+  <fontDef name="hud-10-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="10" size_cjk="12" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-11-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="11" size_cjk="13" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-12-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="12" size_cjk="14" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-13-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="13" size_cjk="15" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-14-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="14" size_cjk="16" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-15-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="15" size_cjk="17" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-16-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="16" size_cjk="18" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-17-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="17" size_cjk="19" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-20-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="20" size_cjk="22" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud-22-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="22" size_cjk="24" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
+  <fontDef name="hud.font.micro8" ref="hud-8-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.micro9" ref="hud-9-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.caps9" ref="hud-9-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.caps10" ref="hud-10-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.caps12" ref="hud-12-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.badge10" ref="hud-10-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.badge20" ref="hud-20-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.small10" ref="hud-10-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.small20" ref="hud-20-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.small11" ref="hud-11-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.small11s" ref="hud-11-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.body12" ref="main" color="#FFFFFF"/>
+  <fontDef name="hud.font.body12s" ref="title-font-black" color="#FFFFFF"/>
+  <fontDef name="hud.font.body13" ref="hud-13-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.title13s" ref="hud-13-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.title14s" ref="hud-14-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.mobile15" ref="hud-15-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.mobile15s" ref="hud-15-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.body16" ref="hud-16-medium" color="#FFFFFF"/>
+  <fontDef name="hud.font.title16s" ref="hud-16-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.display16s" ref="hud-16-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.display17s" ref="hud-17-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.display20s" ref="hud-20-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.count22s" ref="hud-22-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.body12-tab" ref="hud.font.body12" color="#FFA3ABBD">
+    <fontParam if="selected" color="#FFF3F1EA"/>
+    <fontParam if="hover" color="#FFDDE2EE"/>
+  </fontDef>
+</themes>

@@ -648,6 +648,16 @@
 			</param>
 			<param name="images"><map/></param>
 		</theme>
+		<theme name="chat-bubble-emoji" ref="chat-bubble">
+			<param name="font"><font>chat-bubble-emoji</font></param>
+			<param name="border"><border>2,4,8,4</border></param>
+			<param name="fonts">
+				<map>
+					<param name="default"><font>chat-bubble-emoji</font></param>
+				</map>
+			</param>
+			<param name="maxWidth"><int>600</int></param>
+		</theme>
 	</theme>
 
 	<theme name="mapview" ref="base-tabbed-frame">
@@ -769,6 +779,14 @@
 	<theme name="debugui" ref="-defaults">
 		<param name="border"><border>0</border></param>
 		<param name="defaultGap"><dimension>0,0</dimension></param>
+
+		<theme name="widgetinspector" ref="-defaults" allowWildcard="true">
+			<theme name="line" ref="-defaults" allowWildcard="true">
+				<param name="font"><font>pb-dark</font></param>
+				<param name="background"><image>label6.background</image></param>
+				<param name="border"><border>2</border></param>
+			</theme>
+		</theme>
 
 		<theme name="topmenu" ref="dialoglayout" allowWildcard="true">
 			<param name="background"><image>label6.background</image></param>
@@ -939,6 +957,11 @@
 		<theme name="labelanimation" ref="label" allowWildcard="true">
 			<param name="font"><font>messagebox</font></param>
 		</theme>
+	</theme>
+
+	<theme name="messagebox-square" ref="npc-interaction-popup">
+		<param name="background"><image>white.background</image></param>
+		<param name="border"><border>20</border></param>
 	</theme>
 
 	<theme name="npc-interaction-panel" ref="-defaults" allowWildcard="true">
@@ -1203,48 +1226,22 @@
 				<param name="font"><font>main-border</font></param>
 				<param name="border"><border>0,0,0,0</border></param>
 			</theme>
-			<theme name="label-location" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon1</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-money" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon2</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-time" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon3</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-repel" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon7</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
 			<theme name="label-position" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon4</image></param>
+				<param name="background"><image>hud.staff.pin.desktop</image></param>
+				<param name="minWidth"><int>24</int></param>
+				<param name="minHeight"><int>24</int></param>
 				<param name="border"><border>0</border></param>
 			</theme>
 			<theme name="label-ram" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon6</image></param>
+				<param name="background"><image>hud.staff.memory.desktop</image></param>
+				<param name="minWidth"><int>24</int></param>
+				<param name="minHeight"><int>24</int></param>
 				<param name="border"><border>0</border></param>
 			</theme>
 			<theme name="label-uptime" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon5</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-mail" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon8</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-time-day" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon9</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-time-night" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon10</image></param>
-				<param name="border"><border>0</border></param>
-			</theme>
-			<theme name="label-time-morning" ref="-defaults" allowWildcard="true">
-				<param name="background"><image>trainer-icon11</image></param>
+				<param name="background"><image>hud.staff.stopwatch.desktop</image></param>
+				<param name="minWidth"><int>24</int></param>
+				<param name="minHeight"><int>24</int></param>
 				<param name="border"><border>0</border></param>
 			</theme>
 		</theme>

@@ -220,6 +220,21 @@
 			<area xywh="67,131,10,5"/>
 		</grid>
 
+		<grid name="ui-inner-frame-mail.background" weightsX="0,1,0" weightsY="0,0,1,0">
+			<area xywh="5,151,10,11"/>
+			<area xywh="33,151,10,11" tiled="true"/>
+			<area xywh="67,151,10,11"/>
+			<area xywh="5,162,10,28"/>
+			<area xywh="33,162,10,28" tiled="true"/>
+			<area xywh="67,162,10,28"/>
+			<area xywh="5,124,10,4"/>
+			<area xywh="33,124,10,4"/>
+			<area xywh="67,124,10,4"/>
+			<area xywh="5,131,10,5"/>
+			<area xywh="33,131,10,5"/>
+			<area xywh="67,131,10,5"/>
+		</grid>
+
 		<area name="ui-status-success.default" xywh="172,4,18,18" splitx="L5,R5" splity="T5,B5" tint="#06ab32"/>
 		<area name="ui-status-info.default" xywh="172,4,18,18" splitx="L5,R5" splity="T5,B5" tint="#0679ab"/>
 		<area name="ui-status-warning.default" xywh="172,4,18,18" splitx="L5,R5" splity="T5,B5" tint="#FF7736"/>
@@ -252,6 +267,7 @@
     <area name="ui-button.tinted.red" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#8b0000"/>
     <area name="ui-button.tinted.gold" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#d4af37"/>
     <area name="ui-button.tinted.orange" xywh="322,116,29,29" splitx="L4,R4" splity="T4,B4" tint="#c68a55"/>
+    <area name="ui-button.solid.red" xywh="383,147,29,29" splitx="L4,R4" splity="T4,B4" tint="#c70000"/>
 
 		<area name="ui-sort-default.background" xywh="390,125,9,14" inset="0,73,0,0" center="true"/>
 		<area name="ui-sort-asc.background" xywh="390,133,9,8" inset="4,73,0,0" center="true"/>
@@ -315,6 +331,17 @@
       <alias ref="ui-button.hover-animation"/>
     </composed>
 
+    <composed name="ui-button.solid.red.hover">
+      <alias ref="ui-button.solid.red"/>
+      <alias ref="ui-button.hover-animation"/>
+    </composed>
+
+    <composed name="ui-button.solid.red.selected">
+      <alias ref="ui-button.solid.red"/>
+      <alias ref="ui-button.selected.background"/>
+      <alias ref="ui-button.hover-animation"/>
+    </composed>
+
     <select name="ui-button.background">
       <alias ref="ui-button.disabled.hover" if="disabled + hover"/>
       <alias ref="ui-button.disabled.selected" if="disabled + (hover | keyboardFocus | selected)"/>
@@ -325,6 +352,17 @@
       <alias ref="ui-button.selected" if="keyboardFocus"/>
       <alias ref="ui-button.hover" if="hover"/>
       <alias ref="ui-button.default"/>
+    </select>
+
+    <select name="ui-button.progressbar">
+      <alias ref="ui-button.hover" if="disabled + hover"/>
+      <alias ref="ui-button.selected.hover" if="disabled + (hover | keyboardFocus | selected)"/>
+      <alias ref="ui-button.default" if="disabled"/>
+      <alias ref="ui-button.solid.red.hover" if="pressed"/>
+      <alias ref="ui-button.solid.red.selected" if="hover + (keyboardFocus)"/>
+      <alias ref="ui-button.solid.red.selected" if="keyboardFocus"/>
+      <alias ref="ui-button.solid.red.hover" if="hover"/>
+      <alias ref="ui-button.solid.red"/>
     </select>
 
     <select name="ui-select-button.background">
@@ -704,6 +742,17 @@
 			<alias ref="ui-popup-button.selected" if="keyboardFocus | selected"/>
 			<alias ref="ui-popup-button.hover" if="hover"/>
 			<alias ref="ui-popup-button.default"/>
+		</select>
+
+		<select name="sectioned-menu-row.background">
+			<alias ref="ui-popup-button.selected" if="checked | keyboardFocus"/>
+			<alias ref="ui-popup-button.hover" if="hover"/>
+			<alias ref="ui-popup-button.default"/>
+		</select>
+
+		<select name="send-to-selector.background">
+			<alias ref="ui-button.background" tint="#B3B3B3FF" if="full"/>
+			<alias ref="ui-button.background"/>
 		</select>
 
 		<select name="ui-item-picker.background">

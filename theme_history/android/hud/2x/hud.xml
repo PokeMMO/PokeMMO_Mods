@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <images file="hud-atlas.png" filter="nearest" scale="2">
+    <area name="hud.arrow.down.edge" xywh="1248,122,20,10"/>
+    <area name="hud.arrow.down.fill" xywh="1270,122,20,10"/>
+    <area name="hud.arrow.left.edge" xywh="1908,2,10,20"/>
+    <area name="hud.arrow.left.fill" xywh="1908,24,10,20"/>
+    <area name="hud.arrow.right.edge" xywh="1908,46,10,20"/>
+    <area name="hud.arrow.right.fill" xywh="1908,68,10,20"/>
+    <area name="hud.arrow.up.edge" xywh="1860,194,20,10"/>
+    <area name="hud.arrow.up.fill" xywh="1882,194,20,10"/>
+    <area name="hud.dashed.party48x46" xywh="524,2,96,92"/>
+    <area name="hud.dashed.party80" xywh="2,2,160,160"/>
+    <area name="hud.dashed.pip" xywh="692,678,16,16"/>
+    <area name="hud.dashed.slot40" xywh="622,2,80,80"/>
+    <area name="hud.dashed.slot80" xywh="164,2,160,160"/>
+    <area name="hud.dashed.tile28" xywh="462,101,56,56"/>
+    <area name="hud.icon.ability.10" xywh="1100,504,20,20"/>
+    <area name="hud.icon.ability.12" xywh="592,126,24,24"/>
+    <area name="hud.icon.ability.14" xywh="592,96,28,28"/>
+    <area name="hud.icon.ability.16" xywh="1127,898,32,32"/>
+    <area name="hud.icon.ability.18" xywh="402,518,36,36"/>
+    <area name="hud.icon.ability.20" xywh="352,473,40,40"/>
+    <area name="hud.icon.ability.22" xywh="1248,76,44,44"/>
+    <area name="hud.icon.ability.24" xywh="410,169,48,48"/>
+    <area name="hud.icon.ability.27" xywh="1860,138,54,54"/>
+    <area name="hud.icon.ability.33" xywh="1296,2,66,66"/>
+    <area name="hud.icon.back.10" xywh="1100,526,20,20"/>
+    <area name="hud.icon.back.12" xywh="370,614,24,24"/>
+    <area name="hud.icon.back.14" xywh="660,152,28,28"/>
+    <area name="hud.icon.back.16" xywh="1161,898,32,32"/>
+    <area name="hud.icon.back.18" xywh="1054,604,36,36"/>
+    <area name="hud.icon.back.20" xywh="778,696,40,40"/>
+    <area name="hud.icon.back.22" xywh="502,560,44,44"/>
+    <area name="hud.icon.back.24" xywh="478,232,48,48"/>
+    <area name="hud.icon.back.27" xywh="530,164,54,54"/>
+    <area name="hud.icon.back.33" xywh="1364,2,66,66"/>
+    <area name="hud.icon.bag.10" xywh="1900,577,20,20"/>
+    <area name="hud.icon.bag.12" xywh="692,652,24,24"/>
+    <area name="hud.icon.bag.14" xywh="660,182,28,28"/>
+    <area name="hud.icon.bag.16" xywh="1195,898,32,32"/>
+    <area name="hud.icon.bag.18" xywh="1882,650,36,36"/>
+    <area name="hud.icon.bag.20" xywh="820,696,40,40"/>
+    <area name="hud.icon.bag.22" xywh="548,560,44,44"/>
+    <area name="hud.icon.bag.24" xywh="1122,448,48,48"/>
+    <area name="hud.icon.bag.27" xywh="598,220,54,54"/>
+    <area name="hud.icon.bag.33" xywh="1432,2,66,66"/>
+    <area name="hud.icon.battery.10" xywh="578,900,20,20"/>
+    <area name="hud.icon.battery.12" xywh="664,698,24,24"/>
+    <area name="hud.icon.battery.14" xywh="1204,212,28,28"/>
+    <area name="hud.icon.battery.16" xywh="1229,898,32,32"/>
+    <area name="hud.icon.battery.18" xywh="1883,688,36,36"/>
+    <area name="hud.icon.battery.20" xywh="862,696,40,40"/>
+    <area name="hud.icon.battery.22" xywh="594,560,44,44"/>
+    <area name="hud.icon.battery.24" xywh="1172,454,48,48"/>
+    <area name="hud.icon.battery.27" xywh="802,280,54,54"/>
+    <area name="hud.icon.battery.33" xywh="1500,2,66,66"/>
+    <area name="hud.icon.battle.10" xywh="952,936,20,20"/>
+    <area name="hud.icon.battle.12" xywh="296,711,24,24"/>
+    <area name="hud.icon.battle.14" xywh="1204,242,28,28"/>
+    <area name="hud.icon.battle.16" xywh="1263,898,32,32"/>
+    <area name="hud.icon.battle.18" xywh="1042,822,36,36"/>
+    <area name="hud.icon.battle.20" xywh="904,696,40,40"/>
+    <area name="hud.icon.battle.22" xywh="640,560,44,44"/>
+    <area name="hud.icon.battle.24" xywh="1222,454,48,48"/>
+    <area name="hud.icon.battle.27" xywh="858,280,54,54"/>
+    <area name="hud.icon.battle.33" xywh="1568,2,66,66"/>
+    <area name="hud.icon.bolt.10" xywh="986,969,20,20"/>
+    <area name="hud.icon.bolt.12" xywh="338,748,24,24"/>
+    <area name="hud.icon.bolt.14" xywh="748,739,28,28"/>
+    <area name="hud.icon.bolt.16" xywh="1297,898,32,32"/>
+    <area name="hud.icon.bolt.18" xywh="1080,822,36,36"/>
+    <area name="hud.icon.bolt.20" xywh="946,696,40,40"/>
+    <area name="hud.icon.bolt.22" xywh="686,560,44,44"/>
+    <area name="hud.icon.bolt.24" xywh="1272,454,48,48"/>
+    <area name="hud.icon.bolt.27" xywh="914,280,54,54"/>
+    <area name="hud.icon.bolt.33" xywh="1636,2,66,66"/>
+    <area name="hud.icon.channel.10" xywh="212,981,20,20"/>
+    <area name="hud.icon.channel.12" xywh="632,782,24,24"/>
+    <area name="hud.icon.channel.14" xywh="1000,780,28,28"/>
+    <area name="hud.icon.channel.16" xywh="1331,898,32,32"/>
+    <area name="hud.icon.channel.18" xywh="1118,822,36,36"/>
+    <area name="hud.icon.channel.20" xywh="988,696,40,40"/>
+    <area name="hud.icon.channel.22" xywh="2,568,44,44"/>
+    <area name="hud.icon.channel.24" xywh="1322,454,48,48"/>
+    <area name="hud.icon.channel.27" xywh="970,280,54,54"/>
+    <area name="hud.icon.channel.33" xywh="1704,2,66,66"/>
+    <area name="hud.icon.chat.10" xywh="1081,1031,20,20"/>
+    <area name="hud.icon.chat.12" xywh="604,824,24,24"/>
+    <area name="hud.icon.chat.14" xywh="707,970,28,28"/>
+    <area name="hud.icon.chat.16" xywh="1365,898,32,32"/>
+    <area name="hud.icon.chat.18" xywh="1156,822,36,36"/>
+    <area name="hud.icon.chat.20" xywh="1085,696,40,40"/>
+    <area name="hud.icon.chat.22" xywh="48,568,44,44"/>
+    <area name="hud.icon.chat.24" xywh="1372,454,48,48"/>
+    <area name="hud.icon.chat.27" xywh="1026,280,54,54"/>
+    <area name="hud.icon.chat.33" xywh="1772,2,66,66"/>
+    <area name="hud.icon.check.10" xywh="210,1062,20,20"/>
+    <area name="hud.icon.check.12" xywh="268,837,24,24"/>
+    <area name="hud.icon.check.14" xywh="737,970,28,28"/>
+    <area name="hud.icon.check.16" xywh="1399,898,32,32"/>
+    <area name="hud.icon.check.18" xywh="1194,822,36,36"/>
+    <area name="hud.icon.check.20" xywh="1127,696,40,40"/>
+    <area name="hud.icon.check.22" xywh="94,568,44,44"/>
+    <area name="hud.icon.check.24" xywh="1422,454,48,48"/>
+    <area name="hud.icon.check.27" xywh="1082,280,54,54"/>
+    <area name="hud.icon.check.33" xywh="1840,2,66,66"/>
+    <area name="hud.icon.chevron-down.10" xywh="106,1067,20,20"/>
+    <area name="hud.icon.chevron-down.12" xywh="306,870,24,24"/>
+    <area name="hud.icon.chevron-down.14" xywh="767,970,28,28"/>
+    <area name="hud.icon.chevron-down.16" xywh="1433,898,32,32"/>
+    <area name="hud.icon.chevron-down.18" xywh="1232,822,36,36"/>
+    <area name="hud.icon.chevron-down.20" xywh="1169,696,40,40"/>
+    <area name="hud.icon.chevron-down.22" xywh="140,568,44,44"/>
+    <area name="hud.icon.chevron-down.24" xywh="1472,454,48,48"/>
+    <area name="hud.icon.chevron-down.27" xywh="1138,280,54,54"/>
+    <area name="hud.icon.chevron-down.33" xywh="1296,70,66,66"/>
+    <area name="hud.icon.chevron-left.10" xywh="128,1067,20,20"/>
+    <area name="hud.icon.chevron-left.12" xywh="240,913,24,24"/>
+    <area name="hud.icon.chevron-left.14" xywh="797,970,28,28"/>
+    <area name="hud.icon.chevron-left.16" xywh="1467,898,32,32"/>
+    <area name="hud.icon.chevron-left.18" xywh="1270,822,36,36"/>
+    <area name="hud.icon.chevron-left.20" xywh="1211,696,40,40"/>
+    <area name="hud.icon.chevron-left.22" xywh="352,568,44,44"/>
+    <area name="hud.icon.chevron-left.24" xywh="1522,454,48,48"/>
+    <area name="hud.icon.chevron-left.27" xywh="478,288,54,54"/>
+    <area name="hud.icon.chevron-left.33" xywh="1364,70,66,66"/>
+    <area name="hud.icon.chevron-right.10" xywh="150,1067,20,20"/>
+    <area name="hud.icon.chevron-right.12" xywh="274,942,24,24"/>
+    <area name="hud.icon.chevron-right.14" xywh="827,970,28,28"/>
+    <area name="hud.icon.chevron-right.16" xywh="1501,898,32,32"/>
+    <area name="hud.icon.chevron-right.18" xywh="1308,822,36,36"/>
+    <area name="hud.icon.chevron-right.20" xywh="1253,696,40,40"/>
+    <area name="hud.icon.chevron-right.22" xywh="186,573,44,44"/>
+    <area name="hud.icon.chevron-right.24" xywh="1572,454,48,48"/>
+    <area name="hud.icon.chevron-right.27" xywh="534,288,54,54"/>
+    <area name="hud.icon.chevron-right.33" xywh="1432,70,66,66"/>
+    <area name="hud.icon.chevron-up.10" xywh="172,1067,20,20"/>
+    <area name="hud.icon.chevron-up.12" xywh="546,968,24,24"/>
+    <area name="hud.icon.chevron-up.14" xywh="857,970,28,28"/>
+    <area name="hud.icon.chevron-up.16" xywh="1535,898,32,32"/>
+    <area name="hud.icon.chevron-up.18" xywh="1346,822,36,36"/>
+    <area name="hud.icon.chevron-up.20" xywh="1295,696,40,40"/>
+    <area name="hud.icon.chevron-up.22" xywh="232,573,44,44"/>
+    <area name="hud.icon.chevron-up.24" xywh="1622,454,48,48"/>
+    <area name="hud.icon.chevron-up.27" xywh="2,300,54,54"/>
+    <area name="hud.icon.chevron-up.33" xywh="1500,70,66,66"/>
+    <area name="hud.icon.client.10" xywh="1118,1082,20,20"/>
+    <area name="hud.icon.client.12" xywh="242,1006,24,24"/>
+    <area name="hud.icon.client.14" xywh="887,970,28,28"/>
+    <area name="hud.icon.client.16" xywh="1569,898,32,32"/>
+    <area name="hud.icon.client.18" xywh="1384,822,36,36"/>
+    <area name="hud.icon.client.20" xywh="1337,696,40,40"/>
+    <area name="hud.icon.client.22" xywh="278,573,44,44"/>
+    <area name="hud.icon.client.24" xywh="1672,454,48,48"/>
+    <area name="hud.icon.client.27" xywh="58,300,54,54"/>
+    <area name="hud.icon.client.33" xywh="1568,70,66,66"/>
+    <area name="hud.icon.clock.10" xywh="1140,1082,20,20"/>
+    <area name="hud.icon.clock.12" xywh="1136,1030,24,24"/>
+    <area name="hud.icon.clock.14" xywh="917,970,28,28"/>
+    <area name="hud.icon.clock.16" xywh="1603,898,32,32"/>
+    <area name="hud.icon.clock.18" xywh="1422,822,36,36"/>
+    <area name="hud.icon.clock.20" xywh="1379,696,40,40"/>
+    <area name="hud.icon.clock.22" xywh="1094,598,44,44"/>
+    <area name="hud.icon.clock.24" xywh="1722,454,48,48"/>
+    <area name="hud.icon.clock.27" xywh="114,300,54,54"/>
+    <area name="hud.icon.clock.33" xywh="1636,70,66,66"/>
+    <area name="hud.icon.close.10" xywh="1162,1082,20,20"/>
+    <area name="hud.icon.close.12" xywh="1162,1030,24,24"/>
+    <area name="hud.icon.close.14" xywh="2,976,28,28"/>
+    <area name="hud.icon.close.16" xywh="1637,898,32,32"/>
+    <area name="hud.icon.close.18" xywh="1460,822,36,36"/>
+    <area name="hud.icon.close.20" xywh="1421,696,40,40"/>
+    <area name="hud.icon.close.22" xywh="732,604,44,44"/>
+    <area name="hud.icon.close.24" xywh="1772,454,48,48"/>
+    <area name="hud.icon.close.27" xywh="170,300,54,54"/>
+    <area name="hud.icon.close.33" xywh="1704,70,66,66"/>
+    <area name="hud.icon.coin.10" xywh="1184,1082,20,20"/>
+    <area name="hud.icon.coin.12" xywh="1188,1030,24,24"/>
+    <area name="hud.icon.coin.14" xywh="32,976,28,28"/>
+    <area name="hud.icon.coin.16" xywh="1671,898,32,32"/>
+    <area name="hud.icon.coin.18" xywh="1498,822,36,36"/>
+    <area name="hud.icon.coin.20" xywh="1463,696,40,40"/>
+    <area name="hud.icon.coin.22" xywh="778,604,44,44"/>
+    <area name="hud.icon.coin.24" xywh="1822,454,48,48"/>
+    <area name="hud.icon.coin.27" xywh="410,300,54,54"/>
+    <area name="hud.icon.coin.33" xywh="1772,70,66,66"/>
+    <area name="hud.icon.community.10" xywh="1206,1082,20,20"/>
+    <area name="hud.icon.community.12" xywh="1214,1030,24,24"/>
+    <area name="hud.icon.community.14" xywh="62,976,28,28"/>
+    <area name="hud.icon.community.16" xywh="1705,898,32,32"/>
+    <area name="hud.icon.community.18" xywh="1536,822,36,36"/>
+    <area name="hud.icon.community.20" xywh="1505,696,40,40"/>
+    <area name="hud.icon.community.22" xywh="824,604,44,44"/>
+    <area name="hud.icon.community.24" xywh="1872,454,48,48"/>
+    <area name="hud.icon.community.27" xywh="226,305,54,54"/>
+    <area name="hud.icon.community.33" xywh="1840,70,66,66"/>
+    <area name="hud.icon.copy.10" xywh="1228,1082,20,20"/>
+    <area name="hud.icon.copy.12" xywh="1240,1030,24,24"/>
+    <area name="hud.icon.copy.14" xywh="92,976,28,28"/>
+    <area name="hud.icon.copy.16" xywh="1739,898,32,32"/>
+    <area name="hud.icon.copy.18" xywh="1574,822,36,36"/>
+    <area name="hud.icon.copy.20" xywh="1547,696,40,40"/>
+    <area name="hud.icon.copy.22" xywh="870,604,44,44"/>
+    <area name="hud.icon.copy.24" xywh="450,456,48,48"/>
+    <area name="hud.icon.copy.27" xywh="282,305,54,54"/>
+    <area name="hud.icon.copy.33" xywh="704,76,66,66"/>
+    <area name="hud.icon.crown.10" xywh="1250,1082,20,20"/>
+    <area name="hud.icon.crown.12" xywh="1266,1030,24,24"/>
+    <area name="hud.icon.crown.14" xywh="240,976,28,28"/>
+    <area name="hud.icon.crown.16" xywh="1773,898,32,32"/>
+    <area name="hud.icon.crown.18" xywh="1612,822,36,36"/>
+    <area name="hud.icon.crown.20" xywh="1589,696,40,40"/>
+    <area name="hud.icon.crown.22" xywh="916,604,44,44"/>
+    <area name="hud.icon.crown.24" xywh="500,456,48,48"/>
+    <area name="hud.icon.crown.27" xywh="338,305,54,54"/>
+    <area name="hud.icon.crown.33" xywh="772,76,66,66"/>
+    <area name="hud.icon.customization.10" xywh="1272,1082,20,20"/>
+    <area name="hud.icon.customization.12" xywh="1292,1030,24,24"/>
+    <area name="hud.icon.customization.14" xywh="122,981,28,28"/>
+    <area name="hud.icon.customization.16" xywh="1807,898,32,32"/>
+    <area name="hud.icon.customization.18" xywh="1650,822,36,36"/>
+    <area name="hud.icon.customization.20" xywh="1631,696,40,40"/>
+    <area name="hud.icon.customization.22" xywh="962,604,44,44"/>
+    <area name="hud.icon.customization.24" xywh="550,460,48,48"/>
+    <area name="hud.icon.customization.27" xywh="802,336,54,54"/>
+    <area name="hud.icon.customization.33" xywh="840,76,66,66"/>
+    <area name="hud.icon.dex.10" xywh="1294,1082,20,20"/>
+    <area name="hud.icon.dex.12" xywh="1318,1030,24,24"/>
+    <area name="hud.icon.dex.14" xywh="152,981,28,28"/>
+    <area name="hud.icon.dex.16" xywh="1841,898,32,32"/>
+    <area name="hud.icon.dex.18" xywh="1688,822,36,36"/>
+    <area name="hud.icon.dex.20" xywh="1673,696,40,40"/>
+    <area name="hud.icon.dex.22" xywh="1008,604,44,44"/>
+    <area name="hud.icon.dex.24" xywh="600,460,48,48"/>
+    <area name="hud.icon.dex.27" xywh="858,336,54,54"/>
+    <area name="hud.icon.dex.33" xywh="908,76,66,66"/>
+    <area name="hud.icon.drag.10" xywh="1316,1082,20,20"/>
+    <area name="hud.icon.drag.12" xywh="1344,1030,24,24"/>
+    <area name="hud.icon.drag.14" xywh="182,981,28,28"/>
+    <area name="hud.icon.drag.16" xywh="1875,898,32,32"/>
+    <area name="hud.icon.drag.18" xywh="1726,822,36,36"/>
+    <area name="hud.icon.drag.20" xywh="1715,696,40,40"/>
+    <area name="hud.icon.drag.22" xywh="1140,604,44,44"/>
+    <area name="hud.icon.drag.24" xywh="650,460,48,48"/>
+    <area name="hud.icon.drag.27" xywh="914,336,54,54"/>
+    <area name="hud.icon.drag.33" xywh="976,76,66,66"/>
+    <area name="hud.icon.egg.10" xywh="1338,1082,20,20"/>
+    <area name="hud.icon.egg.12" xywh="1370,1030,24,24"/>
+    <area name="hud.icon.egg.14" xywh="707,1000,28,28"/>
+    <area name="hud.icon.egg.16" xywh="600,899,32,32"/>
+    <area name="hud.icon.egg.18" xywh="1764,822,36,36"/>
+    <area name="hud.icon.egg.20" xywh="1757,696,40,40"/>
+    <area name="hud.icon.egg.22" xywh="1186,604,44,44"/>
+    <area name="hud.icon.egg.24" xywh="700,460,48,48"/>
+    <area name="hud.icon.egg.27" xywh="970,336,54,54"/>
+    <area name="hud.icon.egg.33" xywh="1044,76,66,66"/>
+    <area name="hud.icon.encounter.10" xywh="1360,1082,20,20"/>
+    <area name="hud.icon.encounter.12" xywh="1396,1030,24,24"/>
+    <area name="hud.icon.encounter.14" xywh="737,1000,28,28"/>
+    <area name="hud.icon.encounter.16" xywh="634,899,32,32"/>
+    <area name="hud.icon.encounter.18" xywh="1802,822,36,36"/>
+    <area name="hud.icon.encounter.20" xywh="1799,696,40,40"/>
+    <area name="hud.icon.encounter.22" xywh="1232,604,44,44"/>
+    <area name="hud.icon.encounter.24" xywh="2,468,48,48"/>
+    <area name="hud.icon.encounter.27" xywh="1026,336,54,54"/>
+    <area name="hud.icon.encounter.33" xywh="1112,76,66,66"/>
+    <area name="hud.icon.exit.10" xywh="1382,1082,20,20"/>
+    <area name="hud.icon.exit.12" xywh="1422,1030,24,24"/>
+    <area name="hud.icon.exit.14" xywh="767,1000,28,28"/>
+    <area name="hud.icon.exit.16" xywh="668,899,32,32"/>
+    <area name="hud.icon.exit.18" xywh="1840,822,36,36"/>
+    <area name="hud.icon.exit.20" xywh="1841,696,40,40"/>
+    <area name="hud.icon.exit.22" xywh="1278,604,44,44"/>
+    <area name="hud.icon.exit.24" xywh="52,468,48,48"/>
+    <area name="hud.icon.exit.27" xywh="1082,336,54,54"/>
+    <area name="hud.icon.exit.33" xywh="1180,76,66,66"/>
+    <area name="hud.icon.expand.10" xywh="1404,1082,20,20"/>
+    <area name="hud.icon.expand.12" xywh="1448,1030,24,24"/>
+    <area name="hud.icon.expand.14" xywh="797,1000,28,28"/>
+    <area name="hud.icon.expand.16" xywh="306,900,32,32"/>
+    <area name="hud.icon.expand.18" xywh="1878,822,36,36"/>
+    <area name="hud.icon.expand.20" xywh="370,698,40,40"/>
+    <area name="hud.icon.expand.22" xywh="1324,604,44,44"/>
+    <area name="hud.icon.expand.24" xywh="102,468,48,48"/>
+    <area name="hud.icon.expand.27" xywh="1138,336,54,54"/>
+    <area name="hud.icon.expand.33" xywh="622,84,66,66"/>
+    <area name="hud.icon.external.10" xywh="1426,1082,20,20"/>
+    <area name="hud.icon.external.12" xywh="1474,1030,24,24"/>
+    <area name="hud.icon.external.14" xywh="827,1000,28,28"/>
+    <area name="hud.icon.external.16" xywh="340,900,32,32"/>
+    <area name="hud.icon.external.18" xywh="632,823,36,36"/>
+    <area name="hud.icon.external.20" xywh="412,698,40,40"/>
+    <area name="hud.icon.external.22" xywh="1370,604,44,44"/>
+    <area name="hud.icon.external.24" xywh="152,468,48,48"/>
+    <area name="hud.icon.external.27" xywh="1194,342,54,54"/>
+    <area name="hud.icon.external.33" xywh="524,96,66,66"/>
+    <area name="hud.icon.eye-off.10" xywh="1448,1082,20,20"/>
+    <area name="hud.icon.eye-off.12" xywh="1500,1030,24,24"/>
+    <area name="hud.icon.eye-off.14" xywh="857,1000,28,28"/>
+    <area name="hud.icon.eye-off.16" xywh="374,900,32,32"/>
+    <area name="hud.icon.eye-off.18" xywh="670,823,36,36"/>
+    <area name="hud.icon.eye-off.20" xywh="454,698,40,40"/>
+    <area name="hud.icon.eye-off.22" xywh="1416,604,44,44"/>
+    <area name="hud.icon.eye-off.24" xywh="394,468,48,48"/>
+    <area name="hud.icon.eye-off.27" xywh="1250,342,54,54"/>
+    <area name="hud.icon.eye-off.33" xywh="326,101,66,66"/>
+    <area name="hud.icon.field.10" xywh="1470,1082,20,20"/>
+    <area name="hud.icon.field.12" xywh="1526,1030,24,24"/>
+    <area name="hud.icon.field.14" xywh="887,1000,28,28"/>
+    <area name="hud.icon.field.16" xywh="408,900,32,32"/>
+    <area name="hud.icon.field.18" xywh="338,824,36,36"/>
+    <area name="hud.icon.field.20" xywh="496,698,40,40"/>
+    <area name="hud.icon.field.22" xywh="1462,604,44,44"/>
+    <area name="hud.icon.field.24" xywh="202,473,48,48"/>
+    <area name="hud.icon.field.27" xywh="1306,342,54,54"/>
+    <area name="hud.icon.field.33" xywh="394,101,66,66"/>
+    <area name="hud.icon.follower.10" xywh="1492,1082,20,20"/>
+    <area name="hud.icon.follower.12" xywh="1552,1030,24,24"/>
+    <area name="hud.icon.follower.14" xywh="917,1000,28,28"/>
+    <area name="hud.icon.follower.16" xywh="442,900,32,32"/>
+    <area name="hud.icon.follower.18" xywh="376,824,36,36"/>
+    <area name="hud.icon.follower.20" xywh="538,698,40,40"/>
+    <area name="hud.icon.follower.22" xywh="1508,604,44,44"/>
+    <area name="hud.icon.follower.24" xywh="252,473,48,48"/>
+    <area name="hud.icon.follower.27" xywh="1362,342,54,54"/>
+    <area name="hud.icon.follower.33" xywh="1248,138,66,66"/>
+    <area name="hud.icon.forgot-password.10" xywh="1514,1082,20,20"/>
+    <area name="hud.icon.forgot-password.12" xywh="1578,1030,24,24"/>
+    <area name="hud.icon.forgot-password.14" xywh="1110,1000,28,28"/>
+    <area name="hud.icon.forgot-password.16" xywh="476,900,32,32"/>
+    <area name="hud.icon.forgot-password.18" xywh="414,824,36,36"/>
+    <area name="hud.icon.forgot-password.20" xywh="580,698,40,40"/>
+    <area name="hud.icon.forgot-password.22" xywh="1554,604,44,44"/>
+    <area name="hud.icon.forgot-password.24" xywh="302,473,48,48"/>
+    <area name="hud.icon.forgot-password.27" xywh="1418,342,54,54"/>
+    <area name="hud.icon.forgot-password.33" xywh="1316,138,66,66"/>
+    <area name="hud.icon.forgot-user.10" xywh="1536,1082,20,20"/>
+    <area name="hud.icon.forgot-user.12" xywh="1604,1030,24,24"/>
+    <area name="hud.icon.forgot-user.14" xywh="1140,1000,28,28"/>
+    <area name="hud.icon.forgot-user.16" xywh="510,900,32,32"/>
+    <area name="hud.icon.forgot-user.18" xywh="452,824,36,36"/>
+    <area name="hud.icon.forgot-user.20" xywh="622,698,40,40"/>
+    <area name="hud.icon.forgot-user.22" xywh="1600,604,44,44"/>
+    <area name="hud.icon.forgot-user.24" xywh="1122,498,48,48"/>
+    <area name="hud.icon.forgot-user.27" xywh="1474,342,54,54"/>
+    <area name="hud.icon.forgot-user.33" xywh="1384,138,66,66"/>
+    <area name="hud.icon.friends.10" xywh="1558,1082,20,20"/>
+    <area name="hud.icon.friends.12" xywh="1630,1030,24,24"/>
+    <area name="hud.icon.friends.14" xywh="1170,1000,28,28"/>
+    <area name="hud.icon.friends.16" xywh="544,900,32,32"/>
+    <area name="hud.icon.friends.18" xywh="490,824,36,36"/>
+    <area name="hud.icon.friends.20" xywh="2,706,40,40"/>
+    <area name="hud.icon.friends.22" xywh="1646,604,44,44"/>
+    <area name="hud.icon.friends.24" xywh="750,504,48,48"/>
+    <area name="hud.icon.friends.27" xywh="1530,342,54,54"/>
+    <area name="hud.icon.friends.33" xywh="1452,138,66,66"/>
+    <area name="hud.icon.gift.10" xywh="1580,1082,20,20"/>
+    <area name="hud.icon.gift.12" xywh="1656,1030,24,24"/>
+    <area name="hud.icon.gift.14" xywh="1200,1000,28,28"/>
+    <area name="hud.icon.gift.16" xywh="702,902,32,32"/>
+    <area name="hud.icon.gift.18" xywh="528,824,36,36"/>
+    <area name="hud.icon.gift.20" xywh="44,706,40,40"/>
+    <area name="hud.icon.gift.22" xywh="1692,604,44,44"/>
+    <area name="hud.icon.gift.24" xywh="800,504,48,48"/>
+    <area name="hud.icon.gift.27" xywh="1586,342,54,54"/>
+    <area name="hud.icon.gift.33" xywh="1520,138,66,66"/>
+    <area name="hud.icon.grid.10" xywh="1602,1082,20,20"/>
+    <area name="hud.icon.grid.12" xywh="1682,1030,24,24"/>
+    <area name="hud.icon.grid.14" xywh="1230,1000,28,28"/>
+    <area name="hud.icon.grid.16" xywh="736,902,32,32"/>
+    <area name="hud.icon.grid.18" xywh="566,824,36,36"/>
+    <area name="hud.icon.grid.20" xywh="86,706,40,40"/>
+    <area name="hud.icon.grid.22" xywh="1738,604,44,44"/>
+    <area name="hud.icon.grid.24" xywh="850,504,48,48"/>
+    <area name="hud.icon.grid.27" xywh="1642,342,54,54"/>
+    <area name="hud.icon.grid.33" xywh="1588,138,66,66"/>
+    <area name="hud.icon.gtl.10" xywh="1624,1082,20,20"/>
+    <area name="hud.icon.gtl.12" xywh="1708,1030,24,24"/>
+    <area name="hud.icon.gtl.14" xywh="1260,1000,28,28"/>
+    <area name="hud.icon.gtl.16" xywh="770,902,32,32"/>
+    <area name="hud.icon.gtl.18" xywh="2,832,36,36"/>
+    <area name="hud.icon.gtl.20" xywh="128,706,40,40"/>
+    <area name="hud.icon.gtl.22" xywh="1784,604,44,44"/>
+    <area name="hud.icon.gtl.24" xywh="900,504,48,48"/>
+    <area name="hud.icon.gtl.27" xywh="1698,342,54,54"/>
+    <area name="hud.icon.gtl.33" xywh="1656,138,66,66"/>
+    <area name="hud.icon.help.10" xywh="1646,1082,20,20"/>
+    <area name="hud.icon.help.12" xywh="1734,1030,24,24"/>
+    <area name="hud.icon.help.14" xywh="1290,1000,28,28"/>
+    <area name="hud.icon.help.16" xywh="804,902,32,32"/>
+    <area name="hud.icon.help.18" xywh="40,832,36,36"/>
+    <area name="hud.icon.help.20" xywh="324,706,40,40"/>
+    <area name="hud.icon.help.22" xywh="1830,604,44,44"/>
+    <area name="hud.icon.help.24" xywh="950,504,48,48"/>
+    <area name="hud.icon.help.27" xywh="1754,342,54,54"/>
+    <area name="hud.icon.help.33" xywh="1724,138,66,66"/>
+    <area name="hud.icon.info.10" xywh="1668,1082,20,20"/>
+    <area name="hud.icon.info.12" xywh="1760,1030,24,24"/>
+    <area name="hud.icon.info.14" xywh="1320,1000,28,28"/>
+    <area name="hud.icon.info.16" xywh="838,902,32,32"/>
+    <area name="hud.icon.info.18" xywh="78,832,36,36"/>
+    <area name="hud.icon.info.20" xywh="170,711,40,40"/>
+    <area name="hud.icon.info.22" xywh="1876,604,44,44"/>
+    <area name="hud.icon.info.24" xywh="1000,504,48,48"/>
+    <area name="hud.icon.info.27" xywh="1810,342,54,54"/>
+    <area name="hud.icon.info.33" xywh="1792,138,66,66"/>
+    <area name="hud.icon.layout-column.10" xywh="1690,1082,20,20"/>
+    <area name="hud.icon.layout-column.12" xywh="1786,1030,24,24"/>
+    <area name="hud.icon.layout-column.14" xywh="1350,1000,28,28"/>
+    <area name="hud.icon.layout-column.16" xywh="872,902,32,32"/>
+    <area name="hud.icon.layout-column.18" xywh="116,832,36,36"/>
+    <area name="hud.icon.layout-column.20" xywh="212,711,40,40"/>
+    <area name="hud.icon.layout-column.22" xywh="398,606,44,44"/>
+    <area name="hud.icon.layout-column.24" xywh="1050,504,48,48"/>
+    <area name="hud.icon.layout-column.27" xywh="1866,342,54,54"/>
+    <area name="hud.icon.layout-column.33" xywh="690,144,66,66"/>
+    <area name="hud.icon.layout-row.10" xywh="1712,1082,20,20"/>
+    <area name="hud.icon.layout-row.12" xywh="1812,1030,24,24"/>
+    <area name="hud.icon.layout-row.14" xywh="1380,1000,28,28"/>
+    <area name="hud.icon.layout-row.16" xywh="906,902,32,32"/>
+    <area name="hud.icon.layout-row.18" xywh="296,832,36,36"/>
+    <area name="hud.icon.layout-row.20" xywh="254,711,40,40"/>
+    <area name="hud.icon.layout-row.22" xywh="444,606,44,44"/>
+    <area name="hud.icon.layout-row.24" xywh="1172,504,48,48"/>
+    <area name="hud.icon.layout-row.27" xywh="466,344,54,54"/>
+    <area name="hud.icon.layout-row.33" xywh="758,144,66,66"/>
+    <area name="hud.icon.link.10" xywh="1734,1082,20,20"/>
+    <area name="hud.icon.link.12" xywh="1838,1030,24,24"/>
+    <area name="hud.icon.link.14" xywh="1410,1000,28,28"/>
+    <area name="hud.icon.link.16" xywh="940,902,32,32"/>
+    <area name="hud.icon.link.18" xywh="154,837,36,36"/>
+    <area name="hud.icon.link.20" xywh="1030,733,40,40"/>
+    <area name="hud.icon.link.22" xywh="490,606,44,44"/>
+    <area name="hud.icon.link.24" xywh="1222,504,48,48"/>
+    <area name="hud.icon.link.27" xywh="522,344,54,54"/>
+    <area name="hud.icon.link.33" xywh="826,144,66,66"/>
+    <area name="hud.icon.lock.10" xywh="1756,1082,20,20"/>
+    <area name="hud.icon.lock.12" xywh="1864,1030,24,24"/>
+    <area name="hud.icon.lock.14" xywh="1440,1000,28,28"/>
+    <area name="hud.icon.lock.16" xywh="2,908,32,32"/>
+    <area name="hud.icon.lock.18" xywh="192,837,36,36"/>
+    <area name="hud.icon.lock.20" xywh="778,738,40,40"/>
+    <area name="hud.icon.lock.22" xywh="536,606,44,44"/>
+    <area name="hud.icon.lock.24" xywh="1272,504,48,48"/>
+    <area name="hud.icon.lock.27" xywh="578,348,54,54"/>
+    <area name="hud.icon.lock.33" xywh="894,144,66,66"/>
+    <area name="hud.icon.logout.10" xywh="1778,1082,20,20"/>
+    <area name="hud.icon.logout.12" xywh="1890,1030,24,24"/>
+    <area name="hud.icon.logout.14" xywh="1470,1000,28,28"/>
+    <area name="hud.icon.logout.16" xywh="36,908,32,32"/>
+    <area name="hud.icon.logout.18" xywh="230,837,36,36"/>
+    <area name="hud.icon.logout.20" xywh="820,738,40,40"/>
+    <area name="hud.icon.logout.22" xywh="582,606,44,44"/>
+    <area name="hud.icon.logout.24" xywh="1322,504,48,48"/>
+    <area name="hud.icon.logout.27" xywh="634,348,54,54"/>
+    <area name="hud.icon.logout.33" xywh="962,144,66,66"/>
+    <area name="hud.icon.lure.10" xywh="1800,1082,20,20"/>
+    <area name="hud.icon.lure.12" xywh="540,1031,24,24"/>
+    <area name="hud.icon.lure.14" xywh="1500,1000,28,28"/>
+    <area name="hud.icon.lure.16" xywh="70,908,32,32"/>
+    <area name="hud.icon.lure.18" xywh="996,859,36,36"/>
+    <area name="hud.icon.lure.20" xywh="862,738,40,40"/>
+    <area name="hud.icon.lure.22" xywh="628,606,44,44"/>
+    <area name="hud.icon.lure.24" xywh="1372,504,48,48"/>
+    <area name="hud.icon.lure.27" xywh="690,348,54,54"/>
+    <area name="hud.icon.lure.33" xywh="1030,144,66,66"/>
+    <area name="hud.icon.mail.10" xywh="1822,1082,20,20"/>
+    <area name="hud.icon.mail.12" xywh="566,1031,24,24"/>
+    <area name="hud.icon.mail.14" xywh="1530,1000,28,28"/>
+    <area name="hud.icon.mail.16" xywh="104,908,32,32"/>
+    <area name="hud.icon.mail.18" xywh="1034,860,36,36"/>
+    <area name="hud.icon.mail.20" xywh="904,738,40,40"/>
+    <area name="hud.icon.mail.22" xywh="674,606,44,44"/>
+    <area name="hud.icon.mail.24" xywh="1422,504,48,48"/>
+    <area name="hud.icon.mail.27" xywh="746,348,54,54"/>
+    <area name="hud.icon.mail.33" xywh="1098,144,66,66"/>
+    <area name="hud.icon.map.10" xywh="1844,1082,20,20"/>
+    <area name="hud.icon.map.12" xywh="592,1031,24,24"/>
+    <area name="hud.icon.map.14" xywh="1560,1000,28,28"/>
+    <area name="hud.icon.map.16" xywh="268,908,32,32"/>
+    <area name="hud.icon.map.18" xywh="1072,860,36,36"/>
+    <area name="hud.icon.map.20" xywh="946,738,40,40"/>
+    <area name="hud.icon.map.22" xywh="2,614,44,44"/>
+    <area name="hud.icon.map.24" xywh="1472,504,48,48"/>
+    <area name="hud.icon.map.27" xywh="2,356,54,54"/>
+    <area name="hud.icon.map.33" xywh="1166,144,66,66"/>
+    <area name="hud.icon.matchmaking.10" xywh="1866,1082,20,20"/>
+    <area name="hud.icon.matchmaking.12" xywh="618,1031,24,24"/>
+    <area name="hud.icon.matchmaking.14" xywh="1590,1000,28,28"/>
+    <area name="hud.icon.matchmaking.16" xywh="138,913,32,32"/>
+    <area name="hud.icon.matchmaking.18" xywh="1110,860,36,36"/>
+    <area name="hud.icon.matchmaking.20" xywh="988,738,40,40"/>
+    <area name="hud.icon.matchmaking.22" xywh="48,614,44,44"/>
+    <area name="hud.icon.matchmaking.24" xywh="1522,504,48,48"/>
+    <area name="hud.icon.matchmaking.27" xywh="58,356,54,54"/>
+    <area name="hud.icon.matchmaking.33" xywh="592,152,66,66"/>
+    <area name="hud.icon.memory.10" xywh="1888,1082,20,20"/>
+    <area name="hud.icon.memory.12" xywh="644,1031,24,24"/>
+    <area name="hud.icon.memory.14" xywh="1620,1000,28,28"/>
+    <area name="hud.icon.memory.16" xywh="172,913,32,32"/>
+    <area name="hud.icon.memory.18" xywh="1148,860,36,36"/>
+    <area name="hud.icon.memory.20" xywh="1072,738,40,40"/>
+    <area name="hud.icon.memory.22" xywh="94,614,44,44"/>
+    <area name="hud.icon.memory.24" xywh="1572,504,48,48"/>
+    <area name="hud.icon.memory.27" xywh="114,356,54,54"/>
+    <area name="hud.icon.memory.33" xywh="2,164,66,66"/>
+    <area name="hud.icon.menu.10" xywh="524,1083,20,20"/>
+    <area name="hud.icon.menu.12" xywh="670,1031,24,24"/>
+    <area name="hud.icon.menu.14" xywh="1650,1000,28,28"/>
+    <area name="hud.icon.menu.16" xywh="206,913,32,32"/>
+    <area name="hud.icon.menu.18" xywh="1186,860,36,36"/>
+    <area name="hud.icon.menu.20" xywh="1114,738,40,40"/>
+    <area name="hud.icon.menu.22" xywh="140,614,44,44"/>
+    <area name="hud.icon.menu.24" xywh="1622,504,48,48"/>
+    <area name="hud.icon.menu.27" xywh="170,356,54,54"/>
+    <area name="hud.icon.menu.33" xywh="70,164,66,66"/>
+    <area name="hud.icon.mods.10" xywh="546,1083,20,20"/>
+    <area name="hud.icon.mods.12" xywh="977,1031,24,24"/>
+    <area name="hud.icon.mods.14" xywh="1680,1000,28,28"/>
+    <area name="hud.icon.mods.16" xywh="1127,932,32,32"/>
+    <area name="hud.icon.mods.18" xywh="1224,860,36,36"/>
+    <area name="hud.icon.mods.20" xywh="1156,738,40,40"/>
+    <area name="hud.icon.mods.22" xywh="324,614,44,44"/>
+    <area name="hud.icon.mods.24" xywh="1672,504,48,48"/>
+    <area name="hud.icon.mods.27" xywh="394,356,54,54"/>
+    <area name="hud.icon.mods.33" xywh="138,164,66,66"/>
+    <area name="hud.icon.move-down.10" xywh="568,1083,20,20"/>
+    <area name="hud.icon.move-down.12" xywh="1003,1031,24,24"/>
+    <area name="hud.icon.move-down.14" xywh="1710,1000,28,28"/>
+    <area name="hud.icon.move-down.16" xywh="1161,932,32,32"/>
+    <area name="hud.icon.move-down.18" xywh="1262,860,36,36"/>
+    <area name="hud.icon.move-down.20" xywh="1198,738,40,40"/>
+    <area name="hud.icon.move-down.22" xywh="186,619,44,44"/>
+    <area name="hud.icon.move-down.24" xywh="1722,504,48,48"/>
+    <area name="hud.icon.move-down.27" xywh="226,361,54,54"/>
+    <area name="hud.icon.move-down.33" xywh="206,164,66,66"/>
+    <area name="hud.icon.move-front.10" xywh="590,1083,20,20"/>
+    <area name="hud.icon.move-front.12" xywh="1029,1031,24,24"/>
+    <area name="hud.icon.move-front.14" xywh="1740,1000,28,28"/>
+    <area name="hud.icon.move-front.16" xywh="1195,932,32,32"/>
+    <area name="hud.icon.move-front.18" xywh="1300,860,36,36"/>
+    <area name="hud.icon.move-front.20" xywh="1240,738,40,40"/>
+    <area name="hud.icon.move-front.22" xywh="232,619,44,44"/>
+    <area name="hud.icon.move-front.24" xywh="1772,504,48,48"/>
+    <area name="hud.icon.move-front.27" xywh="282,361,54,54"/>
+    <area name="hud.icon.move-front.33" xywh="462,164,66,66"/>
+    <area name="hud.icon.move-up.10" xywh="612,1083,20,20"/>
+    <area name="hud.icon.move-up.12" xywh="1055,1031,24,24"/>
+    <area name="hud.icon.move-up.14" xywh="1770,1000,28,28"/>
+    <area name="hud.icon.move-up.16" xywh="1229,932,32,32"/>
+    <area name="hud.icon.move-up.18" xywh="1338,860,36,36"/>
+    <area name="hud.icon.move-up.20" xywh="1282,738,40,40"/>
+    <area name="hud.icon.move-up.22" xywh="278,619,44,44"/>
+    <area name="hud.icon.move-up.24" xywh="1822,504,48,48"/>
+    <area name="hud.icon.move-up.27" xywh="338,361,54,54"/>
+    <area name="hud.icon.move-up.33" xywh="274,169,66,66"/>
+    <area name="hud.icon.nature.10" xywh="634,1083,20,20"/>
+    <area name="hud.icon.nature.12" xywh="242,1032,24,24"/>
+    <area name="hud.icon.nature.14" xywh="1800,1000,28,28"/>
+    <area name="hud.icon.nature.16" xywh="1263,932,32,32"/>
+    <area name="hud.icon.nature.18" xywh="1376,860,36,36"/>
+    <area name="hud.icon.nature.20" xywh="1324,738,40,40"/>
+    <area name="hud.icon.nature.22" xywh="1054,644,44,44"/>
+    <area name="hud.icon.nature.24" xywh="1872,504,48,48"/>
+    <area name="hud.icon.nature.27" xywh="802,392,54,54"/>
+    <area name="hud.icon.nature.33" xywh="342,169,66,66"/>
+    <area name="hud.icon.nearby.10" xywh="656,1083,20,20"/>
+    <area name="hud.icon.nearby.12" xywh="268,1032,24,24"/>
+    <area name="hud.icon.nearby.14" xywh="1830,1000,28,28"/>
+    <area name="hud.icon.nearby.16" xywh="1297,932,32,32"/>
+    <area name="hud.icon.nearby.18" xywh="1414,860,36,36"/>
+    <area name="hud.icon.nearby.20" xywh="1366,738,40,40"/>
+    <area name="hud.icon.nearby.22" xywh="720,650,44,44"/>
+    <area name="hud.icon.nearby.24" xywh="444,506,48,48"/>
+    <area name="hud.icon.nearby.27" xywh="858,392,54,54"/>
+    <area name="hud.icon.nearby.33" xywh="1234,206,66,66"/>
+    <area name="hud.icon.network.10" xywh="962,1083,20,20"/>
+    <area name="hud.icon.network.12" xywh="294,1032,24,24"/>
+    <area name="hud.icon.network.14" xywh="1860,1000,28,28"/>
+    <area name="hud.icon.network.16" xywh="1331,932,32,32"/>
+    <area name="hud.icon.network.18" xywh="1452,860,36,36"/>
+    <area name="hud.icon.network.20" xywh="1408,738,40,40"/>
+    <area name="hud.icon.network.22" xywh="766,650,44,44"/>
+    <area name="hud.icon.network.24" xywh="494,506,48,48"/>
+    <area name="hud.icon.network.27" xywh="914,392,54,54"/>
+    <area name="hud.icon.network.33" xywh="1302,206,66,66"/>
+    <area name="hud.icon.others.10" xywh="984,1083,20,20"/>
+    <area name="hud.icon.others.12" xywh="320,1032,24,24"/>
+    <area name="hud.icon.others.14" xywh="1890,1000,28,28"/>
+    <area name="hud.icon.others.16" xywh="1365,932,32,32"/>
+    <area name="hud.icon.others.18" xywh="1490,860,36,36"/>
+    <area name="hud.icon.others.20" xywh="1450,738,40,40"/>
+    <area name="hud.icon.others.22" xywh="812,650,44,44"/>
+    <area name="hud.icon.others.24" xywh="544,510,48,48"/>
+    <area name="hud.icon.others.27" xywh="970,392,54,54"/>
+    <area name="hud.icon.others.33" xywh="1370,206,66,66"/>
+    <area name="hud.icon.pages.10" xywh="1006,1083,20,20"/>
+    <area name="hud.icon.pages.12" xywh="346,1032,24,24"/>
+    <area name="hud.icon.pages.14" xywh="546,1001,28,28"/>
+    <area name="hud.icon.pages.16" xywh="1399,932,32,32"/>
+    <area name="hud.icon.pages.18" xywh="1528,860,36,36"/>
+    <area name="hud.icon.pages.20" xywh="1492,738,40,40"/>
+    <area name="hud.icon.pages.22" xywh="858,650,44,44"/>
+    <area name="hud.icon.pages.24" xywh="594,510,48,48"/>
+    <area name="hud.icon.pages.27" xywh="1026,392,54,54"/>
+    <area name="hud.icon.pages.33" xywh="1438,206,66,66"/>
+    <area name="hud.icon.party.10" xywh="1028,1083,20,20"/>
+    <area name="hud.icon.party.12" xywh="372,1032,24,24"/>
+    <area name="hud.icon.party.14" xywh="576,1001,28,28"/>
+    <area name="hud.icon.party.16" xywh="1433,932,32,32"/>
+    <area name="hud.icon.party.18" xywh="1566,860,36,36"/>
+    <area name="hud.icon.party.20" xywh="1534,738,40,40"/>
+    <area name="hud.icon.party.22" xywh="904,650,44,44"/>
+    <area name="hud.icon.party.24" xywh="644,510,48,48"/>
+    <area name="hud.icon.party.27" xywh="1082,392,54,54"/>
+    <area name="hud.icon.party.33" xywh="1506,206,66,66"/>
+    <area name="hud.icon.pc.10" xywh="1050,1083,20,20"/>
+    <area name="hud.icon.pc.12" xywh="398,1032,24,24"/>
+    <area name="hud.icon.pc.14" xywh="606,1001,28,28"/>
+    <area name="hud.icon.pc.16" xywh="1467,932,32,32"/>
+    <area name="hud.icon.pc.18" xywh="1604,860,36,36"/>
+    <area name="hud.icon.pc.20" xywh="1576,738,40,40"/>
+    <area name="hud.icon.pc.22" xywh="950,650,44,44"/>
+    <area name="hud.icon.pc.24" xywh="694,510,48,48"/>
+    <area name="hud.icon.pc.27" xywh="1138,392,54,54"/>
+    <area name="hud.icon.pc.33" xywh="1574,206,66,66"/>
+    <area name="hud.icon.pin.10" xywh="194,1084,20,20"/>
+    <area name="hud.icon.pin.12" xywh="424,1032,24,24"/>
+    <area name="hud.icon.pin.14" xywh="636,1001,28,28"/>
+    <area name="hud.icon.pin.16" xywh="1501,932,32,32"/>
+    <area name="hud.icon.pin.18" xywh="1642,860,36,36"/>
+    <area name="hud.icon.pin.20" xywh="1618,738,40,40"/>
+    <area name="hud.icon.pin.22" xywh="996,650,44,44"/>
+    <area name="hud.icon.pin.24" xywh="2,518,48,48"/>
+    <area name="hud.icon.pin.27" xywh="1194,398,54,54"/>
+    <area name="hud.icon.pin.33" xywh="1642,206,66,66"/>
+    <area name="hud.icon.player-search.10" xywh="216,1084,20,20"/>
+    <area name="hud.icon.player-search.12" xywh="450,1032,24,24"/>
+    <area name="hud.icon.player-search.14" xywh="666,1001,28,28"/>
+    <area name="hud.icon.player-search.16" xywh="1535,932,32,32"/>
+    <area name="hud.icon.player-search.18" xywh="1680,860,36,36"/>
+    <area name="hud.icon.player-search.20" xywh="1660,738,40,40"/>
+    <area name="hud.icon.player-search.22" xywh="1100,650,44,44"/>
+    <area name="hud.icon.player-search.24" xywh="52,518,48,48"/>
+    <area name="hud.icon.player-search.27" xywh="1250,398,54,54"/>
+    <area name="hud.icon.player-search.33" xywh="1710,206,66,66"/>
+    <area name="hud.icon.player.10" xywh="238,1084,20,20"/>
+    <area name="hud.icon.player.12" xywh="476,1032,24,24"/>
+    <area name="hud.icon.player.14" xywh="986,1001,28,28"/>
+    <area name="hud.icon.player.16" xywh="1569,932,32,32"/>
+    <area name="hud.icon.player.18" xywh="1718,860,36,36"/>
+    <area name="hud.icon.player.20" xywh="1702,738,40,40"/>
+    <area name="hud.icon.player.22" xywh="1146,650,44,44"/>
+    <area name="hud.icon.player.24" xywh="102,518,48,48"/>
+    <area name="hud.icon.player.27" xywh="1306,398,54,54"/>
+    <area name="hud.icon.player.33" xywh="1778,206,66,66"/>
+    <area name="hud.icon.pvp.10" xywh="260,1084,20,20"/>
+    <area name="hud.icon.pvp.12" xywh="502,1032,24,24"/>
+    <area name="hud.icon.pvp.14" xywh="1016,1001,28,28"/>
+    <area name="hud.icon.pvp.16" xywh="1603,932,32,32"/>
+    <area name="hud.icon.pvp.18" xywh="1756,860,36,36"/>
+    <area name="hud.icon.pvp.20" xywh="1744,738,40,40"/>
+    <area name="hud.icon.pvp.22" xywh="1192,650,44,44"/>
+    <area name="hud.icon.pvp.24" xywh="152,518,48,48"/>
+    <area name="hud.icon.pvp.27" xywh="1362,398,54,54"/>
+    <area name="hud.icon.pvp.33" xywh="1846,206,66,66"/>
+    <area name="hud.icon.recycle.10" xywh="282,1084,20,20"/>
+    <area name="hud.icon.recycle.12" xywh="936,1033,24,24"/>
+    <area name="hud.icon.recycle.14" xywh="1046,1001,28,28"/>
+    <area name="hud.icon.recycle.16" xywh="1637,932,32,32"/>
+    <area name="hud.icon.recycle.18" xywh="1794,860,36,36"/>
+    <area name="hud.icon.recycle.20" xywh="1786,738,40,40"/>
+    <area name="hud.icon.recycle.22" xywh="1238,650,44,44"/>
+    <area name="hud.icon.recycle.24" xywh="352,518,48,48"/>
+    <area name="hud.icon.recycle.27" xywh="1418,398,54,54"/>
+    <area name="hud.icon.recycle.33" xywh="660,212,66,66"/>
+    <area name="hud.icon.register.10" xywh="304,1084,20,20"/>
+    <area name="hud.icon.register.12" xywh="2,1036,24,24"/>
+    <area name="hud.icon.register.14" xywh="1076,1001,28,28"/>
+    <area name="hud.icon.register.16" xywh="1671,932,32,32"/>
+    <area name="hud.icon.register.18" xywh="1832,860,36,36"/>
+    <area name="hud.icon.register.20" xywh="1828,738,40,40"/>
+    <area name="hud.icon.register.22" xywh="1284,650,44,44"/>
+    <area name="hud.icon.register.24" xywh="202,523,48,48"/>
+    <area name="hud.icon.register.27" xywh="1474,398,54,54"/>
+    <area name="hud.icon.register.33" xywh="728,212,66,66"/>
+    <area name="hud.icon.repel.10" xywh="326,1084,20,20"/>
+    <area name="hud.icon.repel.12" xywh="28,1036,24,24"/>
+    <area name="hud.icon.repel.14" xywh="270,1002,28,28"/>
+    <area name="hud.icon.repel.16" xywh="1705,932,32,32"/>
+    <area name="hud.icon.repel.18" xywh="1870,860,36,36"/>
+    <area name="hud.icon.repel.20" xywh="1870,738,40,40"/>
+    <area name="hud.icon.repel.22" xywh="1330,650,44,44"/>
+    <area name="hud.icon.repel.24" xywh="252,523,48,48"/>
+    <area name="hud.icon.repel.27" xywh="1530,398,54,54"/>
+    <area name="hud.icon.repel.33" xywh="796,212,66,66"/>
+    <area name="hud.icon.reset.10" xywh="348,1084,20,20"/>
+    <area name="hud.icon.reset.12" xywh="54,1036,24,24"/>
+    <area name="hud.icon.reset.14" xywh="300,1002,28,28"/>
+    <area name="hud.icon.reset.16" xywh="1739,932,32,32"/>
+    <area name="hud.icon.reset.18" xywh="604,861,36,36"/>
+    <area name="hud.icon.reset.20" xywh="664,739,40,40"/>
+    <area name="hud.icon.reset.22" xywh="1376,650,44,44"/>
+    <area name="hud.icon.reset.24" xywh="302,523,48,48"/>
+    <area name="hud.icon.reset.27" xywh="1586,398,54,54"/>
+    <area name="hud.icon.reset.33" xywh="864,212,66,66"/>
+    <area name="hud.icon.resize.10" xywh="370,1084,20,20"/>
+    <area name="hud.icon.resize.12" xywh="80,1036,24,24"/>
+    <area name="hud.icon.resize.14" xywh="330,1002,28,28"/>
+    <area name="hud.icon.resize.16" xywh="1773,932,32,32"/>
+    <area name="hud.icon.resize.18" xywh="642,861,36,36"/>
+    <area name="hud.icon.resize.20" xywh="706,739,40,40"/>
+    <area name="hud.icon.resize.22" xywh="1422,650,44,44"/>
+    <area name="hud.icon.resize.24" xywh="1100,548,48,48"/>
+    <area name="hud.icon.resize.27" xywh="1642,398,54,54"/>
+    <area name="hud.icon.resize.33" xywh="932,212,66,66"/>
+    <area name="hud.icon.safari.10" xywh="392,1084,20,20"/>
+    <area name="hud.icon.safari.12" xywh="212,1036,24,24"/>
+    <area name="hud.icon.safari.14" xywh="360,1002,28,28"/>
+    <area name="hud.icon.safari.16" xywh="1807,932,32,32"/>
+    <area name="hud.icon.safari.18" xywh="680,861,36,36"/>
+    <area name="hud.icon.safari.20" xywh="366,740,40,40"/>
+    <area name="hud.icon.safari.22" xywh="1468,650,44,44"/>
+    <area name="hud.icon.safari.24" xywh="744,554,48,48"/>
+    <area name="hud.icon.safari.27" xywh="1698,398,54,54"/>
+    <area name="hud.icon.safari.33" xywh="1000,212,66,66"/>
+    <area name="hud.icon.search.10" xywh="414,1084,20,20"/>
+    <area name="hud.icon.search.12" xywh="106,1041,24,24"/>
+    <area name="hud.icon.search.14" xywh="390,1002,28,28"/>
+    <area name="hud.icon.search.16" xywh="1841,932,32,32"/>
+    <area name="hud.icon.search.18" xywh="334,862,36,36"/>
+    <area name="hud.icon.search.20" xywh="408,740,40,40"/>
+    <area name="hud.icon.search.22" xywh="1514,650,44,44"/>
+    <area name="hud.icon.search.24" xywh="794,554,48,48"/>
+    <area name="hud.icon.search.27" xywh="1754,398,54,54"/>
+    <area name="hud.icon.search.33" xywh="1068,212,66,66"/>
+    <area name="hud.icon.send.10" xywh="436,1084,20,20"/>
+    <area name="hud.icon.send.12" xywh="132,1041,24,24"/>
+    <area name="hud.icon.send.14" xywh="420,1002,28,28"/>
+    <area name="hud.icon.send.16" xywh="1875,932,32,32"/>
+    <area name="hud.icon.send.18" xywh="372,862,36,36"/>
+    <area name="hud.icon.send.20" xywh="450,740,40,40"/>
+    <area name="hud.icon.send.22" xywh="1560,650,44,44"/>
+    <area name="hud.icon.send.24" xywh="844,554,48,48"/>
+    <area name="hud.icon.send.27" xywh="1810,398,54,54"/>
+    <area name="hud.icon.send.33" xywh="1136,212,66,66"/>
+    <area name="hud.icon.settings.10" xywh="458,1084,20,20"/>
+    <area name="hud.icon.settings.12" xywh="158,1041,24,24"/>
+    <area name="hud.icon.settings.14" xywh="450,1002,28,28"/>
+    <area name="hud.icon.settings.16" xywh="578,933,32,32"/>
+    <area name="hud.icon.settings.18" xywh="410,862,36,36"/>
+    <area name="hud.icon.settings.20" xywh="492,740,40,40"/>
+    <area name="hud.icon.settings.22" xywh="1606,650,44,44"/>
+    <area name="hud.icon.settings.24" xywh="894,554,48,48"/>
+    <area name="hud.icon.settings.27" xywh="1866,398,54,54"/>
+    <area name="hud.icon.settings.33" xywh="530,220,66,66"/>
+    <area name="hud.icon.shield.10" xywh="480,1084,20,20"/>
+    <area name="hud.icon.shield.12" xywh="184,1041,24,24"/>
+    <area name="hud.icon.shield.14" xywh="480,1002,28,28"/>
+    <area name="hud.icon.shield.16" xywh="612,933,32,32"/>
+    <area name="hud.icon.shield.18" xywh="448,862,36,36"/>
+    <area name="hud.icon.shield.20" xywh="534,740,40,40"/>
+    <area name="hud.icon.shield.22" xywh="1652,650,44,44"/>
+    <area name="hud.icon.shield.24" xywh="944,554,48,48"/>
+    <area name="hud.icon.shield.27" xywh="450,400,54,54"/>
+    <area name="hud.icon.shield.33" xywh="2,232,66,66"/>
+    <area name="hud.icon.sign.10" xywh="502,1084,20,20"/>
+    <area name="hud.icon.sign.12" xywh="1136,1056,24,24"/>
+    <area name="hud.icon.sign.14" xywh="510,1002,28,28"/>
+    <area name="hud.icon.sign.16" xywh="646,933,32,32"/>
+    <area name="hud.icon.sign.18" xywh="486,862,36,36"/>
+    <area name="hud.icon.sign.20" xywh="576,740,40,40"/>
+    <area name="hud.icon.sign.22" xywh="1698,650,44,44"/>
+    <area name="hud.icon.sign.24" xywh="994,554,48,48"/>
+    <area name="hud.icon.sign.27" xywh="506,400,54,54"/>
+    <area name="hud.icon.sign.33" xywh="70,232,66,66"/>
+    <area name="hud.icon.signup.10" xywh="918,1085,20,20"/>
+    <area name="hud.icon.signup.12" xywh="1162,1056,24,24"/>
+    <area name="hud.icon.signup.14" xywh="947,1003,28,28"/>
+    <area name="hud.icon.signup.16" xywh="1022,933,32,32"/>
+    <area name="hud.icon.signup.18" xywh="524,862,36,36"/>
+    <area name="hud.icon.signup.20" xywh="618,740,40,40"/>
+    <area name="hud.icon.signup.22" xywh="1744,650,44,44"/>
+    <area name="hud.icon.signup.24" xywh="1044,554,48,48"/>
+    <area name="hud.icon.signup.27" xywh="562,404,54,54"/>
+    <area name="hud.icon.signup.33" xywh="138,232,66,66"/>
+    <area name="hud.icon.slot-follow.10" xywh="940,1085,20,20"/>
+    <area name="hud.icon.slot-follow.12" xywh="1188,1056,24,24"/>
+    <area name="hud.icon.slot-follow.14" xywh="2,1006,28,28"/>
+    <area name="hud.icon.slot-follow.16" xywh="1056,933,32,32"/>
+    <area name="hud.icon.slot-follow.18" xywh="562,862,36,36"/>
+    <area name="hud.icon.slot-follow.20" xywh="2,748,40,40"/>
+    <area name="hud.icon.slot-follow.22" xywh="1790,650,44,44"/>
+    <area name="hud.icon.slot-follow.24" xywh="1150,554,48,48"/>
+    <area name="hud.icon.slot-follow.27" xywh="618,404,54,54"/>
+    <area name="hud.icon.slot-follow.33" xywh="206,232,66,66"/>
+    <area name="hud.icon.sound-off.10" xywh="678,1086,20,20"/>
+    <area name="hud.icon.sound-off.12" xywh="1214,1056,24,24"/>
+    <area name="hud.icon.sound-off.14" xywh="32,1006,28,28"/>
+    <area name="hud.icon.sound-off.16" xywh="1090,933,32,32"/>
+    <area name="hud.icon.sound-off.18" xywh="718,864,36,36"/>
+    <area name="hud.icon.sound-off.20" xywh="44,748,40,40"/>
+    <area name="hud.icon.sound-off.22" xywh="1836,650,44,44"/>
+    <area name="hud.icon.sound-off.24" xywh="1200,554,48,48"/>
+    <area name="hud.icon.sound-off.27" xywh="674,404,54,54"/>
+    <area name="hud.icon.sound-off.33" xywh="410,232,66,66"/>
+    <area name="hud.icon.sound.10" xywh="700,1086,20,20"/>
+    <area name="hud.icon.sound.12" xywh="1240,1056,24,24"/>
+    <area name="hud.icon.sound.14" xywh="62,1006,28,28"/>
+    <area name="hud.icon.sound.16" xywh="302,934,32,32"/>
+    <area name="hud.icon.sound.18" xywh="756,864,36,36"/>
+    <area name="hud.icon.sound.20" xywh="86,748,40,40"/>
+    <area name="hud.icon.sound.22" xywh="370,652,44,44"/>
+    <area name="hud.icon.sound.24" xywh="1250,554,48,48"/>
+    <area name="hud.icon.sound.27" xywh="730,404,54,54"/>
+    <area name="hud.icon.sound.33" xywh="274,237,66,66"/>
+    <area name="hud.icon.stats.10" xywh="722,1086,20,20"/>
+    <area name="hud.icon.stats.12" xywh="1266,1056,24,24"/>
+    <area name="hud.icon.stats.14" xywh="92,1006,28,28"/>
+    <area name="hud.icon.stats.16" xywh="336,934,32,32"/>
+    <area name="hud.icon.stats.18" xywh="794,864,36,36"/>
+    <area name="hud.icon.stats.20" xywh="128,748,40,40"/>
+    <area name="hud.icon.stats.22" xywh="416,652,44,44"/>
+    <area name="hud.icon.stats.24" xywh="1300,554,48,48"/>
+    <area name="hud.icon.stats.27" xywh="2,412,54,54"/>
+    <area name="hud.icon.stats.33" xywh="342,237,66,66"/>
+    <area name="hud.icon.stopwatch.10" xywh="744,1086,20,20"/>
+    <area name="hud.icon.stopwatch.12" xywh="1292,1056,24,24"/>
+    <area name="hud.icon.stopwatch.14" xywh="212,1006,28,28"/>
+    <area name="hud.icon.stopwatch.16" xywh="370,934,32,32"/>
+    <area name="hud.icon.stopwatch.18" xywh="832,864,36,36"/>
+    <area name="hud.icon.stopwatch.20" xywh="296,748,40,40"/>
+    <area name="hud.icon.stopwatch.22" xywh="462,652,44,44"/>
+    <area name="hud.icon.stopwatch.24" xywh="1350,554,48,48"/>
+    <area name="hud.icon.stopwatch.27" xywh="58,412,54,54"/>
+    <area name="hud.icon.stopwatch.33" xywh="1204,274,66,66"/>
+    <area name="hud.icon.summary.10" xywh="766,1086,20,20"/>
+    <area name="hud.icon.summary.12" xywh="1318,1056,24,24"/>
+    <area name="hud.icon.summary.14" xywh="122,1011,28,28"/>
+    <area name="hud.icon.summary.16" xywh="404,934,32,32"/>
+    <area name="hud.icon.summary.18" xywh="870,864,36,36"/>
+    <area name="hud.icon.summary.20" xywh="170,753,40,40"/>
+    <area name="hud.icon.summary.22" xywh="508,652,44,44"/>
+    <area name="hud.icon.summary.24" xywh="1400,554,48,48"/>
+    <area name="hud.icon.summary.27" xywh="114,412,54,54"/>
+    <area name="hud.icon.summary.33" xywh="1272,274,66,66"/>
+    <area name="hud.icon.support.10" xywh="788,1086,20,20"/>
+    <area name="hud.icon.support.12" xywh="1344,1056,24,24"/>
+    <area name="hud.icon.support.14" xywh="152,1011,28,28"/>
+    <area name="hud.icon.support.16" xywh="438,934,32,32"/>
+    <area name="hud.icon.support.18" xywh="908,864,36,36"/>
+    <area name="hud.icon.support.20" xywh="212,753,40,40"/>
+    <area name="hud.icon.support.22" xywh="554,652,44,44"/>
+    <area name="hud.icon.support.24" xywh="1450,554,48,48"/>
+    <area name="hud.icon.support.27" xywh="170,412,54,54"/>
+    <area name="hud.icon.support.33" xywh="1340,274,66,66"/>
+    <area name="hud.icon.swap.10" xywh="810,1086,20,20"/>
+    <area name="hud.icon.swap.12" xywh="1370,1056,24,24"/>
+    <area name="hud.icon.swap.14" xywh="182,1011,28,28"/>
+    <area name="hud.icon.swap.16" xywh="472,934,32,32"/>
+    <area name="hud.icon.swap.18" xywh="946,864,36,36"/>
+    <area name="hud.icon.swap.20" xywh="254,753,40,40"/>
+    <area name="hud.icon.swap.22" xywh="600,652,44,44"/>
+    <area name="hud.icon.swap.24" xywh="1500,554,48,48"/>
+    <area name="hud.icon.swap.27" xywh="394,412,54,54"/>
+    <area name="hud.icon.swap.33" xywh="1408,274,66,66"/>
+    <area name="hud.icon.take.10" xywh="832,1086,20,20"/>
+    <area name="hud.icon.take.12" xywh="1396,1056,24,24"/>
+    <area name="hud.icon.take.14" xywh="696,1030,28,28"/>
+    <area name="hud.icon.take.16" xywh="506,934,32,32"/>
+    <area name="hud.icon.take.18" xywh="2,870,36,36"/>
+    <area name="hud.icon.take.20" xywh="1030,775,40,40"/>
+    <area name="hud.icon.take.22" xywh="646,652,44,44"/>
+    <area name="hud.icon.take.24" xywh="1550,554,48,48"/>
+    <area name="hud.icon.take.27" xywh="226,417,54,54"/>
+    <area name="hud.icon.take.33" xywh="1476,274,66,66"/>
+    <area name="hud.icon.team.10" xywh="854,1086,20,20"/>
+    <area name="hud.icon.team.12" xywh="1422,1056,24,24"/>
+    <area name="hud.icon.team.14" xywh="726,1030,28,28"/>
+    <area name="hud.icon.team.16" xywh="540,934,32,32"/>
+    <area name="hud.icon.team.18" xywh="40,870,36,36"/>
+    <area name="hud.icon.team.20" xywh="748,780,40,40"/>
+    <area name="hud.icon.team.22" xywh="2,660,44,44"/>
+    <area name="hud.icon.team.24" xywh="1600,554,48,48"/>
+    <area name="hud.icon.team.27" xywh="282,417,54,54"/>
+    <area name="hud.icon.team.33" xywh="1544,274,66,66"/>
+    <area name="hud.icon.teleport.10" xywh="876,1086,20,20"/>
+    <area name="hud.icon.teleport.12" xywh="1448,1056,24,24"/>
+    <area name="hud.icon.teleport.14" xywh="756,1030,28,28"/>
+    <area name="hud.icon.teleport.16" xywh="974,935,32,32"/>
+    <area name="hud.icon.teleport.18" xywh="78,870,36,36"/>
+    <area name="hud.icon.teleport.20" xywh="790,780,40,40"/>
+    <area name="hud.icon.teleport.22" xywh="48,660,44,44"/>
+    <area name="hud.icon.teleport.24" xywh="1650,554,48,48"/>
+    <area name="hud.icon.teleport.27" xywh="338,417,54,54"/>
+    <area name="hud.icon.teleport.33" xywh="1612,274,66,66"/>
+    <area name="hud.icon.tools.10" xywh="1072,1086,20,20"/>
+    <area name="hud.icon.tools.12" xywh="1474,1056,24,24"/>
+    <area name="hud.icon.tools.14" xywh="786,1030,28,28"/>
+    <area name="hud.icon.tools.16" xywh="680,936,32,32"/>
+    <area name="hud.icon.tools.18" xywh="116,870,36,36"/>
+    <area name="hud.icon.tools.20" xywh="832,780,40,40"/>
+    <area name="hud.icon.tools.22" xywh="94,660,44,44"/>
+    <area name="hud.icon.tools.24" xywh="1700,554,48,48"/>
+    <area name="hud.icon.tools.27" xywh="786,448,54,54"/>
+    <area name="hud.icon.tools.33" xywh="1680,274,66,66"/>
+    <area name="hud.icon.trainer.10" xywh="1094,1086,20,20"/>
+    <area name="hud.icon.trainer.12" xywh="1500,1056,24,24"/>
+    <area name="hud.icon.trainer.14" xywh="816,1030,28,28"/>
+    <area name="hud.icon.trainer.16" xywh="714,936,32,32"/>
+    <area name="hud.icon.trainer.18" xywh="268,870,36,36"/>
+    <area name="hud.icon.trainer.20" xywh="874,780,40,40"/>
+    <area name="hud.icon.trainer.22" xywh="140,660,44,44"/>
+    <area name="hud.icon.trainer.24" xywh="1750,554,48,48"/>
+    <area name="hud.icon.trainer.27" xywh="842,448,54,54"/>
+    <area name="hud.icon.trainer.33" xywh="1748,274,66,66"/>
+    <area name="hud.icon.trophy.10" xywh="2,1088,20,20"/>
+    <area name="hud.icon.trophy.12" xywh="1526,1056,24,24"/>
+    <area name="hud.icon.trophy.14" xywh="846,1030,28,28"/>
+    <area name="hud.icon.trophy.16" xywh="748,936,32,32"/>
+    <area name="hud.icon.trophy.18" xywh="154,875,36,36"/>
+    <area name="hud.icon.trophy.20" xywh="916,780,40,40"/>
+    <area name="hud.icon.trophy.22" xywh="324,660,44,44"/>
+    <area name="hud.icon.trophy.24" xywh="1800,554,48,48"/>
+    <area name="hud.icon.trophy.27" xywh="898,448,54,54"/>
+    <area name="hud.icon.trophy.33" xywh="1816,274,66,66"/>
+    <area name="hud.icon.unlock.10" xywh="24,1088,20,20"/>
+    <area name="hud.icon.unlock.12" xywh="1552,1056,24,24"/>
+    <area name="hud.icon.unlock.14" xywh="876,1030,28,28"/>
+    <area name="hud.icon.unlock.16" xywh="782,936,32,32"/>
+    <area name="hud.icon.unlock.18" xywh="192,875,36,36"/>
+    <area name="hud.icon.unlock.20" xywh="958,780,40,40"/>
+    <area name="hud.icon.unlock.22" xywh="186,665,44,44"/>
+    <area name="hud.icon.unlock.24" xywh="1850,554,48,48"/>
+    <area name="hud.icon.unlock.27" xywh="954,448,54,54"/>
+    <area name="hud.icon.unlock.33" xywh="598,280,66,66"/>
+    <area name="hud.icon.unsummon.10" xywh="46,1088,20,20"/>
+    <area name="hud.icon.unsummon.12" xywh="1578,1056,24,24"/>
+    <area name="hud.icon.unsummon.14" xywh="906,1030,28,28"/>
+    <area name="hud.icon.unsummon.16" xywh="816,936,32,32"/>
+    <area name="hud.icon.unsummon.18" xywh="230,875,36,36"/>
+    <area name="hud.icon.unsummon.20" xywh="1072,780,40,40"/>
+    <area name="hud.icon.unsummon.22" xywh="232,665,44,44"/>
+    <area name="hud.icon.unsummon.24" xywh="402,556,48,48"/>
+    <area name="hud.icon.unsummon.27" xywh="1010,448,54,54"/>
+    <area name="hud.icon.unsummon.33" xywh="666,280,66,66"/>
+    <area name="hud.icon.vip.10" xywh="68,1088,20,20"/>
+    <area name="hud.icon.vip.12" xywh="1604,1056,24,24"/>
+    <area name="hud.icon.vip.14" xywh="1106,1030,28,28"/>
+    <area name="hud.icon.vip.16" xywh="850,936,32,32"/>
+    <area name="hud.icon.vip.18" xywh="984,897,36,36"/>
+    <area name="hud.icon.vip.20" xywh="1114,780,40,40"/>
+    <area name="hud.icon.vip.22" xywh="278,665,44,44"/>
+    <area name="hud.icon.vip.24" xywh="452,556,48,48"/>
+    <area name="hud.icon.vip.27" xywh="1066,448,54,54"/>
+    <area name="hud.icon.vip.33" xywh="734,280,66,66"/>
+    <area name="hud.season.autumn.12" xywh="1630,1056,24,24"/>
+    <area name="hud.season.autumn.16" xywh="884,936,32,32"/>
+    <area name="hud.season.autumn.20" xywh="1156,780,40,40"/>
+    <area name="hud.season.spring.12" xywh="1656,1056,24,24"/>
+    <area name="hud.season.spring.16" xywh="918,936,32,32"/>
+    <area name="hud.season.spring.20" xywh="1198,780,40,40"/>
+    <area name="hud.season.summer.12" xywh="1682,1056,24,24"/>
+    <area name="hud.season.summer.16" xywh="2,942,32,32"/>
+    <area name="hud.season.summer.20" xywh="1240,780,40,40"/>
+    <area name="hud.season.winter.12" xywh="1708,1056,24,24"/>
+    <area name="hud.season.winter.16" xywh="36,942,32,32"/>
+    <area name="hud.season.winter.20" xywh="1282,780,40,40"/>
+    <area name="hud.shape.circle48.edge2" xywh="326,2,97,97" splitx="L48,R48" splity="T48,B48"/>
+    <area name="hud.shape.circle48.fill" xywh="425,2,97,97" splitx="L48,R48" splity="T48,B48"/>
+    <area name="hud.shape.r10.edge" xywh="1042,690,41,41" splitx="L20,R20" splity="T20,B20"/>
+    <area name="hud.shape.r10.edge2" xywh="692,696,41,41" splitx="L20,R20" splity="T20,B20"/>
+    <area name="hud.shape.r10.fill" xywh="735,696,41,41" splitx="L20,R20" splity="T20,B20"/>
+    <area name="hud.shape.r2.fill" xywh="690,84,9,9" splitx="L4,R4" splity="T4,B4"/>
+    <area name="hud.shape.r3.edge" xywh="1908,90,13,13" splitx="L6,R6" splity="T6,B6"/>
+    <area name="hud.shape.r3.edge2" xywh="1908,105,13,13" splitx="L6,R6" splity="T6,B6"/>
+    <area name="hud.shape.r3.fill" xywh="1908,120,13,13" splitx="L6,R6" splity="T6,B6"/>
+    <area name="hud.shape.r5.fill" xywh="1900,554,21,21" splitx="L10,R10" splity="T10,B10"/>
+    <area name="hud.shape.r6.edge" xywh="1884,313,25,25" splitx="L12,R12" splity="T12,B12"/>
+    <area name="hud.shape.r6.fill" xywh="324,573,25,25" splitx="L12,R12" splity="T12,B12"/>
+    <area name="hud.shape.r7.fill" xywh="676,970,29,29" splitx="L14,R14" splity="T14,B14"/>
+    <area name="hud.shape.r8.edge" xywh="750,460,33,33" splitx="L16,R16" splity="T16,B16"/>
+    <area name="hud.shape.r8.edge2" xywh="708,823,33,33" splitx="L16,R16" splity="T16,B16"/>
+    <area name="hud.shape.r8.fill" xywh="1022,898,33,33" splitx="L16,R16" splity="T16,B16"/>
+    <area name="hud.shape.r8.left.fill" xywh="1057,898,33,33" splitx="L16,R16" splity="T16,B16"/>
+    <area name="hud.shape.r8.right.fill" xywh="1092,898,33,33" splitx="L16,R16" splity="T16,B16"/>
+    <area name="hud.shape.r9.fill" xywh="1884,274,37,37" splitx="L18,R18" splity="T18,B18"/>
+    <area name="hud.staff.map.36" xywh="704,2,72,72"/>
+    <area name="hud.staff.network.36" xywh="778,2,72,72"/>
+    <area name="hud.staff.player-search.36" xywh="852,2,72,72"/>
+    <area name="hud.staff.recycle.36" xywh="926,2,72,72"/>
+    <area name="hud.staff.search.36" xywh="1000,2,72,72"/>
+    <area name="hud.staff.sound-off.36" xywh="1074,2,72,72"/>
+    <area name="hud.staff.sound.36" xywh="1148,2,72,72"/>
+    <area name="hud.staff.tools.36" xywh="1222,2,72,72"/>
+    <area name="hud.status.brn.12" xywh="1734,1056,24,24"/>
+    <area name="hud.status.brn.16" xywh="70,942,32,32"/>
+    <area name="hud.status.frz.12" xywh="1760,1056,24,24"/>
+    <area name="hud.status.frz.16" xywh="104,942,32,32"/>
+    <area name="hud.status.par.12" xywh="1786,1056,24,24"/>
+    <area name="hud.status.par.16" xywh="240,942,32,32"/>
+    <area name="hud.status.psn.12" xywh="1812,1056,24,24"/>
+    <area name="hud.status.psn.16" xywh="138,947,32,32"/>
+    <area name="hud.status.slp.12" xywh="1838,1056,24,24"/>
+    <area name="hud.status.slp.16" xywh="172,947,32,32"/>
+    <area name="hud.status.tox.12" xywh="1864,1056,24,24"/>
+    <area name="hud.status.tox.16" xywh="206,947,32,32"/>
+    <area name="hud.time.day.12" xywh="1890,1056,24,24"/>
+    <area name="hud.time.day.16" xywh="1124,966,32,32"/>
+    <area name="hud.time.day.20" xywh="1324,780,40,40"/>
+    <area name="hud.time.evening.12" xywh="528,1057,24,24"/>
+    <area name="hud.time.evening.16" xywh="1158,966,32,32"/>
+    <area name="hud.time.evening.20" xywh="1366,780,40,40"/>
+    <area name="hud.time.late-night.12" xywh="554,1057,24,24"/>
+    <area name="hud.time.late-night.16" xywh="1192,966,32,32"/>
+    <area name="hud.time.late-night.20" xywh="1408,780,40,40"/>
+    <area name="hud.time.morning.12" xywh="580,1057,24,24"/>
+    <area name="hud.time.morning.16" xywh="1226,966,32,32"/>
+    <area name="hud.time.morning.20" xywh="1450,780,40,40"/>
+    <area name="hud.time.night.12" xywh="606,1057,24,24"/>
+    <area name="hud.time.night.16" xywh="1260,966,32,32"/>
+    <area name="hud.time.night.20" xywh="1492,780,40,40"/>
+    <area name="hud.weather.ash.12" xywh="632,1057,24,24"/>
+    <area name="hud.weather.ash.16" xywh="1294,966,32,32"/>
+    <area name="hud.weather.ash.20" xywh="1534,780,40,40"/>
+    <area name="hud.weather.bright-mist.12" xywh="658,1057,24,24"/>
+    <area name="hud.weather.bright-mist.16" xywh="1328,966,32,32"/>
+    <area name="hud.weather.bright-mist.20" xywh="1576,780,40,40"/>
+    <area name="hud.weather.cave-flash.12" xywh="962,1057,24,24"/>
+    <area name="hud.weather.cave-flash.16" xywh="1362,966,32,32"/>
+    <area name="hud.weather.cave-flash.20" xywh="1618,780,40,40"/>
+    <area name="hud.weather.clear-day.12" xywh="988,1057,24,24"/>
+    <area name="hud.weather.clear-day.16" xywh="1396,966,32,32"/>
+    <area name="hud.weather.clear-day.20" xywh="1660,780,40,40"/>
+    <area name="hud.weather.clear-night.12" xywh="1014,1057,24,24"/>
+    <area name="hud.weather.clear-night.16" xywh="1430,966,32,32"/>
+    <area name="hud.weather.clear-night.20" xywh="1702,780,40,40"/>
+    <area name="hud.weather.cloudy.12" xywh="1040,1057,24,24"/>
+    <area name="hud.weather.cloudy.16" xywh="1464,966,32,32"/>
+    <area name="hud.weather.cloudy.20" xywh="1744,780,40,40"/>
+    <area name="hud.weather.dark-fog.12" xywh="1066,1057,24,24"/>
+    <area name="hud.weather.dark-fog.16" xywh="1498,966,32,32"/>
+    <area name="hud.weather.dark-fog.20" xywh="1786,780,40,40"/>
+    <area name="hud.weather.darkness.12" xywh="238,1058,24,24"/>
+    <area name="hud.weather.darkness.16" xywh="1532,966,32,32"/>
+    <area name="hud.weather.darkness.20" xywh="1828,780,40,40"/>
+    <area name="hud.weather.day-dependent.12" xywh="264,1058,24,24"/>
+    <area name="hud.weather.day-dependent.16" xywh="1566,966,32,32"/>
+    <area name="hud.weather.day-dependent.20" xywh="1870,780,40,40"/>
+    <area name="hud.weather.diamond-dust.12" xywh="290,1058,24,24"/>
+    <area name="hud.weather.diamond-dust.16" xywh="1600,966,32,32"/>
+    <area name="hud.weather.diamond-dust.20" xywh="660,781,40,40"/>
+    <area name="hud.weather.forest-shade.12" xywh="316,1058,24,24"/>
+    <area name="hud.weather.forest-shade.16" xywh="1634,966,32,32"/>
+    <area name="hud.weather.forest-shade.20" xywh="702,781,40,40"/>
+    <area name="hud.weather.hail.12" xywh="342,1058,24,24"/>
+    <area name="hud.weather.hail.16" xywh="1668,966,32,32"/>
+    <area name="hud.weather.hail.20" xywh="338,782,40,40"/>
+    <area name="hud.weather.haze-black.12" xywh="368,1058,24,24"/>
+    <area name="hud.weather.haze-black.16" xywh="1702,966,32,32"/>
+    <area name="hud.weather.haze-black.20" xywh="380,782,40,40"/>
+    <area name="hud.weather.haze-blue.12" xywh="394,1058,24,24"/>
+    <area name="hud.weather.haze-blue.16" xywh="1736,966,32,32"/>
+    <area name="hud.weather.haze-blue.20" xywh="422,782,40,40"/>
+    <area name="hud.weather.haze-green.12" xywh="420,1058,24,24"/>
+    <area name="hud.weather.haze-green.16" xywh="1770,966,32,32"/>
+    <area name="hud.weather.haze-green.20" xywh="464,782,40,40"/>
+    <area name="hud.weather.haze-red.12" xywh="446,1058,24,24"/>
+    <area name="hud.weather.haze-red.16" xywh="1804,966,32,32"/>
+    <area name="hud.weather.haze-red.20" xywh="506,782,40,40"/>
+    <area name="hud.weather.heavy-fog.12" xywh="472,1058,24,24"/>
+    <area name="hud.weather.heavy-fog.16" xywh="1838,966,32,32"/>
+    <area name="hud.weather.heavy-fog.20" xywh="548,782,40,40"/>
+    <area name="hud.weather.heavy-rain.12" xywh="498,1058,24,24"/>
+    <area name="hud.weather.heavy-rain.16" xywh="1872,966,32,32"/>
+    <area name="hud.weather.heavy-rain.20" xywh="590,782,40,40"/>
+    <area name="hud.weather.heavy-snow.12" xywh="936,1059,24,24"/>
+    <area name="hud.weather.heavy-snow.16" xywh="574,967,32,32"/>
+    <area name="hud.weather.heavy-snow.20" xywh="2,790,40,40"/>
+    <area name="hud.weather.icy.12" xywh="684,1060,24,24"/>
+    <area name="hud.weather.icy.16" xywh="608,967,32,32"/>
+    <area name="hud.weather.icy.20" xywh="44,790,40,40"/>
+    <area name="hud.weather.indoors.12" xywh="710,1060,24,24"/>
+    <area name="hud.weather.indoors.16" xywh="642,967,32,32"/>
+    <area name="hud.weather.indoors.20" xywh="86,790,40,40"/>
+    <area name="hud.weather.mist.12" xywh="736,1060,24,24"/>
+    <area name="hud.weather.mist.16" xywh="1008,967,32,32"/>
+    <area name="hud.weather.mist.20" xywh="128,790,40,40"/>
+    <area name="hud.weather.partly-night.12" xywh="762,1060,24,24"/>
+    <area name="hud.weather.partly-night.16" xywh="1042,967,32,32"/>
+    <area name="hud.weather.partly-night.20" xywh="296,790,40,40"/>
+    <area name="hud.weather.rain.12" xywh="788,1060,24,24"/>
+    <area name="hud.weather.rain.16" xywh="1076,967,32,32"/>
+    <area name="hud.weather.rain.20" xywh="170,795,40,40"/>
+    <area name="hud.weather.rocks.12" xywh="814,1060,24,24"/>
+    <area name="hud.weather.rocks.16" xywh="274,968,32,32"/>
+    <area name="hud.weather.rocks.20" xywh="212,795,40,40"/>
+    <area name="hud.weather.sandstorm.12" xywh="840,1060,24,24"/>
+    <area name="hud.weather.sandstorm.16" xywh="308,968,32,32"/>
+    <area name="hud.weather.sandstorm.20" xywh="254,795,40,40"/>
+    <area name="hud.weather.snow.12" xywh="866,1060,24,24"/>
+    <area name="hud.weather.snow.16" xywh="342,968,32,32"/>
+    <area name="hud.weather.snow.20" xywh="1000,817,40,40"/>
+    <area name="hud.weather.storm.12" xywh="892,1060,24,24"/>
+    <area name="hud.weather.storm.16" xywh="376,968,32,32"/>
+    <area name="hud.weather.storm.20" xywh="744,822,40,40"/>
+    <area name="hud.weather.sunny-clouds.12" xywh="1092,1060,24,24"/>
+    <area name="hud.weather.sunny-clouds.16" xywh="410,968,32,32"/>
+    <area name="hud.weather.sunny-clouds.20" xywh="786,822,40,40"/>
+    <area name="hud.weather.thunder-rain.12" xywh="2,1062,24,24"/>
+    <area name="hud.weather.thunder-rain.16" xywh="444,968,32,32"/>
+    <area name="hud.weather.thunder-rain.20" xywh="828,822,40,40"/>
+    <area name="hud.weather.thunder.12" xywh="28,1062,24,24"/>
+    <area name="hud.weather.thunder.16" xywh="478,968,32,32"/>
+    <area name="hud.weather.thunder.20" xywh="870,822,40,40"/>
+    <area name="hud.weather.underground-flashes.12" xywh="54,1062,24,24"/>
+    <area name="hud.weather.underground-flashes.16" xywh="512,968,32,32"/>
+    <area name="hud.weather.underground-flashes.20" xywh="912,822,40,40"/>
+    <area name="hud.weather.underwater.12" xywh="80,1062,24,24"/>
+    <area name="hud.weather.underwater.16" xywh="952,969,32,32"/>
+    <area name="hud.weather.underwater.20" xywh="954,822,40,40"/>
+    <area name="hud.white" xywh="690,95,6,6" splitx="L2,R2" splity="T2,B2"/>
+
+    <alias name="hud.style.clear" ref="hud.shape.r6.fill" tint="#00FFFFFF"/>
+    <alias name="hud.style.panel.fill" ref="hud.shape.r8.fill" tint="#E0121521"/>
+    <alias name="hud.style.panel.edge" ref="hud.shape.r8.edge" tint="#17FFFFFF"/>
+    <composed name="hud.style.panel">
+      <alias ref="hud.style.panel.fill"/>
+      <alias ref="hud.style.panel.edge"/>
+    </composed>
+    <alias name="hud.style.panel.rest" ref="hud.shape.r8.fill" tint="#40121521"/>
+    <alias name="hud.style.panel.shadow" ref="hud.shape.r8.fill" tint="#59000000"/>
+    <alias name="hud.style.panel.mobile.fill" ref="hud.shape.r10.fill" tint="#E0121521"/>
+    <alias name="hud.style.panel.mobile.edge" ref="hud.shape.r10.edge" tint="#17FFFFFF"/>
+    <composed name="hud.style.panel.mobile">
+      <alias ref="hud.style.panel.mobile.fill"/>
+      <alias ref="hud.style.panel.mobile.edge"/>
+    </composed>
+    <alias name="hud.style.panel.mobile.rest" ref="hud.shape.r10.fill" tint="#59121521"/>
+    <alias name="hud.style.popover.fill" ref="hud.shape.r6.fill" tint="#F0121521"/>
+    <alias name="hud.style.popover.edge" ref="hud.shape.r6.edge" tint="#1FFFFFFF"/>
+    <composed name="hud.style.popover">
+      <alias ref="hud.style.popover.fill"/>
+      <alias ref="hud.style.popover.edge"/>
+    </composed>
+    <alias name="hud.style.popover.arrow.down.fill" ref="hud.arrow.down.fill" tint="#F0121521"/>
+    <alias name="hud.style.popover.arrow.down.edge" ref="hud.arrow.down.edge" tint="#1FFFFFFF"/>
+    <composed name="hud.style.popover.arrow.down">
+      <alias ref="hud.style.popover.arrow.down.fill"/>
+      <alias ref="hud.style.popover.arrow.down.edge"/>
+    </composed>
+    <alias name="hud.style.popover.arrow.up.fill" ref="hud.arrow.up.fill" tint="#F0121521"/>
+    <alias name="hud.style.popover.arrow.up.edge" ref="hud.arrow.up.edge" tint="#1FFFFFFF"/>
+    <composed name="hud.style.popover.arrow.up">
+      <alias ref="hud.style.popover.arrow.up.fill"/>
+      <alias ref="hud.style.popover.arrow.up.edge"/>
+    </composed>
+    <alias name="hud.style.row.open" ref="hud.shape.r6.fill" tint="#0FFFFFFF"/>
+    <alias name="hud.style.divider" ref="hud.white" tint="#12FFFFFF"/>
+    <alias name="hud.style.tile" ref="hud.shape.r6.fill" tint="#EB202434"/>
+    <alias name="hud.style.tile.hover" ref="hud.shape.r6.fill" tint="#F532384E"/>
+    <alias name="hud.style.tile.open" ref="hud.shape.r6.fill" tint="#0DFFFFFF"/>
+    <alias name="hud.style.tile.ring.accent" ref="hud.shape.r6.edge" tint="#FFF2C14E"/>
+    <composed name="hud.style.tile.inuse">
+      <alias ref="hud.style.tile"/>
+      <alias ref="hud.style.tile.ring.accent"/>
+    </composed>
+    <select name="hud.style.slot">
+      <alias ref="hud.style.tile.hover" if="hover"/>
+      <alias ref="hud.style.tile"/>
+    </select>
+    <alias name="hud.style.slot.empty.fill" ref="hud.shape.r6.fill" tint="#59121521"/>
+    <alias name="hud.style.slot.empty.dash" ref="hud.dashed.slot40" tint="#3DFFFFFF"/>
+    <composed name="hud.style.slot.empty">
+      <alias ref="hud.style.slot.empty.fill"/>
+      <alias ref="hud.style.slot.empty.dash"/>
+    </composed>
+    <alias name="hud.style.slot.mobile" ref="hud.shape.r8.fill" tint="#EB202434"/>
+    <alias name="hud.style.slot.mobile.hover" ref="hud.shape.r8.fill" tint="#F532384E"/>
+    <alias name="hud.style.slot.mobile.empty.fill" ref="hud.shape.r8.fill" tint="#59121521"/>
+    <alias name="hud.style.slot.mobile.empty.dash" ref="hud.dashed.slot80" tint="#3DFFFFFF"/>
+    <composed name="hud.style.slot.mobile.empty">
+      <alias ref="hud.style.slot.mobile.empty.fill"/>
+      <alias ref="hud.style.slot.mobile.empty.dash"/>
+    </composed>
+    <alias name="hud.style.party.empty.dash" ref="hud.dashed.party48x46" tint="#3DFFFFFF"/>
+    <alias name="hud.style.group.empty.dash" ref="hud.dashed.tile28" tint="#2EFFFFFF"/>
+    <alias name="hud.style.pip.high" ref="hud.shape.r2.fill" tint="#FF5CCB6B"/>
+    <alias name="hud.style.pip.mid" ref="hud.shape.r2.fill" tint="#FFF0C440"/>
+    <alias name="hud.style.pip.low" ref="hud.shape.r2.fill" tint="#FFE8584E"/>
+    <alias name="hud.style.pip.fainted" ref="hud.shape.r2.fill" tint="#FF4C5163"/>
+    <alias name="hud.style.pip.empty" ref="hud.dashed.pip" tint="#52FFFFFF"/>
+    <alias name="hud.style.bar.track" ref="hud.shape.r2.fill" tint="#24FFFFFF"/>
+    <alias name="hud.style.bar.hp.high" ref="hud.shape.r2.fill" tint="#FF5CCB6B"/>
+    <alias name="hud.style.bar.hp.mid" ref="hud.shape.r2.fill" tint="#FFF0C440"/>
+    <alias name="hud.style.bar.hp.low" ref="hud.shape.r2.fill" tint="#FFE8584E"/>
+    <alias name="hud.style.bar.exp" ref="hud.shape.r2.fill" tint="#FF79A8FF"/>
+    <alias name="hud.style.badge" ref="hud.shape.r7.fill" tint="#FFE8584E"/>
+    <alias name="hud.style.badge.mobile" ref="hud.shape.r9.fill" tint="#FFE8584E"/>
+    <alias name="hud.style.badge.accent" ref="hud.shape.r8.fill" tint="#FFF2C14E"/>
+    <alias name="hud.style.chip" ref="hud.shape.r7.fill" tint="#1FFFFFFF"/>
+    <alias name="hud.style.key" ref="hud.shape.r3.fill" tint="#1FFFFFFF"/>
+    <alias name="hud.style.status.admin" ref="hud.shape.r3.fill" tint="#FFC8423B"/>
+    <alias name="hud.style.heads.head" ref="hud.shape.r8.fill" tint="#E0121521"/>
+    <alias name="hud.style.heads.head.open" ref="hud.shape.r8.left.fill" tint="#E0121521"/>
+    <alias name="hud.style.heads.strip" ref="hud.shape.r8.right.fill" tint="#E0121521"/>
+    <alias name="hud.style.menu.row" ref="hud.shape.r6.fill" tint="#0AFFFFFF"/>
+    <alias name="hud.style.menu.row.mobile" ref="hud.shape.r8.fill" tint="#0DFFFFFF"/>
+    <alias name="hud.style.menu.row.exit" ref="hud.shape.r8.fill" tint="#1AE8584E"/>
+    <alias name="hud.style.drawer" ref="hud.white" tint="#F5121521"/>
+    <alias name="hud.style.tag.fainted" ref="hud.shape.r3.fill" tint="#FF4C5163"/>
+    <alias name="hud.style.tile.pressed" ref="hud.shape.r6.fill" tint="#F5464E68"/>
+    <alias name="hud.style.slot.mobile.pressed" ref="hud.shape.r8.fill" tint="#F5464E68"/>
+    <alias name="hud.style.ring.select" ref="hud.shape.r6.edge" tint="#59FFFFFF"/>
+    <alias name="hud.style.ring.flash" ref="hud.shape.r6.edge" tint="#E6F2C14E"/>
+    <alias name="hud.style.ring.select.mobile" ref="hud.shape.r8.edge" tint="#73FFFFFF"/>
+    <alias name="hud.style.ring.flash.mobile" ref="hud.shape.r8.edge" tint="#E6F2C14E"/>
+    <alias name="hud.style.ring.outline" ref="hud.shape.r8.edge2" tint="#80F2C14E"/>
+    <alias name="hud.style.ring.outline.mobile" ref="hud.shape.r10.edge2" tint="#80F2C14E"/>
+    <alias name="hud.style.bar.trail" ref="hud.shape.r2.fill" tint="#99F3F1EA"/>
+    <alias name="hud.style.bar.heal" ref="hud.shape.r2.fill" tint="#735CCB6B"/>
+    <alias name="hud.style.popover.solid" ref="hud.shape.r6.fill" tint="#FF181C2A"/>
+    <alias name="hud.style.panel.chat.rest" ref="hud.shape.r8.fill" tint="#80121521"/>
+    <alias name="hud.style.panel.unlocked.edge" ref="hud.shape.r8.edge" tint="#99F2C14E"/>
+    <alias name="hud.style.button.fill" ref="hud.shape.r6.fill" tint="#0FFFFFFF"/>
+    <alias name="hud.style.button.hover" ref="hud.shape.r6.fill" tint="#1AFFFFFF"/>
+    <select name="hud.style.button">
+      <alias ref="hud.style.button.hover" if="hover"/>
+      <alias ref="hud.style.button.fill"/>
+    </select>
+    <alias name="hud.style.button.primary.fill" ref="hud.shape.r6.fill" tint="#1AFFFFFF"/>
+    <alias name="hud.style.button.primary.hover" ref="hud.shape.r6.fill" tint="#29FFFFFF"/>
+    <select name="hud.style.button.primary">
+      <alias ref="hud.style.button.primary.hover" if="hover"/>
+      <alias ref="hud.style.button.primary.fill"/>
+    </select>
+    <alias name="hud.style.button.ghost.hover" ref="hud.shape.r6.fill" tint="#1AFFFFFF"/>
+    <select name="hud.style.button.ghost">
+      <alias ref="hud.style.button.ghost.hover" if="hover"/>
+      <alias ref="hud.style.clear"/>
+    </select>
+    <select name="hud.style.tab">
+      <alias ref="hud.style.button.hover" if="selected"/>
+      <alias ref="hud.style.row.open" if="hover"/>
+      <alias ref="hud.style.clear"/>
+    </select>
+    <alias name="hud.style.input.fill" ref="hud.shape.r6.fill" tint="#73080A12"/>
+    <alias name="hud.style.input.edge" ref="hud.shape.r6.edge" tint="#1AFFFFFF"/>
+    <alias name="hud.style.input.edge.focus" ref="hud.shape.r6.edge" tint="#8CF2C14E"/>
+    <composed name="hud.style.input">
+      <alias ref="hud.style.input.fill"/>
+      <alias ref="hud.style.input.edge"/>
+    </composed>
+    <composed name="hud.style.input.focus">
+      <alias ref="hud.style.input.fill"/>
+      <alias ref="hud.style.input.edge.focus"/>
+    </composed>
+    <select name="hud.style.input.state">
+      <alias ref="hud.style.input.focus" if="keyboardFocus"/>
+      <alias ref="hud.style.input"/>
+    </select>
+    <alias name="hud.style.chat.link" ref="hud.shape.r3.fill" tint="#217FB8F0"/>
+    <alias name="hud.style.dot.accent" ref="hud.shape.r3.fill" tint="#FFF2C14E"/>
+    <alias name="hud.style.key.edge" ref="hud.shape.r3.edge" tint="#38FFFFFF"/>
+    <alias name="hud.style.key.edge2" ref="hud.shape.r3.edge2" tint="#59FFFFFF"/>
+    <alias name="hud.style.chat.lang" ref="hud.shape.r3.edge" tint="#2EFFFFFF"/>
+    <alias name="hud.style.nameplate" ref="hud.shape.r3.fill" tint="#990C0E16"/>
+    <alias name="hud.style.menu.row.mobile.pressed" ref="hud.shape.r8.fill" tint="#24FFFFFF"/>
+    <alias name="hud.style.goal.fill" ref="hud.shape.r10.fill" tint="#12F2C14E"/>
+    <alias name="hud.style.goal.edge" ref="hud.shape.r10.edge" tint="#33F2C14E"/>
+    <composed name="hud.style.goal">
+      <alias ref="hud.style.goal.fill"/>
+      <alias ref="hud.style.goal.edge"/>
+    </composed>
+    <alias name="hud.style.touch.ring.fill" ref="hud.shape.circle48.fill" tint="#1FF3F1EA"/>
+    <alias name="hud.style.touch.ring.edge" ref="hud.shape.circle48.edge2" tint="#B3F3F1EA"/>
+    <composed name="hud.style.touch.ring">
+      <alias ref="hud.style.touch.ring.fill"/>
+      <alias ref="hud.style.touch.ring.edge"/>
+    </composed>
+    <alias name="hud.style.party.mobile.empty.dash" ref="hud.dashed.party80" tint="#3DFFFFFF"/>
+    <alias name="hud.style.party.mobile.drop" ref="hud.dashed.party80" tint="#99F2C14E"/>
+    <alias name="hud.style.page.mobile" ref="hud.shape.r8.fill" tint="#B3202434"/>
+    <alias name="hud.style.page.mobile.pressed" ref="hud.shape.r8.fill" tint="#D9464E68"/>
+    <alias name="hud.style.slot.mobile.empty.pressed" ref="hud.shape.r8.fill" tint="#9932384E"/>
+  </images>
+</themes>

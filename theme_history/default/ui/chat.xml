@@ -2,13 +2,13 @@
 <themes>
 	<theme name="chat-monster-info" ref="button" allowWildcard="true">
 		<param name="background"><image>none</image></param>
-		<param name="font"><font>main-blue</font></param>
+		<param name="font"><font>chatfont-blue</font></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 		<param name="border"><border>0,0,0,0</border></param>
 	</theme>
 
 	<theme name="chat-monster-info-shiny" ref="chat-monster-info" allowWildcard="true">
-		<param name="font"><font>main-battle</font></param>
+		<param name="font"><font>chatfont-shiny</font></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
 
@@ -40,37 +40,29 @@
 
 	<theme name="chatframe" ref="chatresizableframe">
 		<param name="border"><border>5,5,2,5</border></param>
+		<param name="fadeColorInactive"><color>white</color></param>
 		<theme name="content" ref="-dialog">
 			<theme name="scrollpane" ref="scrollpane">
-				<param name="background"><image>chat.content.background</image></param>
-				<theme name="vscrollbar" ref="vscrollbar-white"/>
+				<param name="background"><image>none</image></param>
+				<theme name="vscrollbar" ref="hud-chat-vscrollbar"/>
 				<param name="border"><border>0</border></param>
 				<theme name="textarea" ref="-defaults">
 					<param name="fonts"><map>
-						<param name="default"><font>main</font></param>
-						<param name="color0"><font>main-green</font></param>
-						<param name="color1"><font>main</font></param>
-						<param name="color2"><font>main</font></param>
-            <param name="link"><font>main-link</font></param>
-            <param name="normal"><font>main</font></param>
-            <param name="shout"><font>main-orange</font></param>
-            <param name="whisper"><font>main-lightgreen</font></param>
-            <param name="trade"><font>main-purple</font></param>
-            <param name="global"><font>main-teal</font></param>
-            <param name="channel"><font>main-yellow</font></param>
-            <param name="team"><font>main-brown</font></param>
-            <param name="system"><font>main-blue</font></param>
-            <param name="battle"><font>main-battle</font></param>
-            <param name="link-highlight"><font>main-orange</font></param>
-            <param name="normal-highlight"><font>main-orange</font></param>
-            <param name="shout-highlight"><font>main-link</font></param>
-            <param name="whisper-highlight"><font>main-orange</font></param>
-            <param name="trade-highlight"><font>main-orange</font></param>
-            <param name="global-highlight"><font>main-orange</font></param>
-            <param name="channel-highlight"><font>main-orange</font></param>
-            <param name="team-highlight"><font>main-orange</font></param>
-            <param name="system-highlight"><font>main-orange</font></param>
-            <param name="battle-highlight"><font>main-orange</font></param>
+						<param name="default"><font>chatfont</font></param>
+						<param name="color0"><font>chatfont-green</font></param>
+						<param name="color1"><font>chatfont</font></param>
+						<param name="color2"><font>chatfont</font></param>
+						<param name="link"><font>chatfont-link</font></param>
+						<param name="normal"><font>chatfont</font></param>
+						<param name="shout"><font>chatfont-orange</font></param>
+						<param name="whisper"><font>chatfont-whisper</font></param>
+						<param name="trade"><font>chatfont-trade</font></param>
+						<param name="global"><font>chatfont-global</font></param>
+						<param name="channel"><font>chatfont-yellow</font></param>
+						<param name="team"><font>chatfont-team</font></param>
+						<param name="system"><font>chatfont-blue</font></param>
+						<param name="battle"><font>chatfont-battle</font></param>
+						<param name="highlight"><font>chatfont-highlight</font></param>
 					</map></param>
 					<param name="classes"><map/></param>
 					<param name="images"><map>
@@ -90,30 +82,30 @@
 			</theme>
 			<theme name="top" ref="-dialog">
 				<param name="border"><border>0,3,3,3</border></param>
-				<param name="background"><image>chat.top.background</image></param>
+				<param name="background"><image>none</image></param>
 				<!-- Used for chat tabs -->
 				<theme name="togglebutton-normal" ref="button" allowWildcard="true">
-					<param name=""><image>chat-button.*</image></param>
+					<param name="background"><image>hud.style.tab</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>main</font></param>
+					<param name="font"><font>hud.font.body12-tab</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<theme name="togglebutton-settings" ref="button" allowWildcard="true">
-					<param name=""><image>chat-button.*</image></param>
+					<param name="background"><image>hud.style.tab</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>main</font></param>
+					<param name="font"><font>hud.font.body12-tab</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<theme name="togglebutton-notification" ref="button" allowWildcard="true">
-					<param name=""><image>chat-button.*</image></param>
+					<param name="background"><image>hud.style.tab</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>main</font></param>
+					<param name="font"><font>hud.font.body12-tab</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<theme name="togglebutton-normal" ref="button" allowWildcard="true">
-					<param name=""><image>chat-button.*</image></param>
+					<param name="background"><image>hud.style.tab</image></param>
 					<param name="border"><border>5</border></param>
-					<param name="font"><font>main</font></param>
+					<param name="font"><font>hud.font.body12-tab</font></param>
 					<param name="fadeColorInactive"><color>#11FFFFFF</color></param>
 				</theme>
 				<!-- lock icon -->
@@ -139,29 +131,32 @@
 			</theme>
 
 			<theme name="bottom" ref="-dialog">
-				<param name="background"><image>chat.bottom.background</image></param>
+				<param name="background"><image>none</image></param>
 				<param name="border"><border>0,5,5,0</border></param>
 				<!-- send button -->
 				<theme name="button" ref="button" allowWildcard="true">
 					<param name="border"><border>7,6</border></param>
-					<param name="background"><image>input-black.background</image></param>
+					<param name="background"><image>hud.style.button.primary</image></param>
 					<param name="font"><font>main</font></param>
 					<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 				</theme>
-				<theme name="button-link" ref="button" allowWildcard="true"/>
+				<theme name="button-link" ref="button" allowWildcard="true">
+					<param name="background"><image>hud.style.button</image></param>
+				</theme>
 
 
 				<theme name="editfield" ref="editfield">
-					<param name="background"><image>input-black.background</image></param>
+					<param name="background"><image>hud.style.input.state</image></param>
 					<param name="border"><border>5</border></param>
 					<param name="columns"><int>1</int></param>
 					<theme name="renderer" ref="-input">
-						<param name="font"><font>main</font></param>
+						<param name="font"><font>hud.font.body12</font></param>
 						<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
 					</theme>
 				</theme>
 				<theme name="chat-type-button" ref="button" allowWildcard="true">
 					<param name="border"><border>5,3,5,5</border></param>
+					<param name="background"><image>hud.style.button</image></param>
 				</theme>
 			</theme>
 		</theme>
@@ -170,7 +165,7 @@
 	<theme name="chat-playername" ref="button" allowWildcard="true">
 		<param name="border"><border>0,0,0,0</border></param>
 		<param name="background"><image>none</image></param>
-		<param name="font"><font>main</font></param>
+		<param name="font"><font>chatfont</font></param>
 		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
 	</theme>
 
@@ -181,85 +176,76 @@
 	</theme>
 
 	<theme name="chatframe-hidden" ref="-defaults">
-		<param name="background"><image>chaticon.default</image></param>
-		<param name="minWidth"><int>24</int></param>
-		<param name="minHeight"><int>24</int></param>
+		<param name="background"><image>none</image></param>
+		<param name="minWidth"><int>36</int></param>
+		<param name="minHeight"><int>36</int></param>
 	</theme>
-  
-  <theme name="chatframe-hidden-whisper" ref="chatframe-hidden" overwrite="true">
-    <param name="overlay"><image>chaticon.chat-indicator-whisper</image></param>
-  </theme>
-  
-  <theme name="chatframe-hidden-team" ref="chatframe-hidden" overwrite="true">
-    <param name="overlay"><image>chaticon.chat-indicator-team</image></param>
-  </theme>
-  
-  <theme name="chatframe-hidden-whisper-team" ref="chatframe-hidden" overwrite="true">
-    <param name="overlay"><image>chaticon.chat-indicator-whisper-team</image></param>
-  </theme>
 
 	<!-- Chat Tab Settings -->
 	<theme name="chat-tab-settings" ref="base-frame">
 		<param name="background"><image>ui-inner-frame-tab.background</image></param>
 		<param name="border"><border>10,5</border></param>
 		<param name="minWidth"><int>580</int></param>
-		<param name="minHeight"><int>420</int></param>
 		<param name="maxWidth"><int>580</int></param>
-		<param name="maxHeight"><int>420</int></param>
-		<theme name="dialoglayout" ref="dialoglayout">
+		<theme name="scrollpane" ref="scrollpane">
 			<param name="background"><image>none</image></param>
-			<param name="defaultGap"><dimension>5,5</dimension></param>
-			<param name="smallGap"><dimension>8,8</dimension></param>
-			<param name="mediumGap"><dimension>10,10</dimension></param>
-			<param name="largeGap"><dimension>15,15</dimension></param>
-			<param name="namedGaps"><map/></param>
-			<theme name="tabbedpane" ref="base-tabbed-pane">
-				<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
-				<param name="minWidth"><int>230</int></param>
+			<param name="border"><border>40,0,0,0</border></param>
+			<theme name="dialoglayout" ref="dialoglayout">
 				<param name="background"><image>none</image></param>
-				<theme name="tabbox" ref="tabbox">
-					<param name="border"><border>0,18,0,0</border></param>
-					<theme name="tabbutton" ref="togglebutton">
-						<param name="border"><border>5,0,5,10</border></param>
-						<param name=""><image>ui-tab-vertical.*</image></param>
-						<param name="font"><font>pb-tab</font></param>
-						<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-					</theme>
-					<param name="spacing"><int>5</int></param>
-					<param name="alignment"><enum type="alignment">FILL</enum></param>
-				</theme>
-				<theme name="scrollControls" ref="scrollControls">
-					<param name="border"><border>10,0,10,0</border></param>
-					<param name="defaultGap"><dimension>5,5</dimension></param>
-					<param name="smallGap"><dimension>8,8</dimension></param>
-					<param name="mediumGap"><dimension>10,10</dimension></param>
-					<param name="largeGap"><dimension>15,15</dimension></param>
-					<param name="namedGaps"><map>
-						<param name="scrollButtons"><gap>2</gap></param>
-					</map></param>
-					<theme name="scrollLeft" ref="button">
-						<param name="text"><string>&#xe2191;</string></param>
-					</theme>
-					<theme name="scrollRight" ref="button">
-						<param name="text"><string>&#xe2193;</string></param>
-					</theme>
-				</theme>
-				<theme name="container" ref="container">
+				<param name="border"><border>0</border></param>
+				<param name="defaultGap"><dimension>5,5</dimension></param>
+				<param name="smallGap"><dimension>8,8</dimension></param>
+				<param name="mediumGap"><dimension>10,10</dimension></param>
+				<param name="largeGap"><dimension>15,15</dimension></param>
+				<param name="namedGaps"><map/></param>
+				<theme name="tabbedpane" ref="base-tabbed-pane">
+					<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
+					<param name="minWidth"><int>230</int></param>
 					<param name="background"><image>none</image></param>
-					<param name="border"><border>0,0,5,15</border></param>
-					<theme name="dialoglayout" ref="dialoglayout">
-						<param name="background"><image>none</image></param>
+					<theme name="tabbox" ref="tabbox">
+						<param name="border"><border>0,18,0,0</border></param>
+						<theme name="tabbutton" ref="togglebutton">
+							<param name="border"><border>5,0,5,10</border></param>
+							<param name=""><image>ui-tab-vertical.*</image></param>
+							<param name="font"><font>pb-tab</font></param>
+							<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+						</theme>
+						<param name="spacing"><int>5</int></param>
+						<param name="alignment"><enum type="alignment">FILL</enum></param>
+					</theme>
+					<theme name="scrollControls" ref="scrollControls">
+						<param name="border"><border>10,0,10,0</border></param>
 						<param name="defaultGap"><dimension>5,5</dimension></param>
 						<param name="smallGap"><dimension>8,8</dimension></param>
 						<param name="mediumGap"><dimension>10,10</dimension></param>
 						<param name="largeGap"><dimension>15,15</dimension></param>
-						<param name="namedGaps"><map/></param>
+						<param name="namedGaps"><map>
+							<param name="scrollButtons"><gap>2</gap></param>
+						</map></param>
+						<theme name="scrollLeft" ref="button">
+							<param name="text"><string>&#xe2191;</string></param>
+						</theme>
+						<theme name="scrollRight" ref="button">
+							<param name="text"><string>&#xe2193;</string></param>
+						</theme>
 					</theme>
+					<theme name="container" ref="container">
+						<param name="background"><image>none</image></param>
+						<param name="border"><border>0,0,5,15</border></param>
+						<theme name="dialoglayout" ref="dialoglayout">
+							<param name="background"><image>none</image></param>
+							<param name="defaultGap"><dimension>5,5</dimension></param>
+							<param name="smallGap"><dimension>8,8</dimension></param>
+							<param name="mediumGap"><dimension>10,10</dimension></param>
+							<param name="largeGap"><dimension>15,15</dimension></param>
+							<param name="namedGaps"><map/></param>
+						</theme>
+					</theme>
+					<param name="inputMap"><inputMapDef>
+						<action name="nextTab">CTRL TAB</action>
+						<action name="prevTab">CTRL SHIFT TAB</action>
+					</inputMapDef></param>
 				</theme>
-				<param name="inputMap"><inputMapDef>
-					<action name="nextTab">CTRL TAB</action>
-					<action name="prevTab">CTRL SHIFT TAB</action>
-				</inputMapDef></param>
 			</theme>
 		</theme>
 	</theme>
@@ -294,6 +280,9 @@
 		<param name="border"><border>0,7,0,0</border></param>
 		<param name="minWidth"><int>170</int></param>
 	</theme>
+	<theme name="label-chat-settings-color" ref="label-chat-settings-title" allowWildcard="true">
+		<param name="minHeight"><int>26</int></param>
+	</theme>
 
 	<theme name="label-chat-settings-special" ref="label" allowWildcard="true">
 		<param name="background"><image>ui-header.background</image></param>
@@ -307,6 +296,57 @@
 		<param name="border"><border>1,5,0,9</border></param>
 		<param name="minWidth"><int>52</int></param>
 		<param name="font"><font>pb-dark</font></param>
+	</theme>
+
+	<theme name="chat-settings-row" ref="-defaults">
+		<param name="background"><image>none</image></param>
+		<param name="minHeight"><int>26</int></param>
+		<param name="defaultGap"><dimension>10,0</dimension></param>
+		<param name="smallGap"><dimension>8,8</dimension></param>
+		<param name="mediumGap"><dimension>10,10</dimension></param>
+		<param name="largeGap"><dimension>15,15</dimension></param>
+		<param name="namedGaps"><map/></param>
+		<theme name="togglebutton" ref="togglebutton">
+			<param name="minWidth"><int>30</int></param>
+			<param name="minHeight"><int>30</int></param>
+		</theme>
+	</theme>
+
+	<theme name="chat-settings-color-swatch" ref="-defaults">
+		<param name="background"><image>white.background</image></param>
+		<param name="border"><border>2</border></param>
+		<param name="minWidth"><int>90</int></param>
+		<param name="minHeight"><int>22</int></param>
+	</theme>
+
+	<theme name="chat-settings-color-popup" ref="-defaults">
+		<param name="background"><image>hud.style.popover</image></param>
+		<param name="border"><border>8</border></param>
+		<theme name="dialoglayout" ref="-defaults">
+			<param name="background"><image>none</image></param>
+			<param name="defaultGap"><dimension>3,3</dimension></param>
+		</theme>
+	</theme>
+
+	<theme name="chat-settings-popup-button" ref="button" allowWildcard="true">
+		<param name="background"><image>hud.style.button</image></param>
+		<param name="border"><border>8,5</border></param>
+		<param name="font"><font>pb-dark</font></param>
+		<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+	</theme>
+
+	<theme name="chat-settings-popup-button-primary" ref="chat-settings-popup-button">
+		<param name="background"><image>hud.style.button.primary</image></param>
+	</theme>
+
+	<theme name="label-chat-settings-preview" ref="label" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+		<param name="minWidth"><int>210</int></param>
+	</theme>
+
+	<theme name="chat-settings-effects-panel" ref="-defaults">
+		<param name="defaultGap"><dimension>4,4</dimension></param>
 	</theme>
 
 	<!-- Private Message Frame -->

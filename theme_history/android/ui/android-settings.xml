@@ -53,6 +53,10 @@
 		<param name="minWidth"><int>80</int></param>
 		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
 	</theme>
+	<theme name="label-settings-header" ref="label-settings-title" overwrite="true" allowWildcard="true">
+		<param name="background"><image>none</image></param>
+		<param name="border"><border>0,0,0,8</border></param>
+	</theme>
 
 	<theme name="label-settings-value" allowWildcard="true">
 		<param name="background"><image>none</image></param>
@@ -154,10 +158,10 @@
 	<theme name="rom-panel" ref="mobile-panel" overwrite="true">
 		<param name="border"><border>0</border></param>
 		<theme name="dialoglayout" ref="dialoglayout">
-			 <param name="border"><border>60,15,80,15</border></param>
+			 <param name="border"><border>60,15,60,15</border></param>
 			 <theme name="dialoglayout" ref="-defaults">
-				 <param name="background"><image>mobile.frame.background</image></param>
-				 <param name="border"><border>80,15,60,15</border></param>
+				 <param name="background"><image>mobile.frame.background.thinbar</image></param>
+				 <param name="border"><border>80,15,10,15</border></param>
 				 <param name="minWidth"><int>200</int></param>
 				 <param name="defaultGap"><dimension>5,5</dimension></param>
 				 <param name="smallGap"><dimension>8,8</dimension></param>
@@ -218,6 +222,17 @@
 					<param name="minWidth"><int>300</int></param>
 				</theme>
 			 </theme>
+		</theme>
+	</theme>
+
+	<theme name="settings-colorselector">
+		<theme name="colorarea2d" ref="colorarea2d">
+			<param name="minWidth"><int>300</int></param>
+			<param name="minHeight"><int>200</int></param>
+		</theme>
+		<theme name="colorarea1d" ref="colorarea1d">
+			<param name="minWidth"><int>40</int></param>
+			<param name="minHeight"><int>200</int></param>
 		</theme>
 	</theme>
 </themes>

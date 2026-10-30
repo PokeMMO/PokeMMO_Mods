@@ -28,6 +28,9 @@
     <theme name="editfield" ref="editfield">
       <param name="maxWidth"><int>184</int></param>
     </theme>
+    <theme name="togglebutton" ref="togglebutton">
+      <param name="minWidth"><int>184</int></param>
+    </theme>
   </theme>
   
   <theme name="advanced-search-dex" ref="advanced-search-dialog">

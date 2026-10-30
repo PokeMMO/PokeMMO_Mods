@@ -18,7 +18,12 @@
 	<theme name="mail-window" ref="base-tabbed-frame">
 		<param name="fadeDurationShow"><int>200</int></param>
 		<param name="fadeDurationHide"><int>200</int></param>
+		<theme name="label-mailbox-over" ref="label">
+			<param name="font"><font>main-red</font></param>
+			<param name="background"><image>none</image></param>
+		</theme>
 		<theme name="dialoglayout" ref="dialoglayout">
+		  <param name="border"><border>0,10,0,0</border></param>
 			<theme name="tabbedpane" ref="base-tabbed-pane">
 				<theme name="tabbox" ref="tabbox">
 					<theme name="tabbutton" ref="tabbutton">
@@ -28,9 +33,9 @@
 				<theme name="container" ref="container">
 					<param name="background"><image>none</image></param>
 					 <theme name="dialoglayout" ref="dialoglayout">
-						<param name="border"><border>10,10,7,10</border></param>
+						<param name="border"><border>0,10,7,10</border></param>
 						<param name="namedGaps"><map/></param>
-						<param name="background"><image>ui-inner-frame-tab3.background</image></param>
+						<param name="background"><image>ui-inner-frame-mail.background</image></param>
 		
 						<!-- roster -->
 						<theme name="label" ref="label" allowWildcard="true">
@@ -40,6 +45,20 @@
 
 						<theme name="pager" ref="pager">
 							<param name="border"><border>0,0,10,0</border></param>
+						</theme>
+
+						<theme name="button-small2" ref="button" allowWildcard="true">
+							<param name="minWidth"><int>100</int></param>
+						</theme>
+						<theme name="mail-footer-warning" ref="label">
+							<param name="font"><font>main-yellow</font></param>
+							<param name="background"><image>none</image></param>
+							<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+						</theme>
+						<theme name="label-value" ref="label" allowWildcard="true">
+							<param name="background"><image>none</image></param>
+							<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+							<param name="border"><border>6</border></param>
 						</theme>
 					</theme>
 				</theme>
@@ -56,7 +75,7 @@
 		<param name="overlay"><image>none</image></param>
 		<theme name="hscrollbar" ref="hscrollbar"/>  <!-- not used -->
 		<theme name="vscrollbar" ref="vscrollbar-white"/>
-		<param name="minWidth"><int>445</int></param>
+		<param name="minWidth"><int>300</int></param>
 		<param name="minHeight"><int>400</int></param>
 		<param name="maxWidth"><int>32767</int></param>
 		<param name="maxHeight"><int>32767</int></param>
@@ -70,8 +89,9 @@
       <param name="mediumGap"><dimension>10,10</dimension></param>
       <param name="largeGap"><dimension>15,15</dimension></param>
       <param name="namedGaps"><map/></param>
-      <param name="headerRowBackground"><image>ui-header.background</image></param>
+      <param name="unreadRowBackground"><image>ui-header.background</image></param>
       <param name="contentRowBackground"><image>ui-inputbox.background</image></param>
+      <param name="openRowOverlay"><image>ui-inputbox-2px.selected.blue</image></param>
       <theme name="button" ref="button" allowWildcard="true">
         <param name="border"><border>6</border></param>
       </theme>
@@ -79,9 +99,58 @@
         <param name="background"><image>none</image></param>
         <param name="border"><border>6</border></param>
       </theme>
+      <theme name="mail-header-label" ref="label" allowWildcard="true">
+        <param name="background"><image>none</image></param>
+        <param name="border"><border>0,2,0,2</border></param>
+      </theme>
+      <theme name="mail-checkbox" ref="togglebutton"/>
+      <theme name="mail-row-sender" ref="button-row" allowWildcard="true">
+        <param name="font"><font>title-font</font></param>
+        <param name="border"><border>1,2,0,2</border></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <theme name="mail-row-subject" ref="button-row" allowWildcard="true">
+        <param name="font"><font>main-lightgray</font></param>
+        <param name="border"><border>0,2,2,2</border></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
+      <theme name="mail-row-date" ref="button-row" allowWildcard="true">
+        <param name="font"><font>main-lightgray</font></param>
+        <param name="border"><border>6</border></param>
+        <param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+      </theme>
+      <theme name="mail-row-icon" ref="spritelabel">
+        <param name="background"><image>none</image></param>
+      </theme>
+      <theme name="mail-attachment-tile" ref="spritelabel">
+        <param name="background"><image>label1.background</image></param>
+        <param name="border"><border>2</border></param>
+      </theme>
+      <theme name="mail-attachment-gender" ref="spritelabel">
+        <param name="background"><image>none</image></param>
+      </theme>
+      <theme name="mail-attachment-badge" ref="label">
+        <param name="font"><font>main-small</font></param>
+        <param name="background"><image>ui-header.background</image></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <theme name="mail-attachment-more" ref="label">
+        <param name="font"><font>main-small</font></param>
+        <param name="background"><image>ui-header.background</image></param>
+        <param name="border"><border>2</border></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      </theme>
+      <theme name="label-mailbox-over" ref="label">
+        <param name="font"><font>main-red</font></param>
+        <param name="background"><image>none</image></param>
+        <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
+      </theme>
       <theme name="button-small2" ref="button" allowWildcard="true">
 				<param name="minWidth"><int>100</int></param>
 			</theme>
+      <theme name="button-icon" ref="button">
+        <param name="minWidth"><int>30</int></param>
+      </theme>
       <theme name="label-value" ref="label" allowWildcard="true">
         <param name="background"><image>none</image></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
@@ -117,6 +186,10 @@
 	</theme>
 
 	<theme name="read-mail" ref="mail-inner">
+	  <param name="border"><border>0,0,0,0</border></param>
+    <theme name="mail-delete-button" ref="button">
+      <param name="font"><font>pb-dark-red</font></param>
+    </theme>
     <theme name="item-slot" ref="-defaults">
       <param name="background"><image>ui-button.background</image></param>
       <param name="textAlignment"><enum type="alignment">bottom</enum></param>
@@ -155,5 +228,10 @@
       <param name="border"><border>6</border></param>
     </theme>
   </theme>
-	<theme name="write-mail" ref="mail-inner"/>
+	<theme name="write-mail" ref="mail-inner">
+    <theme name="dialoglayout" ref="dialoglayout">
+      <param name="unreadRowBackground"><image>none</image></param>
+      <param name="contentRowBackground"><image>none</image></param>      
+    </theme>
+	</theme>
 </themes>

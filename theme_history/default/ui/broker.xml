@@ -26,21 +26,25 @@
       <param name="background"><image>ui-header.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       <param name="border"><border>6</border></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="header-column-sort-default" ref="header-column">
       <param name="overlay"><image>ui-sort-default.background</image></param>
       <param name="background"><image>ui-header.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="header-column-sort-desc" ref="header-column">
       <param name="overlay"><image>ui-sort-desc.background</image></param>
       <param name="background"><image>ui-header.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="header-column-sort-asc" ref="header-column">
       <param name="overlay"><image>ui-sort-asc.background</image></param>
       <param name="background"><image>ui-header.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
 
     <!-- Market Info Boxes -->
@@ -198,6 +202,14 @@
           <theme name="label" ref="label" allowWildcard="true">
             <param name="border"><border>10,10,0,0</border></param>
             <param name="background"><image>none</image></param>
+          </theme>
+          <theme name="combobox" ref="combobox">
+            <theme name="display" ref="display">
+              <param name="autoFitMinScale"><float>0.7</float></param>
+            </theme>
+          </theme>
+          <theme name="button" ref="button">
+            <param name="autoFitMinScale"><float>0.7</float></param>
           </theme>
           <theme name="dialoglayout" ref="dialoglayout">
             <theme name="label-info" ref="label">

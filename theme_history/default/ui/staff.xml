@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+	<images>
+		<select name="hud.staff.search.desktop">
+			<alias ref="hud.icon.search.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.search.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.search.16" center="true"/>
+		</select>
+		<select name="hud.staff.tools.desktop">
+			<alias ref="hud.icon.tools.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.tools.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.tools.16" center="true"/>
+		</select>
+		<select name="hud.staff.player-search.desktop">
+			<alias ref="hud.icon.player-search.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.player-search.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.player-search.16" center="true"/>
+		</select>
+		<select name="hud.staff.map.desktop">
+			<alias ref="hud.icon.map.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.map.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.map.16" center="true"/>
+		</select>
+		<select name="hud.staff.sound.desktop">
+			<alias ref="hud.icon.sound.16" tint="#a3e1ff" if="(hover | keyboardFocus) + selected" center="true"/>
+			<alias ref="hud.icon.sound-off.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.sound.16" if="selected" center="true"/>
+			<alias ref="hud.icon.sound-off.16" center="true"/>
+		</select>
+		<select name="hud.staff.network.desktop">
+			<alias ref="hud.icon.network.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.network.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.network.16" center="true"/>
+		</select>
+		<select name="hud.staff.recycle.desktop">
+			<alias ref="hud.icon.recycle.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.recycle.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.recycle.16" center="true"/>
+		</select>
+		<alias name="hud.staff.pin.desktop" ref="hud.icon.pin.16" center="true"/>
+		<alias name="hud.staff.memory.desktop" ref="hud.icon.memory.16" center="true"/>
+		<alias name="hud.staff.stopwatch.desktop" ref="hud.icon.stopwatch.16" center="true"/>
+	</images>
+
 	<theme name="admin-gui" ref="-defaults">
 		<param name="border"><border>15</border></param>
 		<param name="defaultGap"><dimension>0,0</dimension></param>
@@ -105,43 +147,55 @@
 
 		<theme name="button-search" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon1.*</image></param>
+			<param name="background"><image>hud.staff.search.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-tools" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon2.*</image></param>
+			<param name="background"><image>hud.staff.tools.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-player" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon3.*</image></param>
+			<param name="background"><image>hud.staff.player-search.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
 		<theme name="button-move" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon4.*</image></param>
+			<param name="background"><image>hud.staff.map.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 
 		<theme name="button-sound" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon8.*</image></param>
+			<param name="background"><image>hud.staff.sound.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 
 		<theme name="button-ping" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon7.*</image></param>
+			<param name="background"><image>hud.staff.network.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		
@@ -161,8 +215,10 @@
 		
 		<theme name="button-gc" ref="-defaults" allowWildcard="true">
 			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
-			<param name=""><image>gmicon6.*</image></param>
+			<param name="background"><image>hud.staff.recycle.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		

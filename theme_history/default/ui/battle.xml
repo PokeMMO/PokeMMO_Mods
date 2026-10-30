@@ -11,6 +11,17 @@
 			<param name="font"><font>mechabold</font></param>
 			<param name="border"><border>0,0,7,0</border></param>
 		</theme>
+		<theme name="movie-credits" ref="-defaults" allowWildcard="true">
+			<param name="font"><font>battle</font></param>
+		</theme>
+		<theme name="movie-title" ref="-defaults" allowWildcard="true">
+			<param name="font"><font>braille</font></param>
+			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+		</theme>
+		<theme name="movie-narration" ref="-defaults" allowWildcard="true">
+			<param name="font"><font>mechabold-very-large</font></param>
+			<param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+		</theme>
 		<param name="border"><border>65,64,64,65</border></param>
   </theme>
   

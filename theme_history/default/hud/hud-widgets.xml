@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme name="hud-root" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <param name="micro8"><font>hud.font.micro8</font></param>
+    <param name="micro9"><font>hud.font.micro9</font></param>
+    <param name="caps9"><font>hud.font.caps9</font></param>
+    <param name="caps10"><font>hud.font.caps10</font></param>
+    <param name="badge10"><font>hud.font.badge10</font></param>
+    <param name="small10"><font>hud.font.small10</font></param>
+    <param name="small11"><font>hud.font.small11</font></param>
+    <param name="small11s"><font>hud.font.small11s</font></param>
+    <param name="body12"><font>hud.font.body12</font></param>
+    <param name="body12s"><font>hud.font.body12s</font></param>
+    <param name="title13s"><font>hud.font.title13s</font></param>
+    <param name="body13"><font>hud.font.body13</font></param>
+    <param name="title14s"><font>hud.font.title14s</font></param>
+    <param name="mobile15s"><font>hud.font.mobile15s</font></param>
+    <param name="mobile15"><font>hud.font.mobile15</font></param>
+    <param name="display16s"><font>hud.font.display16s</font></param>
+    <param name="display17s"><font>hud.font.display17s</font></param>
+    <param name="count22s"><font>hud.font.count22s</font></param>
+  </theme>
+
+  <theme name="hud-group" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <theme name="row" ref="-defaults"/>
+  </theme>
+
+  <theme name="hud-group-compact" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <theme name="head" ref="-defaults"/>
+  </theme>
+
+  <theme name="hud-group-menu" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+
+  <theme name="hud-info" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+
+  <theme name="hud-hotbar" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <theme name="arrow" ref="-defaults"/>
+    <theme name="slot" ref="-defaults"/>
+  </theme>
+
+  <theme name="hud-esc" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <theme name="panel" ref="-defaults">
+      <param name="width"><int>920</int></param>
+      <param name="padX"><int>21</int></param>
+      <param name="padY"><int>19</int></param>
+      <param name="blockGap"><int>14</int></param>
+      <param name="columnGap"><int>16</int></param>
+      <param name="headerGap"><int>16</int></param>
+      <param name="headerButtonGap"><int>6</int></param>
+      <theme name="header" ref="-defaults">
+        <param name="height"><int>42</int></param>
+        <param name="tagGap"><int>8</int></param>
+        <param name="line2Top"><int>26</int></param>
+        <param name="line2Gap"><int>6</int></param>
+        <param name="timeIconSize"><int>12</int></param>
+        <param name="timeIconDrop"><int>1</int></param>
+        <param name="moneyTopInset"><int>2</int></param>
+        <param name="moneyCaptionGap"><int>2</int></param>
+        <param name="moneyValueLine"><int>19</int></param>
+        <param name="coinSize"><int>14</int></param>
+        <param name="coinDrop"><int>2</int></param>
+        <param name="coinGap"><int>6</int></param>
+        <param name="buttonSize"><int>36</int></param>
+        <param name="buttonIconSize"><int>18</int></param>
+        <param name="returnPadLeft"><int>12</int></param>
+        <param name="returnPadRight"><int>10</int></param>
+        <param name="labelKeycapGap"><int>8</int></param>
+        <param name="keycapPad"><int>4</int></param>
+        <param name="keycapLabelLine"><int>14</int></param>
+        <theme name="place" ref="-defaults"/>
+        <theme name="money" ref="-defaults"/>
+        <theme name="returnbutton" ref="-defaults"/>
+      </theme>
+      <theme name="rule" ref="-defaults">
+        <param name="height"><int>1</int></param>
+      </theme>
+      <theme name="grid" ref="-defaults">
+        <param name="rowGap"><int>4</int></param>
+        <param name="captionPadBottom"><int>4</int></param>
+        <param name="captionInset"><int>2</int></param>
+        <theme name="column" ref="-defaults">
+          <theme name="row" ref="-defaults"/>
+        </theme>
+      </theme>
+      <theme name="row" ref="-defaults">
+        <param name="padX"><int>10</int></param>
+        <param name="gap"><int>9</int></param>
+        <param name="iconSize"><int>18</int></param>
+        <param name="trailingHeight"><int>15</int></param>
+        <param name="trailingPadX"><int>5</int></param>
+        <param name="trailingMinWidth"><int>15</int></param>
+        <param name="eventHeight"><int>14</int></param>
+        <param name="eventPadX"><int>4</int></param>
+        <param name="chevronSize"><int>10</int></param>
+        <param name="externalSize"><int>12</int></param>
+      </theme>
+      <theme name="goal" ref="-defaults">
+        <param name="pad"><border>10,12,11,14</border></param>
+        <param name="iconGap"><int>10</int></param>
+        <param name="maxLines"><int>2</int></param>
+        <param name="maxChars"><int>96</int></param>
+        <param name="flagSize"><int>16</int></param>
+        <param name="captionGap"><int>2</int></param>
+        <param name="textLine"><int>18</int></param>
+      </theme>
+    </theme>
+    <theme name="follower" ref="-defaults">
+      <param name="width"><int>208</int></param>
+      <param name="offsetX"><int>6</int></param>
+      <param name="offsetY"><int>-38</int></param>
+      <param name="rowHeight"><int>32</int></param>
+      <param name="unsummonHeight"><int>30</int></param>
+      <param name="pad"><int>5</int></param>
+      <param name="rowGap"><int>1</int></param>
+      <param name="captionHeight"><int>21</int></param>
+      <param name="captionPadTop"><int>5</int></param>
+      <param name="captionInset"><int>8</int></param>
+      <param name="rowPadLeft"><int>5</int></param>
+      <param name="rowPadRight"><int>8</int></param>
+      <param name="rowIconSize"><int>22</int></param>
+      <param name="rowIconGap"><int>8</int></param>
+      <param name="tickSlot"><int>14</int></param>
+      <param name="checkSize"><int>12</int></param>
+      <param name="dividerHeight"><int>1</int></param>
+      <param name="dividerInset"><int>6</int></param>
+      <param name="dividerMargin"><int>3</int></param>
+      <param name="unsummonPadX"><int>8</int></param>
+      <param name="unsummonGap"><int>9</int></param>
+      <param name="unsummonIconSize"><int>16</int></param>
+    </theme>
+  </theme>
+
+  <theme name="hud-confirm" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <param name="width"><int>340</int></param>
+    <param name="pad"><int>17</int></param>
+    <param name="gap"><int>16</int></param>
+    <param name="lift"><int>12</int></param>
+    <param name="tile"><int>34</int></param>
+    <param name="iconSize"><int>18</int></param>
+    <param name="tileGap"><int>12</int></param>
+    <param name="buttonHeight"><int>34</int></param>
+    <param name="buttonPadX"><int>12</int></param>
+    <param name="buttonGap"><int>8</int></param>
+    <param name="keycapPad"><int>4</int></param>
+    <param name="keycapLabelLine"><int>14</int></param>
+    <param name="labelKeycapGap"><int>8</int></param>
+    <theme name="dialog" ref="-defaults">
+      <theme name="button" ref="-defaults"/>
+    </theme>
+  </theme>
+
+  <theme name="hud-confirm-mobile" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <param name="width"><int>400</int></param>
+    <param name="pad"><int>19</int></param>
+    <param name="gap"><int>18</int></param>
+    <param name="lift"><int>0</int></param>
+    <param name="tile"><int>40</int></param>
+    <param name="iconSize"><int>20</int></param>
+    <param name="tileGap"><int>12</int></param>
+    <param name="buttonHeight"><int>48</int></param>
+    <param name="buttonPadX"><int>12</int></param>
+    <param name="buttonGap"><int>8</int></param>
+    <param name="keycapPad"><int>4</int></param>
+    <param name="keycapLabelLine"><int>14</int></param>
+    <param name="labelKeycapGap"><int>8</int></param>
+  </theme>
+
+  <theme name="hud-encounters" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <param name="panelFill"><image>none</image></param>
+    <param name="panelEdge"><image>none</image></param>
+    <param name="panelFillTint"><color>#FF121521</color></param>
+    <param name="panelEdgeTint"><color>#17FFFFFF</color></param>
+  </theme>
+
+  <theme name="hud-encounters-menu" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <param name="panelFill"><image>none</image></param>
+    <param name="panelEdge"><image>none</image></param>
+    <param name="panelFillTint"><color>#FF181C2A</color></param>
+    <param name="panelEdgeTint"><color>#1FFFFFFF</color></param>
+  </theme>
+
+  <theme name="hud-party" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-popover" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-status" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-actions" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-actions-list" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-row" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-button" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-pair" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-reorder" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-follower" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-field" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-confirm" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-divider" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-party-caption" ref="-defaults" allowWildcard="true"/>
+
+  <theme name="hud-buffs" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+
+  <theme name="hud-chat-vscrollbar" ref="-defaults" allowWildcard="true">
+    <theme name="upbutton" ref="-defaults">
+      <param name="background"><image>none</image></param>
+    </theme>
+    <theme name="downbutton" ref="-defaults">
+      <param name="background"><image>none</image></param>
+    </theme>
+    <theme name="thumb" ref="-defaults">
+      <param name="background"><image>hud.style.bar.trail</image></param>
+    </theme>
+    <param name="trackImageUp"><image>hud.style.bar.track</image></param>
+    <param name="trackImageDown"><image>hud.style.bar.track</image></param>
+    <param name="scaleThumb"><bool>true</bool></param>
+    <param name="minWidth"><int>5</int></param>
+    <param name="minHeight"><int>24</int></param>
+  </theme>
+  <theme name="hud-dock" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-dock-layer" ref="-defaults" allowWildcard="true">
+    <theme name="hud-dock-label" ref="-defaults"/>
+    <theme name="hud-dock-egg" ref="-defaults">
+      <param name="background"><image>none</image></param>
+      <theme name="hud-dock-egg-cell" ref="-defaults"/>
+    </theme>
+    <theme name="hud-dock-menu" ref="-defaults">
+      <param name="background"><image>none</image></param>
+      <theme name="hud-dock-menu-header" ref="-defaults"/>
+      <theme name="hud-dock-menu-row" ref="-defaults"/>
+      <theme name="hud-dock-menu-divider" ref="-defaults"/>
+    </theme>
+  </theme>
+
+  <theme name="hud-player-menu" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <theme name="menu" ref="-defaults">
+      <param name="background"><image>none</image></param>
+      <theme name="row" ref="-defaults"/>
+      <theme name="header" ref="-defaults"/>
+      <theme name="divider" ref="-defaults"/>
+    </theme>
+    <theme name="submenu" ref="-defaults">
+      <param name="background"><image>none</image></param>
+      <theme name="row" ref="-defaults"/>
+      <theme name="header" ref="-defaults"/>
+      <theme name="divider" ref="-defaults"/>
+    </theme>
+  </theme>
+
+  <theme name="hud-topbar" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+    <theme name="bar" ref="-defaults"/>
+    <theme name="incubators" ref="-defaults"/>
+    <theme name="card" ref="-defaults"/>
+    <theme name="quickmenu" ref="-defaults">
+      <theme name="page" ref="-defaults"/>
+    </theme>
+    <theme name="staff" ref="-defaults"/>
+    <theme name="bubble" ref="-defaults"/>
+  </theme>
+  <theme name="hud-mmenu" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mpage" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-mrow" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mplayers" ref="-defaults" allowWildcard="true"/>
+  <theme name="hud-mparty-status" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mtoast" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mparty" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mparty-sheet" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mparty-actions" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mparty-group" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mparty-btn" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mparty-confirm" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="hud-mhotbar" ref="-defaults" allowWildcard="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+</themes>

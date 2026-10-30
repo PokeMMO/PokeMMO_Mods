@@ -129,6 +129,7 @@
       <param name="minHeight"><int>36</int></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       <param name="border"><border>6</border></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="header-column-sort-default" ref="header-column">
       <param name="font"><font>med-noshadow-16-white</font></param>
@@ -136,6 +137,7 @@
       <param name="background"><image>mobile.box.dark3.50</image></param>
       <param name="minWidth"><int>100</int></param>
       <param name="minHeight"><int>36</int></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="header-column-sort-desc" ref="header-column">
       <param name="font"><font>med-noshadow-16-white</font></param>
@@ -143,6 +145,7 @@
       <param name="background"><image>mobile.box.dark3.50</image></param>
       <param name="minWidth"><int>100</int></param>
       <param name="minHeight"><int>36</int></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="header-column-sort-asc" ref="header-column">
       <param name="font"><font>med-noshadow-16-white</font></param>
@@ -150,6 +153,7 @@
       <param name="background"><image>mobile.box.dark3.50</image></param>
       <param name="minWidth"><int>100</int></param>
       <param name="minHeight"><int>36</int></param>
+      <param name="autoFitMinScale"><float>0.7</float></param>
     </theme>
     <theme name="cell-button" ref="cell-button">
       <param name="background"><image>mobile.box.light1.50</image></param>
@@ -230,11 +234,15 @@
       
     <theme name="tabbedpane" ref="base-tabbed-pane">
       <param name="tabPosition"><enum type="tabposition">ABSOLUTE</enum></param>
+      <param name="tabBoxWidth"><int>168</int></param>
+      <param name="tabBoxInsetTop"><int>72</int></param>
       <param name="border"><border>0,0,0,0</border></param>
       <param name="background"><image>none</image></param>
       <theme name="tabbox" ref="mobile-tabbox" overwrite="true">
         <theme name="tabbutton" ref="tabbutton">
-          <param name="minWidth"><int>100</int></param>
+          <param name="font"><font>med-noshadow-14-white</font></param>
+          <param name="minHeight"><int>44</int></param>
+          <param name="autoFitMinScale"><float>0.7</float></param>
         </theme>
       </theme>
       <theme name="container" ref="container">
@@ -267,11 +275,15 @@
           <param name="font"><font>med-noshadow-22-white</font></param>
           <param name="minWidth"><int>60</int></param>
           <param name="minHeight"><int>60</int></param>
+          <param name="autoFitMinScale"><float>0.7</float></param>
         </theme>
 
         <theme name="combobox" ref="combobox">
           <param name="background"><image>mobile.box.dark3.50</image></param>
           <param name="minWidth"><int>200</int></param>
+          <theme name="display" ref="display">
+            <param name="autoFitMinScale"><float>0.7</float></param>
+          </theme>
         </theme>
 
         <theme name="button-symbol" ref="button-symbol">

@@ -52,6 +52,7 @@
         <param name="maxWidth"><int>300</int></param>
       </theme>
       <theme name="togglebutton" ref="togglebutton">
+        <param name="minWidth"><int>300</int></param>
         <param name="minHeight"><int>50</int></param>
       </theme>
     </theme>
