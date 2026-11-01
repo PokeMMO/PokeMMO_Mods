@@ -48,6 +48,9 @@
   <fontDef name="hud-17-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="17" size_cjk="19" hinting="Full" hinting_cjk="Slight" renderer="text">
     <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
   </fontDef>
+  <fontDef name="hud-18-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="18" size_cjk="20" hinting="Full" hinting_cjk="Slight" renderer="text">
+    <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
   <fontDef name="hud-20-bold" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" size="20" size_cjk="22" hinting="Full" hinting_cjk="Slight" renderer="text">
     <fallbackFontDef filename="../default/res/fonts/NotoSans-Bold.ttf"/>
   </fontDef>
@@ -76,7 +79,9 @@
   <fontDef name="hud.font.title16s" ref="hud-16-bold" color="#FFFFFF"/>
   <fontDef name="hud.font.display16s" ref="hud-16-bold" color="#FFFFFF"/>
   <fontDef name="hud.font.display17s" ref="hud-17-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.title18s" ref="hud-18-bold" color="#FFFFFF"/>
   <fontDef name="hud.font.display20s" ref="hud-20-bold" color="#FFFFFF"/>
+  <fontDef name="hud.font.title20s" ref="hud-20-bold" color="#FFFFFF"/>
   <fontDef name="hud.font.count22s" ref="hud-22-bold" color="#FFFFFF"/>
   <fontDef name="hud.font.body12-tab" ref="hud.font.body12" color="#FFA3ABBD">
     <fontParam if="selected" color="#FFF3F1EA"/>
