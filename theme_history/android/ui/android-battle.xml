@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+  <images>
+    <alias name="mobile.stat-boost.background" ref="hud.shape.r9.fill" tint="#FF4E925E"/>
+    <alias name="mobile.stat-drop.background" ref="hud.shape.r9.fill" tint="#FFB35C52"/>
+  </images>
 	<theme name="battlegui" ref="-defaults">
 		<param name="defaultGap"><dimension>2,2</dimension></param>
 		<theme name="battle-text" ref="label" allowWildcard="true">
@@ -582,18 +586,24 @@
   </theme>
 
   <theme name="stat-boost" ref="-defaults">
-    <param name="background"><image>battle-ui-green-label</image></param>
-    <param name="font"><font>med-noshadow-16-gray</font></param>
-    <param name="border"><border>8</border></param>
+    <param name="background"><image>mobile.stat-boost.background</image></param>
+    <param name="font"><font>hud.font.stat14s</font></param>
+    <param name="border"><border>6,3</border></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    <param name="minWidth"><int>40</int></param>
+    <param name="minHeight"><int>24</int></param>
     <param name="fadeInTime"><int>500</int></param>
     <param name="fadeDurationShow"><int>200</int></param>
     <param name="fadeDurationHide"><int>200</int></param>
   </theme>
 
   <theme name="stat-drop" ref="-defaults">
-    <param name="font"><font>med-noshadow-16-gray</font></param>
-    <param name="background"><image>battle-ui-orangered-label</image></param>
-    <param name="border"><border>8</border></param>
+    <param name="background"><image>mobile.stat-drop.background</image></param>
+    <param name="font"><font>hud.font.stat14s</font></param>
+    <param name="border"><border>6,3</border></param>
+    <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+    <param name="minWidth"><int>40</int></param>
+    <param name="minHeight"><int>24</int></param>
     <param name="fadeInTime"><int>500</int></param>
     <param name="fadeDurationShow"><int>200</int></param>
     <param name="fadeDurationHide"><int>200</int></param>

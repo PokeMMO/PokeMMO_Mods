@@ -1439,18 +1439,6 @@
 		</theme>
 	</theme>
 
-	<theme name="effects-slot" ref="-defaults" overwrite="true">
-		<param name="background"><image>label1.background</image></param>
-		<param name="font"><font>med-shadow-16-white</font></param>
-		<param name="defaultGap"><dimension>24,24</dimension></param>
-		<param name="border"><border>5</border></param>
-		<param name="namedGaps"><map/></param>
-		<param name="textAlignment"><enum type="alignment">BOTTOM</enum></param>
-		<param name="textAlignment2"><enum type="alignment">BOTTOM</enum></param>
-		<param name="minWidth"><int>60</int></param>
-		<param name="minHeight"><int>80</int></param>
-	</theme>
-
 	<theme name="server-status-success" ref="label">
 		<param name="font"><font>med-shadow-22-white</font></param>
 	</theme>

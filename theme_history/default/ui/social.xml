@@ -227,6 +227,12 @@
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       <param name="border"><border>6</border></param>
     </theme>
+    <theme name="mm-reward-slot" ref="-defaults">
+      <param name="background"><image>ui-button.background</image></param>
+      <theme name="label-value-medium" ref="label">
+        <param name="border"><border>6</border></param>
+      </theme>
+    </theme>
   </theme>
 	<theme name="write-mail" ref="mail-inner">
     <theme name="dialoglayout" ref="dialoglayout">

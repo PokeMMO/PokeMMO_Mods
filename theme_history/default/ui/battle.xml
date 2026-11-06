@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+  <images>
+    <alias name="battle.stat-boost.fill" ref="hud.shape.r5.fill" tint="#FF4E925E"/>
+    <alias name="battle.stat-drop.fill" ref="hud.shape.r5.fill" tint="#FFB35C52"/>
+  </images>
 	<!-- battle gui -->
 	<theme name="battlegui" ref="-defaults">
 		<param name="defaultGap"><dimension>2,2</dimension></param>
@@ -96,8 +100,8 @@
   </theme>
 
   <theme name="stat-boost" ref="-defaults">
-    <param name="background"><image>battle-ui-green-label</image></param>
-    <param name="font"><font>tooltip-font</font></param>
+    <param name="background"><image>battle.stat-boost.fill</image></param>
+    <param name="font"><font>mechabold-small</font></param>
     <param name="border"><border>5,5</border></param>
     <param name="fadeInTime"><int>500</int></param>
     <param name="fadeDurationShow"><int>200</int></param>
@@ -108,7 +112,7 @@
 
   <theme name="stat-drop" ref="stat-boost">
     <param name="background">
-      <image>battle-ui-orangered-label</image>
+      <image>battle.stat-drop.fill</image>
     </param>
   </theme>
 

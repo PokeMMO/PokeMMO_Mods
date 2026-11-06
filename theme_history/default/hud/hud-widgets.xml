@@ -61,13 +61,12 @@
         <param name="tagGap"><int>8</int></param>
         <param name="line2Top"><int>26</int></param>
         <param name="line2Gap"><int>6</int></param>
-        <param name="timeIconSize"><int>12</int></param>
-        <param name="timeIconDrop"><int>1</int></param>
+        <param name="line2SepPad"><int>2</int></param>
+        <param name="timeIconSize"><int>16</int></param>
         <param name="moneyTopInset"><int>2</int></param>
         <param name="moneyCaptionGap"><int>2</int></param>
-        <param name="moneyValueLine"><int>19</int></param>
-        <param name="coinSize"><int>14</int></param>
-        <param name="coinDrop"><int>2</int></param>
+        <param name="moneyValueLine"><int>16</int></param>
+        <param name="coinSize"><int>16</int></param>
         <param name="coinGap"><int>6</int></param>
         <param name="buttonSize"><int>36</int></param>
         <param name="buttonIconSize"><int>18</int></param>
@@ -270,6 +269,10 @@
     </theme>
     <theme name="staff" ref="-defaults"/>
     <theme name="bubble" ref="-defaults"/>
+    <theme name="battle-header" ref="-defaults">
+      <param name="background"><image>none</image></param>
+      <theme name="bubble" ref="-defaults"/>
+    </theme>
   </theme>
   <theme name="hud-mmenu" ref="-defaults" allowWildcard="true">
     <param name="background"><image>none</image></param>

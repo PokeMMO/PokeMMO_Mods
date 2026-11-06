@@ -37,6 +37,11 @@
 			<alias ref="hud.icon.recycle.16" tint="#1f7bc9" if="selected" center="true"/>
 			<alias ref="hud.icon.recycle.16" center="true"/>
 		</select>
+		<select name="hud.staff.battle.desktop">
+			<alias ref="hud.icon.battle.16" tint="#a3e1ff" if="hover | keyboardFocus" center="true"/>
+			<alias ref="hud.icon.battle.16" tint="#1f7bc9" if="selected" center="true"/>
+			<alias ref="hud.icon.battle.16" center="true"/>
+		</select>
 		<alias name="hud.staff.pin.desktop" ref="hud.icon.pin.16" center="true"/>
 		<alias name="hud.staff.memory.desktop" ref="hud.icon.memory.16" center="true"/>
 		<alias name="hud.staff.stopwatch.desktop" ref="hud.icon.stopwatch.16" center="true"/>
@@ -219,6 +224,15 @@
 			<param name="minHeight"><int>24</int></param>
 			<param name="border"><border>7,0</border></param>
 			<param name="background"><image>hud.staff.recycle.desktop</image></param>
+			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
+		</theme>
+
+		<theme name="button-battle" ref="-defaults" allowWildcard="true">
+			<param name="font"><font>main</font></param>
+			<param name="minWidth"><int>24</int></param>
+			<param name="minHeight"><int>24</int></param>
+			<param name="border"><border>7,0</border></param>
+			<param name="background"><image>hud.staff.battle.desktop</image></param>
 			<param name="textAlignment"><enum type="alignment">RIGHT</enum></param>
 		</theme>
 		

@@ -295,6 +295,17 @@
       <param name="background"><image>ui-header.background</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>
+    <theme name="mm-reward-slot" ref="-defaults">
+      <param name="background"><image>ui-inputbox.background</image></param>
+      <theme name="label-value-medium" ref="label-value">
+        <param name="background"><image>none</image></param>
+        <param name="border"><border>6</border></param>
+        <param name="font"><font>med-noshadow-18-white</font></param>
+        <param name="textAlignment"><enum type="alignment">left</enum></param>
+        <!-- Don't know, don't care, works for now -->
+        <param name="maxWidth"><int>5000</int></param>
+      </theme>
+    </theme>
     <theme name="spritelabel" ref="-defaults" allowWildcard="true"/>
   </theme>
 

@@ -341,6 +341,7 @@
 		<area name="mobile.icons.arrowup" xywh="441,888,60,60" center="true"/>
 		<area name="mobile.icons.arrowdown" xywh="381,888,60,60" center="true"/>
 		<area name="mobile.icons.close" xywh="803,888,60,60"/>
+		<area name="mobile.icons.minimize" xywh="786,772,60,60"/>
 		<area name="mobile.icons.refresh" xywh="803,960,60,60"/>
 		<area name="mobile.icons.gear" xywh="716,960,60,60"/>
 		<area name="mobile.icons.chat" xywh="628,960,60,60"/>

@@ -155,6 +155,9 @@
       <fontParam if="disabled" color="#CCC"/>
   </fontDef>
 
+  <fontDef name="mechabold-small" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="11" border_width="1" border_color="#484848" renderer="text">
+    <fallbackFontDef filename="res/fonts/NotoSans-Bold.ttf"/>
+  </fontDef>
   <fontDef name="mechabold-large" filename="res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Medium" kerning="false" size="18" border_width="1" border_color="#484848" renderer="text">
     <fallbackFontDef filename="res/fonts/NotoSans-Bold.ttf"/>
   </fontDef>

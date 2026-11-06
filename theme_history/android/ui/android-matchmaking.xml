@@ -70,6 +70,13 @@
 	<!-- MM Frame -->
 	<theme name="matchmakingframe" ref="mobile-panel" overwrite="true">
 		<param name="background"><image>mobile.window.onebar.background</image></param>
+		<theme name="minimizeButton" ref="-defaults">
+			<param name="background"><image>mobile.icons.minimize</image></param>
+			<param name="minWidth"><int>60</int></param>
+			<param name="minHeight"><int>60</int></param>
+			<param name="maxWidth"><int>60</int></param>
+			<param name="maxHeight"><int>60</int></param>
+		</theme>
 		<theme name="tabbedpane" ref="base-tabbed-pane">
 			<param name="tabPosition"><enum type="tabposition">LEFT</enum></param>
 			<param name="background"><image>none</image></param>
